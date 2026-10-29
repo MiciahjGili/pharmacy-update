@@ -1,0 +1,220 @@
+{
+ "issues": [
+  {
+   "date": "2026-10-29",
+   "window": "Oct 28–29, 2026",
+   "note": "Off-schedule Thursday run covering everything added since Wednesday's issue. No major EM drug RCTs landed, so most picks are cohorts and reviews; read the observational items as hypothesis-generating.",
+   "bottom_line": [
+    "For ED headache, start with a dopamine antagonist rather than an opioid. Opioid-first patients returned to the ED more often within 72 hours.",
+    "Concentrated 7-OH kratom tablets can deliver many times the opioid dose of leaf kratom and caused a fatal opioid toxidrome. Treat these exposures as opioid overdoses.",
+    "Protect multi-dose ketamine vials from light. A nitrosamine impurity built up past the acceptable limit in clear vials after light exposure."
+   ],
+   "articles": [
+    {
+     "topic": "Acute pain / Headache",
+     "study_type": "Cohort",
+     "takeaway": "Opioid-first ED headache treatment was linked to more 72-hour returns than dopamine antagonists",
+     "title": "Opioids as the earliest acute treatment for emergency department headache and short-term all-cause emergency department return: A two-center comparative cohort study.",
+     "journal": "Headache",
+     "pub_date": "Oct 2026",
+     "population": "13,285 adults treated for headache at 2 US academic EDs (MIMIC-IV-ED, MC-MED)",
+     "pmid": "42949187",
+     "summary": "The study compared first-line opioids with guideline-preferred dopamine-receptor antagonists (e.g., prochlorperazine, metoclopramide). Among discharged patients, opioid-first treatment was associated with more all-cause ED returns at 72 hours (6.8% vs 3.8%; RR 1.78) and at 7 days (RR 1.62). The opioid group was older and higher acuity, and the signal weakened and lost significance when only headache-coded returns were counted.",
+     "why": "Adds real-world support for making dopamine antagonists the default on ED headache order sets. It's a useful data point when a prescriber reaches for hydromorphone first."
+    },
+    {
+     "topic": "Toxicology",
+     "study_type": "Case report",
+     "takeaway": "A concentrated 7-OH kratom tablet product caused a fatal opioid-like toxidrome",
+     "title": "Fatal Opioid-Like Toxidrome Associated With a 7-Hydroxymitragynine Kratom Product.",
+     "journal": "Ann Emerg Med",
+     "pub_date": "Oct 2026",
+     "population": "1 adult death after 3 commercial 7-HMG tablets plus alcohol, Louisiana",
+     "pmid": "42949698",
+     "summary": "A 42-year-old man died after taking 3 tablets of a commercial 7-hydroxymitragynine (7-HMG) product with several beers. Autopsy showed severe pulmonary edema and a distended bladder, consistent with opioid toxicity. Each tablet held about 29 mg of 7-HMG plus mitragynine pseudoindoxyl, an even more potent μ-agonist. The total dose was roughly 19 to 87 times the 7-HMG exposure from a high dose of leaf kratom.",
+     "why": "Gas-station 7-OH products act like potent opioids. Expect respiratory depression, give naloxone, and ask specifically about these products when taking a med history."
+    },
+    {
+     "topic": "Toxicology",
+     "study_type": "Interrupted time series",
+     "takeaway": "Scheduling bromazolam lowered its presence in street opioids, but analogues replaced it",
+     "title": "Impact of drug scheduling on detection of bromazolam in the unregulated opioid supply: An interrupted time series analysis.",
+     "journal": "Drug Alcohol Depend",
+     "pub_date": "Oct 2026",
+     "population": "43,760 drug-checking samples, 142 sites in British Columbia, 2022–2026",
+     "pmid": "42950364",
+     "summary": "Bromazolam detection in expected-opioid samples began falling after the WHO recommended scheduling it. It briefly jumped when China banned it, then settled below pre-scheduling levels. As bromazolam declined, another designer benzodiazepine (desalkylgidazepam) rose in its place. The authors conclude that scheduling broke the market into more substances rather than removing benzodiazepine adulteration.",
+     "why": "Benzo-adulterated opioid overdoses will keep producing sedation that lingers after naloxone. Standard urine benzo immunoassays may miss the newer designer analogues."
+    },
+    {
+     "topic": "Sepsis / Empiric antimicrobials",
+     "study_type": "Cohort",
+     "takeaway": "In HSCT neutropenic fever, time to antibiotics wasn't linked to deterioration",
+     "title": "Association between time-to-antibiotics and clinical outcomes in neutropenic fever after hematopoietic stem cell transplant.",
+     "journal": "Support Care Cancer",
+     "pub_date": "Oct 2026",
+     "population": "224 antibiotic-naïve neutropenic fever episodes within 30 days of HSCT, 1 US academic center",
+     "pmid": "42946869",
+     "summary": "Median time to antibiotics was 1.2 hours, and 38% of episodes got antibiotics within 1 hour. Getting antibiotics within an hour was not associated with clinical deterioration (vasopressors, ventilation, or 90-day death; aOR 1.18), and neither was each additional hour of delay (aOR 1.03). Only 17 patients deteriorated, so the study can't rule out a small effect.",
+     "why": "Challenges whether the 1-hour rule from septic shock applies to stable neutropenic fever. Treat it as hypothesis-generating; it isn't a reason to slow down cefepime or pip-tazo in the ED."
+    },
+    {
+     "topic": "Prehospital analgesia",
+     "study_type": "Systematic review",
+     "takeaway": "Prehospital opioids, ketamine, methoxyflurane and acetaminophen all look safe and effective for trauma pain",
+     "title": "Prehospital Analgesia in Trauma: A Systematic Review of Current Evidence.",
+     "journal": "Emerg Med Australas",
+     "pub_date": "Dec 2026",
+     "population": "17 studies (6 RCTs), 17,115 injured adults",
+     "pmid": "42947661",
+     "summary": "The review covered studies from 2014 to 2026 of systemic prehospital analgesics in adult trauma patients. All agents relieved pain to some degree. Serious drug-related adverse events were reported in only one opioid study, while nausea, dizziness, dysphoria and drowsiness were common. Protocols and methods varied widely, which limits head-to-head conclusions.",
+     "why": "Supports giving analgesia early, before ED arrival. It's a reasonable reference when EMS and ED protocols are being aligned on ketamine and opioid dosing."
+    },
+    {
+     "topic": "Medication safety",
+     "study_type": "Lab stability study",
+     "takeaway": "Light exposure of clear multi-dose ketamine vials drove nitrosamine levels above safety limits",
+     "title": "The photostability of ketamine products: part ii impact of light exposure and storage on multi-use ketamine parenteral products.",
+     "journal": "Int J Pharm",
+     "pub_date": "Oct 2026",
+     "population": "10 mg/mL multi-use ketamine vials under ambient and intense light, then stored",
+     "pmid": "42951220",
+     "summary": "Researchers measured N-nitroso-ketamine (NNKet), a potentially carcinogenic nitrosamine impurity, in vials exposed to light and then stored. Levels dipped during light exposure and then rose sharply in storage, from about 5 ng/mL to as high as 100 ng/mL within 8 weeks. That is well above the 14 ng/mL acceptable-intake limit. Light-protected control vials barely changed.",
+     "why": "Store opened multi-dose ketamine vials protected from light (in cartons or ADC pockets) and follow beyond-use dates. Expect future packaging or labeling changes, such as amber vials."
+    },
+    {
+     "topic": "Cardiology / anticoagulation",
+     "study_type": "Cohort",
+     "takeaway": "In AF patients 80 and older, continuing anticoagulation was linked to lower mortality",
+     "title": "Anticoagulation and All-Cause Mortality in Adults Aged 80 Years and Older with Atrial Fibrillation: A Retrospective Cohort Study.",
+     "journal": "J Gen Intern Med",
+     "pub_date": "Oct 2026",
+     "population": "45,305 adults aged ≥80 with AF, large US health system",
+     "pmid": "42946923",
+     "summary": "In a time-varying Cox model, anticoagulation was associated with 25% lower all-cause mortality (HR 0.75). One-year mortality was 8.7% in patients who continued anticoagulation and 17.7% in those never treated. GI bleeding was more common with anticoagulation, but intracranial hemorrhage rates were low and similar across groups (1.3–1.6%). The mortality difference faded by 5 years, and residual confounding is likely.",
+     "why": "Age alone shouldn't stop a DOAC. This study is a counterweight to Wednesday's nursing-home discontinuation data, so look at frailty and goals of care, not birth year."
+    },
+    {
+     "topic": "Analgesia",
+     "study_type": "RCT",
+     "takeaway": "Low-dose esketamine around thoracic surgery cut chronic pain at 3 months",
+     "title": "Effects of perioperative esketamine infusion on chronic pain after video-assisted thoracoscopic lung resection: a multicentre, randomised, double-blind clinical trial.",
+     "journal": "Br J Anaesth",
+     "pub_date": "Oct 2026",
+     "population": "914 adults undergoing VATS lung resection, multicenter China",
+     "pmid": "42951789",
+     "summary": "Patients got esketamine (0.1 mg/kg bolus, 0.1 mg/kg/h intraoperatively, then 0.015 mg/kg/h for 48 hours) or saline. Chronic pain at 3 months was less common with esketamine (14.7% vs 21.2%; aOR 0.62). Early pain scores and rescue analgesic use were also lower, with no increase in adverse effects.",
+     "why": "Adds RCT support for sub-dissociative ketamine as an opioid-sparing adjunct. Racemic ketamine is roughly twice the esketamine dose, so convert carefully before applying these regimens."
+    }
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "window": "Oct 26–27, 2026",
+   "note": "A light two-day window with no major EM pharmacotherapy RCTs, so most picks are meta-analyses, cohorts and reviews. Treat the observational items as hypothesis-generating.",
+   "bottom_line": [
+    "Intranasal or buccal midazolam stops pediatric seizures about as well as IV benzos, works faster than rectal diazepam, and cuts early recurrence.",
+    "In warfarin-associated ICH, base 4F-PCC decisions on bleed severity and neuro status (GCS), not an INR cutoff alone.",
+    "Calcium shifts on trauma arrival go both ways, and some hypercalcemia followed empiric prehospital calcium. Check an ionized Ca before repeat dosing."
+   ],
+   "articles": [
+    {
+     "topic": "Neuro emergencies",
+     "study_type": "Meta-analysis",
+     "takeaway": "Intranasal/buccal midazolam matches IV benzos for pediatric seizures and gets in faster",
+     "title": "Efficacy and safety of intranasal and buccal midazolam versus intravenous, intramuscular, and rectal benzodiazepines for the termination of acute seizures in children: a systematic review and meta-analysis.",
+     "journal": "Seizure",
+     "pub_date": "Oct 2026",
+     "population": "23 RCTs, 2,238 children with acute seizures",
+     "pmid": "42945751",
+     "summary": "Pooled RCTs found that transmucosal midazolam stopped seizures within 10 minutes at a rate similar to all comparators (RR 1.04) and better than rectal diazepam (RR 1.18). It also cut recurrence within 60 minutes (RR 0.62) and was given faster, shortening overall time to seizure control. Respiratory depression and hypoxia did not differ from the other routes.",
+     "why": "Supports IN/buccal midazolam as first-line rescue when there's no IV access. Worth knowing the dosing and the atomizer setup for peds codes and EMS handoffs."
+    },
+    {
+     "topic": "Anticoagulant reversal",
+     "study_type": "Cohort",
+     "takeaway": "In geriatric warfarin ICH, GCS predicted death and INR didn't; don't gate 4F-PCC on INR alone",
+     "title": "Is the International Normalized Ratio (INR) Enough? Reevaluating INR-Based Decision-Making for Four-Factor Prothrombin Complex Concentrate in Geriatric Warfarin-Associated Intracranial Hemorrhage: A Multicenter Cohort Study.",
+     "journal": "Biomedicines",
+     "pub_date": "Sep 2026",
+     "population": "60 patients aged ≥65 with non-traumatic warfarin ICH, 5 Turkish centers",
+     "pmid": "42939996",
+     "summary": "Patients who got 4F-PCC had higher INRs than those managed without it, but neither INR nor 4F-PCC use was independently linked to in-hospital mortality. Admission GCS was strongly protective (aOR 0.37 per point). The sample is small and the comparator group was mixed (vitamin K, FFP, or nothing), so the findings are hypothesis-generating.",
+     "why": "Supports current guidance that reversal follows bleed severity, not an INR threshold. That matters when an order is held waiting for a lab value."
+    },
+    {
+     "topic": "Trauma resuscitation",
+     "study_type": "Prospective cohort",
+     "takeaway": "About 1 in 4 trauma activations arrive with abnormal calcium, and some hypercalcemia followed prehospital calcium",
+     "title": "Prehospital factors associated with calcium derangements upon arrival to the trauma center from scene - A subanalysis of a multicenter prospective study.",
+     "journal": "Am J Emerg Med",
+     "pub_date": "Sep 2026",
+     "population": "1,047 highest-level trauma activations arriving by EMS, 3 US trauma centers",
+     "pmid": "42945810",
+     "summary": "On arrival, 235 patients were hypocalcemic and 39 were hypercalcemic, and both groups survived less often than patients with normal calcium. Hypocalcemia showed up even in patients who got no blood or fluids (16%), and 5 of the 39 hypercalcemic patients had received prehospital calcium. High shock index was associated with both problems, but nothing in the prehospital assessment reliably predicted which way calcium would go.",
+     "why": "Argues for checking ionized Ca on arrival over reflexive repeat calcium dosing. Relevant to MTP order sets and protocols for empiric calcium with blood products."
+    },
+    {
+     "topic": "Endocrine emergencies",
+     "study_type": "Scoping review",
+     "takeaway": "SubQ insulin pathways for mild–moderate DKA look comparable to IV drips and may cut ICU use",
+     "title": "Subcutaneous insulin for mild-to-moderate diabetic ketoacidosis: a scoping review and implementation framework.",
+     "journal": "Am J Emerg Med",
+     "pub_date": "Oct 2026",
+     "population": "13 adult studies of SUBQ insulin for DKA",
+     "pmid": "42945811",
+     "summary": "Across 13 mostly small, single-center studies, subcutaneous rapid-acting insulin protocols reached DKA resolution in about the same time as IV insulin in selected patients with uncomplicated DKA. They also showed operational gains in ICU admissions and ED length of stay. The authors propose a framework for patient selection, dosing and monitoring, and note that higher-risk groups were excluded from most studies.",
+     "why": "A pharmacist-friendly framework if your ED is building a SubQ DKA pathway. Check eligibility criteria and how glucose and potassium are monitored."
+    },
+    {
+     "topic": "Stroke",
+     "study_type": "Meta-analysis",
+     "takeaway": "Adjunctive intra-arterial thrombolysis after thrombectomy improves mRS 0–1; the mortality signal is unresolved",
+     "title": "Functional Benefit and Safety of Adjunctive Intra-Arterial Thrombolysis After Successful Endovascular Thrombectomy: An Updated and Cumulative Meta-Analysis of Randomized Trials.",
+     "journal": "J Clin Med",
+     "pub_date": "Oct 2026",
+     "population": "9 RCTs, 2,828 patients with LVO stroke after successful EVT",
+     "pmid": "42941293",
+     "summary": "Intra-arterial alteplase, tenecteplase or urokinase given after successful reperfusion raised the chance of an excellent outcome (mRS 0–1; RR 1.27, I² 0%), and the effect held up in fragility testing. Overall 90-day mortality did not differ significantly (RR 1.04), but the estimate shifted toward harm after CHOICE-2 was added, and the authors say neutrality on survival can't be assumed.",
+     "why": "As post-EVT IA lytics spread, pharmacists may get asked about dosing and stocking. The benefit looks real, but the safety question is still open."
+    },
+    {
+     "topic": "Toxicology",
+     "study_type": "GBD analysis",
+     "takeaway": "Global CO and pesticide poisoning burden has fallen sharply since 1990, but low-income regions lag",
+     "title": "Global, regional, and national burden of unintentional poisoning, 1990-2023: results from the Global Burden of Disease Study 2023.",
+     "journal": "Lancet Public Health",
+     "pub_date": "Oct 2026",
+     "population": "204 countries and territories, 1990–2023",
+     "pmid": "42945982",
+     "summary": "In 2023, unintentional poisoning by carbon monoxide and other (mostly pesticide) agents caused about 2.5 million cases and 69,805 deaths worldwide. Age-standardized DALY rates fell 47.5% since 1990, with a 58% drop for CO. Case fatality was highest in low-SDI regions. Drug and illicit-substance poisonings are not counted in this GBD category.",
+     "why": "Useful epidemiologic context for CO and organophosphate tox. Remember that it leaves out pharmaceutical and illicit-drug overdoses."
+    },
+    {
+     "topic": "Cardiology / anticoagulation",
+     "study_type": "Target trial emulation",
+     "takeaway": "Stopping anticoagulation at nursing-home entry wasn't linked to more strokes in AF",
+     "title": "Stroke and Bleeding Risk in Long-Term Care Residents With Atrial Fibrillation Who Discontinue Anticoagulation.",
+     "journal": "JAMA Netw Open",
+     "pub_date": "Oct 2026",
+     "population": "15,426 Medicare LTC residents with AF on anticoagulation (mean age 83)",
+     "pmid": "42931771",
+     "summary": "Using a target trial emulation with clone-censor weighting, residents who stopped anticoagulation had stroke risk (sHR 1.07) and bleeding risk (sHR 1.02) similar to those who continued. Mortality was higher in the group that stopped (HR 1.27), which probably reflects confounding by frailty and goals of care. Very high competing mortality and claims-based outcomes limit what the study can show.",
+     "why": "Useful for deprescribing talks in frail older adults. In the ED, expect more LTC patients with AF who are off anticoagulation."
+    },
+    {
+     "topic": "Infectious disease",
+     "study_type": "Cross-sectional (NIS)",
+     "takeaway": "Drug use–associated endocarditis is falling overall, but stimulant-linked cases are rising",
+     "title": "Changing National and Regional Trends in Drug Use-Associated Infective Endocarditis From 2016 to 2022.",
+     "journal": "Clin Infect Dis",
+     "pub_date": "Oct 2026",
+     "population": "~118,000 US DUA-IE hospitalizations, 2016–2022",
+     "pmid": "42937526",
+     "summary": "National DUA-IE hospitalizations peaked in 2020 (about 18,700) and fell through 2022. Over the study period, the opioid-only share dropped from 49% to 40%, while opioid-plus-stimulant co-use rose from 23% to 29% and stimulant-only cases from 15% to 18%. The probability of stimulant involvement was highest in the Pacific division (0.59).",
+     "why": "Shapes empiric IE workups and harm-reduction counseling at ED discharge. MOUD alone won't address stimulant-driven injection risk."
+    }
+   ]
+  }
+ ]
+}
