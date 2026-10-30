@@ -1,6 +1,114 @@
 {
  "issues": [
   {
+   "date": "2026-10-30",
+   "window": "Oct 29–30, 2026",
+   "note": "Covers articles indexed since yesterday's run. No big ED drug RCTs this window, so most picks are cohorts and trial secondary analyses; read the observational items as hypothesis-generating.",
+   "bottom_line": [
+    "Patients discharged after stimulant toxicity have meaningful 1-year mortality, mostly from opioid-involved overdose. Offer naloxone at discharge even when the visit was for meth or cocaine.",
+    "Nebulized TXA for stable post-tonsillectomy bleeding with a small clot sharply cut the need for surgery in kids. It's a cheap, low-risk ED option worth a protocol.",
+    "Intra-arterial tenecteplase after thrombectomy helped mainly when reperfusion was incomplete (eTICI 2b50–67), not after near-complete reperfusion."
+   ],
+   "articles": [
+    {
+     "topic": "Toxicology",
+     "study_type": "Cohort",
+     "takeaway": "About 2% of patients died within a year of an ED visit for stimulant toxicity, mostly from opioid-involved overdoses",
+     "title": "One-year mortality following emergency department visits for stimulant toxicity.",
+     "journal": "Am J Emerg Med",
+     "pub_date": "Oct 2026",
+     "population": "2,356 patients discharged from the ED with stimulant toxicity, US statewide linked database",
+     "pmid": "42956443",
+     "summary": "Linked ED, hospital and death records showed 1-year all-cause mortality of 2.1% after ED discharge for stimulant toxicity. Those who died were young (median age 35) and died a median of 118 days after the visit. Two-thirds of deaths were overdoses, and opioids were involved in 54% of them. A reference cohort of opioid-toxicity visits had higher 1-year mortality (6.9%).",
+     "why": "Supports giving naloxone and harm-reduction counseling to stimulant patients at ED discharge, since the fentanyl supply drives much of their later risk."
+    },
+    {
+     "topic": "Resuscitation",
+     "study_type": "Cohort",
+     "takeaway": "In witnessed pediatric OHCA, earlier epinephrine wasn't clearly linked to better 1-month survival",
+     "title": "Timing of the Adrenaline Administration in Witnessed Pediatric Out-of-Hospital Cardiac Arrest: Retrospective, National Cohort Study in Japan, Using a 2014-2020 Dataset.",
+     "journal": "Pediatr Crit Care Med",
+     "pub_date": "Oct 2026",
+     "population": "259 children with witnessed OHCA who received epinephrine, Japanese national registry (JAAM-OHCA)",
+     "pmid": "42957612",
+     "summary": "The authors used time-dependent propensity score risk-set matching to reduce resuscitation time bias, comparing children given epinephrine in each time window with children not yet given it. None of the time windows (1–10 up to 26–30 minutes after EMS contact) showed a significant difference in 1-month survival or favorable neurologic outcome. Confidence intervals were very wide (e.g., RR 2.94, 95% CI 0.38–22.8 for 1–10 minutes), so the study was underpowered to detect a real effect.",
+     "why": "A null result from a small sample doesn't overturn the push for early epinephrine in pediatric arrest. Keep weight-based doses ready, and read this as a lack of power rather than proof of no benefit."
+    },
+    {
+     "topic": "Neuro emergencies",
+     "study_type": "Cohort (matched)",
+     "takeaway": "Adjunctive cenobamate ended most refractory focal status epilepticus cases in a real-world cohort",
+     "title": "Cenobamate in Focal-Onset Refractory and Super-Refractory Status Epilepticus: A Multicenter Cohort Study With Matched Analysis.",
+     "journal": "Neurology",
+     "pub_date": "Oct 2026",
+     "population": "31 adults with focal refractory or super-refractory SE, multicenter registry (Spain), plus 56 matched controls",
+     "pmid": "42956387",
+     "summary": "Cenobamate was started a median of 4 days into SE, after 5 failed antiseizure meds, at a median of 50 mg/day enterally. SE resolved in 84% (all RSE patients and 64% of SRSE), with response at a median of 2 days. In the propensity-matched comparison, resolution was more common with cenobamate (82% vs 57%; aOR 5.9). No serious drug-related adverse events occurred, and somnolence was the most common mild effect.",
+     "why": "Cenobamate is enteral-only and slow to titrate, so it's a late ICU add-on rather than an ED option. Watch for its interactions (it raises phenytoin and phenobarbital levels and lowers lamotrigine levels)."
+    },
+    {
+     "topic": "Stroke",
+     "study_type": "RCT secondary analysis",
+     "takeaway": "Intra-arterial tenecteplase after thrombectomy helped only when reperfusion was incomplete",
+     "title": "Relationship Between the eTICI Score Before Randomization and 90-Day Outcome: A Post Hoc Analysis of ANGEL-TNK Trial.",
+     "journal": "Stroke",
+     "pub_date": "Oct 2026",
+     "population": "253 patients with anterior-circulation LVO after successful EVT, multicenter China (ANGEL-TNK)",
+     "pmid": "42953960",
+     "summary": "Patients were randomized to intra-arterial tenecteplase 0.125 mg/kg or standard care after eTICI 2b50 or better reperfusion. With partial reperfusion (eTICI 2b50–67), tenecteplase more than doubled the rate of mRS 0–1 at 90 days (44.8% vs 19.5%; RR 2.08). With near-complete reperfusion (eTICI 2c–3), it gave no benefit and raised any ICH within 48 hours (33.3% vs 20.0%), though symptomatic ICH and death didn't differ.",
+     "why": "Helps answer which post-EVT patients should get IA lytic. Expect neuro-IR to ask about TNK dosing for patients with residual distal occlusion."
+    },
+    {
+     "topic": "Toxicology / Critical care",
+     "study_type": "Cohort (IPTW)",
+     "takeaway": "IV N-acetylcysteine was linked to lower 21-day mortality in acute liver failure not caused by acetaminophen",
+     "title": "Evaluation of the Association of N-Acetylcysteine and Mortality in Non-Acetaminophen-Induced Acute Liver Failure.",
+     "journal": "J Intensive Care Med",
+     "pub_date": "Oct 2026",
+     "population": "200 adults with non-acetaminophen acute liver failure (85 got IV NAC), single US center",
+     "pmid": "42957980",
+     "summary": "After inverse probability weighting for severity, comorbidities and etiology, IV NAC was associated with lower in-hospital mortality at 21 days (48.9% vs 62.1%; OR 0.59). Time to INR and LFT normalization and length of stay didn't differ. The study is retrospective and single-center, so unmeasured confounding remains possible.",
+     "why": "Supports starting the IV NAC protocol early in non-APAP ALF, for example from drugs, herbals or mushrooms, while transplant is being considered. Its low risk favors giving it when the etiology is unclear."
+    },
+    {
+     "topic": "Hemorrhage / ED procedures",
+     "study_type": "Pre-post cohort",
+     "takeaway": "Nebulized TXA cut surgery for pediatric post-tonsillectomy bleeding, especially with small clots",
+     "title": "Nebulized Tranexamic Acid in Posttonsillectomy Hemorrhage: A Retrospective Study of a Standardized Treatment Algorithm.",
+     "journal": "Otolaryngol Head Neck Surg",
+     "pub_date": "Oct 2026",
+     "population": "121 children presenting to the ED with post-tonsillectomy hemorrhage, 1 US tertiary children's hospital",
+     "pmid": "42958871",
+     "summary": "Starting in March 2024, stable children got nebulized TXA and were then triaged by clot size. Overall surgery rates were 66% with TXA vs 80% before the protocol (not significant). Among children with small clots (under 50% of the fossa), surgery dropped from 88% to 21%. No TXA adverse events were reported, and the authors estimated 32 surgeries avoided and about $138,000 saved.",
+     "why": "An easy order set item for the ED, usually the IV TXA solution given by nebulizer. Pharmacists can standardize the dose and concentration."
+    },
+    {
+     "topic": "Cardiology / antiplatelets",
+     "study_type": "RCT secondary analysis",
+     "takeaway": "After DAPT, clopidogrel beat aspirin monotherapy in higher-risk PCI patients without more bleeding",
+     "title": "Clopidogrel Versus Aspirin Monotherapy According to Atherothrombotic Risk Profile.",
+     "journal": "Circ Cardiovasc Interv",
+     "pub_date": "Oct 2026",
+     "population": "5,506 post-PCI patients after completing DAPT, SMART-CHOICE 3 trial (South Korea)",
+     "pmid": "42953942",
+     "summary": "Patients were grouped by TIMI secondary-prevention risk score and PCI complexity. In the higher-risk group (82% of patients), clopidogrel reduced death, MI or stroke compared with aspirin (4.6% vs 7.4%; HR 0.67) over a median of 2.3 years. Lower-risk patients showed no difference, and the interaction test wasn't significant. Bleeding was similar across groups.",
+     "why": "Adds weight to clopidogrel as long-term single antiplatelet therapy after PCI. Remember CYP2C19 poor metabolizers and the PPI interaction (avoid omeprazole and esomeprazole)."
+    },
+    {
+     "topic": "Antimicrobial stewardship",
+     "study_type": "Cohort",
+     "takeaway": "A third of children delabeled from penicillin allergy still never received penicillin again",
+     "title": "Beyond delabeling: long-term penicillin use and avoidance following negative penicillin challenge in children.",
+     "journal": "Front Pediatr",
+     "pub_date": "Oct 2026",
+     "population": "305 children referred for penicillin allergy evaluation, 1 Israeli pediatric allergy clinic",
+     "pmid": "42953132",
+     "summary": "Most children had a direct oral challenge (94%), and 98.6% tolerated it. Full tolerance, including a 5-day home course, was confirmed in 80%. Among tolerant children with follow-up, 64% later used penicillin again with no reactions, while 36% had no documented use. Younger age and less time since the challenge predicted reuse.",
+     "why": "Delabeling only works if the EHR allergy entry is actually removed. ED pharmacists can check for a negative challenge and remove stale labels before defaulting to broader agents."
+    }
+   ]
+  },
+  {
    "date": "2026-10-29",
    "window": "Oct 28–29, 2026",
    "note": "Off-schedule Thursday run covering everything added since Wednesday's issue. No major EM drug RCTs landed, so most picks are cohorts and reviews; read the observational items as hypothesis-generating.",
