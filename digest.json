@@ -1,6 +1,114 @@
 {
  "issues": [
   {
+   "date": "2026-10-31",
+   "window": "Oct 30–31, 2026",
+   "note": "Covers articles indexed since yesterday's run. One ED drug RCT (renal colic) plus a few useful tox and stroke papers; the rest are meta-analyses and cohorts, so read the observational items as hypothesis-generating.",
+   "bottom_line": [
+    "For renal colic, an IV NSAID beats IV acetaminophen as the opioid-free first choice; acetaminophen needed the most rescue fentanyl.",
+    "Don't trust xylazine test strips on urine. They missed about 3 of 4 xylazine-positive samples from fentanyl patients.",
+    "In overdose patients, malignant ventricular dysrhythmias are rare (0.06%). Most cardiac trouble is hypotension or bradycardia from clonidine, beta-blockers or CCBs."
+   ],
+   "articles": [
+    {
+     "topic": "Acute pain",
+     "study_type": "RCT",
+     "takeaway": "For ED renal colic, IV dexketoprofen and ibuprofen edged out IV acetaminophen, with less rescue fentanyl",
+     "title": "Opioid-free analgesia for acute renal colic: a randomized, double-blind, head-to-head comparison of intravenous ibuprofen, dexketoprofen trometamol and paracetamol in the emergency department.",
+     "journal": "Intern Emerg Med",
+     "pub_date": "Oct 2026",
+     "population": "251 adults with acute renal colic, 1 ED (single-center)",
+     "pmid": "42961621",
+     "summary": "Patients were randomized to IV ibuprofen 400 mg, dexketoprofen 50 mg or acetaminophen 1 g over 15 minutes. The primary outcome, at least a 50% pain drop at 30 minutes, didn't differ significantly (77%, 74% and 66%). After adjusting for baseline pain, dexketoprofen gave lower 30-minute pain scores than acetaminophen (by 9.5 mm on a 100-mm scale) and lower odds of needing rescue fentanyl (OR 0.40). Mild side effects were rare and similar across groups, but the trial wasn't registered.",
+     "why": "Supports an IV NSAID (ketorolac or ibuprofen in the US, since dexketoprofen isn't available) as the first renal colic order, with acetaminophen as the backup when NSAIDs are contraindicated."
+    },
+    {
+     "topic": "Toxicology",
+     "study_type": "Cohort",
+     "takeaway": "About 1 in 20 poisonings had cardiac complications, almost all hypotension or bradycardia; ventricular dysrhythmias were very rare",
+     "title": "Cardiac toxicity and dysrhythmias in acute poisoning: a ten-year cohort study.",
+     "journal": "Clin Toxicol (Phila)",
+     "pub_date": "Oct 2026",
+     "population": "9,743 acute poisoning presentations managed by a specialist toxicology service over 10 years",
+     "pmid": "42961000",
+     "summary": "Cardiac complications occurred in 4.9% of presentations: hypotension in 3.8% and primary dysrhythmias in 1.7%. Most dysrhythmias were isolated bradycardia, mainly from clonidine (40%) and beta-blocker or calcium channel blocker poisoning (35%). Only 6 patients (0.06%) had ventricular dysrhythmias, linked to sotalol, methadone, escitalopram and tricyclics, and none of the 21 deaths was attributed to a poisoning-related dysrhythmia.",
+     "why": "Helps decide who needs prolonged telemetry. Focus monitoring on QT-prolonging and sodium-channel-blocking ingestions, and keep atropine, calcium and high-dose insulin ready for BB/CCB cases."
+    },
+    {
+     "topic": "Toxicology",
+     "study_type": "Diagnostic accuracy",
+     "takeaway": "Xylazine test strips on urine missed most xylazine exposures in fentanyl-positive patients",
+     "title": "Diagnostic performance of xylazine test strips in urine from fentanyl-positive hospitalized patients.",
+     "journal": "Clin Toxicol (Phila)",
+     "pub_date": "Oct 2026",
+     "population": "250 residual urine samples from fentanyl-positive hospitalized patients, 1 US center",
+     "pmid": "42960873",
+     "summary": "LC-MS found xylazine in 28% of samples. Compared with LC-MS, the commercial strips had 27% sensitivity and 78% specificity, with likelihood ratios near 1 (positive 1.2, negative 0.94). Over 90% of positive samples had xylazine levels below the strip's 1,000 ng/mL detection threshold.",
+     "why": "These strips were built for drug checking, not urine. Assume xylazine in fentanyl overdoses with prolonged sedation or wounds, and don't rule it out based on a negative strip."
+    },
+    {
+     "topic": "Stroke",
+     "study_type": "Systematic review",
+     "takeaway": "Thrombolytics in pregnancy showed no extra maternal bleeding risk, though fetal loss was somewhat higher",
+     "title": "Maternal and Fetal Safety Outcomes of Thrombolytics for Ischemic Stroke in Pregnancy: A Systematic Review and Aggregated Case Series.",
+     "journal": "Neurology",
+     "pub_date": "Oct 2026",
+     "population": "216 pregnant patients given thrombolytics (85 for ischemic stroke), 123 published studies",
+     "pmid": "42962168",
+     "summary": "Symptomatic ICH rates were similar to those in young nonpregnant stroke patients given lytics. Miscarriage (12.4 percentage points higher) and stillbirth (5.9 points higher) were more common than in the general pregnant population. However, only 6 of 32 fetal deaths were judged likely caused by the thrombolytic. Case reports are prone to publication bias, and the underlying disease was hard to separate from drug effects.",
+     "why": "Pregnancy alone shouldn't rule out alteplase or tenecteplase for a disabling stroke. Useful when a stroke code involves a pregnant patient and the team asks about lytic safety."
+    },
+    {
+     "topic": "Neuro emergencies / Trauma",
+     "study_type": "Network meta-analysis",
+     "takeaway": "Across TBI drug trials, TXA had the clearest mortality signal, mostly driven by CRASH-3",
+     "title": "Comparative effectiveness and safety of pharmacological interventions for secondary brain injury in adult traumatic brain injury: a network meta-analysis of randomized trials.",
+     "journal": "BMC Neurol",
+     "pub_date": "Aug 2026",
+     "population": "34 RCTs, 23,165 adults with TBI",
+     "pmid": "42958079",
+     "summary": "TXA was associated with lower mortality (OR 0.90), as was erythropoietin (OR 0.64, from only 2 heterogeneous trials). Neither TXA nor hypertonic saline improved functional outcome, and the large statin effect came from 2 small trials with very low certainty. TXA wasn't linked to more thromboembolism or AKI.",
+     "why": "Reinforces early TXA (1 g within 3 hours) for TBI patients with mild to moderate injury and doesn't support routine statins, progesterone or other neuroprotectants."
+    },
+    {
+     "topic": "Sepsis / Shock",
+     "study_type": "Meta-analysis",
+     "takeaway": "Corticosteroids in septic shock modestly cut 28-day mortality and sped shock reversal",
+     "title": "Comparative Efficacy and Safety of Corticosteroids vs. No Corticosteroids in Septic Shock Intensive Care Unit Patients: A Systematic Review and Meta-Analysis.",
+     "journal": "J Clin Med Res",
+     "pub_date": "Oct 2026",
+     "population": "11 RCTs, 6,332 adults with septic shock",
+     "pmid": "42964225",
+     "summary": "Steroids reduced 28-day mortality (RR 0.91), or about 27 fewer deaths per 1,000 patients, with no heterogeneity. Shock reversed about 1.25 days sooner, while ICU length of stay didn't differ significantly. Hyperglycemia was more common with steroids in every trial, and certainty was rated moderate for mortality.",
+     "why": "Supports hydrocortisone 200 mg/day for patients on escalating norepinephrine. Plan glucose monitoring and insulin when steroids start."
+    },
+    {
+     "topic": "Anticoagulation",
+     "study_type": "Pre-post QI study",
+     "takeaway": "Dosing heparin infusions by adjusted body weight cut supratherapeutic aPTTs in heavier patients",
+     "title": "Anticoagulation stewardship quality improvement project to decrease incidence of supratherapeutic activated partial thromboplastic time in overweight cancer patients on unfractionated heparin infusions.",
+     "journal": "J Thromb Thrombolysis",
+     "pub_date": "Oct 2026",
+     "population": "Hospitalized cancer patients on high-intensity UFH with weight over 130% of IBW and BMI 40 or less, 1 US center",
+     "pmid": "42961730",
+     "summary": "The protocol switched initial UFH dosing from actual to adjusted body weight in this group. With a bolus, first supratherapeutic aPTTs fell by 37% (RR 0.63) and first therapeutic aPTTs rose (RR 1.82). Without a bolus, supratherapeutic aPTTs fell by 39% (RR 0.61), and time to therapeutic range was shorter after the change.",
+     "why": "Relevant to ED heparin starts for PE and ACS. Pharmacists can push for an adjusted-weight trigger based on percent of IBW rather than a BMI-40 cutoff alone."
+    },
+    {
+     "topic": "Antimicrobial stewardship",
+     "study_type": "Survey study",
+     "takeaway": "More than a quarter of US adults said they had exaggerated or invented symptoms to get antibiotics",
+     "title": "Symptom Misrepresentation to Obtain Antibiotics.",
+     "journal": "JAMA Netw Open",
+     "pub_date": "Oct 2026",
+     "population": "959 US adults, national online nonprobability sample",
+     "pmid": "42961420",
+     "summary": "In total, 27.9% reported misrepresenting symptoms to get antibiotics, most often for cold-like illness, and about half of them both exaggerated and fabricated symptoms. Common reasons were feeling very sick, believing antibiotics work, and needing to return to work or other responsibilities. Younger age, feeling dismissed by clinicians, and believing antibiotic resistance is a hoax were the strongest predictors.",
+     "why": "Explains some of the pressure behind ED and urgent care URI prescribing. Symptomatic treatment plans and validating patients' concerns may work better than simply saying no."
+    }
+   ]
+  },
+  {
    "date": "2026-10-30",
    "window": "Oct 29–30, 2026",
    "note": "Covers articles indexed since yesterday's run. No big ED drug RCTs this window, so most picks are cohorts and trial secondary analyses; read the observational items as hypothesis-generating.",
