@@ -1,6 +1,114 @@
 {
  "issues": [
   {
+   "date": "2026-11-01",
+   "window": "Oct 31–Nov 1, 2026",
+   "note": "A thin weekend window with only one small ED RCT, so most picks are cohorts, case series and pooled case reports. Read them as practical pearls and hypothesis-generating, not practice-changing.",
+   "bottom_line": [
+    "Half-dose alteplase (50 mg) for high-risk PE performed about as well as 100 mg in a small cohort, with numerically less major bleeding.",
+    "Methiodone (IC-26), a new methadone-derived designer opioid, causes a classic opioid toxidrome that responds to naloxone and may be missed on routine urine immunoassays.",
+    "In antidepressant overdoses, non-SSRI agents carried much more serotonin toxicity and symptoms than SSRIs; serotonin toxicity predicted ICU admission."
+   ],
+   "articles": [
+    {
+     "topic": "Thrombolysis / PE",
+     "study_type": "Cohort",
+     "takeaway": "Low-dose (50 mg) alteplase for high-risk PE matched 100 mg on hemodynamic stability, with less ventilator time",
+     "title": "Efficacy and Safety of Low-Dose Versus Standard-Dose Alteplase to Treat High-Risk Pulmonary Embolism.",
+     "journal": "Am J Crit Care",
+     "pub_date": "Nov 2026",
+     "population": "65 adults given alteplase for high-risk (massive) PE, 1 US academic center, 2011–2022",
+     "pmid": "42966650",
+     "summary": "Patients were grouped by initial alteplase dose (50 mg vs 100 mg). Sustained hemodynamic stability at 24 hours was similar (32% vs 38%), as was in-hospital mortality (48% vs 45%). The low-dose group had fewer ventilator days (median 1.5 vs 6) and numerically less major bleeding (12% vs 25%, not significant). The cohort is small, retrospective and spans more than a decade.",
+     "why": "Supports keeping a 50 mg option in PE lytic order sets for patients at higher bleeding risk, though it isn't strong enough to replace the 100 mg standard."
+    },
+    {
+     "topic": "Toxicology",
+     "study_type": "Case series",
+     "takeaway": "Methiodone, a new methadone-derived designer opioid, caused severe naloxone-responsive overdoses needing ICU care",
+     "title": "Methiodone (IC-26) a case series: an old, but novel, opioid substance causing severe toxicity.",
+     "journal": "Arch Toxicol",
+     "pub_date": "Oct 2026",
+     "population": "4 patients admitted to the ICU with confirmed methiodone poisoning, 2025",
+     "pmid": "42965604",
+     "summary": "All 4 patients had respiratory depression, miosis and depressed consciousness, and all improved with naloxone. Plasma levels were 0.20–0.64 mg/L, and the estimated half-life in one patient was about 13 hours. Detection on routine immunoassays depended on the assay, and unlike methadone poisoning, no clinically important ECG changes were seen.",
+     "why": "A long half-life means recurrent sedation after naloxone wears off, so plan observation or a naloxone infusion. A negative urine drug screen doesn't exclude it."
+    },
+    {
+     "topic": "Toxicology",
+     "study_type": "Cross-sectional",
+     "takeaway": "Non-SSRI antidepressant overdoses caused far more serotonin toxicity than SSRI overdoses, even after adjusting for dose",
+     "title": "Clinical Severity and Serotonin Toxicity in Antidepressant Self-Poisoning: Implications for Clinical Risk Assessment.",
+     "journal": "Psychiatry Clin Psychopharmacol",
+     "pub_date": "Aug 2026",
+     "population": "168 ED patients with intentional antidepressant ingestion, single center",
+     "pmid": "42964945",
+     "summary": "SSRIs made up 80% of ingestions. After adjusting for dose (in defined daily doses), non-SSRI exposures were more often symptomatic (56% vs 28%; aOR 3.4) and more often met Hunter criteria for serotonin toxicity (24% vs 4%; aOR 8.2). Patients with serotonin toxicity were admitted to the ICU far more often (54% vs 10%). The non-SSRI subgroups were small and mixed.",
+     "why": "When triaging antidepressant overdoses, venlafaxine, TCAs and other non-SSRIs deserve closer monitoring, and early serotonin toxicity should prompt benzodiazepines and a cyproheptadine plan."
+    },
+    {
+     "topic": "Anticoagulant reversal",
+     "study_type": "Cohort",
+     "takeaway": "In DOAC bleeds and urgent procedures, guideline adherence was high, and PCC use led to very few clots",
+     "title": "Management of bleeding and nonelective invasive procedures in patients receiving direct oral anticoagulants (DOACs): a 5-year single-center observational study.",
+     "journal": "Res Pract Thromb Haemost",
+     "pub_date": "Oct 2026",
+     "population": "584 events (152 bleeds, 432 urgent procedures) in 547 adults on dabigatran, rivaroxaban or apixaban, 1 French center",
+     "pmid": "42966952",
+     "summary": "All patients had DOAC levels drawn at the time of the event. Guideline compliance was 79% and wasn't linked to outcomes. Among 95 events treated with PCC, only 1 thrombotic event occurred. Drug levels didn't track with bleeding severity, but in bleeding patients on rivaroxaban, those with adverse outcomes had much higher levels (median 243 vs 88 ng/mL).",
+     "why": "Reassuring safety data for PCC in DOAC bleeds, and a reminder that a DOAC level (where available) adds more than timing of the last dose for urgent-procedure decisions."
+    },
+    {
+     "topic": "Acute pain",
+     "study_type": "RCT",
+     "takeaway": "For acute myofascial low back pain in the ED, trigger point injection beat dry needling and avoided rescue opioids",
+     "title": "Short-Term Pain Outcomes of Trigger Point Injection Versus Dry Needling for Acute Myofascial Low Back Pain in the Emergency Department: A Prospective Randomized Comparative Study.",
+     "journal": "Med Sci Monit",
+     "pub_date": "Nov 2026",
+     "population": "52 ED patients with acute myofascial low back pain (49 analyzed), single center",
+     "pmid": "42966884",
+     "summary": "Pain dropped by 87% at 30 minutes after trigger point injection vs 33% after dry needling (difference 54 percentage points). Injection patients had lower pain at every time point, and none needed rescue IV fentanyl, compared with 65% after dry needling. No procedure complications occurred. The trial was small, unblinded and only followed patients for an hour.",
+     "why": "Supports trigger point injection (usually a local anesthetic) as an opioid-sparing ED option for back pain. Pharmacists can help standardize agent, volume and max local anesthetic dose."
+    },
+    {
+     "topic": "Sepsis / Fluids",
+     "study_type": "Meta-analysis",
+     "takeaway": "In pediatric septic shock, balanced crystalloids cut hyperchloremia and dialysis but not mortality or AKI",
+     "title": "Balanced Crystalloids Versus Normal Saline for Fluid Resuscitation in Pediatric Septic Shock: An Updated Systematic Review and Meta-Analysis.",
+     "journal": "J Clin Med Res",
+     "pub_date": "Oct 2026",
+     "population": "9 studies (5 RCTs including PRoMPT BOLUS), children with sepsis or septic shock",
+     "pmid": "42964407",
+     "summary": "Balanced fluids didn't significantly lower mortality (RR 0.94) or AKI (RR 0.84), and trial sequential analysis showed the evidence is still underpowered. They did reduce renal replacement therapy (RR 0.74) and hyperchloremia (RR 0.65). MAKE30, ventilation and length of stay didn't differ.",
+     "why": "Supports defaulting to LR or Plasma-Lyte for pediatric sepsis boluses, with the honest caveat that mortality benefit isn't proven."
+    },
+    {
+     "topic": "Empiric antimicrobials",
+     "study_type": "Cohort",
+     "takeaway": "A recent negative rectal swab nearly ruled out Pseudomonas and MDR gram-negative bacteremia in febrile neutropenia",
+     "title": "Challenging the Dogma: Can Rectal Colonization Status Guide Narrow-Spectrum Empiric Antibiotic Therapy in Febrile Neutropenia?",
+     "journal": "Int J Antimicrob Agents",
+     "pub_date": "Oct 2026",
+     "population": "577 high-risk febrile neutropenia episodes in 415 patients with hematologic cancers, 1 Spanish center",
+     "pmid": "42966420",
+     "summary": "Bloodstream infections occurred in 14% of episodes. A rectal swab within 7 days had a negative predictive value of 99.3% for Pseudomonas bacteremia and 98.1% for other MDR gram-negative bacteremia. Among 251 episodes with a negative swab, only 1 had Pseudomonas bacteremia. Overall BSI rates were low, which limits generalizability.",
+     "why": "Hypothesis-generating support for colonization-guided de-escalation. For now, keep cefepime or pip-tazo as the ED default for febrile neutropenia."
+    },
+    {
+     "topic": "Drug interactions",
+     "study_type": "Pooled case reports",
+     "takeaway": "Adding rifampin or phenytoin sped recovery from Paxlovid-induced tacrolimus toxicity",
+     "title": "Drug Rescue for Paxlovid-Induced Tacrolimus Toxicity: A Pooled Analysis of Case Reports.",
+     "journal": "Kidney Med",
+     "pub_date": "Sep 2026",
+     "population": "52 patients (51 published plus 1 new case) with tacrolimus toxicity after nirmatrelvir-ritonavir",
+     "pmid": "42965158",
+     "summary": "Patients given a CYP3A4 inducer (rifampin or phenytoin) had tacrolimus levels normalize faster than those managed by stopping the drug alone (median 4 vs 6 days), and creatinine recovered faster (3 vs 7 days). After adjustment, inducer rescue shortened recovery by 2.6 days for tacrolimus and 4 days for creatinine. No serious adverse events were reported, but pooled case reports carry heavy selection bias.",
+     "why": "Transplant patients on Paxlovid can show up in the ED with AKI and toxic tacrolimus levels. Know this rescue option, and coordinate with transplant before adding an inducer."
+    }
+   ]
+  },
+  {
    "date": "2026-10-31",
    "window": "Oct 30–31, 2026",
    "note": "Covers articles indexed since yesterday's run. One ED drug RCT (renal colic) plus a few useful tox and stroke papers; the rest are meta-analyses and cohorts, so read the observational items as hypothesis-generating.",
