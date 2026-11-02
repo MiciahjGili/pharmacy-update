@@ -1,6 +1,102 @@
 {
  "issues": [
   {
+   "date": "2026-11-02",
+   "window": "Nov 1–2, 2026",
+   "note": "A very thin weekend window: no ED drug RCTs and only one ED toxicology study, so this issue runs short (7 picks) and leans on sepsis diagnostics, shock staging and stewardship. Treat the observational items as hypothesis-generating.",
+   "bottom_line": [
+    "About 1 in 6 adults with acute poisoning (mostly organophosphates) needed intubation, usually on arrival. Paraquat patients can deteriorate late, so keep watching them after a calm first look.",
+    "For propofol procedural sedation, adding esketamine 0.3 mg/kg (roughly 0.6 mg/kg racemic ketamine) gave opioid-level analgesia with far less hypoxemia than sufentanil.",
+    "Rapid diagnostics only help when someone acts on them: a direct call to microbiology at sepsis alert, or a BCID2 panel, sped de-escalation but didn't change mortality."
+   ],
+   "articles": [
+    {
+     "topic": "Toxicology",
+     "study_type": "Prospective cohort",
+     "takeaway": "One in six ED poisoning patients needed intubation, mostly for organophosphates; paraquat failed late",
+     "title": "Incidence and Outcomes of Endotracheal Intubation in Patients Presenting With Acute Poisoning to the Emergency Department of a Tertiary Care Center in India: A Prospective Observational Study.",
+     "journal": "Cureus",
+     "pub_date": "Oct 2026",
+     "population": "120 adults with acute poisoning, 1 Indian tertiary ED, followed 28 days",
+     "pmid": "42967189",
+     "summary": "Most ingestions were intentional, with organophosphates the leading agent, followed by household corrosives. Intubation was needed in 15.8% (19 of 120), most often for low GCS and airway protection, then respiratory distress and heavy secretions. Most intubations happened at presentation, but paraquat patients tended to need delayed intubation as respiratory failure progressed. Overall 28-day mortality was 9.2%, higher among intubated patients and driven mainly by organophosphates and paraquat. The study is small, single-center and descriptive.",
+     "why": "For OP poisoning, early high-dose atropine titrated to dry secretions can head off some intubations. If you do intubate, avoid succinylcholine (cholinesterase inhibition prolongs paralysis) and limit supplemental oxygen in paraquat."
+    },
+    {
+     "topic": "Procedural sedation",
+     "study_type": "RCT",
+     "takeaway": "Esketamine 0.3 mg/kg with propofol balanced analgesia and safety, with less hypoxemia than sufentanil",
+     "title": "Comparison of the anaesthetic efficacy and safety of different doses of esketamine combined with propofol in hysteroscopic surgery: a randomised, double-blind controlled trial.",
+     "journal": "BMC Anesthesiol",
+     "pub_date": "Jul 2026",
+     "population": "160 women (157 analyzed) having elective hysteroscopy under propofol TIVA, 1 Chinese center",
+     "pmid": "42968012",
+     "summary": "Patients were randomized to esketamine 0.15, 0.3 or 0.5 mg/kg or sufentanil 0.1 mcg/kg, all with propofol 1.5 mg/kg induction plus infusion. Pain scores after recovery were lower with 0.3 mg/kg, 0.5 mg/kg and sufentanil than with 0.15 mg/kg. SpO2 below 90% occurred in 20.5% of the sufentanil group vs 0–5.3% of the esketamine groups. The lowest dose caused more intraoperative hypertension (22.5%), and the highest dose caused more emergence agitation (10%) and slower recovery. Propofol use didn't differ, and the trial was registered retrospectively.",
+     "why": "Supports a ketamine-propofol mix over opioid-propofol for ED procedural sedation when apnea risk matters. Remember that racemic ketamine needs about twice the esketamine dose."
+    },
+    {
+     "topic": "Shock / Vasopressors",
+     "study_type": "Registry cohort",
+     "takeaway": "An updated cardiogenic shock staging system uses SBP, lactate and number of vasoactive drugs or devices",
+     "title": "Updated Staging System to Define Cardiogenic Shock Severity A Cardiogenic Shock Working Group Report.",
+     "journal": "J Card Fail",
+     "pub_date": "Nov 2026",
+     "population": "11,640 patients with heart failure or MI cardiogenic shock (CSWG registry, 2021–2025), validated in 1.4 million patients in a US health system",
+     "pmid": "42967535",
+     "summary": "Mortality rose step by step with lower SBP (cutoffs 60 and 90 mmHg) and higher lactate (cutoffs 2, 5 and 10 mmol/L). The 2026 system counts vasoactive drugs plus temporary mechanical support devices to set stage (C: 1–2, D: 3–4, E: 5 or more). Compared with the 2022 criteria, 28% of stage D and 56% of stage E patients moved to a less severe stage, and those patients had lower mortality. Out-of-hospital arrest worked best as a modifier, while in-hospital arrest placed patients in stage E.",
+     "why": "Each added pressor or inotrope now moves the stage directly, so the ED pharmacist's drip count and lactate are part of the shock-team severity call."
+    },
+    {
+     "topic": "Sepsis / Diagnostic stewardship",
+     "study_type": "Prospective cohort",
+     "takeaway": "Calling microbiology at sepsis alert doubled the odds of a 24-hour diagnosis and sped de-escalation",
+     "title": "Impact of early microbiology laboratory activation on rapid diagnosis and antimicrobial optimization in a sepsis alert pathway.",
+     "journal": "Diagn Microbiol Infect Dis",
+     "pub_date": "Oct 2026",
+     "population": "327 adults with sepsis alert activation, 1 Spanish tertiary hospital",
+     "pmid": "42967404",
+     "summary": "Early microbiology lab activation meant the clinician phoned the on-call microbiologist when the sepsis alert fired, which happened in 65% of patients. A causative organism was identified within 24 hours in 59.6% of patients with activation vs 35.1% without (adjusted OR 2.99), and rapid diagnostic tests were used more often. De-escalation came a day sooner (median 3 vs 4 days). Days of therapy, ICU admission, length of stay and mortality didn't differ.",
+     "why": "A simple communication step pharmacists can build into ED sepsis pathways so that empiric broad-spectrum therapy gets narrowed sooner."
+    },
+    {
+     "topic": "Sepsis / Bloodstream infection",
+     "study_type": "Prospective cohort",
+     "takeaway": "A BCID2 rapid blood culture panel improved day-1 antibiotic choices in ICU bacteremia but not survival",
+     "title": "Use of a molecular syndromic panel for the etiological diagnosis of bloodstream infections in critically ill patients: impact on clinical outcomes and antimicrobial use from a multicenter, prospective study.",
+     "journal": "Ann Med",
+     "pub_date": "Nov 2026",
+     "population": "126 critically ill adults with bloodstream infection, multicenter Italy (MULTI-SITA)",
+     "pmid": "42968548",
+     "summary": "Adding the BioFire BCID2 panel to standard blood cultures wasn't associated with 30-day mortality (HR 0.97). By day 1, early de-escalation or a switch to appropriate therapy happened more often with the panel (55.6% vs 31.7%). Mortality was driven by SOFA score, concurrent infections and the causative organism. The sample was small and the study wasn't randomized.",
+     "why": "Panel results are only as useful as the stewardship response to them. Pharmacist review of BCID2 hits (e.g., resistance genes like CTX-M, KPC, mecA) is where the gain comes from."
+    },
+    {
+     "topic": "Antimicrobial stewardship",
+     "study_type": "Program description / QI",
+     "takeaway": "Weekly face-to-face handshake stewardship rounds won over 80% acceptance and cut broad-spectrum use",
+     "title": "From policing to partnerships: Implementation of a handshake antimicrobial stewardship program.",
+     "journal": "Am J Health Syst Pharm",
+     "pub_date": "Nov 2026",
+     "population": "Hospital medicine and acute care surgery services, 1 US health system",
+     "pmid": "42968448",
+     "summary": "A pharmacist-physician co-led team rounded in person once a week with each partner service and reviewed every patient on systemic antimicrobials. Service-line champions handled scheduling and buy-in. After 1 year, more than 80% of recommendations were accepted on both services, broad-spectrum use fell, and prescribers contacted stewardship pharmacists more often and reported high satisfaction. The report is descriptive, with no control group.",
+     "why": "A practical template for extending stewardship to the ED or observation units, where relationships with prescribers matter as much as the recommendations."
+    },
+    {
+     "topic": "Critical care / ID",
+     "study_type": "Cohort",
+     "takeaway": "Polymyxin B worked best at an AUC of 77–110 mg·h/L; higher exposure raised AKI risk",
+     "title": "Optimizing Polymyxin B Exposure in Carbapenem-Resistant Organism-Associated Hospital-Acquired Pneumonia: A Retrospective Observational Study.",
+     "journal": "Drug Des Devel Ther",
+     "pub_date": "Oct 2026",
+     "population": "138 patients with carbapenem-resistant HAP on IV polymyxin B with TDM, 1 Chinese center",
+     "pmid": "42968961",
+     "summary": "Clinical success at 14 days was 45.7%, and most infections were carbapenem-resistant Acinetobacter. An AUC below 77 mg·h/L independently predicted treatment failure (OR 0.33), while an AUC above 110 mg·h/L tripled AKI risk (OR 3.24). The median AUC was 77.5 mg·h/L, so about half the patients fell below the efficacy threshold. The study is retrospective and single-center.",
+     "why": "Supports AUC-guided polymyxin B dosing where TDM exists. It's also a reminder that newer agents (e.g., cefiderocol, sulbactam-durlobactam) are often preferred for CRAB when available."
+    }
+   ]
+  },
+  {
    "date": "2026-11-01",
    "window": "Oct 31–Nov 1, 2026",
    "note": "A thin weekend window with only one small ED RCT, so most picks are cohorts, case series and pooled case reports. Read them as practical pearls and hypothesis-generating, not practice-changing.",
