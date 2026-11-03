@@ -1,6 +1,102 @@
 {
  "issues": [
   {
+   "date": "2026-11-03",
+   "window": "Nov 2–3, 2026",
+   "note": "Another thin window: no ED drug RCTs were indexed, so this issue runs short (7 picks). The resuscitation items are a trial secondary analysis and a review, and the rest are observational, a trial protocol and pharmacovigilance data, so treat them as context rather than practice-changers.",
+   "bottom_line": [
+    "At ED triage, older age, abnormal vitals, intentional ingestion and pesticides (especially paraquat) flagged the poisonings most likely to turn severe. Paraquat caused 60% of deaths.",
+    "Post-arrest temperature control: no subgroup of OHCA patients (by downtime or admission neuro exam) benefited from 33 °C over controlled normothermia, which supports fever prevention as the default.",
+    "In kids with severe drug anaphylaxis, antibiotics and NSAIDs dominate FAERS reports, and ceftriaxone was tied to the most deaths. Keep IM epinephrine ready when giving first doses in the ED."
+   ],
+   "articles": [
+    {
+     "topic": "Toxicology",
+     "study_type": "Prospective cohort",
+     "takeaway": "Age, abnormal triage vitals, intentional ingestion and pesticides predicted severe poisoning; paraquat caused most deaths",
+     "title": "Prospective identification of risk factors for patients with severe acute poisoning in emergency departments in northern Taiwan.",
+     "journal": "BMC Emerg Med",
+     "pub_date": "Jul 2026",
+     "population": "2,470 ED patients with acute poisoning, 2 Taiwanese tertiary centers over 2 years",
+     "pmid": "42972223",
+     "summary": "Prescription medications were the most common exposure category (32.5%), and ingestion was the main route. Severe poisoning (Poisoning Severity Score 3–4) occurred in 11.5%, and 3.1% died; paraquat accounted for about 60% of deaths, with warfarin, amphetamines, digoxin, benzodiazepines, CO and methotrexate among the other fatal agents. Older age, abnormal vital signs at triage, suicidal intent and pesticide ingestion independently predicted severe poisoning, and the findings held when vitals were removed from the model.",
+     "why": "Gives simple triage-level red flags for which overdoses need early tox consult and close monitoring. Several of the fatal agents (warfarin, digoxin, methotrexate) have specific antidotes the ED pharmacist should have ready: vitamin K/PCC, digoxin Fab and glucarpidase or leucovorin."
+    },
+    {
+     "topic": "Resuscitation",
+     "study_type": "RCT secondary analysis",
+     "takeaway": "Pooled TTM and TTM2 data found no OHCA subgroup that benefited from 33 °C over normothermia",
+     "title": "Differentiated effect of hypothermia versus normothermia after cardiac arrest by neurological status and clinical correlates of ischemic burden.",
+     "journal": "Crit Care",
+     "pub_date": "Nov 2026",
+     "population": "2,789 adults after out-of-hospital cardiac arrest, TTM and TTM2 trials (multinational)",
+     "pmid": "42972430",
+     "summary": "The authors used machine-learning methods (causal forests and Bayesian trees) to look for patients who might benefit from hypothermia based on ischemia time, prehospital factors and the admission neuro exam. Six-month mortality was 49.4% with 33 °C vs 47.9% with controlled normothermia. Estimated individual treatment effects barely varied, and no subgroup showed a meaningful benefit for either 6-month mortality or poor functional outcome.",
+     "why": "Supports fever prevention rather than deep hypothermia as the default post-arrest strategy, which means less need for the heavy sedation, paralytics and shivering protocols that 33 °C requires."
+    },
+    {
+     "topic": "Resuscitation / Anticoagulation",
+     "study_type": "Narrative review",
+     "takeaway": "ECPR patients clot and bleed at the same time, so anticoagulation needs individualized, frequently reassessed targets",
+     "title": "Coagulopathy and anticoagulation management in adult ECPR patients.",
+     "journal": "Crit Care",
+     "pub_date": "Aug 2026",
+     "population": "Adults receiving extracorporeal CPR for refractory cardiac arrest (evidence review)",
+     "pmid": "42972582",
+     "summary": "An international ECLS expert group reviewed how ischemia-reperfusion injury, inflammation, platelet dysfunction and the circuit itself push ECPR patients toward both thrombosis and major bleeding. High-quality evidence is scarce, and most practice is borrowed from other ECMO populations, so center-to-center variation is large. The authors argue against fixed anticoagulation targets and favor individualized dosing guided by repeated clinical and lab assessment.",
+     "why": "As more EDs launch ECPR programs, the pharmacist often owns the heparin bolus at cannulation and the infusion that follows. This review is a good primer on why one aPTT or anti-Xa target won't fit every patient."
+    },
+    {
+     "topic": "Sepsis / Antibiotic dosing",
+     "study_type": "Trial protocol",
+     "takeaway": "Mayo's BLOOM trial is testing EHR-guided, individualized cefepime dosing in the first hours of sepsis",
+     "title": "Cefepime Dose Individualization in Early Sepsis: A Pragmatic Feasibility Trial Protocol.",
+     "journal": "Crit Care Explor",
+     "pub_date": "Nov 2026",
+     "population": "Target of 300 or more critically ill adults starting cefepime for sepsis, Mayo Clinic Rochester (cluster-randomized)",
+     "pmid": "42970339",
+     "summary": "Standard cefepime dosing produces 10- to 30-fold variation in drug exposure in critical illness, and up to 70% of patients may have low levels early on. The BLOOM-1 trial uses a population PK model based on weight and eGFR from both creatinine and cystatin C, delivered through EHR decision support, and compares it with usual dosing. Patients with AKI, dialysis or ECMO are excluded, and the trial measures feasibility, fidelity and exploratory PK and clinical outcomes, with enrollment expected to finish in January 2027.",
+     "why": "Shows where empiric beta-lactam dosing is heading: model-informed doses that balance under-exposure against cefepime neurotoxicity. Ordering a cystatin C with the sepsis workup may become part of the ED pharmacist's dosing workflow."
+    },
+    {
+     "topic": "Antimicrobial stewardship (peds ED)",
+     "study_type": "Prospective cohort",
+     "takeaway": "Diagnostic uncertainty roughly doubled the odds of antibiotics for viral fevers in the pediatric ED",
+     "title": "Predictors of Antibiotic Overuse in Febrile Children: A Sub-analysis of the Prospective, Multicenter AutoPilot-Dx Study.",
+     "journal": "Pediatr Infect Dis J",
+     "pub_date": "Nov 2026",
+     "population": "1,008 febrile children (90 days to 18 years) in pediatric EDs, multicenter Germany, Italy and Israel",
+     "pmid": "42972636",
+     "summary": "Among 628 children whose illness was adjudicated as viral by panel testing, 186 (about 30%) still received antibiotics. Physician-reported diagnostic uncertainty (OR 2.09), nonexudative tonsillitis (OR 2.78) and rales (OR 1.82) independently predicted overuse. Having a diagnostic test result at presentation was not associated with less overuse.",
+     "why": "Stewardship in the ED is largely about reducing uncertainty at the moment of decision. Pharmacists can push for Centor or McIsaac scoring with strep testing before treating sore throats, and for watchful-waiting prescriptions."
+    },
+    {
+     "topic": "Medication safety",
+     "study_type": "Pharmacovigilance (FAERS)",
+     "takeaway": "Antibiotics and NSAIDs drove most pediatric severe anaphylaxis reports, and ceftriaxone was linked to the most deaths",
+     "title": "Drugs associated with severe anaphylaxis in children and adolescents: a real-word FAERS pharmacovigilance study.",
+     "journal": "Pediatr Res",
+     "pub_date": "Nov 2026",
+     "population": "FAERS reports of severe anaphylaxis in patients under 18, 2004–2023",
+     "pmid": "42972036",
+     "summary": "Disproportionality analysis using five signal-detection methods found 138 drugs with positive signals. Anti-infectives had the most reports overall (845), ibuprofen was the single most-reported drug (369 cases), and ceftriaxone was associated with the most deaths. Signals for IV immunoglobulin and sevoflurane were not reflected in their labeling, and outcomes were worse in younger children. As with all spontaneous-report data, these are signals, not incidence rates.",
+     "why": "Common ED drugs (ceftriaxone, ibuprofen) top the list. Observe first IV antibiotic doses in kids, have weight-based IM epinephrine (0.01 mg/kg, max 0.5 mg) ready, and document the reaction clearly."
+    },
+    {
+     "topic": "Drug interactions",
+     "study_type": "Meta-analysis",
+     "takeaway": "Statins plus interacting antibiotics (mainly macrolides) about doubled the odds of muscle toxicity",
+     "title": "Drug-drug interactions between statins and antibiotics: A systematic review and meta-analysis of observational studies.",
+     "journal": "Indian J Pharmacol",
+     "pub_date": "Nov 2026",
+     "population": "3 observational studies of statin users with or without interacting antibiotics",
+     "pmid": "42969980",
+     "summary": "Pooling three observational studies, concurrent use of interacting antibiotics (largely CYP3A4-inhibiting macrolides) with statins was associated with a higher risk of myopathy or rhabdomyolysis (pooled OR 2.13, 95% CI 1.82–2.50). The estimate was stable in leave-one-out analysis, but with only three studies the analysis can't separate risk by statin or antibiotic.",
+     "why": "A common ED discharge pitfall: clarithromycin or erythromycin with simvastatin, lovastatin or atorvastatin. Choose azithromycin or doxycycline, or hold the statin for the course."
+    }
+   ]
+  },
+  {
    "date": "2026-11-02",
    "window": "Nov 1–2, 2026",
    "note": "A very thin weekend window: no ED drug RCTs and only one ED toxicology study, so this issue runs short (7 picks) and leans on sepsis diagnostics, shock staging and stewardship. Treat the observational items as hypothesis-generating.",
