@@ -1,6 +1,114 @@
 {
  "issues": [
   {
+   "date": "2026-11-04",
+   "window": "Nov 3–4, 2026",
+   "note": "Another light window with one ED drug RCT (topical TXA for epistaxis). The rest are meta-analyses, cohorts and a pharmacist-practice study, so read the observational items as hypothesis-generating.",
+   "bottom_line": [
+    "Topical TXA applied directly to the bleeding site helped stop spontaneous nosebleeds that first aid didn't control. It's a cheap, low-dose ED adjunct, though it didn't clearly reduce 24-hour rebleeding.",
+    "ER guanfacine overdoses in teens cause near-universal bradycardia and hypotension. Supportive care with fluids, atropine as needed and cardiac monitoring was enough, and every patient recovered.",
+    "In ICU patients on carbapenems, doses above the renal-adjusted recommendation were tied to much more AKI. Re-check CrCl daily and adjust; don't leave the ED loading regimen running unchanged."
+   ],
+   "articles": [
+    {
+     "topic": "Hemostasis / ED procedures",
+     "study_type": "RCT",
+     "takeaway": "Topical TXA beat placebo for stopping refractory spontaneous nosebleeds in the ED, but didn't clearly cut rebleeding",
+     "title": "Effect of Topical Tranexamic Acid in Acute Spontaneous Epistaxis: A Randomized Controlled Trial.",
+     "journal": "Laryngoscope",
+     "pub_date": "Nov 2026",
+     "population": "162 ED patients with spontaneous epistaxis not controlled by first aid (76 TXA, 86 placebo)",
+     "pmid": "42978064",
+     "summary": "In this double-blind, placebo-controlled trial, TXA was applied directly to the bleeding site. It achieved initial hemostasis in the ED more often than placebo (p = 0.047). Rebleeding within 24 hours was numerically lower but not significantly different (RR 0.45, 95% CI 0.17–1.24), and significant rebleeding was rare in both groups (RR 1.50, wide CI). The trial was small and the result was borderline.",
+     "why": "Supports stocking a topical TXA option (often the IV 100 mg/mL solution on pledgets) for anterior epistaxis before packing. Pharmacists can standardize the concentration and how it's applied."
+    },
+    {
+     "topic": "Toxicology",
+     "study_type": "Chart review + systematic review",
+     "takeaway": "Pediatric ER guanfacine overdoses caused bradycardia and hypotension that responded to supportive care",
+     "title": "Extended-release guanfacine overdose in a pediatric emergency department: a systematic review and a 10-year retrospective chart review.",
+     "journal": "Paediatr Child Health",
+     "pub_date": "Jul 2026",
+     "population": "15 children at 1 tertiary pediatric ED over 10 years, plus 11 published pediatric cases",
+     "pmid": "42974584",
+     "summary": "In the ED cohort (median age 14), 73% of ingestions were intentional, often in teens with psychiatric conditions. Nearly all patients had bradycardia and hypotension, and some had transient hypertension early on. Most got IV fluids (87%), 20% got atropine for symptomatic bradycardia, and 3 needed PICU care; none got naloxone and all recovered. In the published cases (mostly accidental ingestions in young children), naloxone had inconsistent effects.",
+     "why": "ER guanfacine is increasingly common in ADHD households. Expect delayed, prolonged alpha-2 effects from the extended-release form, and have atropine and fluids ready; naloxone is a low-yield adjunct at best."
+    },
+    {
+     "topic": "Stroke",
+     "study_type": "Meta-analysis",
+     "takeaway": "Early tirofiban within 24 hours of IV thrombolysis improved 90-day outcomes in non-cardioembolic stroke",
+     "title": "Early antiplatelet therapy after intravenous thrombolysis in acute non-cardiogenic ischemic stroke: a systematic review and meta-analysis.",
+     "journal": "Front Neurol",
+     "pub_date": "Oct 2026",
+     "population": "4 studies, 1,394 patients with non-cardioembolic ischemic stroke after IVT (2 RCTs: ASSET-IT, INSTANT)",
+     "pmid": "42978562",
+     "summary": "In the two RCTs (1,191 patients), starting tirofiban within 24 hours of thrombolysis raised the odds of mRS 0–1 at 90 days compared with standard antiplatelet timing (OR 1.78). Symptomatic ICH (OR 1.19) and mortality (OR 0.84) didn't differ significantly, but the confidence interval for sICH was wide and events were few. Aspirin data came from only one small study.",
+     "why": "Current guidelines generally hold antiplatelets for 24 hours after lytics. If your stroke team starts using early tirofiban, pharmacists will need a dosing protocol and bleeding checks."
+    },
+    {
+     "topic": "ED clinical pharmacy",
+     "study_type": "Controlled intervention study",
+     "takeaway": "ED pharmacist medication review for complex chronic patients cut inappropriate prescribing by about 21%",
+     "title": "Transitional care from the emergency department: Impact of a comprehensive pharmacotherapy review in complex chronic patients.",
+     "journal": "Farm Hosp",
+     "pub_date": "Nov 2026",
+     "population": "Complex chronic patients seen in the ED, 151 intervention and 151 control, 1 Spanish hospital",
+     "pmid": "42977659",
+     "summary": "Pharmacists reconciled medications and did a full pharmacotherapy review within 24 hours of the ED visit (48 hours on weekends), sent reports to primary care at discharge, and followed up at 1 and 3 months. Compared with usual care, polypharmacy, anticholinergic burden, potentially inappropriate prescriptions and reconciliation errors all fell, with inappropriate prescribing down 20.6% (mostly drugs without an indication, benzodiazepines and antipsychotics). Physicians accepted 49% of recommendations, but healthcare use didn't change.",
+     "why": "Evidence for the ED pharmacist's role beyond resuscitation: med rec and deprescribing in frail, high-utilizer patients, with handoff to primary care."
+    },
+    {
+     "topic": "Endocrine emergencies",
+     "study_type": "Meta-analysis",
+     "takeaway": "Balanced fluids didn't beat normal saline for pediatric DKA resolution, length of stay or cerebral edema",
+     "title": "Fluid choice in pediatric diabetic ketoacidosis: a Systematic Review and Meta-Analysis.",
+     "journal": "Eur J Pediatr",
+     "pub_date": "Nov 2026",
+     "population": "8 studies (RCTs and observational), 47,840 children with DKA",
+     "pmid": "42977847",
+     "summary": "Among the RCTs, time to DKA resolution (MD 2.27 hours, not significant), hospital length of stay and PICU length of stay didn't differ between balanced electrolyte solutions and 0.9% saline. Cerebral edema and AKI risks also didn't differ, but those estimates came from very few events and had extremely wide confidence intervals. The authors conclude that the evidence can't show either fluid is better or safer.",
+     "why": "Either fluid is reasonable for pediatric DKA; follow your institution's protocol. This differs from the adult and pediatric sepsis data, where balanced fluids have a modest edge."
+    },
+    {
+     "topic": "Neuro emergencies / Anticoagulation",
+     "study_type": "Meta-analysis of RCTs",
+     "takeaway": "DOACs performed similarly to warfarin for recanalization and major bleeding in cerebral venous thrombosis",
+     "title": "Direct oral anticoagulants versus vitamin K antagonist-based standard care in cerebral venous thrombosis: a systematic review and meta-analysis of randomized controlled trials.",
+     "journal": "J Thromb Thrombolysis",
+     "pub_date": "Nov 2026",
+     "population": "6 RCTs, 430 patients with cerebral venous thrombosis",
+     "pmid": "42975811",
+     "summary": "Recanalization or radiological improvement at about 6 months didn't differ between DOACs and VKA-based care (RR 0.94, 95% CI 0.81–1.09), and the result held after excluding a trial with weak randomization. Major bleeding was rare in both groups (2 of 188 with DOACs vs 4 of 190 with comparators; RR 0.60, wide CI). Trials were small and used different imaging outcomes.",
+     "why": "Supports transitioning CVT patients to a DOAC after initial heparin, which simplifies discharge. Avoid DOACs in antiphospholipid syndrome and pregnancy."
+    },
+    {
+     "topic": "Sepsis / Critical care",
+     "study_type": "Cohort (propensity-matched)",
+     "takeaway": "Continuous paralytics in ventilated sepsis patients didn't change mortality but lengthened ICU stay and raised VAP",
+     "title": "Impact of Neuromuscular Blocking Agents on Hospital Outcomes in Mechanically Ventilated Patients With Sepsis: Propensity Score Analyses of A Nationwide Sepsis Cohort.",
+     "journal": "J Korean Med Sci",
+     "pub_date": "Nov 2026",
+     "population": "1,255 ventilated adults with sepsis, 20 Korean hospitals (292 matched pairs)",
+     "pmid": "42978137",
+     "summary": "About a quarter of patients got a continuous NMBA infusion within 3 days of ICU admission. In-hospital mortality didn't differ in either the weighted or the matched analysis (17.1% vs 18.8%). NMBA use was associated with ICU stays about 3 days longer and more ventilator-associated pneumonia (8.6% vs 4.5%), with trends toward longer ventilation. Residual confounding by severity is likely.",
+     "why": "Reinforces saving continuous paralysis for specific indications such as severe ARDS or ventilator dyssynchrony. For boarded ED patients after RSI, focus on adequate analgesia and sedation rather than routine paralytic drips."
+    },
+    {
+     "topic": "Medication safety / Renal dosing",
+     "study_type": "Cohort",
+     "takeaway": "Carbapenem doses above renal-adjusted recommendations were linked to much higher AKI risk in the ICU",
+     "title": "Carbapenem Renal Dose Discordance and Acute Kidney Injury in the Intensive Care Unit: A Retrospective Cohort Study.",
+     "journal": "J Pharm Technol",
+     "pub_date": "Nov 2026",
+     "population": "490 ICU adults on carbapenems for 48 hours or more, 1 Vietnamese hospital",
+     "pmid": "42978718",
+     "summary": "Sixteen percent of patients got at least 1 day of dosing above renal-adjusted recommendations based on Cockcroft-Gault CrCl. AKI occurred in 35.9% of those patients vs 4.4% with appropriate dosing (adjusted RR 8.1; 5.9 in matched pairs). The link with treatment failure didn't meet the corrected significance threshold. Reverse causation is possible, since AKI itself makes a fixed dose discordant.",
+     "why": "Makes the case for daily pharmacist renal dose review. Full doses for the first 24–48 hours of sepsis are still reasonable, but adjust once renal function is clearer."
+    }
+   ]
+  },
+  {
    "date": "2026-11-03",
    "window": "Nov 2–3, 2026",
    "note": "Another thin window: no ED drug RCTs were indexed, so this issue runs short (7 picks). The resuscitation items are a trial secondary analysis and a review, and the rest are observational, a trial protocol and pharmacovigilance data, so treat them as context rather than practice-changers.",
