@@ -1,6 +1,114 @@
 {
  "issues": [
   {
+   "date": "2026-11-05",
+   "window": "Nov 4–5, 2026",
+   "note": "A thin window with no ED drug RCTs, so this issue leans on large observational ED datasets plus one systematic review and one NEJM trial. Read the cohorts as practice context rather than practice-changers.",
+   "bottom_line": [
+    "Bystander naloxone works: when a layperson gave it before EMS arrived, EMS needed to give more naloxone less often and transported fewer patients. Keep handing out kits at ED discharge.",
+    "Nearly half of intoxicated ED patients had at least one electrolyte abnormality. If potassium is low, check magnesium and phosphate too, and replete magnesium before chasing potassium.",
+    "About 1 in 7 adults admitted from the ED with influenza still left without an antiviral. Start oseltamivir in the ED for every admitted flu patient, regardless of symptom duration."
+   ],
+   "articles": [
+    {
+     "topic": "Toxicology",
+     "study_type": "Cross-sectional (NEMSIS)",
+     "takeaway": "Layperson naloxone before EMS arrival meant less repeat naloxone and fewer transports than first-responder naloxone",
+     "title": "Layperson naloxone administration and subsequent emergency medical services care for opioid overdose.",
+     "journal": "Drug Alcohol Depend",
+     "pub_date": "Oct 2026",
+     "population": "26,087 EMS activations for opioid overdose with naloxone given before EMS arrival, US national 2023 dataset",
+     "pmid": "42981768",
+     "summary": "About 31% of patients got naloxone from a layperson and the rest from trained responders such as police or firefighters. After a layperson dose, EMS gave more naloxone less often (24.4% vs 34.8%; aOR 0.73) and transported fewer patients (79.4% vs 84.4%; aOR 0.78). Advanced airways (about 1.5%) and cardiac arrest (about 6%) were uncommon and similar between groups. The data are cross-sectional, so patient severity and refusals can't be fully separated.",
+     "why": "Supports ED naloxone kit distribution and take-home programs. Also a reminder that more patients may decline transport after bystander reversal, so long-acting opioid exposures can be missed."
+    },
+    {
+     "topic": "Electrolyte emergencies",
+     "study_type": "Cohort",
+     "takeaway": "In severe hyperkalemia (K 7.0 or higher), kidney function, not the potassium value, predicted urgent dialysis",
+     "title": "Severe Hyperkalemia in the Emergency Department: Factors Associated with Dialysis and Mortality.",
+     "journal": "Am J Med Sci",
+     "pub_date": "Nov 2026",
+     "population": "378 non-dialysis adults with plasma K of 7.0 mmol/L or higher in the ED, 1 center, 2010–2024",
+     "pmid": "42982375",
+     "summary": "About half of patients had an ECG abnormality and 28% had severe ECG changes, and higher potassium was tied to more ECG changes. Urgent dialysis was needed in 12.2% and was predicted by stage III AKI, stage V CKD and younger age, not by the admission potassium after adjustment. In-hospital mortality was 23% and tracked with older age, malignancy, female sex and MAP below 70 mmHg.",
+     "why": "Calcium, insulin with dextrose, and beta-agonists still come first, but this supports calling nephrology early for patients with advanced CKD or severe AKI rather than waiting on repeat potassium levels."
+    },
+    {
+     "topic": "Toxicology / Electrolytes",
+     "study_type": "Cohort",
+     "takeaway": "About half of ED ethanol intoxication visits had an electrolyte abnormality; low K flagged low Mg and phosphate",
+     "title": "Incidence of Electrolyte Abnormalities in Emergency Department Patients Presenting With Ethanol Intoxication.",
+     "journal": "WMJ",
+     "pub_date": "2026",
+     "population": "223,456 VA ED visits (83,178 patients) with serum ethanol above 50 mg/dL, 2010–2019",
+     "pmid": "42981514",
+     "summary": "At least one electrolyte abnormality was found in 48.8% of encounters, and 2.9% had a severe one. Hypokalemia roughly doubled to tripled the odds of hypomagnesemia (OR 2.64) and hypophosphatemia (OR 2.51). The population was 94% male veterans, which limits generalizability.",
+     "why": "Argues against skipping labs in clinically intoxicated patients. Pair a basic panel with Mg and phosphate when K is low, and add thiamine before glucose in malnourished patients."
+    },
+    {
+     "topic": "Infectious disease (ED)",
+     "study_type": "Cohort (Epic Cosmos)",
+     "takeaway": "About 86% of adults admitted with influenza got an antiviral in the ED, with gaps by region and demographics",
+     "title": "Changes in Antiviral Treatment for Hospitalized Adults with Influenza in United States Emergency Departments.",
+     "journal": "J Emerg Med",
+     "pub_date": "Sep 2026",
+     "population": "483,459 adults hospitalized from US EDs with influenza, 2016–2025",
+     "pmid": "42981736",
+     "summary": "Overall, 86.3% received oseltamivir, peramivir, baloxavir or zanamivir in the ED, with a low of 72.7% in 2021 and 85.1% in 2025. Treatment was less likely in the West (OR 0.78) and South (OR 0.95) than in the Northeast, and differed by age, race, ethnicity and language. ED treatment rates rose and fell with national flu positivity (r = 0.59).",
+     "why": "Guidelines recommend antivirals for every hospitalized flu patient, even after 48 hours of symptoms. An ED pharmacist prompt or order-set default is an easy fix for the remaining gap."
+    },
+    {
+     "topic": "Antimicrobial stewardship (peds ED)",
+     "study_type": "Cross-sectional",
+     "takeaway": "Low-level pyuria drove a large share of unnecessary antibiotics for suspected pediatric UTI",
+     "title": "Low-Level Pyuria and Antibiotic Prescribing for Suspected Urinary Tract Infection in Children.",
+     "journal": "Pediatrics",
+     "pub_date": "Nov 2026",
+     "population": "1,150 children (2 months to 17 years) with urinalysis at ED and urgent care visits, 4 Northern California sites, 2022–2023",
+     "pmid": "42982088",
+     "summary": "Overall, 16.6% of children got empiric antibiotics. Low-level pyuria (trace leukocyte esterase or a few WBCs) raised the odds of starting antibiotics more than sixfold (aOR 6.62) compared with no pyuria. It accounted for about 17% of overtreatment in children whose cultures ruled out UTI, but only about 2% of appropriate treatment for confirmed UTI.",
+     "why": "Trace pyuria alone shouldn't trigger antibiotics. ED culture-callback programs run by pharmacists can stop unneeded courses once cultures come back negative."
+    },
+    {
+     "topic": "Skin and soft tissue infection",
+     "study_type": "Systematic review",
+     "takeaway": "Probenecid-boosted once-daily cefazolin performed like ceftriaxone for cellulitis needing IV therapy",
+     "title": "Addition of probenecid to beta-lactam antibiotics in the treatment of skin and soft tissue infections: a systematic review.",
+     "journal": "J Antimicrob Chemother",
+     "pub_date": "Nov 2026",
+     "population": "9 studies, more than 1,600 patients with SSTI",
+     "pmid": "42980223",
+     "summary": "Most studies compared once-daily IV cefazolin plus oral probenecid with ceftriaxone or more frequent cefazolin. Treatment success, failure, relapse and admission rates were similar. Evidence for oral beta-lactams plus probenecid was thin but didn't suggest they were worse. Adverse events were reported inconsistently and were mostly GI, possibly more common with probenecid.",
+     "why": "A narrower-spectrum option for ED-to-outpatient IV cellulitis pathways (e.g., cefazolin 2 g plus probenecid 1 g daily). Check for renal impairment and drug interactions, such as methotrexate, before adding probenecid."
+    },
+    {
+     "topic": "Critical care sedation",
+     "study_type": "Cohort",
+     "takeaway": "Dexmedetomidine caused hypotension or more vasopressor need in most ICU patients with RV dysfunction",
+     "title": "Safety of Dexmedetomidine Use in Adult ICU Patients With Right Ventricular Dysfunction.",
+     "journal": "J Pharm Pract",
+     "pub_date": "Nov 2026",
+     "population": "245 ICU adults with echo-confirmed RV dysfunction given dexmedetomidine, 1 US center, 2017–2022",
+     "pmid": "42981236",
+     "summary": "A composite adverse event (bradycardia, hypotension, higher vasopressor or inotrope needs, or asystole) occurred in 62.4% of patients after dexmedetomidine was started. Hypotension was the most common event, and about 20% needed more vasopressor support (mean rise of 0.06 mcg/kg/min norepinephrine equivalents). Event rates were similar across mild, moderate and severe RV dysfunction, and there was no comparison group.",
+     "why": "Relevant to boarded ED patients with PE, pulmonary hypertension or RV failure after intubation. Start low, skip the loading dose, and have a vasopressor ready if you choose dexmedetomidine."
+    },
+    {
+     "topic": "Lipids / Pancreatitis",
+     "study_type": "RCT (2 trials, pooled)",
+     "takeaway": "Plozasiran cut triglycerides by about 80% and acute pancreatitis by nearly 80% in severe hypertriglyceridemia",
+     "title": "Plozasiran for Severe Hypertriglyceridemia and Risk of Pancreatitis.",
+     "journal": "N Engl J Med",
+     "pub_date": "Nov 2026",
+     "population": "757 adults with severe hypertriglyceridemia, SHASTA-3 and SHASTA-4 (multinational)",
+     "pmid": "42981569",
+     "summary": "Patients were randomized 2:1 to subcutaneous plozasiran 25 mg or placebo every 3 months. At 12 months, median triglycerides fell 79–81% with plozasiran, about 45–47 percentage points more than placebo, and over 90% reached a level below 500 mg/dL vs about half on placebo. In pooled data, acute pancreatitis occurred at 1 vs 5 events per 100 patient-years (rate ratio 0.22). Adverse event rates were the same in both groups (73%).",
+     "why": "An APOC3-targeting siRNA given 4 times a year could prevent repeat hypertriglyceridemia-induced pancreatitis visits. Expect questions about it during ED med histories and discharge planning."
+    }
+   ]
+  },
+  {
    "date": "2026-11-04",
    "window": "Nov 3–4, 2026",
    "note": "Another light window with one ED drug RCT (topical TXA for epistaxis). The rest are meta-analyses, cohorts and a pharmacist-practice study, so read the observational items as hypothesis-generating.",
