@@ -1,6 +1,114 @@
 {
  "issues": [
   {
+   "date": "2026-11-06",
+   "window": "Nov 5–6, 2026",
+   "note": "No ED drug RCTs this window, so the EM picks are a large propensity-matched cohort, a systematic review and registry data. Two pharmacist-relevant AJHP studies and a JAMA newborn vitamin K cohort round it out.",
+   "bottom_line": [
+    "For cannabinoid hyperemesis, reach for haloperidol or droperidol before ondansetron: either butyrophenone roughly halved 72-hour ED returns in a large matched cohort.",
+    "Rapid methadone titration (e.g., 30–40 mg start, +10 mg every 3–4 h to 50–80 mg on day 1) had no reported deaths in fentanyl-era or inpatient studies, which supports faster starts for ED-initiated or boarded OUD patients.",
+    "In children admitted with CAP, waiting past 4 hours for antibiotics didn't worsen outcomes, so stable kids can be observed rather than reflexively treated in the ED."
+   ],
+   "articles": [
+    {
+     "topic": "Toxicology / Antiemetics",
+     "study_type": "Cohort (propensity-matched)",
+     "takeaway": "Haloperidol or droperidol cut 72-hour ED returns for cannabinoid hyperemesis by about half vs ondansetron",
+     "title": "Comparative Effectiveness of Haloperidol, Droperidol, and Ondansetron for Cannabinoid Hyperemesis Syndrome in the Emergency Department.",
+     "journal": "Acad Emerg Med",
+     "pub_date": "Nov 2026",
+     "population": "Adult ED visits with a suspected CHS phenotype, TriNetX multicenter network, 2014–2024",
+     "pmid": "42983225",
+     "summary": "Researchers made three propensity-matched pairwise comparisons of drugs given at the index ED visit. Return to the ED within 72 hours was lower with haloperidol than ondansetron (8.2% vs 15.1%; OR 0.50) and with droperidol than ondansetron (7.4% vs 14.0%; OR 0.49), while haloperidol and droperidol didn't differ (OR 0.75, not significant). In adjusted survival models, both butyrophenones independently predicted fewer returns and ondansetron did not, and coded adverse events were rare. It is retrospective, diagnosis-code based and lacks dose data.",
+     "why": "Supports putting haloperidol (often 2.5–5 mg IV/IM) or droperidol ahead of ondansetron on CHS order sets. Check a QTc and screen for other QT-prolonging drugs, and pair with counseling on cannabis cessation and topical capsaicin."
+    },
+    {
+     "topic": "Toxicology / Addiction",
+     "study_type": "Systematic review",
+     "takeaway": "Rapid methadone titration protocols looked safe, with no deaths in fentanyl-era or inpatient studies",
+     "title": "Safety and effectiveness of rapid methadone titration protocols in opioid use disorder: A systematic review.",
+     "journal": "Addiction",
+     "pub_date": "Nov 2026",
+     "population": "29 studies, 16,154 patients with OUD starting methadone, inpatient and outpatient settings",
+     "pmid": "42988375",
+     "summary": "The most common protocol started at 30–40 mg and added 10 mg every 3–4 hours as needed, up to 50–80 mg on day 1, with day-7 doses of roughly 53–97 mg in the larger studies. Across the 18 fentanyl-era studies and the 18 inpatient studies that reported mortality, no deaths occurred; nearly all reported deaths came from two older case series built from coroner reports. Overdose was under 1% and sedation was usually mild. Heterogeneity prevented pooling, and overall evidence quality was low.",
+     "why": "Fentanyl tolerance makes slow 'start low, go slow' methadone starts leave patients in withdrawal for weeks. Pharmacists can help design monitored rapid-titration protocols for admitted or boarded OUD patients, with sedation checks before each extra dose and QTc review."
+    },
+    {
+     "topic": "Anticoagulation / PE",
+     "study_type": "Prospective cohort",
+     "takeaway": "Major bleeding hit 3% of acute PE patients in 30 days and 13% after thrombolysis",
+     "title": "Major bleeding in patients with acute pulmonary embolism: results from the COPE study.",
+     "journal": "Eur Respir J",
+     "pub_date": "Nov 2026",
+     "population": "5,213 patients with acute PE, prospective multicenter Italian COPE study",
+     "pmid": "42988386",
+     "summary": "ISTH major bleeding occurred in 3.1% within 30 days, split about evenly between early (under 7 days) and late events. Bleeding occurred in 12.9% of patients given thrombolysis vs 2.5% of those who weren't. Active cancer, prior bleeding, dementia, anemia, syncope and thrombolysis predicted early bleeding, while cancer, prior bleeding and anemia predicted late bleeding. Four clinical bleeding phenotypes predicted risk about as well as PE-SARD, BACS and VTE-Bleed.",
+     "why": "Puts a number on the lytic bleeding trade-off for ED PE decisions. Flag cancer, anemia and prior bleeding when choosing between systemic lytics, reduced-dose regimens or catheter-directed therapy, and keep reversal agents ready."
+    },
+    {
+     "topic": "Pediatric ED / Antibiotic stewardship",
+     "study_type": "Cohort (PHIS)",
+     "takeaway": "For children admitted with pneumonia, antibiotics within 4 hours didn't reduce escalation of care",
+     "title": "Time to antibiotics and outcomes for children hospitalized with community acquired pneumonia.",
+     "journal": "J Hosp Med",
+     "pub_date": "Nov 2026",
+     "population": "758 children (3 months to 18 years) admitted from the ED with suspected CAP, 4 US children's hospitals",
+     "pmid": "42989956",
+     "summary": "About 59% got antibiotics within 4 hours of ED arrival. In inverse propensity-weighted models, escalation of care (more respiratory support, ICU transfer, vasopressors or a chest tube) didn't differ between early and later antibiotics (3% vs 2%; OR 1.46, wide CI). Length of stay, oxygen duration and cost also didn't differ. Events were few, so a small effect can't be excluded, and septic children aren't the target of this finding.",
+     "why": "Supports a period of observation for well-appearing children with possible viral pneumonia instead of reflexive ED antibiotics. When treatment is needed, amoxicillin or ampicillin remains the narrow-spectrum default."
+    },
+    {
+     "topic": "Shock / Inotropes",
+     "study_type": "Cohort",
+     "takeaway": "Milrinone in pediatric fluid-refractory septic shock was linked to higher mortality and more cardiac arrests",
+     "title": "Fluid-Refractory Septic Shock in Children and Milrinone: Outcomes in a Two-Center, Retrospective Cohort in France, 2011-2021.",
+     "journal": "Pediatr Crit Care Med",
+     "pub_date": "Nov 2026",
+     "population": "290 children with fluid-refractory septic shock on vasoactive drugs, 2 French PICUs",
+     "pmid": "42987204",
+     "summary": "Milrinone was used in 16% of children, at a median of 0.5 mcg/kg/min. It was associated with higher 30-day mortality (HR 2.57), more fluid boluses, more mechanical ventilation, more PICU cardiac arrests (48% vs 11%) and more adverse events. Milrinone was likely given to sicker children with cardiac dysfunction, so confounding by indication is a major limitation.",
+     "why": "Milrinone's vasodilation and long, renally cleared half-life can worsen hypotension in warm or vasoplegic shock. Reserve it for documented low cardiac output with adequate pressure, and favor epinephrine as the first inotrope."
+    },
+    {
+     "topic": "Vancomycin dosing",
+     "study_type": "Meta-analysis",
+     "takeaway": "AUC-guided vancomycin monitoring cut AKI risk by about a third vs trough-guided monitoring",
+     "title": "Still Chasing the Curve: Updated Evidence on Vancomycin AUC vs Trough Monitoring and Its Impact on AKI. A Systematic Review and Meta-Analysis, 2020-2025.",
+     "journal": "Am J Health Syst Pharm",
+     "pub_date": "Nov 2026",
+     "population": "80 studies, 27,067 patients; 30 direct comparisons (18,146 patients) published 2020–2025",
+     "pmid": "42984265",
+     "summary": "In head-to-head studies, AUC-guided monitoring lowered AKI risk compared with trough-guided monitoring (RR 0.66), and the result held when restricted to KDIGO-defined AKI. Mortality (OR 0.83) and 30-day readmission (OR 0.95) didn't differ, though few studies reported them. Heterogeneity was moderate (I² 64%), and most included studies were observational.",
+     "why": "Reinforces the 2020 consensus guideline: start vancomycin from the ED with a weight-based load, then hand off to an AUC (400–600) Bayesian or two-level protocol rather than trough targets."
+    },
+    {
+     "topic": "Drug interactions / GI bleeding",
+     "study_type": "Cohort (VA)",
+     "takeaway": "Starting an NSAID while on a GLP-1 RA didn't raise GI bleed or ulcer risk vs SGLT2i or DPP-4i",
+     "title": "NSAID initiation and risk for gastrointestinal bleeding in patients receiving GLP-1 receptor agonists: A retrospective cohort study.",
+     "journal": "Am J Health Syst Pharm",
+     "pub_date": "Nov 2026",
+     "population": "68,881 veterans with type 2 diabetes starting an NSAID on a GLP-1 RA (13,433), SGLT2i or DPP-4i",
+     "pmid": "42985835",
+     "summary": "One-year GI bleed or ulcer rates were about 1% in all three groups (0.9% with GLP-1 RAs). After adjustment, GLP-1 RA users had no higher risk than SGLT2i users (HR 0.85) or DPP-4i users (HR 0.82), and results were similar for GI bleeding alone. The population was mostly older men, and over-the-counter NSAID use wasn't captured.",
+     "why": "A common ED discharge question. A GLP-1 RA alone shouldn't stop a short NSAID course, but the usual GI risk factors (age, anticoagulants, prior ulcer, steroids) still call for a PPI or an alternative analgesic."
+    },
+    {
+     "topic": "Pediatric medication safety",
+     "study_type": "Cohort (Epic Cosmos)",
+     "takeaway": "Newborn vitamin K refusal more than doubled to 6.8%, and refusers had over twice the intracranial bleeding risk",
+     "title": "Nonreceipt of Newborn Vitamin K and Risk of Bleeding.",
+     "journal": "JAMA",
+     "pub_date": "Nov 2026",
+     "population": "5,240,780 infants born at 35–43 weeks, US hospitals in all 50 states, 2017–2025",
+     "pmid": "42986716",
+     "summary": "Nonreceipt of intramuscular vitamin K rose from 3.1% in 2017 to 6.8% in 2025. Infants who didn't get it had more bleeding by 6 months (288 vs 186 per 10,000; adjusted RR 1.47), more intracranial bleeding (33 vs 13 per 10,000; adjusted RR 2.43) and more deaths with bleeding during the birth stay (adjusted RR 2.69). Bleeding was identified from diagnosis codes, which may misclassify some events.",
+     "why": "Infants with late vitamin K deficiency bleeding present to the ED with lethargy, vomiting or seizures. Ask about vitamin K at birth, and know the treatment: IV or subcutaneous vitamin K 1 mg plus 4-factor PCC or FFP for life-threatening bleeds."
+    }
+   ]
+  },
+  {
    "date": "2026-11-05",
    "window": "Nov 4–5, 2026",
    "note": "A thin window with no ED drug RCTs, so this issue leans on large observational ED datasets plus one systematic review and one NEJM trial. Read the cohorts as practice context rather than practice-changers.",
