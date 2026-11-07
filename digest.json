@@ -1,6 +1,114 @@
 {
  "issues": [
   {
+   "date": "2026-11-07",
+   "window": "Nov 6–7, 2026",
+   "note": "No ED drug RCTs this window. The EM picks are a pharmacist-led stewardship study, two meta-analyses, a prospective analgesia cohort, a trauma tox study and a reversal-agent review, with two stewardship papers rounding it out. Read the observational items as practice context.",
+   "bottom_line": [
+    "Intranasal opioids (fentanyl or similar) relieved acute pain as well as IV morphine at 20 and 30 minutes, with no extra adverse events, so you don't need to wait on an IV line to treat pain.",
+    "When ED pharmacists owned MRSA nasal PCR ordering for admitted pneumonia patients, anti-MRSA therapy dropped from about 6 hours to about 1 hour with no change in readmissions or mortality.",
+    "In trauma patients, most positive fentanyl screens reflected fentanyl the team had already given. Check the MAR before calling a urine drug screen evidence of pre-injury use."
+   ],
+   "articles": [
+    {
+     "topic": "ED clinical pharmacy / Stewardship",
+     "study_type": "Quasi-experimental",
+     "takeaway": "Pharmacist-ordered MRSA nasal PCR in the ED cut anti-MRSA therapy for pneumonia from ~6 h to ~1 h",
+     "title": "Impact of MRSA nasal PCR in the emergency department on duration of vancomycin and linezolid for pneumonia.",
+     "journal": "Am J Emerg Med",
+     "pub_date": "Oct 2026",
+     "population": "200 adults with suspected pneumonia given anti-MRSA therapy in the ED and admitted, 1 US academic center",
+     "pmid": "42994388",
+     "summary": "ED pharmacists took responsibility for ordering the MRSA nasal swab under an existing hospital protocol, and ED nurses collected it before the patient left the department. Median duration of vancomycin or linezolid fell from 5.9 hours before the change to 1.1 hours after it (p = 0.006). PCR ordering rose from 69% to 86%, which was not statistically significant, and length of stay, 30-day readmission and 30-day mortality didn't differ. It is a single-center pre-post design without a randomized control.",
+     "why": "A cheap, high-yield ED pharmacist task: order the nasal PCR with the first vancomycin dose so a negative result (NPV over 95% for MRSA pneumonia) can stop it before the patient reaches the floor."
+    },
+    {
+     "topic": "Acute pain",
+     "study_type": "Meta-analysis of RCTs",
+     "takeaway": "Intranasal opioids matched IV morphine for acute moderate-to-severe pain at 20 and 30 minutes",
+     "title": "Comparative Efficacy and Safety of Intranasal Opioids vs. Intravenous Morphine for Acute Moderate-to-Severe Pain: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
+     "journal": "J Emerg Med",
+     "pub_date": "Oct 2026",
+     "population": "10 RCTs, 1,164 adults and children with acute pain in ED, prehospital, procedural or postoperative settings",
+     "pmid": "42994114",
+     "summary": "Pain score reductions at 20 minutes (SMD −0.05) and 30 minutes (SMD −0.05) were essentially identical between intranasal opioids and IV morphine, with little heterogeneity. Rescue analgesia was also equal (RR 1.00). Overall adverse events, serious adverse events, respiratory events, hypotension, GI effects, dizziness and rhinorrhea didn't differ, and only altered taste was borderline more common with the intranasal route. The trials were small, so rare serious events can't be excluded.",
+     "why": "Supports intranasal fentanyl (often 1.5–2 mcg/kg, max about 100 mcg per dose, using a concentrated solution and an atomizer) as a first-line option for kids, fractures and patients without IV access. Split volumes above about 1 mL between nostrils."
+    },
+    {
+     "topic": "Status epilepticus",
+     "study_type": "Meta-analysis",
+     "takeaway": "Brivaracetam stopped status epilepticus in about half of patients as a second-line drug",
+     "title": "Brivaracetam for the termination of status epilepticus: A systematic review and meta-analysis.",
+     "journal": "Epilepsy Res",
+     "pub_date": "Oct 2026",
+     "population": "10 observational studies of patients with status epilepticus given brivaracetam",
+     "pmid": "42993998",
+     "summary": "The pooled response rate was 52% (95% CI 45–59%), with moderate heterogeneity. Studies differed in how many antiseizure drugs had failed first, how long seizures had lasted before brivaracetam, and the loading and maintenance doses used. Response looked better when brivaracetam was given within 24 hours at loading doses of about 200–300 mg. No comparative RCTs were available, so it can't yet be ranked against levetiracetam, fosphenytoin or valproate.",
+     "why": "Brivaracetam can be pushed IV quickly and has fewer behavioral effects than levetiracetam, but it costs more and lacks trial data. For now it is an alternative second-line agent, not a replacement for levetiracetam 60 mg/kg (max 4,500 mg)."
+    },
+    {
+     "topic": "Anticoagulant reversal",
+     "study_type": "Narrative review",
+     "takeaway": "Idarucizumab remains the only dabigatran antidote, but its benefit rests on single-arm and observational data",
+     "title": "A safety profile on idarucizumab for dabigatran reversal: an update.",
+     "journal": "Expert Opin Drug Saf",
+     "pub_date": "Nov 2026",
+     "population": "Review of pharmacology, clinical and real-world evidence for idarucizumab",
+     "pmid": "42992471",
+     "summary": "The authors summarize idarucizumab's pharmacology, the evidence behind it and practical points on giving it and caring for patients afterward. Its clinical benefit is supported only by the single-arm RE-VERSE AD trial and observational studies, with no comparator. They note that high cost and falling dabigatran use make routine stocking hard to justify in rural or resource-limited sites, that trial bleeding definitions don't map neatly onto real cases, and that follow-up care and anticoagulation stewardship after reversal deserve more attention.",
+     "why": "For dabigatran bleeds, give idarucizumab 5 g IV (two 2.5 g vials). If it isn't stocked, 4F-PCC or hemodialysis are fallbacks. Plan when and how to restart anticoagulation once bleeding is controlled."
+    },
+    {
+     "topic": "Toxicology / Trauma",
+     "study_type": "Cohort",
+     "takeaway": "About 63% of positive fentanyl screens in trauma patients were linked to fentanyl the team had given",
+     "title": "Administered opioids and benzodiazepines and the interpretation of positive trauma urine drug screens.",
+     "journal": "Am J Emerg Med",
+     "pub_date": "Oct 2026",
+     "population": "1,420 trauma patients with a urine drug screen, 1 US Level II trauma center, 2023–2024",
+     "pmid": "42994387",
+     "summary": "Fentanyl screens were positive in 70% of patients given fentanyl before urine collection vs 12.5% of those who weren't (aOR 15.3), and the result held when only prehospital doses were counted. Similar but smaller effects were seen for opiates (aOR 5.9) and benzodiazepines (aOR 6.1), while cocaine, cannabis and amphetamine screens weren't affected. Modeling estimated that 63% of fentanyl, 34% of opiate and 29% of benzodiazepine positives were associated with drugs given during care.",
+     "why": "Reconcile every positive screen against the EMS run sheet and MAR before it lands in the chart as substance use. Know which agents each immunoassay channel picks up (e.g., hydromorphone and oxycodone vary by assay)."
+    },
+    {
+     "topic": "Acute pain / Opioids",
+     "study_type": "Prospective cohort",
+     "takeaway": "Persistent pain at 2 weeks, not opioid use, predicted new chronic pain after ED discharge",
+     "title": "Early Post-Discharge Pain Persistence, Not Opioid Use, Is Associated with New-Onset Chronic Pain Among Opioid-Naive Emergency Department Patients: A Secondary Analysis of a Prospective Cohort.",
+     "journal": "J Pain",
+     "pub_date": "Nov 2026",
+     "population": "483 opioid-naive adults discharged from 2 urban US EDs with a new opioid prescription for pain",
+     "pmid": "42994669",
+     "summary": "At 6 months, 26.7% had developed new chronic pain (pain on more than half of days). Neck or back pain and longer pain before the ED visit predicted it. Pain that persisted at 2 weeks (OR 2.36) and moderate or severe pain at 2 weeks (OR 2.20) were associated with new chronic pain, while opioid use at 48 hours or 2 weeks was not. About 20% of the original cohort was lost to follow-up.",
+     "why": "The 2-week mark is a useful checkpoint: patients still in pain then need follow-up and a multimodal plan (NSAIDs, acetaminophen, PT), not more opioid refills. Keep ED opioid prescriptions short."
+    },
+    {
+     "topic": "Sepsis / Antibiotic dosing",
+     "study_type": "Meta-analysis of RCTs",
+     "takeaway": "Extended-infusion pip-tazo may improve clinical cure in critically ill adults, but mortality benefit is unproven",
+     "title": "Prolonged Versus Intermittent Piperacillin-Tazobactam Infusion in Critically Ill Patients: A Systematic Review and Meta-Analysis of Randomized Trials.",
+     "journal": "Chemotherapy",
+     "pub_date": "Nov 2026",
+     "population": "7 RCTs, 6,080 critically ill adults (BLING III supplied most of the patients)",
+     "pmid": "42993165",
+     "summary": "Prolonged (extended or continuous) infusion improved clinical cure (RR 1.23) across 6 small trials, but certainty was very low. The 90-day mortality estimate leaned toward benefit without reaching significance (RR 0.92, 95% CI 0.84–1.01), and BLING III carried 99% of the weight. Effects on 28-day mortality and antibiotic duration were uncertain. The authors conclude that the results fit the class-wide beta-lactam data but don't prove a pip-tazo-specific mortality benefit.",
+     "why": "Give the first pip-tazo dose in the ED as a 30-minute bolus so it isn't delayed, then switch to extended infusion (e.g., 4.5 g over 4 hours every 8 hours). Watch for Y-site incompatibilities when lines are crowded."
+    },
+    {
+     "topic": "Antimicrobial stewardship / Allergy",
+     "study_type": "Pre-post cohort",
+     "takeaway": "Turning off cross-reactivity alerts plus an allergy guideline raised beta-lactam use with no added reactions",
+     "title": "Impact of multimodal interventions on β-lactam use in patients with penicillin or cephalosporin allergy.",
+     "journal": "Am J Health Syst Pharm",
+     "pub_date": "Nov 2026",
+     "population": "234 hospitalized adults with a documented penicillin or cephalosporin allergy, 1 US center",
+     "pmid": "42990049",
+     "summary": "The intervention combined suppressing EHR beta-lactam cross-reactivity alerts, clinician education and a new beta-lactam allergy guideline. Penicillin or cephalosporin use rose from 65% to 81% (p = 0.006), and non-beta-lactam use fell from 27% to 14%. Allergic reactions, C. difficile infection, length of stay and stopping antibiotics for intolerance didn't differ. It is a small single-center pre-post study.",
+     "why": "Most penicillin-allergic ED patients can safely get cefazolin or a cephalosporin with a dissimilar side chain (e.g., ceftriaxone). Pharmacists can push the guideline and alert changes that make this the default."
+    }
+   ]
+  },
+  {
    "date": "2026-11-06",
    "window": "Nov 5–6, 2026",
    "note": "No ED drug RCTs this window, so the EM picks are a large propensity-matched cohort, a systematic review and registry data. Two pharmacist-relevant AJHP studies and a JAMA newborn vitamin K cohort round it out.",
