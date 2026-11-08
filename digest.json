@@ -1,6 +1,114 @@
 {
  "issues": [
   {
+   "date": "2026-11-08",
+   "window": "Nov 7–8, 2026",
+   "note": "A stronger window than most: one Lancet RCT in cardiogenic shock, three new intra-arterial tenecteplase trials and a small septic shock fluid RCT. The other picks are observational or meta-analytic, and the medetomidine item is a preprint that hasn't been peer reviewed.",
+   "bottom_line": [
+    "Adjunctive intra-arterial tenecteplase took a hit: it didn't improve 90-day outcomes during thrombectomy (BRETIS-TNK2), and a basilar trial (INSIST-IT) stopped early for safety and lack of efficacy, with numerically more deaths.",
+    "In MI with cardiogenic shock, cangrelor reliably inhibited platelets where crushed ticagrelor mostly didn't, but it didn't prove non-inferior on 30-day clinical outcomes. Better platelet numbers haven't yet become better outcomes.",
+    "Medetomidine appeared in about 25% of Southern California fentanyl samples by August 2026, up from about 6% in May 2025. Naloxone won't reverse its sedation or bradycardia, so plan for it in overdoses that stay sedated."
+   ],
+   "articles": [
+    {
+     "topic": "Shock / Antiplatelets",
+     "study_type": "RCT",
+     "takeaway": "In MI with cardiogenic shock, cangrelor beat crushed ticagrelor on platelet inhibition but missed non-inferiority on clinical outcomes",
+     "title": "Cangrelor versus crushed ticagrelor in acute myocardial infarction complicated by cardiogenic shock (DAPT-SHOCK-AMI): a randomised, double-blind trial.",
+     "journal": "Lancet",
+     "pub_date": "Nov 2026",
+     "population": "605 adults with MI complicated by cardiogenic shock, 29 hospitals in 5 European countries",
+     "pmid": "42998670",
+     "summary": "Patients got cangrelor (30 mcg/kg bolus, then 4 mcg/kg/min for at least 2 hours) or crushed ticagrelor 180 mg. In the roughly 20% of patients with platelet testing, a platelet reactivity index under 50% at the end of PCI was reached in 100% with cangrelor vs 22% with ticagrelor. Death, MI or ischemic stroke at 30 days occurred in 38% vs 41%, but non-inferiority wasn't shown against a very tight 1-point margin (difference −4 points, 90% CI −10 to 3). Major bleeding was 6% vs 5%.",
+     "why": "Gut absorption is unreliable in shock, so an IV P2Y12 inhibitor makes pharmacologic sense, but this trial doesn't prove it improves outcomes. If cangrelor is used, plan the oral transition: ticagrelor can be loaded during or right after the infusion, while clopidogrel or prasugrel must wait until it stops."
+    },
+    {
+     "topic": "Sepsis / Fluids",
+     "study_type": "RCT (stopped early)",
+     "takeaway": "Limiting fluid boluses by bedside intolerance signals improved oxygenation in septic shock, but the trial stopped early at 35 patients",
+     "title": "Fluid-intolerance signals as bedside safety limits during early septic shock resuscitation: a multicenter randomized trial.",
+     "journal": "Crit Care",
+     "pub_date": "Sep 2026",
+     "population": "35 ventilated adults with fluid-responsive septic shock and high risk of fluid harm, 3 Chilean ICUs",
+     "pmid": "42995612",
+     "summary": "Before each bolus, lung ultrasound, VExUS, E/e' and CVP were graded as green (500 mL), yellow (250 mL) or red (no fluid), compared with standard 500-mL boluses over a 6-hour window. The intervention arm got less protocol fluid (250 vs 650 mL), and PaO2:FiO2 rose by a median of 40.5 points vs a fall of 37.9 (between-group difference +78). Lactate and capillary refill changes didn't differ. Only 36 of 62 planned patients were enrolled, cumulative fluid was similar between groups, and the authors call the effect uncertain.",
+     "why": "A concept to watch rather than a protocol to adopt: fluid responsive doesn't mean fluid tolerant. It supports reassessing before every bolus in boarded septic shock patients and starting norepinephrine early rather than defaulting to more volume."
+    },
+    {
+     "topic": "Stroke",
+     "study_type": "RCT (phase 3)",
+     "takeaway": "Intra-arterial tenecteplase during thrombectomy didn't improve 90-day function in large-vessel stroke",
+     "title": "Intra-arterial tenecteplase during thrombectomy for acute ischemic stroke: the BRETIS-TNK2 trial.",
+     "journal": "Nat Commun",
+     "pub_date": "Nov 2026",
+     "population": "380 patients with large-vessel occlusion eligible for thrombectomy within 24 hours, multicenter open-label trial",
+     "pmid": "42995186",
+     "summary": "Patients were randomized to intra-arterial tenecteplase during thrombectomy or thrombectomy alone. A modified Rankin Scale score of 0–2 at 90 days occurred in 40.0% with tenecteplase vs 46.8% with thrombectomy alone (OR 0.76, 95% CI 0.50–1.14; P = 0.19). The numbers leaned against tenecteplase, though the difference wasn't significant.",
+     "why": "Tempers recent enthusiasm for routine IA lytics. Earlier digests covered benefit after thrombectomy in selected patients, while this trial tested giving it during the procedure. A separate phase 2 trial this window (RESCUE-TNK, PMID 42995180) improved reperfusion in medium-vessel occlusion (61% vs 28%), so patient selection may be the deciding factor."
+    },
+    {
+     "topic": "Stroke",
+     "study_type": "RCT (stopped early)",
+     "takeaway": "Intra-arterial tenecteplase after basilar thrombectomy didn't help and the trial stopped early for safety and futility",
+     "title": "Intra-arterial tenecteplase for acute basilar artery occlusion with sufficient recanalization after thrombectomy: the INSIST-IT randomized clinical trial.",
+     "journal": "Nat Commun",
+     "pub_date": "Nov 2026",
+     "population": "144 patients with basilar occlusion and successful reperfusion within 24 hours of onset, multicenter open-label trial",
+     "pmid": "42995196",
+     "summary": "Independent ambulation (mRS 0–3) at 90 days occurred in 40.0% with adjunctive tenecteplase vs 50.0% with standard therapy (OR 0.67, 95% CI 0.34–1.29). Symptomatic ICH was similar (6.2% vs 4.8%), but 90-day mortality was numerically higher (41.3% vs 26.5%; OR 1.96, 95% CI 0.97–4.03; P = 0.063). The safety monitoring committee recommended stopping for safety concerns and lack of efficacy.",
+     "why": "A caution against extending anterior-circulation IA lytic data to basilar occlusions. Pharmacists asked to prepare post-thrombectomy IA tenecteplase should confirm the indication and location rather than assume a class benefit."
+    },
+    {
+     "topic": "Trauma / Hemorrhage",
+     "study_type": "Cohort (registry)",
+     "takeaway": "TXA in severe pelvic fractures was linked to lower 24-hour mortality, but not to less massive transfusion",
+     "title": "Association of tranexamic acid with early death or massive transfusion after severe pelvic ring fractures: A nationwide registry-based cohort study.",
+     "journal": "Injury",
+     "pub_date": "Nov 2026",
+     "population": "5,288 adults with blunt severe pelvic ring fractures, Japan Trauma Data Bank, 2019–2023",
+     "pmid": "42998459",
+     "summary": "With overlap weighting, death within 24 hours or massive transfusion occurred in 13.0% with TXA vs 18.1% without (RR 0.72, 95% CI 0.60–0.87). The result came from 24-hour mortality (RR 0.62), since massive transfusion alone didn't differ (RR 0.94) and any transfusion was more common with TXA. Timing of TXA wasn't available, and the association weakened when outcome time origins were aligned (RR 0.81, 95% CI 0.65–1.00).",
+     "why": "Doesn't change the CRASH-2 approach for bleeding trauma: TXA 1 g over 10 minutes within 3 hours, then 1 g over 8 hours. It does not establish a pelvic-specific benefit, so timing and early hemorrhage control still matter most."
+    },
+    {
+     "topic": "Endocrine emergencies",
+     "study_type": "Network meta-analysis",
+     "takeaway": "Balanced fluids resolved DKA about 4 hours faster than saline, but lactated Ringer's carried hyperkalemia and AKI signals",
+     "title": "Effectiveness of various balanced electrolyte solutions in the resuscitation of patients with diabetic ketoacidosis: A pairwise meta-analysis and network meta-analysis.",
+     "journal": "Diabetes Res Clin Pract",
+     "pub_date": "Nov 2026",
+     "population": "18 studies comparing balanced solutions with saline; 16 studies in the network analysis",
+     "pmid": "42998723",
+     "summary": "Compared with normal saline, balanced solutions shortened time to DKA resolution (mean difference −4.41 hours) and hospital stay (−0.43 days), with higher bicarbonate and lower chloride after resuscitation, though heterogeneity was significant. Lactated Ringer's (−2.60 hours) and Sterofundin (−4.30 hours) both shortened resolution vs saline. Hyperkalemia (OR 4.06) and AKI (OR 2.26) were more common with LR than saline, and comparisons between balanced fluids were indirect.",
+     "why": "Adds support for a balanced crystalloid in adult DKA. The LR safety signal comes from indirect, low-precision data, so keep following potassium closely while insulin runs. Sterofundin isn't marketed in the US, so Plasma-Lyte or LR are the practical options here."
+    },
+    {
+     "topic": "Toxicology",
+     "study_type": "Drug-checking study (preprint)",
+     "takeaway": "Medetomidine rose to about a quarter of Southern California fentanyl samples within about 15 months",
+     "title": "Characterizing the Emergence of Medetomidine in Southern California Fentanyl Markets.",
+     "journal": "medRxiv",
+     "pub_date": "Oct 2026",
+     "population": "Community drug-checking samples, Southern California, 2023–2026 (22 quantified; 13 tested for enantiomers)",
+     "pmid": "42996303",
+     "summary": "Mass spectrometry of voluntarily submitted samples showed medetomidine co-present with fentanyl in about 6% of samples in May 2025, the month it was first detected, rising to about 25% by August 2026. Mean concentration was 0.4% by mass, often with lidocaine and xylazine. All 13 samples tested were racemic, which suggests the drug wasn't diverted from pharmaceutical dexmedetomidine. This preprint has not been peer reviewed, and drug-checking samples aren't a random sample of the supply.",
+     "why": "Medetomidine is an alpha-2 agonist, so expect sedation and bradycardia that outlast naloxone's effect, and possibly a severe withdrawal syndrome. Routine urine screens won't detect it, and medetomidine is now spreading beyond the eastern US."
+    },
+    {
+     "topic": "Empiric antimicrobials",
+     "study_type": "Target trial emulation",
+     "takeaway": "Best available antibiotics within 24 hours cut 14-day mortality in MDR gram-negative bacteremia, mainly for 3GC-resistant organisms",
+     "title": "Early best available antibiotic therapy for multidrug-resistant gram-negative bloodstream infections: a target trial emulation.",
+     "journal": "EClinicalMedicine",
+     "pub_date": "Oct 2026",
+     "population": "1,412 adults with MDR gram-negative bloodstream infection, 19 Asian countries (ACORN-HAI), 2022–2025",
+     "pmid": "42997807",
+     "summary": "Guideline-recommended therapy started within 24 hours of blood culture was associated with lower 14-day mortality (18.5% vs 25.6%; risk difference −7.1%, 95% CI −11.3 to −3.0). The benefit was clear for third-generation cephalosporin-resistant Enterobacterales (−7.4%), and larger in severe infections. Estimates for carbapenem-resistant Enterobacterales and Acinetobacter were uncertain, and most of that therapy was polymyxin-based.",
+     "why": "Supports reviewing prior cultures and risk factors at the first ED dose, and using a carbapenem early when ESBL risk is high. Speed alone may not rescue carbapenem-resistant infections treated with polymyxins, where agent choice also matters."
+    }
+   ]
+  },
+  {
    "date": "2026-11-07",
    "window": "Nov 6–7, 2026",
    "note": "No ED drug RCTs this window. The EM picks are a pharmacist-led stewardship study, two meta-analyses, a prospective analgesia cohort, a trauma tox study and a reversal-agent review, with two stewardship papers rounding it out. Read the observational items as practice context.",
