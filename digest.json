@@ -1,6 +1,102 @@
 {
  "issues": [
   {
+   "date": "2026-11-09",
+   "window": "Nov 8, 2026",
+   "note": "A very quiet Sunday window with no ED drug RCTs, so this issue is shorter. The EM picks are two retrospective cohorts and a post hoc STEMI analysis, and the rest is a phase 2 trial, a small open-label RCT and pharmacist-practice data. Read the observational items as hypothesis-generating.",
+   "bottom_line": [
+    "Nebulized TXA for hemoptysis didn't reduce 72-hour rebleeding in a matched ICU cohort, even as its use climbed to 78% of patients. It remains an unproven adjunct until randomized data arrive.",
+    "High bleeding risk alone doesn't identify STEMI patients who should skip aspirin at primary PCI: ischemic events ran numerically higher and bleeding numerically lower with prasugrel monotherapy, in both risk groups.",
+    "Don't start aspirin for sepsis on the strength of a large MIMIC-IV signal. The authors themselves say the lower early mortality can't be read as causal."
+   ],
+   "articles": [
+    {
+     "topic": "Hemostasis / Respiratory emergencies",
+     "study_type": "Cohort (propensity-matched)",
+     "takeaway": "Nebulized TXA didn't reduce 72-hour hemoptysis recurrence in ICU patients who didn't need immediate embolization",
+     "title": "Analysis of tranexamic acid in hemoptysis: effectiveness in a noninterventional evaluation (ATHENE).",
+     "journal": "Respir Med Res",
+     "pub_date": "Oct 2026",
+     "population": "228 ICU adults with hemoptysis not needing embolization within 6 hours, 1 center, 2017–2021",
+     "pmid": "42998371",
+     "summary": "A third of patients (75) got nebulized TXA, and its use grew from 0% to 78% over the study. After 1:2 propensity matching, recurrence of at least 50 mL by 72 hours was 10.7% with TXA vs 12.3% without (OR 0.93, 95% CI 0.37–2.32), and 30-day recurrence, respiratory failure, embolization and length of stay didn't differ. Thirty-day mortality was higher with TXA (9.3% vs 1.9%; OR 5.9), but events were few and mostly tied to underlying malignancy. Patients bleeding more than 200 mL at admission were excluded.",
+     "why": "Nebulized TXA has spread faster than its evidence. It is low cost and reasonable to discuss, but it shouldn't delay airway protection, reversal of anticoagulation or embolization, and this cohort is too small to rule out either benefit or harm."
+    },
+    {
+     "topic": "Sepsis",
+     "study_type": "Cohort (MIMIC-IV)",
+     "takeaway": "Low-dose aspirin in sepsis tracked with lower early mortality, but the authors caution against treating sepsis with it",
+     "title": "Time-dependent associations of documented low-dose aspirin administration with 28-day mortality and early safety outcomes in adults with sepsis: a MIMIC-IV cohort study.",
+     "journal": "Front Med (Lausanne)",
+     "pub_date": "Oct 2026",
+     "population": "31,888 adults with Sepsis-3 in a single-center US ICU database; 4,771 got aspirin 75–100 mg",
+     "pmid": "42996723",
+     "summary": "Time-dependent Cox models linked documented enteral aspirin to lower in-hospital mortality during the first 24 hours (HR 0.48, 95% CI 0.31–0.75) and at 24–72 hours (HR 0.63), with no clear association after that. Restricting to patients whose SOFA qualified by time zero gave similar numbers but a less certain first-day estimate (HR 0.54, 95% CI 0.28–1.03). A hemoglobin drop of 2 g/dL or more was slightly more common with early aspirin (RR 1.10), though many of those drops came before the first dose. The analysis had residual imbalance, and prior aspirin exposure was uncertain.",
+     "why": "Patients well enough to take enteral aspirin differ from those who can't, so survival bias is a real concern. A practical takeaway is narrower: don't reflexively stop home aspirin in septic patients without a bleeding reason."
+    },
+    {
+     "topic": "ACS / Antiplatelets",
+     "study_type": "RCT post hoc analysis",
+     "takeaway": "High bleeding risk didn't identify STEMI patients who benefit from skipping aspirin at primary PCI",
+     "title": "High Bleeding Risk and Aspirin Omission at the Time of Primary PCI in STEMI: A Post Hoc Analysis of the PREMIUM Trial.",
+     "journal": "J Am Coll Cardiol",
+     "pub_date": "Oct 2026",
+     "population": "2,189 Japanese STEMI patients randomized to low-dose prasugrel alone or aspirin plus prasugrel; 786 (36%) met ARC-HBR criteria",
+     "pmid": "42998063",
+     "summary": "High-bleeding-risk patients had more 12-month death, stroke or MI (16.2% vs 6.2%) and more BARC 3 or 5 bleeding (10.9% vs 4.9%) than others. Monotherapy vs DAPT gave ischemic rates of 18.0% vs 14.5% in HBR patients (HR 1.29, 95% CI 0.91–1.82) and 7.4% vs 5.0% in non-HBR patients (HR 1.55, 95% CI 1.01–2.37), with no significant interaction. Bleeding was numerically lower with monotherapy in both groups (HR 0.71 and 0.62). Precision was limited and the low-dose Japanese prasugrel regimen may not translate elsewhere.",
+     "why": "Keeps aspirin in the ED STEMI loading routine for now, even for patients at high bleeding risk. Bleeding risk matters more for later de-escalation decisions than for the first dose."
+    },
+    {
+     "topic": "Anticoagulation",
+     "study_type": "Cohort (TriNetX, propensity-matched)",
+     "takeaway": "DOACs were linked to lower mortality and intracranial bleeding than warfarin for LV thrombus in high-bleeding-risk patients",
+     "title": "One-Year Comparative Outcomes of Direct Oral Anticoagulants Versus Warfarin In Patients With Left Ventricular Thrombus And High Bleeding Risks.",
+     "journal": "Am J Cardiol",
+     "pub_date": "Nov 2026",
+     "population": "4,416 matched US adults with LV thrombus and high bleeding risk (2,208 per group), 2013–2023",
+     "pmid": "42998783",
+     "summary": "At 1 year, DOAC use was associated with lower mortality (24.9% vs 29.3%; HR 0.84), systemic embolism (1.9% vs 3.1%; HR 0.58), intracranial hemorrhage (1.3% vs 2.3%; HR 0.56) and hospitalization (72.0% vs 75.5%; HR 0.89). Stroke or TIA, cerebral infarction and major bleeding didn't differ significantly, even though the abstract's conclusion mentions reduced major bleeding. These health-record data can't capture warfarin INR control or DOAC dose appropriateness.",
+     "why": "Adds support for off-label DOAC use in LV thrombus, which comes up with post-MI patients at ED discharge and on admission. Check renal function and dose carefully in this high-risk group, and note the reported results don't support a major-bleeding advantage."
+    },
+    {
+     "topic": "Anticoagulation / New agents",
+     "study_type": "RCT (phase 2)",
+     "takeaway": "One infusion of either factor XI antibody cut PICC-related clots by more than half, with no major bleeding",
+     "title": "Amrecibart and cenvacibart for the prevention of catheter-related thrombosis (ROXI-CATH): a double-blind, randomised, placebo-controlled, phase 2 trial.",
+     "journal": "Lancet Haematol",
+     "pub_date": "Nov 2026",
+     "population": "195 adults getting a PICC expected to stay at least 14 days, 12 centers in 6 countries",
+     "pmid": "42998669",
+     "summary": "Patients were randomized to a single IV dose of amrecibart 300 mg, cenvacibart 250 mg or placebo, with ultrasounds at days 7 and 14. Venous thromboembolism by day 14 occurred in 20% with each antibody vs 43% with placebo (OR about 0.37 for both). There was no major bleeding in any group, and clinically relevant non-major bleeding was 3% in all three arms. Most clots were found by protocol ultrasound, the trial was industry funded (Regeneron), and it wasn't powered for clinical outcomes.",
+     "why": "Factor XI inhibition is moving closer to the clinic, and a single-dose agent would raise new questions about duration of effect and reversal. Good to have on the radar for patients with a PICC who present with bleeding or an arm clot in coming years."
+    },
+    {
+     "topic": "Pharmacist-led care",
+     "study_type": "Cohort (time-dependent)",
+     "takeaway": "More accepted pharmacist interventions were associated with better survival in a pediatric ICU",
+     "title": "Association of Cumulative Pharmacist Interventions and Interprofessional Adherence With Survival Among Patients Requiring Pharmacotherapeutic Optimization in a Pediatric Intensive Care Unit: A Retrospective Time-Dependent Cohort Study.",
+     "journal": "J Am Coll Clin Pharm",
+     "pub_date": "Nov 2026",
+     "population": "565 children with a PICU stay over 24 hours and at least one pharmacist intervention, 1 tertiary center, 2019–2021",
+     "pmid": "43000161",
+     "summary": "Overall mortality was 11.9%, and the team accepted 72.2% of recommendations. Each additional cumulative intervention was tied to a small drop in the hazard of PICU death (HR 0.989, p = 0.040), and accepted interventions showed a somewhat stronger link (HR 0.983, p = 0.025), including in both surgical and non-surgical patients. Baseline illness severity remained the strongest predictor of death. Only patients who received an intervention were included, so there is no comparison to care without a pharmacist.",
+     "why": "Useful framing for justifying critical care and ED pharmacist positions: acceptance of recommendations, and not just their number, is what tracked with survival. The design can't prove causation."
+    },
+    {
+     "topic": "Supportive care / Analgesia",
+     "study_type": "RCT (open-label)",
+     "takeaway": "A short dexamethasone course reduced nausea when starting oral morphine in opioid-naive cancer patients",
+     "title": "Prophylactic dexamethasone for prevention of opioid-induced nausea and vomiting in cancer patients: a randomised controlled trial (DEX-OINV Trial).",
+     "journal": "Support Care Cancer",
+     "pub_date": "Nov 2026",
+     "population": "150 opioid-naive adults starting oral morphine, 1 tertiary cancer center",
+     "pmid": "42998233",
+     "summary": "Patients got prophylactic oral dexamethasone (74) or no prophylaxis (76), with rescue antiemetics available in both arms. Mean nausea scores were lower with dexamethasone on day 1 (1.36 vs 2.93) and day 5 (0.74 vs 1.53), with a number needed to treat of 5 on day 1 for clinically meaningful nausea (adjusted OR 0.38). Vomiting fell on day 1 and no serious adverse events occurred. The open-label design and subjective outcome leave room for bias.",
+     "why": "A cheap option worth knowing for oncology patients started on opioids at ED discharge, but steroid effects on glucose and infection risk should be weighed. The result doesn't extend to non-cancer patients."
+    }
+   ]
+  },
+  {
    "date": "2026-11-08",
    "window": "Nov 7–8, 2026",
    "note": "A stronger window than most: one Lancet RCT in cardiogenic shock, three new intra-arterial tenecteplase trials and a small septic shock fluid RCT. The other picks are observational or meta-analytic, and the medetomidine item is a preprint that hasn't been peer reviewed.",
@@ -1161,114 +1257,6 @@
      "pmid": "42951789",
      "summary": "Patients got esketamine (0.1 mg/kg bolus, 0.1 mg/kg/h intraoperatively, then 0.015 mg/kg/h for 48 hours) or saline. Chronic pain at 3 months was less common with esketamine (14.7% vs 21.2%; aOR 0.62). Early pain scores and rescue analgesic use were also lower, with no increase in adverse effects.",
      "why": "Adds RCT support for sub-dissociative ketamine as an opioid-sparing adjunct. Racemic ketamine is roughly twice the esketamine dose, so convert carefully before applying these regimens."
-    }
-   ]
-  },
-  {
-   "date": "2026-10-28",
-   "window": "Oct 26–27, 2026",
-   "note": "A light two-day window with no major EM pharmacotherapy RCTs, so most picks are meta-analyses, cohorts and reviews. Treat the observational items as hypothesis-generating.",
-   "bottom_line": [
-    "Intranasal or buccal midazolam stops pediatric seizures about as well as IV benzos, works faster than rectal diazepam, and cuts early recurrence.",
-    "In warfarin-associated ICH, base 4F-PCC decisions on bleed severity and neuro status (GCS), not an INR cutoff alone.",
-    "Calcium shifts on trauma arrival go both ways, and some hypercalcemia followed empiric prehospital calcium. Check an ionized Ca before repeat dosing."
-   ],
-   "articles": [
-    {
-     "topic": "Neuro emergencies",
-     "study_type": "Meta-analysis",
-     "takeaway": "Intranasal/buccal midazolam matches IV benzos for pediatric seizures and gets in faster",
-     "title": "Efficacy and safety of intranasal and buccal midazolam versus intravenous, intramuscular, and rectal benzodiazepines for the termination of acute seizures in children: a systematic review and meta-analysis.",
-     "journal": "Seizure",
-     "pub_date": "Oct 2026",
-     "population": "23 RCTs, 2,238 children with acute seizures",
-     "pmid": "42945751",
-     "summary": "Pooled RCTs found that transmucosal midazolam stopped seizures within 10 minutes at a rate similar to all comparators (RR 1.04) and better than rectal diazepam (RR 1.18). It also cut recurrence within 60 minutes (RR 0.62) and was given faster, shortening overall time to seizure control. Respiratory depression and hypoxia did not differ from the other routes.",
-     "why": "Supports IN/buccal midazolam as first-line rescue when there's no IV access. Worth knowing the dosing and the atomizer setup for peds codes and EMS handoffs."
-    },
-    {
-     "topic": "Anticoagulant reversal",
-     "study_type": "Cohort",
-     "takeaway": "In geriatric warfarin ICH, GCS predicted death and INR didn't; don't gate 4F-PCC on INR alone",
-     "title": "Is the International Normalized Ratio (INR) Enough? Reevaluating INR-Based Decision-Making for Four-Factor Prothrombin Complex Concentrate in Geriatric Warfarin-Associated Intracranial Hemorrhage: A Multicenter Cohort Study.",
-     "journal": "Biomedicines",
-     "pub_date": "Sep 2026",
-     "population": "60 patients aged ≥65 with non-traumatic warfarin ICH, 5 Turkish centers",
-     "pmid": "42939996",
-     "summary": "Patients who got 4F-PCC had higher INRs than those managed without it, but neither INR nor 4F-PCC use was independently linked to in-hospital mortality. Admission GCS was strongly protective (aOR 0.37 per point). The sample is small and the comparator group was mixed (vitamin K, FFP, or nothing), so the findings are hypothesis-generating.",
-     "why": "Supports current guidance that reversal follows bleed severity, not an INR threshold. That matters when an order is held waiting for a lab value."
-    },
-    {
-     "topic": "Trauma resuscitation",
-     "study_type": "Prospective cohort",
-     "takeaway": "About 1 in 4 trauma activations arrive with abnormal calcium, and some hypercalcemia followed prehospital calcium",
-     "title": "Prehospital factors associated with calcium derangements upon arrival to the trauma center from scene - A subanalysis of a multicenter prospective study.",
-     "journal": "Am J Emerg Med",
-     "pub_date": "Sep 2026",
-     "population": "1,047 highest-level trauma activations arriving by EMS, 3 US trauma centers",
-     "pmid": "42945810",
-     "summary": "On arrival, 235 patients were hypocalcemic and 39 were hypercalcemic, and both groups survived less often than patients with normal calcium. Hypocalcemia showed up even in patients who got no blood or fluids (16%), and 5 of the 39 hypercalcemic patients had received prehospital calcium. High shock index was associated with both problems, but nothing in the prehospital assessment reliably predicted which way calcium would go.",
-     "why": "Argues for checking ionized Ca on arrival over reflexive repeat calcium dosing. Relevant to MTP order sets and protocols for empiric calcium with blood products."
-    },
-    {
-     "topic": "Endocrine emergencies",
-     "study_type": "Scoping review",
-     "takeaway": "SubQ insulin pathways for mild–moderate DKA look comparable to IV drips and may cut ICU use",
-     "title": "Subcutaneous insulin for mild-to-moderate diabetic ketoacidosis: a scoping review and implementation framework.",
-     "journal": "Am J Emerg Med",
-     "pub_date": "Oct 2026",
-     "population": "13 adult studies of SUBQ insulin for DKA",
-     "pmid": "42945811",
-     "summary": "Across 13 mostly small, single-center studies, subcutaneous rapid-acting insulin protocols reached DKA resolution in about the same time as IV insulin in selected patients with uncomplicated DKA. They also showed operational gains in ICU admissions and ED length of stay. The authors propose a framework for patient selection, dosing and monitoring, and note that higher-risk groups were excluded from most studies.",
-     "why": "A pharmacist-friendly framework if your ED is building a SubQ DKA pathway. Check eligibility criteria and how glucose and potassium are monitored."
-    },
-    {
-     "topic": "Stroke",
-     "study_type": "Meta-analysis",
-     "takeaway": "Adjunctive intra-arterial thrombolysis after thrombectomy improves mRS 0–1; the mortality signal is unresolved",
-     "title": "Functional Benefit and Safety of Adjunctive Intra-Arterial Thrombolysis After Successful Endovascular Thrombectomy: An Updated and Cumulative Meta-Analysis of Randomized Trials.",
-     "journal": "J Clin Med",
-     "pub_date": "Oct 2026",
-     "population": "9 RCTs, 2,828 patients with LVO stroke after successful EVT",
-     "pmid": "42941293",
-     "summary": "Intra-arterial alteplase, tenecteplase or urokinase given after successful reperfusion raised the chance of an excellent outcome (mRS 0–1; RR 1.27, I² 0%), and the effect held up in fragility testing. Overall 90-day mortality did not differ significantly (RR 1.04), but the estimate shifted toward harm after CHOICE-2 was added, and the authors say neutrality on survival can't be assumed.",
-     "why": "As post-EVT IA lytics spread, pharmacists may get asked about dosing and stocking. The benefit looks real, but the safety question is still open."
-    },
-    {
-     "topic": "Toxicology",
-     "study_type": "GBD analysis",
-     "takeaway": "Global CO and pesticide poisoning burden has fallen sharply since 1990, but low-income regions lag",
-     "title": "Global, regional, and national burden of unintentional poisoning, 1990-2023: results from the Global Burden of Disease Study 2023.",
-     "journal": "Lancet Public Health",
-     "pub_date": "Oct 2026",
-     "population": "204 countries and territories, 1990–2023",
-     "pmid": "42945982",
-     "summary": "In 2023, unintentional poisoning by carbon monoxide and other (mostly pesticide) agents caused about 2.5 million cases and 69,805 deaths worldwide. Age-standardized DALY rates fell 47.5% since 1990, with a 58% drop for CO. Case fatality was highest in low-SDI regions. Drug and illicit-substance poisonings are not counted in this GBD category.",
-     "why": "Useful epidemiologic context for CO and organophosphate tox. Remember that it leaves out pharmaceutical and illicit-drug overdoses."
-    },
-    {
-     "topic": "Cardiology / anticoagulation",
-     "study_type": "Target trial emulation",
-     "takeaway": "Stopping anticoagulation at nursing-home entry wasn't linked to more strokes in AF",
-     "title": "Stroke and Bleeding Risk in Long-Term Care Residents With Atrial Fibrillation Who Discontinue Anticoagulation.",
-     "journal": "JAMA Netw Open",
-     "pub_date": "Oct 2026",
-     "population": "15,426 Medicare LTC residents with AF on anticoagulation (mean age 83)",
-     "pmid": "42931771",
-     "summary": "Using a target trial emulation with clone-censor weighting, residents who stopped anticoagulation had stroke risk (sHR 1.07) and bleeding risk (sHR 1.02) similar to those who continued. Mortality was higher in the group that stopped (HR 1.27), which probably reflects confounding by frailty and goals of care. Very high competing mortality and claims-based outcomes limit what the study can show.",
-     "why": "Useful for deprescribing talks in frail older adults. In the ED, expect more LTC patients with AF who are off anticoagulation."
-    },
-    {
-     "topic": "Infectious disease",
-     "study_type": "Cross-sectional (NIS)",
-     "takeaway": "Drug use–associated endocarditis is falling overall, but stimulant-linked cases are rising",
-     "title": "Changing National and Regional Trends in Drug Use-Associated Infective Endocarditis From 2016 to 2022.",
-     "journal": "Clin Infect Dis",
-     "pub_date": "Oct 2026",
-     "population": "~118,000 US DUA-IE hospitalizations, 2016–2022",
-     "pmid": "42937526",
-     "summary": "National DUA-IE hospitalizations peaked in 2020 (about 18,700) and fell through 2022. Over the study period, the opioid-only share dropped from 49% to 40%, while opioid-plus-stimulant co-use rose from 23% to 29% and stimulant-only cases from 15% to 18%. The probability of stimulant involvement was highest in the Pacific division (0.59).",
-     "why": "Shapes empiric IE workups and harm-reduction counseling at ED discharge. MOUD alone won't address stimulant-driven injection risk."
     }
    ]
   }
