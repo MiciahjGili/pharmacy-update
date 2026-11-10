@@ -1,6 +1,114 @@
 {
  "issues": [
   {
+   "date": "2026-11-10",
+   "window": "Nov 9, 2026",
+   "note": "A heavy cardiology window (several NEJM outcome trials landed at once) but a light one for ED pharmacotherapy, with no ED drug RCTs. The EM picks are a toxicology guidance paper, a pediatric resuscitation dosing meta-analysis, a large nonrandomized ECPR study and a BP-target trial in prior stroke.",
+   "bottom_line": [
+    "A suspected medical-aid-in-dying mixture exposure (benzodiazepine or barbiturate, opioid, plus digoxin, beta-blocker or TCA) needs a digoxin level, serial ECGs and poison center input. Have digoxin Fab, high-dose insulin and bicarbonate ready, and avoid flumazenil and reflexive naloxone in the mixed ingestion.",
+    "For pediatric resuscitation drug dosing, a habitus-corrected length tape (PAWPER) beat the Broselow tape on weight accuracy, dose accuracy and time to drug, while age-based weight formulas were consistently inaccurate.",
+    "Prehospital ECPR by helicopter teams was linked to doubled survival to discharge (40% vs 20%) in refractory OHCA patients 50 or younger, but the study wasn't randomized."
+   ],
+   "articles": [
+    {
+     "topic": "Toxicology",
+     "study_type": "Review / Management guidance",
+     "takeaway": "Accidental exposure to medical-aid-in-dying drug mixtures is survivable with fast, toxin-specific ED care",
+     "title": "Unintended Exposure to Medical Aid in Dying Drug Mixtures: Principles of Emergency Care.",
+     "journal": "Ann Emerg Med",
+     "pub_date": "Nov 2026",
+     "population": "Narrative review with proposed management principles; US context as MAID expands (New York legalized it in Aug 2026)",
+     "pmid": "43002154",
+     "summary": "MAID mixtures are self-administered at home and typically combine a benzodiazepine and/or barbiturate, an opioid, and a cardiotoxin such as digoxin, a beta-blocker or a TCA, so a child or other unintended person may ingest a partial dose. The authors propose early poison center contact, supportive resuscitation, activated charcoal or gastric aspiration when safe, a serum digoxin level and serial ECGs, and toxin-specific therapy: digoxin immune Fab, high-dose insulin for propranolol, and sodium bicarbonate for TCA-related QRS widening. They advise avoiding flumazenil and naloxone in these mixed ingestions. These are expert recommendations, not trial-based.",
+     "why": "A new exposure type for ED pharmacists to plan for as more states legalize MAID. Confirm digoxin Fab stock and a high-dose insulin protocol, and remember that reversing sedation can unmask seizures or arrhythmias in a mixed ingestion."
+    },
+    {
+     "topic": "Pediatric resuscitation / Dosing",
+     "study_type": "Systematic review & meta-analysis",
+     "takeaway": "A habitus-corrected length tape beat the Broselow tape for pediatric resuscitation weight and dose accuracy",
+     "title": "Weight Estimation and Dose Calculation in Resuscitation: A Systematic Review and Meta-Analysis.",
+     "journal": "Pediatrics",
+     "pub_date": "Nov 2026",
+     "population": "250 studies of weight-estimation and dose-calculation tools in children (9 in children actually being resuscitated)",
+     "pmid": "43003124",
+     "summary": "Compared with the Broselow tape, the PAWPER tape (a length-based tape that adds a body-habitus correction) was better for weight accuracy, dose accuracy and time to drug administration in every analysis. In paired comparisons it more than doubled the odds of an estimate within 10% of true weight (OR 2.48, 95% CI 2.04–3.02). Age-based formulas got fewer than half of estimates within 10%. No study reported patient outcomes, and children longer than the tape or with growth problems were often excluded.",
+     "why": "Weight errors are a leading source of pediatric code dosing mistakes. Supports habitus-adjusted tapes or measured weights over age formulas, paired with pharmacist-verified, pre-calculated dosing references."
+    },
+    {
+     "topic": "Cardiac arrest / ECPR",
+     "study_type": "Nonrandomized controlled study",
+     "takeaway": "Helicopter teams that could start ECPR on scene doubled survival to discharge in young refractory OHCA patients",
+     "title": "Prehospital Extracorporeal Life Support in Refractory Out-of-Hospital Cardiac Arrest.",
+     "journal": "N Engl J Med",
+     "pub_date": "Nov 2026",
+     "population": "231 adults aged 50 or younger with refractory OHCA, nationwide in the Netherlands (OnScene)",
+     "pmid": "43001740",
+     "summary": "Patients attended by ECPR-equipped helicopter EMS teams (144) were compared with those attended by teams without ECPR capability (87). Survival to hospital discharge was 40% vs 20% (OR 2.72, 95% CI 1.59–4.66), and favorable neurologic outcome at 6 months was 36% vs 13% (OR 4.22). Adverse events were more frequent with ECPR (32 vs 11). Allocation depended on which team responded, not randomization, so confounding remains possible.",
+     "why": "As ECPR moves earlier in the chain of survival, pharmacists will own the heparin bolus at cannulation, sedation and vasopressor plans, and post-arrest drug management. Worth knowing for EDs considering ECPR programs."
+    },
+    {
+     "topic": "Stroke / Antihypertensives",
+     "study_type": "RCT",
+     "takeaway": "Targeting systolic BP under 120 after ischemic stroke or TIA cut major cardiovascular events by about a fifth",
+     "title": "Intensive Blood-Pressure Control in Patients with Previous Ischemic Stroke.",
+     "journal": "N Engl J Med",
+     "pub_date": "Nov 2026",
+     "population": "4,368 adults with elevated BP and prior ischemic stroke or TIA, 30 sites in Brazil (OPTIMAL-STROKE)",
+     "pmid": "43001741",
+     "summary": "In this open-label trial, achieved systolic BP was about 122 vs 135 mm Hg. Over a median of 3.9 years, cardiovascular death, MI, stroke or hospitalization for unstable angina or heart failure occurred in 10.9% with intensive treatment vs 13.5% with standard treatment (HR 0.79, 95% CI 0.67–0.94). The composite kidney outcome was more common with intensive treatment, while overall serious adverse events were similar. A companion trial in type 2 diabetes (OPTIMAL-DIABETES, PMID 43001746) found no significant benefit of the same target (HR 0.90).",
+     "why": "Supports aggressive long-term BP goals once the acute stroke phase is over, which shapes discharge regimens and med counseling. It doesn't apply to acute BP management in the first hours of stroke, and kidney function needs monitoring."
+    },
+    {
+     "topic": "Deprescribing / Lipids",
+     "study_type": "RCT (noninferiority)",
+     "takeaway": "Stopping primary-prevention statins in multimorbid adults 70 and older was noninferior at 2 years, but events ran higher",
+     "title": "Discontinuing Statins in Older Adults without Cardiovascular Disease.",
+     "journal": "N Engl J Med",
+     "pub_date": "Nov 2026",
+     "population": "1,880 adults aged 70 or older (mean 77.5) with at least two chronic conditions taking statins for primary prevention, international (STREAM)",
+     "pmid": "43001742",
+     "summary": "Participants were randomized to stop or continue statins and other lipid-lowering drugs in an open-label design. The difference in event-free survival time at 2 years was −2.0 weeks (95% CI −3.7 to −0.3), within the −5.2-week noninferiority margin. However, nonfatal MI, nonfatal ischemic stroke or death occurred in 12.7% after stopping vs 9.2% with continuation, and serious adverse events were 43.0% vs 39.8%. Follow-up was only about 2 years.",
+     "why": "Noninferior isn't the same as harmless: the raw event rates favored continuing. For pharmacists doing deprescribing reviews, stopping is a reasonable shared decision in frail older adults with limited life expectancy, not a default."
+    },
+    {
+     "topic": "Cardiology / New agents",
+     "study_type": "RCT (phase 3)",
+     "takeaway": "IL-6 blockade with ziltivekimab lowered inflammation markers but didn't reduce cardiovascular events",
+     "title": "Interleukin-6 Inhibition with Ziltivekimab for Atherosclerotic Disease.",
+     "journal": "N Engl J Med",
+     "pub_date": "Nov 2026",
+     "population": "6,376 adults with atherosclerotic CVD, CKD and hs-CRP of 2 mg/L or higher, multinational (ZEUS)",
+     "pmid": "43001751",
+     "summary": "Monthly subcutaneous ziltivekimab 15 mg cut free IL-6 by 76 and hs-CRP by 64 percentage points vs placebo at 24 months. Over a median of 33 months, cardiovascular death, MI or stroke occurred in 17.6% vs 17.7% (HR 0.99, 95% CI 0.88–1.11). Serious infections were somewhat more frequent with ziltivekimab (20.4% vs 17.9%). The trial was funded by Novo Nordisk.",
+     "why": "A major negative result for the inflammation hypothesis in cardiovascular disease, at least for IL-6 in CKD. Lowering a biomarker didn't translate into fewer events, and infection risk rose."
+    },
+    {
+     "topic": "Lipids / New agents",
+     "study_type": "RCT (phase 3)",
+     "takeaway": "Pelacarsen cut lipoprotein(a) by about 70% but didn't reduce cardiovascular events over almost 5 years",
+     "title": "Pelacarsen and Cardiovascular Outcomes in Patients with High Lipoprotein(a).",
+     "journal": "N Engl J Med",
+     "pub_date": "Nov 2026",
+     "population": "8,322 adults with established CVD and Lp(a) of 70 mg/dL or higher, international (Lp(a)HORIZON)",
+     "pmid": "43001734",
+     "summary": "Monthly subcutaneous pelacarsen 80 mg lowered median Lp(a) from about 236 to 64 nmol/L at 12 months, while levels stayed near baseline with placebo. Over a median of 4.7 years, major adverse cardiovascular events occurred in 12.3% vs 12.1% (HR 1.02, 95% CI 0.90–1.15), with no benefit in patients with Lp(a) of 90 mg/dL or higher either. Serious adverse events were slightly lower with pelacarsen (37.3% vs 41.1%). The trial was funded by Novartis.",
+     "why": "The first Lp(a)-lowering outcomes trial was negative, which tempers expectations for the other Lp(a) agents in development. For now, high Lp(a) remains a risk marker that calls for aggressive LDL and BP control."
+    },
+    {
+     "topic": "Infectious disease / Pediatrics",
+     "study_type": "Clinical consultation",
+     "takeaway": "Vitamin A is recommended for confirmed measles, but no US liquid formulation makes it easy to give young children",
+     "title": "Clinical consultation: The role of vitamin A in the management of confirmed acute measles infection.",
+     "journal": "Am J Health Syst Pharm",
+     "pub_date": "Nov 2026",
+     "population": "Review of evidence and practical administration issues amid record 2026 US measles cases",
+     "pmid": "43000905",
+     "summary": "US measles cases in 2026 are the highest in more than 30 years. WHO and the AAP recommend vitamin A for confirmed acute measles, but the US lacks an FDA-approved concentrated liquid, so children who can't swallow capsules need cumbersome extraction methods. The authors advise confirming the diagnosis, screening for drug interactions, and checking for toxicity symptoms in patients who already received vitamin A.",
+     "why": "Children with measles will show up in the ED. Pharmacists should know the age-based doses (50,000 IU under 6 months, 100,000 IU at 6–11 months, 200,000 IU at 12 months or older, daily for 2 days) and have a plan for preparing doses from capsules."
+    }
+   ]
+  },
+  {
    "date": "2026-11-09",
    "window": "Nov 8, 2026",
    "note": "A very quiet Sunday window with no ED drug RCTs, so this issue is shorter. The EM picks are two retrospective cohorts and a post hoc STEMI analysis, and the rest is a phase 2 trial, a small open-label RCT and pharmacist-practice data. Read the observational items as hypothesis-generating.",
@@ -1149,114 +1257,6 @@
      "pmid": "42953132",
      "summary": "Most children had a direct oral challenge (94%), and 98.6% tolerated it. Full tolerance, including a 5-day home course, was confirmed in 80%. Among tolerant children with follow-up, 64% later used penicillin again with no reactions, while 36% had no documented use. Younger age and less time since the challenge predicted reuse.",
      "why": "Delabeling only works if the EHR allergy entry is actually removed. ED pharmacists can check for a negative challenge and remove stale labels before defaulting to broader agents."
-    }
-   ]
-  },
-  {
-   "date": "2026-10-29",
-   "window": "Oct 28–29, 2026",
-   "note": "Off-schedule Thursday run covering everything added since Wednesday's issue. No major EM drug RCTs landed, so most picks are cohorts and reviews; read the observational items as hypothesis-generating.",
-   "bottom_line": [
-    "For ED headache, start with a dopamine antagonist rather than an opioid. Opioid-first patients returned to the ED more often within 72 hours.",
-    "Concentrated 7-OH kratom tablets can deliver many times the opioid dose of leaf kratom and caused a fatal opioid toxidrome. Treat these exposures as opioid overdoses.",
-    "Protect multi-dose ketamine vials from light. A nitrosamine impurity built up past the acceptable limit in clear vials after light exposure."
-   ],
-   "articles": [
-    {
-     "topic": "Acute pain / Headache",
-     "study_type": "Cohort",
-     "takeaway": "Opioid-first ED headache treatment was linked to more 72-hour returns than dopamine antagonists",
-     "title": "Opioids as the earliest acute treatment for emergency department headache and short-term all-cause emergency department return: A two-center comparative cohort study.",
-     "journal": "Headache",
-     "pub_date": "Oct 2026",
-     "population": "13,285 adults treated for headache at 2 US academic EDs (MIMIC-IV-ED, MC-MED)",
-     "pmid": "42949187",
-     "summary": "The study compared first-line opioids with guideline-preferred dopamine-receptor antagonists (e.g., prochlorperazine, metoclopramide). Among discharged patients, opioid-first treatment was associated with more all-cause ED returns at 72 hours (6.8% vs 3.8%; RR 1.78) and at 7 days (RR 1.62). The opioid group was older and higher acuity, and the signal weakened and lost significance when only headache-coded returns were counted.",
-     "why": "Adds real-world support for making dopamine antagonists the default on ED headache order sets. It's a useful data point when a prescriber reaches for hydromorphone first."
-    },
-    {
-     "topic": "Toxicology",
-     "study_type": "Case report",
-     "takeaway": "A concentrated 7-OH kratom tablet product caused a fatal opioid-like toxidrome",
-     "title": "Fatal Opioid-Like Toxidrome Associated With a 7-Hydroxymitragynine Kratom Product.",
-     "journal": "Ann Emerg Med",
-     "pub_date": "Oct 2026",
-     "population": "1 adult death after 3 commercial 7-HMG tablets plus alcohol, Louisiana",
-     "pmid": "42949698",
-     "summary": "A 42-year-old man died after taking 3 tablets of a commercial 7-hydroxymitragynine (7-HMG) product with several beers. Autopsy showed severe pulmonary edema and a distended bladder, consistent with opioid toxicity. Each tablet held about 29 mg of 7-HMG plus mitragynine pseudoindoxyl, an even more potent μ-agonist. The total dose was roughly 19 to 87 times the 7-HMG exposure from a high dose of leaf kratom.",
-     "why": "Gas-station 7-OH products act like potent opioids. Expect respiratory depression, give naloxone, and ask specifically about these products when taking a med history."
-    },
-    {
-     "topic": "Toxicology",
-     "study_type": "Interrupted time series",
-     "takeaway": "Scheduling bromazolam lowered its presence in street opioids, but analogues replaced it",
-     "title": "Impact of drug scheduling on detection of bromazolam in the unregulated opioid supply: An interrupted time series analysis.",
-     "journal": "Drug Alcohol Depend",
-     "pub_date": "Oct 2026",
-     "population": "43,760 drug-checking samples, 142 sites in British Columbia, 2022–2026",
-     "pmid": "42950364",
-     "summary": "Bromazolam detection in expected-opioid samples began falling after the WHO recommended scheduling it. It briefly jumped when China banned it, then settled below pre-scheduling levels. As bromazolam declined, another designer benzodiazepine (desalkylgidazepam) rose in its place. The authors conclude that scheduling broke the market into more substances rather than removing benzodiazepine adulteration.",
-     "why": "Benzo-adulterated opioid overdoses will keep producing sedation that lingers after naloxone. Standard urine benzo immunoassays may miss the newer designer analogues."
-    },
-    {
-     "topic": "Sepsis / Empiric antimicrobials",
-     "study_type": "Cohort",
-     "takeaway": "In HSCT neutropenic fever, time to antibiotics wasn't linked to deterioration",
-     "title": "Association between time-to-antibiotics and clinical outcomes in neutropenic fever after hematopoietic stem cell transplant.",
-     "journal": "Support Care Cancer",
-     "pub_date": "Oct 2026",
-     "population": "224 antibiotic-naïve neutropenic fever episodes within 30 days of HSCT, 1 US academic center",
-     "pmid": "42946869",
-     "summary": "Median time to antibiotics was 1.2 hours, and 38% of episodes got antibiotics within 1 hour. Getting antibiotics within an hour was not associated with clinical deterioration (vasopressors, ventilation, or 90-day death; aOR 1.18), and neither was each additional hour of delay (aOR 1.03). Only 17 patients deteriorated, so the study can't rule out a small effect.",
-     "why": "Challenges whether the 1-hour rule from septic shock applies to stable neutropenic fever. Treat it as hypothesis-generating; it isn't a reason to slow down cefepime or pip-tazo in the ED."
-    },
-    {
-     "topic": "Prehospital analgesia",
-     "study_type": "Systematic review",
-     "takeaway": "Prehospital opioids, ketamine, methoxyflurane and acetaminophen all look safe and effective for trauma pain",
-     "title": "Prehospital Analgesia in Trauma: A Systematic Review of Current Evidence.",
-     "journal": "Emerg Med Australas",
-     "pub_date": "Dec 2026",
-     "population": "17 studies (6 RCTs), 17,115 injured adults",
-     "pmid": "42947661",
-     "summary": "The review covered studies from 2014 to 2026 of systemic prehospital analgesics in adult trauma patients. All agents relieved pain to some degree. Serious drug-related adverse events were reported in only one opioid study, while nausea, dizziness, dysphoria and drowsiness were common. Protocols and methods varied widely, which limits head-to-head conclusions.",
-     "why": "Supports giving analgesia early, before ED arrival. It's a reasonable reference when EMS and ED protocols are being aligned on ketamine and opioid dosing."
-    },
-    {
-     "topic": "Medication safety",
-     "study_type": "Lab stability study",
-     "takeaway": "Light exposure of clear multi-dose ketamine vials drove nitrosamine levels above safety limits",
-     "title": "The photostability of ketamine products: part ii impact of light exposure and storage on multi-use ketamine parenteral products.",
-     "journal": "Int J Pharm",
-     "pub_date": "Oct 2026",
-     "population": "10 mg/mL multi-use ketamine vials under ambient and intense light, then stored",
-     "pmid": "42951220",
-     "summary": "Researchers measured N-nitroso-ketamine (NNKet), a potentially carcinogenic nitrosamine impurity, in vials exposed to light and then stored. Levels dipped during light exposure and then rose sharply in storage, from about 5 ng/mL to as high as 100 ng/mL within 8 weeks. That is well above the 14 ng/mL acceptable-intake limit. Light-protected control vials barely changed.",
-     "why": "Store opened multi-dose ketamine vials protected from light (in cartons or ADC pockets) and follow beyond-use dates. Expect future packaging or labeling changes, such as amber vials."
-    },
-    {
-     "topic": "Cardiology / anticoagulation",
-     "study_type": "Cohort",
-     "takeaway": "In AF patients 80 and older, continuing anticoagulation was linked to lower mortality",
-     "title": "Anticoagulation and All-Cause Mortality in Adults Aged 80 Years and Older with Atrial Fibrillation: A Retrospective Cohort Study.",
-     "journal": "J Gen Intern Med",
-     "pub_date": "Oct 2026",
-     "population": "45,305 adults aged ≥80 with AF, large US health system",
-     "pmid": "42946923",
-     "summary": "In a time-varying Cox model, anticoagulation was associated with 25% lower all-cause mortality (HR 0.75). One-year mortality was 8.7% in patients who continued anticoagulation and 17.7% in those never treated. GI bleeding was more common with anticoagulation, but intracranial hemorrhage rates were low and similar across groups (1.3–1.6%). The mortality difference faded by 5 years, and residual confounding is likely.",
-     "why": "Age alone shouldn't stop a DOAC. This study is a counterweight to Wednesday's nursing-home discontinuation data, so look at frailty and goals of care, not birth year."
-    },
-    {
-     "topic": "Analgesia",
-     "study_type": "RCT",
-     "takeaway": "Low-dose esketamine around thoracic surgery cut chronic pain at 3 months",
-     "title": "Effects of perioperative esketamine infusion on chronic pain after video-assisted thoracoscopic lung resection: a multicentre, randomised, double-blind clinical trial.",
-     "journal": "Br J Anaesth",
-     "pub_date": "Oct 2026",
-     "population": "914 adults undergoing VATS lung resection, multicenter China",
-     "pmid": "42951789",
-     "summary": "Patients got esketamine (0.1 mg/kg bolus, 0.1 mg/kg/h intraoperatively, then 0.015 mg/kg/h for 48 hours) or saline. Chronic pain at 3 months was less common with esketamine (14.7% vs 21.2%; aOR 0.62). Early pain scores and rescue analgesic use were also lower, with no increase in adverse effects.",
-     "why": "Adds RCT support for sub-dissociative ketamine as an opioid-sparing adjunct. Racemic ketamine is roughly twice the esketamine dose, so convert carefully before applying these regimens."
     }
    ]
   }
