@@ -1,6 +1,114 @@
 {
  "issues": [
   {
+   "date": "2026-11-11",
+   "window": "Nov 10, 2026",
+   "note": "No ED drug RCTs this window. The EM picks are a large secondary analysis of two airway trials, a peripheral vasopressor extravasation series, an ACMT naloxone position statement, and inpatient analgesia and stroke anticoagulation cohorts. One ICU analgesia RCT and two pharmacist-relevant studies fill out the issue.",
+   "bottom_line": [
+    "In pooled DEVICE and PREOXI data, ketamine induction was linked to more peri-intubation cardiovascular collapse than etomidate (20% vs 14%), mainly new or higher vasopressor needs. It wasn't randomized, but it argues against assuming ketamine is the hemodynamically safer choice.",
+    "Expired naloxone is better than no naloxone: ACMT now says to give it when an unexpired product isn't on hand.",
+    "When peripheral vasopressors infiltrated and phentolamine was given, serious tissue injury was rare (2 of 92), even though phentolamine came a mean of about 2 hours after the event."
+   ],
+   "articles": [
+    {
+     "topic": "RSI / Induction agents",
+     "study_type": "Secondary analysis of 2 RCTs",
+     "takeaway": "Ketamine was linked to more peri-intubation cardiovascular collapse than etomidate in critically ill adults",
+     "title": "Ketamine Vs. Etomidates and Cardiovascular Collapse During Emergency Tracheal Intubation: A Secondary Analysis of the DEVICE and PREOXI Trials.",
+     "journal": "Crit Care Explor",
+     "pub_date": "Nov 2026",
+     "population": "2,357 adults intubated in US EDs and ICUs (1,822 etomidate, 312 ketamine, 223 other), DEVICE and PREOXI trials",
+     "pmid": "43007299",
+     "summary": "Induction drug choice wasn't randomized, so the authors treated it as an observational exposure and used weighting and covariate adjustment. Cardiovascular collapse (new or increased vasopressor, SBP under 65 mm Hg or arrest within 2 minutes of intubation) occurred in 20.4% with ketamine vs 14.0% with etomidate (aOR 1.80, 95% CI 1.24–2.62), driven mostly by vasopressor starts or increases (aOR 1.51). Ketamine showed less severe hypoxemia and faster intubation, but neither held up after correcting for multiple comparisons, and first-pass success and 28-day mortality didn't clearly differ.",
+     "why": "Echoes the RSI trial signal that ketamine isn't automatically the safer agent in shock. Whichever drug is used, consider a reduced dose in unstable patients and have push-dose or infusion vasopressors drawn up before induction."
+    },
+    {
+     "topic": "Vasopressors / Extravasation",
+     "study_type": "Retrospective review",
+     "takeaway": "Serious tissue injury was rare after peripheral vasopressor extravasation treated with phentolamine",
+     "title": "Local complications of peripheral intravenous vasopressor use with phentolamine as an antidote: a retrospective review.",
+     "journal": "Proc (Bayl Univ Med Cent)",
+     "pub_date": "Nov 2026",
+     "population": "92 patients given phentolamine for infiltrated peripheral vasopressor IVs, 1 large US health system",
+     "pmid": "43006831",
+     "summary": "Infiltration happened a mean of 21 hours into peripheral vasopressor therapy, most often at antecubital or forearm sites, and phentolamine was given a mean of 131 minutes later. Three-quarters of patients had no significant tissue injury and about a quarter had only minor bruising or redness. There were two significant complications (one skin necrosis and one DVT), and 52% went on to get a central line. The study included only patients who received phentolamine, so it can't give an overall extravasation rate.",
+     "why": "Supports peripheral norepinephrine as a bridge from the ED, paired with a protocol for site checks and phentolamine (commonly 5–10 mg diluted in 10 mL saline, injected subcutaneously around the site). The 2-hour delay to phentolamine shows room to stock it closer to the bedside."
+    },
+    {
+     "topic": "Toxicology / Opioid overdose",
+     "study_type": "Position statement",
+     "takeaway": "ACMT says to give expired naloxone for suspected opioid overdose when unexpired naloxone isn't available",
+     "title": "ACMT Position Statement: Administer Expired Naloxone When Unexpired Naloxone Is Unavailable.",
+     "journal": "J Med Toxicol",
+     "pub_date": "Nov 2026",
+     "population": "American College of Medical Toxicology guidance for clinicians, first responders and lay rescuers",
+     "pmid": "43004055",
+     "summary": "The American College of Medical Toxicology states that expired naloxone should be given for a suspected opioid overdose if no unexpired product is available. PubMed lists no abstract, so the detailed rationale isn't summarized here. Naloxone is generally regarded as a stable drug with a very favorable safety profile, so the risk of using an expired product is low compared with giving nothing.",
+     "why": "Useful for naloxone kit counseling at ED discharge: patients shouldn't throw out an expired kit until they have a replacement. It also supports keeping older kits in community distribution rather than discarding them outright."
+    },
+    {
+     "topic": "Acute pain / Renal safety",
+     "study_type": "Cohort (active comparator)",
+     "takeaway": "Inpatient ibuprofen raised AKI risk vs oxycodone only in high-risk patients, not in low-risk ones",
+     "title": "Ibuprofen Use and Acute Kidney Injury Among Adults Admitted to the Hospital.",
+     "journal": "JAMA Netw Open",
+     "pub_date": "Nov 2026",
+     "population": "78,656 hospitalized adults treated at least 24 hours with ibuprofen (6,313) or oxycodone (72,343), 3 Philadelphia hospitals, 2004–2017",
+     "pmid": "43007674",
+     "summary": "After weighting, ibuprofen was associated with more AKI (IRR 1.22), severe AKI (IRR 1.36) and kidney replacement therapy (IRR 3.29, wide CI), and most AKI was stage 1. The excess risk was concentrated in postoperative (IRR 1.70) and critically ill (IRR 1.65) patients. In low-risk patients (under 60, not critically ill or postoperative, normal kidney function), ibuprofen showed no added AKI risk (IRR 0.94), yet most of them got oxycodone.",
+     "why": "Supports NSAID-first analgesia for low-risk admitted and ED patients rather than reflexive opioids. Reserve caution for the groups where risk was real: post-op, critically ill, older or with reduced kidney function."
+    },
+    {
+     "topic": "Stroke / Anticoagulation",
+     "study_type": "Cohort",
+     "takeaway": "Starting anticoagulation within 7 days of moderate-severe ischemic stroke didn't raise 30-day bleeding",
+     "title": "Timing of Anticoagulant Initiation After Moderate-Severe and Severe Acute Ischemic Strokes (TAMSS).",
+     "journal": "J Pharm Pract",
+     "pub_date": "Nov 2026",
+     "population": "143 neuro-ICU adults with moderate-severe or severe ischemic stroke and an anticoagulation indication, 1 US tertiary center, 2019–2024",
+     "pmid": "43008085",
+     "summary": "Early anticoagulation (within 7 days of onset, 91 patients) was compared with late initiation (after 7 days, 52 patients). Major extracranial bleeding or symptomatic ICH within 30 days occurred in 12% vs 10% (p = 0.78), and recurrent stroke, embolism and mortality at 30 and 90 days didn't differ. Concurrent P2Y12 inhibitor use was the main predictor of bleeding (OR 5.2). The sample was small and timing was chosen by clinicians.",
+     "why": "Adds to ELAN and TIMING data that early DOAC starts are reasonable even in larger strokes. The P2Y12 signal is a cue for pharmacists to question dual antithrombotic therapy when anticoagulation begins."
+    },
+    {
+     "topic": "Empiric antimicrobials / Bacteremia",
+     "study_type": "Cohort (multicenter, IPTW)",
+     "takeaway": "Pip-tazo and cefepime had similar mortality for Enterobacter, K. aerogenes and Citrobacter bacteremia",
+     "title": "Real-world outcomes of Citrobacter freundii, Klebsiella aerogenes, and Enterobacter cloacae bacteremia treatment (ROCKET): a contemporary analysis of treatment strategies.",
+     "journal": "J Antimicrob Chemother",
+     "pub_date": "Nov 2026",
+     "population": "728 adults with bacteremia from moderate AmpC-risk Enterobacterales, multicenter US, 2017–2025",
+     "pmid": "43004943",
+     "summary": "Definitive therapy was cefepime in 47%, pip-tazo in 18% and a carbapenem in 16%, and overall 30-day mortality was 12%. After weighting, 30-day mortality didn't differ between pip-tazo and cefepime (HR 1.05, 95% CI 0.57–1.92), and early relapse was similar. Treatment-emergent resistance was uncommon with every agent (1–3%).",
+     "why": "IDSA guidance favors cefepime for these organisms, and this is reassuring data if a patient started on pip-tazo in the ED is already improving. It doesn't argue for switching the default away from cefepime."
+    },
+    {
+     "topic": "Critical care analgesia",
+     "study_type": "RCT (non-inferiority)",
+     "takeaway": "Oliceridine matched remifentanil for ICU analgesia with less respiratory depression",
+     "title": "Efficacy and safety of oliceridine versus remifentanil for analgesia in mechanically ventilated critically ill adults (CO-ROAM): a multicenter, assessor-blinded, non-inferiority randomized controlled trial.",
+     "journal": "Intensive Care Med",
+     "pub_date": "Nov 2026",
+     "population": "304 mechanically ventilated adults, 19 ICUs in China",
+     "pmid": "43007421",
+     "summary": "Both opioids were titrated to a CPOT score under 3. Median time in the target analgesia range was 96.0% with oliceridine vs 92.3% with remifentanil, meeting non-inferiority. Oliceridine had fewer mild-to-moderate adverse drug reactions (IRR 0.72) and no respiratory depression during the study or after extubation (0% vs 4.6% and 0% vs 7.9%). Ventilation time, ICU stay and 28-day mortality didn't differ.",
+     "why": "A G protein-biased opioid could suit ventilated patients nearing extubation, but US availability and cost are limiting, and the trial compared it with remifentanil rather than the more common fentanyl or hydromorphone infusions."
+    },
+    {
+     "topic": "Drug interactions / Medication safety",
+     "study_type": "Cross-sectional",
+     "takeaway": "Potential drug interactions were found in 89% of ED admissions, and real interaction harm caused 6% of admissions",
+     "title": "Drug-drug interactions in patients admitted to the hospital: prevalence and associated adverse drug events.",
+     "journal": "Eur J Clin Pharmacol",
+     "pub_date": "Nov 2026",
+     "population": "968 adults admitted through the ED taking at least 2 medications (median age 75, median 7 drugs), 2018",
+     "pmid": "43007459",
+     "summary": "Screening home medications with Micromedex, UpToDate and Stockley found 7,801 moderate-or-worse potential interactions in 89% of patients. Only 1.5% of those (116) caused a documented adverse event, but those events contributed to admission in 6% of patients. Most were bleeding events, and antithrombotics were the most common culprits.",
+     "why": "Most interaction alerts are noise, but antithrombotic combinations are where real harm shows up. ED med rec should focus on anticoagulant plus antiplatelet, NSAID or SSRI pairings in older patients."
+    }
+   ]
+  },
+  {
    "date": "2026-11-10",
    "window": "Nov 9, 2026",
    "note": "A heavy cardiology window (several NEJM outcome trials landed at once) but a light one for ED pharmacotherapy, with no ED drug RCTs. The EM picks are a toxicology guidance paper, a pediatric resuscitation dosing meta-analysis, a large nonrandomized ECPR study and a BP-target trial in prior stroke.",
@@ -1149,114 +1257,6 @@
      "pmid": "42961420",
      "summary": "In total, 27.9% reported misrepresenting symptoms to get antibiotics, most often for cold-like illness, and about half of them both exaggerated and fabricated symptoms. Common reasons were feeling very sick, believing antibiotics work, and needing to return to work or other responsibilities. Younger age, feeling dismissed by clinicians, and believing antibiotic resistance is a hoax were the strongest predictors.",
      "why": "Explains some of the pressure behind ED and urgent care URI prescribing. Symptomatic treatment plans and validating patients' concerns may work better than simply saying no."
-    }
-   ]
-  },
-  {
-   "date": "2026-10-30",
-   "window": "Oct 29–30, 2026",
-   "note": "Covers articles indexed since yesterday's run. No big ED drug RCTs this window, so most picks are cohorts and trial secondary analyses; read the observational items as hypothesis-generating.",
-   "bottom_line": [
-    "Patients discharged after stimulant toxicity have meaningful 1-year mortality, mostly from opioid-involved overdose. Offer naloxone at discharge even when the visit was for meth or cocaine.",
-    "Nebulized TXA for stable post-tonsillectomy bleeding with a small clot sharply cut the need for surgery in kids. It's a cheap, low-risk ED option worth a protocol.",
-    "Intra-arterial tenecteplase after thrombectomy helped mainly when reperfusion was incomplete (eTICI 2b50–67), not after near-complete reperfusion."
-   ],
-   "articles": [
-    {
-     "topic": "Toxicology",
-     "study_type": "Cohort",
-     "takeaway": "About 2% of patients died within a year of an ED visit for stimulant toxicity, mostly from opioid-involved overdoses",
-     "title": "One-year mortality following emergency department visits for stimulant toxicity.",
-     "journal": "Am J Emerg Med",
-     "pub_date": "Oct 2026",
-     "population": "2,356 patients discharged from the ED with stimulant toxicity, US statewide linked database",
-     "pmid": "42956443",
-     "summary": "Linked ED, hospital and death records showed 1-year all-cause mortality of 2.1% after ED discharge for stimulant toxicity. Those who died were young (median age 35) and died a median of 118 days after the visit. Two-thirds of deaths were overdoses, and opioids were involved in 54% of them. A reference cohort of opioid-toxicity visits had higher 1-year mortality (6.9%).",
-     "why": "Supports giving naloxone and harm-reduction counseling to stimulant patients at ED discharge, since the fentanyl supply drives much of their later risk."
-    },
-    {
-     "topic": "Resuscitation",
-     "study_type": "Cohort",
-     "takeaway": "In witnessed pediatric OHCA, earlier epinephrine wasn't clearly linked to better 1-month survival",
-     "title": "Timing of the Adrenaline Administration in Witnessed Pediatric Out-of-Hospital Cardiac Arrest: Retrospective, National Cohort Study in Japan, Using a 2014-2020 Dataset.",
-     "journal": "Pediatr Crit Care Med",
-     "pub_date": "Oct 2026",
-     "population": "259 children with witnessed OHCA who received epinephrine, Japanese national registry (JAAM-OHCA)",
-     "pmid": "42957612",
-     "summary": "The authors used time-dependent propensity score risk-set matching to reduce resuscitation time bias, comparing children given epinephrine in each time window with children not yet given it. None of the time windows (1–10 up to 26–30 minutes after EMS contact) showed a significant difference in 1-month survival or favorable neurologic outcome. Confidence intervals were very wide (e.g., RR 2.94, 95% CI 0.38–22.8 for 1–10 minutes), so the study was underpowered to detect a real effect.",
-     "why": "A null result from a small sample doesn't overturn the push for early epinephrine in pediatric arrest. Keep weight-based doses ready, and read this as a lack of power rather than proof of no benefit."
-    },
-    {
-     "topic": "Neuro emergencies",
-     "study_type": "Cohort (matched)",
-     "takeaway": "Adjunctive cenobamate ended most refractory focal status epilepticus cases in a real-world cohort",
-     "title": "Cenobamate in Focal-Onset Refractory and Super-Refractory Status Epilepticus: A Multicenter Cohort Study With Matched Analysis.",
-     "journal": "Neurology",
-     "pub_date": "Oct 2026",
-     "population": "31 adults with focal refractory or super-refractory SE, multicenter registry (Spain), plus 56 matched controls",
-     "pmid": "42956387",
-     "summary": "Cenobamate was started a median of 4 days into SE, after 5 failed antiseizure meds, at a median of 50 mg/day enterally. SE resolved in 84% (all RSE patients and 64% of SRSE), with response at a median of 2 days. In the propensity-matched comparison, resolution was more common with cenobamate (82% vs 57%; aOR 5.9). No serious drug-related adverse events occurred, and somnolence was the most common mild effect.",
-     "why": "Cenobamate is enteral-only and slow to titrate, so it's a late ICU add-on rather than an ED option. Watch for its interactions (it raises phenytoin and phenobarbital levels and lowers lamotrigine levels)."
-    },
-    {
-     "topic": "Stroke",
-     "study_type": "RCT secondary analysis",
-     "takeaway": "Intra-arterial tenecteplase after thrombectomy helped only when reperfusion was incomplete",
-     "title": "Relationship Between the eTICI Score Before Randomization and 90-Day Outcome: A Post Hoc Analysis of ANGEL-TNK Trial.",
-     "journal": "Stroke",
-     "pub_date": "Oct 2026",
-     "population": "253 patients with anterior-circulation LVO after successful EVT, multicenter China (ANGEL-TNK)",
-     "pmid": "42953960",
-     "summary": "Patients were randomized to intra-arterial tenecteplase 0.125 mg/kg or standard care after eTICI 2b50 or better reperfusion. With partial reperfusion (eTICI 2b50–67), tenecteplase more than doubled the rate of mRS 0–1 at 90 days (44.8% vs 19.5%; RR 2.08). With near-complete reperfusion (eTICI 2c–3), it gave no benefit and raised any ICH within 48 hours (33.3% vs 20.0%), though symptomatic ICH and death didn't differ.",
-     "why": "Helps answer which post-EVT patients should get IA lytic. Expect neuro-IR to ask about TNK dosing for patients with residual distal occlusion."
-    },
-    {
-     "topic": "Toxicology / Critical care",
-     "study_type": "Cohort (IPTW)",
-     "takeaway": "IV N-acetylcysteine was linked to lower 21-day mortality in acute liver failure not caused by acetaminophen",
-     "title": "Evaluation of the Association of N-Acetylcysteine and Mortality in Non-Acetaminophen-Induced Acute Liver Failure.",
-     "journal": "J Intensive Care Med",
-     "pub_date": "Oct 2026",
-     "population": "200 adults with non-acetaminophen acute liver failure (85 got IV NAC), single US center",
-     "pmid": "42957980",
-     "summary": "After inverse probability weighting for severity, comorbidities and etiology, IV NAC was associated with lower in-hospital mortality at 21 days (48.9% vs 62.1%; OR 0.59). Time to INR and LFT normalization and length of stay didn't differ. The study is retrospective and single-center, so unmeasured confounding remains possible.",
-     "why": "Supports starting the IV NAC protocol early in non-APAP ALF, for example from drugs, herbals or mushrooms, while transplant is being considered. Its low risk favors giving it when the etiology is unclear."
-    },
-    {
-     "topic": "Hemorrhage / ED procedures",
-     "study_type": "Pre-post cohort",
-     "takeaway": "Nebulized TXA cut surgery for pediatric post-tonsillectomy bleeding, especially with small clots",
-     "title": "Nebulized Tranexamic Acid in Posttonsillectomy Hemorrhage: A Retrospective Study of a Standardized Treatment Algorithm.",
-     "journal": "Otolaryngol Head Neck Surg",
-     "pub_date": "Oct 2026",
-     "population": "121 children presenting to the ED with post-tonsillectomy hemorrhage, 1 US tertiary children's hospital",
-     "pmid": "42958871",
-     "summary": "Starting in March 2024, stable children got nebulized TXA and were then triaged by clot size. Overall surgery rates were 66% with TXA vs 80% before the protocol (not significant). Among children with small clots (under 50% of the fossa), surgery dropped from 88% to 21%. No TXA adverse events were reported, and the authors estimated 32 surgeries avoided and about $138,000 saved.",
-     "why": "An easy order set item for the ED, usually the IV TXA solution given by nebulizer. Pharmacists can standardize the dose and concentration."
-    },
-    {
-     "topic": "Cardiology / antiplatelets",
-     "study_type": "RCT secondary analysis",
-     "takeaway": "After DAPT, clopidogrel beat aspirin monotherapy in higher-risk PCI patients without more bleeding",
-     "title": "Clopidogrel Versus Aspirin Monotherapy According to Atherothrombotic Risk Profile.",
-     "journal": "Circ Cardiovasc Interv",
-     "pub_date": "Oct 2026",
-     "population": "5,506 post-PCI patients after completing DAPT, SMART-CHOICE 3 trial (South Korea)",
-     "pmid": "42953942",
-     "summary": "Patients were grouped by TIMI secondary-prevention risk score and PCI complexity. In the higher-risk group (82% of patients), clopidogrel reduced death, MI or stroke compared with aspirin (4.6% vs 7.4%; HR 0.67) over a median of 2.3 years. Lower-risk patients showed no difference, and the interaction test wasn't significant. Bleeding was similar across groups.",
-     "why": "Adds weight to clopidogrel as long-term single antiplatelet therapy after PCI. Remember CYP2C19 poor metabolizers and the PPI interaction (avoid omeprazole and esomeprazole)."
-    },
-    {
-     "topic": "Antimicrobial stewardship",
-     "study_type": "Cohort",
-     "takeaway": "A third of children delabeled from penicillin allergy still never received penicillin again",
-     "title": "Beyond delabeling: long-term penicillin use and avoidance following negative penicillin challenge in children.",
-     "journal": "Front Pediatr",
-     "pub_date": "Oct 2026",
-     "population": "305 children referred for penicillin allergy evaluation, 1 Israeli pediatric allergy clinic",
-     "pmid": "42953132",
-     "summary": "Most children had a direct oral challenge (94%), and 98.6% tolerated it. Full tolerance, including a 5-day home course, was confirmed in 80%. Among tolerant children with follow-up, 64% later used penicillin again with no reactions, while 36% had no documented use. Younger age and less time since the challenge predicted reuse.",
-     "why": "Delabeling only works if the EHR allergy entry is actually removed. ED pharmacists can check for a negative challenge and remove stale labels before defaulting to broader agents."
     }
    ]
   }
