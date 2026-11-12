@@ -1,6 +1,114 @@
 {
  "issues": [
   {
+   "date": "2026-11-12",
+   "window": "Nov 11, 2026",
+   "note": "Another window with no ED drug RCTs. The EM picks are a large stroke-mimic thrombolysis meta-analysis, a 12-month DOAC-after-ICH registry, two toxicology surveillance studies and two ED pharmacotherapy evidence reviews. A big NEJM VTE prophylaxis trial and a BMJ perioperative ACE inhibitor/ARB trial round out the issue.",
+   "bottom_line": [
+    "Don't let fear of treating a stroke mimic slow down tenecteplase or alteplase: across about 285,000 patients, mimics who got lytics had far less ICH and death than true strokes.",
+    "Tianeptine was the top substance in a decade of poison center withdrawal calls and drove more than a quarter of the ICU admissions. Ask about gas-station supplements when withdrawal doesn't fit a known drug.",
+    "Muscle relaxants don't improve recovery from acute low back pain in ED patients, so leave them off routine discharge prescriptions."
+   ],
+   "articles": [
+    {
+     "topic": "Stroke / Thrombolysis",
+     "study_type": "Systematic review & meta-analysis",
+     "takeaway": "Stroke mimics given IV thrombolysis had far less intracranial bleeding and death than true ischemic strokes",
+     "title": "Safety and clinical outcomes of intravenous thrombolysis in stroke mimics compared with acute ischemic stroke: A systematic review and meta-analysis.",
+     "journal": "J Thromb Thrombolysis",
+     "pub_date": "Nov 2026",
+     "population": "27 cohort studies and 1 RCT, about 285,000 adults given IV thrombolysis for suspected stroke",
+     "pmid": "43009728",
+     "summary": "Compared with confirmed ischemic stroke, mimics who got lytics had much lower odds of symptomatic ICH (OR 0.18), any ICH (OR 0.12) and 3-month death (OR 0.24). They were also more likely to be functionally independent at 3 months (OR 3.50) and to go home, and stays were about 2 days shorter. The ICH gap was widest in patients with milder deficits (NIHSS 7 or less). The better outcomes reflect how benign mimics are, not a benefit of the drug, and the data are almost entirely observational.",
+     "why": "Supports keeping door-to-needle times fast instead of holding lytics while waiting for diagnostic certainty. Pharmacists can reinforce that a mimic diagnosis afterward isn't a medication error, while still running the usual pre-lytic checks (BP, glucose, anticoagulant history)."
+    },
+    {
+     "topic": "Neuro emergencies / Anticoagulation",
+     "study_type": "Prospective registry",
+     "takeaway": "Restarting a DOAC within 14 days of ICH in AF carried more later hemorrhagic than ischemic stroke at 1 year",
+     "title": "Early Direct Oral Anticoagulant Initiation After Intracranial Hemorrhage Among Japanese Patients With Nonvalvular Atrial Fibrillation: SAFE-ICH Registry 12-Month Outcomes.",
+     "journal": "Circ Rep",
+     "pub_date": "Oct 2026",
+     "population": "240 adults with nonvalvular AF who started or restarted a DOAC 14 days or less after ICH, 32 Japanese hospitals",
+     "pmid": "43011233",
+     "summary": "Over 12 months, symptomatic ICH, any stroke or death occurred in 22.5% (29.1 per 100 person-years). Symptomatic ICH occurred in 6.3%, hemorrhagic stroke in 3.8% and ischemic stroke in 2.9%, with major bleeding in 6.7% and death in 14.2%, mostly from aspiration pneumonia. Hemorrhagic strokes began appearing about 3 months after the DOAC started and caught up with ischemic strokes by month 10. There was no comparison group of delayed or no anticoagulation.",
+     "why": "Early DOAC restart after ICH is still a case-by-case call, and this suggests the bleeding risk persists well beyond the first month. When these patients return to the ED, check DOAC dose appropriateness and have andexanet or 4F-PCC protocols ready."
+    },
+    {
+     "topic": "Toxicology / Overdose",
+     "study_type": "Interrupted time series",
+     "takeaway": "Pregabalin overdoses in Australia fell by almost half after media coverage, prescribing limits and boxed warnings",
+     "title": "Changes in pregabalin use and overdose after government interventions and media coverage: retrospective observational study.",
+     "journal": "BMJ",
+     "pub_date": "Nov 2026",
+     "population": "227,864 people dispensed pregabalin (10% national dispensing sample) and 4,871 pregabalin overdose calls to Australia's largest poisons centre, 2016–2024",
+     "pmid": "43014818",
+     "summary": "Dispensing peaked in 2018 and then dropped at three breakpoints that lined up with media coverage (Dec 2018), prescribing and dispensing restrictions (2020) and, after a delay, boxed warnings (2021), for a combined dispensing rate ratio of 0.75. Overdose calls fell further, with a combined rate ratio of 0.53 and an ongoing decline of about 1.6% a month. A high-risk group of about 14% of users were younger, mostly male, filled prescriptions more often, and commonly also took opioids (66%) or benzodiazepines (32%).",
+     "why": "Gabapentinoids add to respiratory depression with opioids and benzodiazepines, a pattern that also shows up in US overdoses. In the ED, flag pregabalin plus opioid or benzodiazepine combinations at med rec and avoid starting pregabalin at discharge for acute pain."
+    },
+    {
+     "topic": "Toxicology / Withdrawal",
+     "study_type": "Retrospective poison center review",
+     "takeaway": "Tianeptine led a decade of poison center withdrawal calls and caused more than a quarter of ICU admissions",
+     "title": "Withdrawal-related calls to a statewide poison control center: a ten-year review.",
+     "journal": "Clin Toxicol (Phila)",
+     "pub_date": "Nov 2026",
+     "population": "198 withdrawal-related calls to one US statewide poison control center, 2015–2024",
+     "pmid": "43013761",
+     "summary": "Tianeptine (24%), opioids (21%) and benzodiazepines (14%) were the most common substances, and tianeptine calls first appeared in 2019 and drove a rise starting in 2020. Most calls came from hospitals, and 37% of cases had at least a moderate outcome. About a third of patients were admitted and 18% went to the ICU, with tianeptine linked to 28% of ICU admissions. GHB and phenibut withdrawal also had notable moderate or major outcomes, and no deaths were recorded.",
+     "why": "Tianeptine is sold as a supplement and acts on mu-opioid receptors, so withdrawal looks like opioid withdrawal and may respond to buprenorphine or methadone. GHB and phenibut withdrawal can look like severe alcohol withdrawal and may need high-dose benzodiazepines or phenobarbital. Call poison control early."
+    },
+    {
+     "topic": "ED pharmacotherapy / Magnesium",
+     "study_type": "Narrative review",
+     "takeaway": "IV magnesium is first-line for eclampsia and torsades but only an adjunct for migraine, AF and asthma",
+     "title": "Applications of intravenous magnesium Sulfate in the emergency department: A narrative review.",
+     "journal": "Am J Emerg Med",
+     "pub_date": "Nov 2026",
+     "population": "Review of the evidence for IV magnesium sulfate in adult ED indications",
+     "pmid": "43014134",
+     "summary": "The authors rank the evidence by indication. Magnesium remains first-line for preeclampsia and eclampsia and the drug of choice for torsades de pointes. It plays a supporting role in migraine and as an add-on for rate control in AF with RVR, and should be saved for severe asthma or COPD exacerbations that don't respond to initial therapy. Routine empiric use for hypokalemia isn't recommended, evidence for analgesia is limited, and it may help shivering during targeted temperature management. No serious adverse events were reported in the studies reviewed.",
+     "why": "A handy reference for common ED orders. Typical doses are 2 g IV for torsades or asthma and a 4–6 g load then 1–2 g/h for eclampsia. Watch reflexes, respiratory rate and renal function, and keep calcium gluconate available for magnesium toxicity."
+    },
+    {
+     "topic": "Acute pain / Low back pain",
+     "study_type": "Evidence-based review",
+     "takeaway": "Muscle relaxants don't improve symptoms or function in ED patients with acute low back pain",
+     "title": "Are Muscle Relaxants an Effective Treatment for Patients With Acute Low Back Pain?",
+     "journal": "J Emerg Med",
+     "pub_date": "Oct 2026",
+     "population": "4 RCTs and 2 meta-analyses of muscle relaxants for acute low back pain, including ED patients",
+     "pmid": "43013910",
+     "summary": "This structured clinical question review found that muscle relaxants didn't improve symptom resolution or function in ED patients with acute low back pain. The authors weighed that lack of benefit against side effects such as sedation and dizziness. They conclude that muscle relaxants shouldn't be prescribed routinely from the ED for this condition.",
+     "why": "Cyclobenzaprine and similar drugs are common discharge add-ons with sedation, fall and misuse risks, particularly in older adults and in combination with opioids. An NSAID plus activity and heat is the better default, and pharmacists can drop muscle relaxants from back pain order sets."
+    },
+    {
+     "topic": "Anticoagulation / VTE prophylaxis",
+     "study_type": "RCT (noninferiority)",
+     "takeaway": "Aspirin wasn't noninferior to rivaroxaban or warfarin for preventing death or VTE after hip or knee replacement",
+     "title": "Prevention of Venous Thromboembolism after Total Hip or Knee Replacement.",
+     "journal": "N Engl J Med",
+     "pub_date": "Nov 2026",
+     "population": "18,883 patients randomized after elective hip or knee arthroplasty, 15,317 in the per-protocol analysis, US (PEPPER)",
+     "pmid": "43013818",
+     "summary": "Patients got aspirin 81 mg twice daily, warfarin (INR target 2.0) or rivaroxaban 10 mg daily for 30 days. Death or symptomatic VTE at 6 months occurred in 1.26% with aspirin, 1.23% with warfarin and 0.94% with rivaroxaban, and aspirin didn't meet the 0.69-point noninferiority margin against either drug. Bleeding, wound reoperation or MI occurred in 2.91%, 3.36% and 3.48%, and the anticoagulants weren't noninferior to aspirin for safety either. Absolute differences were small in every comparison.",
+     "why": "There's no clear winner: aspirin trades slightly more clots for slightly less bleeding. Patients presenting to the ED after arthroplasty could be on any of these agents, so confirm which one and the dose before working up a DVT or a bleed."
+    },
+    {
+     "topic": "Perioperative medication management",
+     "study_type": "RCT (double-blind)",
+     "takeaway": "Holding the morning ACE inhibitor or ARB before surgery cut perioperative hypotension in older adults",
+     "title": "Effect of discontinuing antihypertensives on perioperative hypotension in older patients before non-cardiac surgery: multicentre, randomised, double blind, controlled trial.",
+     "journal": "BMJ",
+     "pub_date": "Nov 2026",
+     "population": "2,036 adults aged 60–80 on an ACE inhibitor or ARB having non-cardiac surgery under general anesthesia, 5 Chinese hospitals",
+     "pmid": "43014822",
+     "summary": "Patients got their usual ACE inhibitor or ARB or a matching placebo on the morning of surgery. Perioperative hypotension occurred in 31.2% after holding the dose vs 45.5% after taking it (aOR 0.52, absolute difference −14.4 points). Vasopressor use and hypotension duration were also lower, while postoperative hypotension, 30-day complications and mortality didn't differ. The trial wasn't powered for rarer clinical outcomes.",
+     "why": "Strong evidence to hold ACE inhibitors and ARBs the morning of surgery in older adults. The same logic applies when ED patients go for emergency procedures or RSI: a recent ACE inhibitor or ARB dose is a reason to expect hypotension and have a vasopressor ready."
+    }
+   ]
+  },
+  {
    "date": "2026-11-11",
    "window": "Nov 10, 2026",
    "note": "No ED drug RCTs this window. The EM picks are a large secondary analysis of two airway trials, a peripheral vasopressor extravasation series, an ACMT naloxone position statement, and inpatient analgesia and stroke anticoagulation cohorts. One ICU analgesia RCT and two pharmacist-relevant studies fill out the issue.",
@@ -1149,114 +1257,6 @@
      "pmid": "42965158",
      "summary": "Patients given a CYP3A4 inducer (rifampin or phenytoin) had tacrolimus levels normalize faster than those managed by stopping the drug alone (median 4 vs 6 days), and creatinine recovered faster (3 vs 7 days). After adjustment, inducer rescue shortened recovery by 2.6 days for tacrolimus and 4 days for creatinine. No serious adverse events were reported, but pooled case reports carry heavy selection bias.",
      "why": "Transplant patients on Paxlovid can show up in the ED with AKI and toxic tacrolimus levels. Know this rescue option, and coordinate with transplant before adding an inducer."
-    }
-   ]
-  },
-  {
-   "date": "2026-10-31",
-   "window": "Oct 30–31, 2026",
-   "note": "Covers articles indexed since yesterday's run. One ED drug RCT (renal colic) plus a few useful tox and stroke papers; the rest are meta-analyses and cohorts, so read the observational items as hypothesis-generating.",
-   "bottom_line": [
-    "For renal colic, an IV NSAID beats IV acetaminophen as the opioid-free first choice; acetaminophen needed the most rescue fentanyl.",
-    "Don't trust xylazine test strips on urine. They missed about 3 of 4 xylazine-positive samples from fentanyl patients.",
-    "In overdose patients, malignant ventricular dysrhythmias are rare (0.06%). Most cardiac trouble is hypotension or bradycardia from clonidine, beta-blockers or CCBs."
-   ],
-   "articles": [
-    {
-     "topic": "Acute pain",
-     "study_type": "RCT",
-     "takeaway": "For ED renal colic, IV dexketoprofen and ibuprofen edged out IV acetaminophen, with less rescue fentanyl",
-     "title": "Opioid-free analgesia for acute renal colic: a randomized, double-blind, head-to-head comparison of intravenous ibuprofen, dexketoprofen trometamol and paracetamol in the emergency department.",
-     "journal": "Intern Emerg Med",
-     "pub_date": "Oct 2026",
-     "population": "251 adults with acute renal colic, 1 ED (single-center)",
-     "pmid": "42961621",
-     "summary": "Patients were randomized to IV ibuprofen 400 mg, dexketoprofen 50 mg or acetaminophen 1 g over 15 minutes. The primary outcome, at least a 50% pain drop at 30 minutes, didn't differ significantly (77%, 74% and 66%). After adjusting for baseline pain, dexketoprofen gave lower 30-minute pain scores than acetaminophen (by 9.5 mm on a 100-mm scale) and lower odds of needing rescue fentanyl (OR 0.40). Mild side effects were rare and similar across groups, but the trial wasn't registered.",
-     "why": "Supports an IV NSAID (ketorolac or ibuprofen in the US, since dexketoprofen isn't available) as the first renal colic order, with acetaminophen as the backup when NSAIDs are contraindicated."
-    },
-    {
-     "topic": "Toxicology",
-     "study_type": "Cohort",
-     "takeaway": "About 1 in 20 poisonings had cardiac complications, almost all hypotension or bradycardia; ventricular dysrhythmias were very rare",
-     "title": "Cardiac toxicity and dysrhythmias in acute poisoning: a ten-year cohort study.",
-     "journal": "Clin Toxicol (Phila)",
-     "pub_date": "Oct 2026",
-     "population": "9,743 acute poisoning presentations managed by a specialist toxicology service over 10 years",
-     "pmid": "42961000",
-     "summary": "Cardiac complications occurred in 4.9% of presentations: hypotension in 3.8% and primary dysrhythmias in 1.7%. Most dysrhythmias were isolated bradycardia, mainly from clonidine (40%) and beta-blocker or calcium channel blocker poisoning (35%). Only 6 patients (0.06%) had ventricular dysrhythmias, linked to sotalol, methadone, escitalopram and tricyclics, and none of the 21 deaths was attributed to a poisoning-related dysrhythmia.",
-     "why": "Helps decide who needs prolonged telemetry. Focus monitoring on QT-prolonging and sodium-channel-blocking ingestions, and keep atropine, calcium and high-dose insulin ready for BB/CCB cases."
-    },
-    {
-     "topic": "Toxicology",
-     "study_type": "Diagnostic accuracy",
-     "takeaway": "Xylazine test strips on urine missed most xylazine exposures in fentanyl-positive patients",
-     "title": "Diagnostic performance of xylazine test strips in urine from fentanyl-positive hospitalized patients.",
-     "journal": "Clin Toxicol (Phila)",
-     "pub_date": "Oct 2026",
-     "population": "250 residual urine samples from fentanyl-positive hospitalized patients, 1 US center",
-     "pmid": "42960873",
-     "summary": "LC-MS found xylazine in 28% of samples. Compared with LC-MS, the commercial strips had 27% sensitivity and 78% specificity, with likelihood ratios near 1 (positive 1.2, negative 0.94). Over 90% of positive samples had xylazine levels below the strip's 1,000 ng/mL detection threshold.",
-     "why": "These strips were built for drug checking, not urine. Assume xylazine in fentanyl overdoses with prolonged sedation or wounds, and don't rule it out based on a negative strip."
-    },
-    {
-     "topic": "Stroke",
-     "study_type": "Systematic review",
-     "takeaway": "Thrombolytics in pregnancy showed no extra maternal bleeding risk, though fetal loss was somewhat higher",
-     "title": "Maternal and Fetal Safety Outcomes of Thrombolytics for Ischemic Stroke in Pregnancy: A Systematic Review and Aggregated Case Series.",
-     "journal": "Neurology",
-     "pub_date": "Oct 2026",
-     "population": "216 pregnant patients given thrombolytics (85 for ischemic stroke), 123 published studies",
-     "pmid": "42962168",
-     "summary": "Symptomatic ICH rates were similar to those in young nonpregnant stroke patients given lytics. Miscarriage (12.4 percentage points higher) and stillbirth (5.9 points higher) were more common than in the general pregnant population. However, only 6 of 32 fetal deaths were judged likely caused by the thrombolytic. Case reports are prone to publication bias, and the underlying disease was hard to separate from drug effects.",
-     "why": "Pregnancy alone shouldn't rule out alteplase or tenecteplase for a disabling stroke. Useful when a stroke code involves a pregnant patient and the team asks about lytic safety."
-    },
-    {
-     "topic": "Neuro emergencies / Trauma",
-     "study_type": "Network meta-analysis",
-     "takeaway": "Across TBI drug trials, TXA had the clearest mortality signal, mostly driven by CRASH-3",
-     "title": "Comparative effectiveness and safety of pharmacological interventions for secondary brain injury in adult traumatic brain injury: a network meta-analysis of randomized trials.",
-     "journal": "BMC Neurol",
-     "pub_date": "Aug 2026",
-     "population": "34 RCTs, 23,165 adults with TBI",
-     "pmid": "42958079",
-     "summary": "TXA was associated with lower mortality (OR 0.90), as was erythropoietin (OR 0.64, from only 2 heterogeneous trials). Neither TXA nor hypertonic saline improved functional outcome, and the large statin effect came from 2 small trials with very low certainty. TXA wasn't linked to more thromboembolism or AKI.",
-     "why": "Reinforces early TXA (1 g within 3 hours) for TBI patients with mild to moderate injury and doesn't support routine statins, progesterone or other neuroprotectants."
-    },
-    {
-     "topic": "Sepsis / Shock",
-     "study_type": "Meta-analysis",
-     "takeaway": "Corticosteroids in septic shock modestly cut 28-day mortality and sped shock reversal",
-     "title": "Comparative Efficacy and Safety of Corticosteroids vs. No Corticosteroids in Septic Shock Intensive Care Unit Patients: A Systematic Review and Meta-Analysis.",
-     "journal": "J Clin Med Res",
-     "pub_date": "Oct 2026",
-     "population": "11 RCTs, 6,332 adults with septic shock",
-     "pmid": "42964225",
-     "summary": "Steroids reduced 28-day mortality (RR 0.91), or about 27 fewer deaths per 1,000 patients, with no heterogeneity. Shock reversed about 1.25 days sooner, while ICU length of stay didn't differ significantly. Hyperglycemia was more common with steroids in every trial, and certainty was rated moderate for mortality.",
-     "why": "Supports hydrocortisone 200 mg/day for patients on escalating norepinephrine. Plan glucose monitoring and insulin when steroids start."
-    },
-    {
-     "topic": "Anticoagulation",
-     "study_type": "Pre-post QI study",
-     "takeaway": "Dosing heparin infusions by adjusted body weight cut supratherapeutic aPTTs in heavier patients",
-     "title": "Anticoagulation stewardship quality improvement project to decrease incidence of supratherapeutic activated partial thromboplastic time in overweight cancer patients on unfractionated heparin infusions.",
-     "journal": "J Thromb Thrombolysis",
-     "pub_date": "Oct 2026",
-     "population": "Hospitalized cancer patients on high-intensity UFH with weight over 130% of IBW and BMI 40 or less, 1 US center",
-     "pmid": "42961730",
-     "summary": "The protocol switched initial UFH dosing from actual to adjusted body weight in this group. With a bolus, first supratherapeutic aPTTs fell by 37% (RR 0.63) and first therapeutic aPTTs rose (RR 1.82). Without a bolus, supratherapeutic aPTTs fell by 39% (RR 0.61), and time to therapeutic range was shorter after the change.",
-     "why": "Relevant to ED heparin starts for PE and ACS. Pharmacists can push for an adjusted-weight trigger based on percent of IBW rather than a BMI-40 cutoff alone."
-    },
-    {
-     "topic": "Antimicrobial stewardship",
-     "study_type": "Survey study",
-     "takeaway": "More than a quarter of US adults said they had exaggerated or invented symptoms to get antibiotics",
-     "title": "Symptom Misrepresentation to Obtain Antibiotics.",
-     "journal": "JAMA Netw Open",
-     "pub_date": "Oct 2026",
-     "population": "959 US adults, national online nonprobability sample",
-     "pmid": "42961420",
-     "summary": "In total, 27.9% reported misrepresenting symptoms to get antibiotics, most often for cold-like illness, and about half of them both exaggerated and fabricated symptoms. Common reasons were feeling very sick, believing antibiotics work, and needing to return to work or other responsibilities. Younger age, feeling dismissed by clinicians, and believing antibiotic resistance is a hoax were the strongest predictors.",
-     "why": "Explains some of the pressure behind ED and urgent care URI prescribing. Symptomatic treatment plans and validating patients' concerns may work better than simply saying no."
     }
    ]
   }
