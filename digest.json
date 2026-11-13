@@ -1,6 +1,114 @@
 {
  "issues": [
   {
+   "date": "2026-11-13",
+   "window": "Nov 12, 2026",
+   "note": "No ED drug RCTs this window. The EM picks are a systematic review of ED analgesia RCTs, a status epilepticus paralytic comparison, a pilot sepsis bundle trial, a JAMA stroke treatment review, a post hoc tirofiban analysis and national EMS naloxone data. A sepsis procalcitonin meta-analysis and an ED adverse drug reaction study fill out the issue.",
+   "bottom_line": [
+    "For ED acute pain, nonopioid combinations held up against opioid-first regimens across 17 RCTs: ibuprofen plus acetaminophen for musculoskeletal pain, prochlorperazine plus diphenhydramine for migraine, and NSAIDs or IV acetaminophen for renal colic.",
+    "When intubating for status epilepticus, a rocuronium-type paralytic was linked to better discharge function than succinylcholine, with no difference in peri-intubation arrhythmias. It's observational, but it removes the main argument for 'sux so you can see the seizure'.",
+    "Early tirofiban after IV lytics looked helpful only in moderate-to-severe stroke (NIHSS 6 or more). In minor stroke it added no benefit and raised intracranial bleeding."
+   ],
+   "articles": [
+    {
+     "topic": "Acute pain",
+     "study_type": "Systematic review of RCTs",
+     "takeaway": "Multimodal nonopioid analgesia matched or beat opioid-first regimens for common ED pain complaints",
+     "title": "Multimodal Nonopioid Analgesia Versus Opioid-First Approaches for Acute Pain in the Emergency Department: A Systematic Review of Randomized Controlled Trials.",
+     "journal": "J Emerg Med",
+     "pub_date": "Oct 2026",
+     "population": "17 RCTs, 7,288 adults treated in EDs for musculoskeletal or trauma pain, renal colic or primary headache",
+     "pmid": "43019972",
+     "summary": "Most of the evidence (13 trials, about 5,250 patients) involved musculoskeletal trauma, where ibuprofen plus acetaminophen relieved pain about as well as an opioid plus acetaminophen. In migraine, prochlorperazine plus diphenhydramine left 86% with mild or no headache at 1 hour vs 52% with hydromorphone. For renal colic, IM diclofenac and IV acetaminophen were as good as or better than morphine, with fewer adverse events. Results were synthesized descriptively rather than pooled, so they should be read condition by condition.",
+     "why": "Gives evidence for nonopioid-first ED order sets by complaint: an NSAID plus acetaminophen for sprains and fractures, a dopamine antagonist plus diphenhydramine for migraine, and ketorolac or diclofenac for renal colic. Check renal function, bleeding risk and anticholinergic burden in older adults."
+    },
+    {
+     "topic": "Status epilepticus / RSI",
+     "study_type": "Target trial emulation",
+     "takeaway": "Non-depolarizing paralytics for status epilepticus RSI were linked to better discharge function than succinylcholine",
+     "title": "Neurologic outcomes following intubation with non-depolarizing vs. depolarizing paralytics in status epilepticus: a target trial emulation.",
+     "journal": "J Crit Care Med (Targu Mures)",
+     "pub_date": "Oct 2026",
+     "population": "480 adults intubated for suspected status epilepticus, 1 US academic health system, 2000–2024",
+     "pmid": "43016820",
+     "summary": "The authors expected that succinylcholine's short duration, which lets clinicians re-examine the patient sooner, would improve outcomes. After propensity weighting, the opposite appeared: succinylcholine was linked to more need for a higher level of care at discharge (30.4% vs 24.4%; OR 1.35) and fewer discharges home (61.7% vs 69.6%; OR 0.71). Life-threatening peri-intubation arrhythmias were rare and similar (0.6% vs 0.8%). The study spans 24 years at one system and used escalation of care as a stand-in for neurologic outcome.",
+     "why": "Supports rocuronium as a reasonable RSI choice in status epilepticus, as long as the team doesn't rely on the motor exam afterward: get continuous EEG early and keep antiseizure drugs and sedation going. Sugammadex can reverse rocuronium if an exam is needed."
+    },
+    {
+     "topic": "Sepsis",
+     "study_type": "Stepped-wedge cluster RCT (pilot)",
+     "takeaway": "Triggering the sepsis Hour-1 bundle by NEWS2 score raised antibiotic and culture compliance, but outcomes stayed uncertain",
+     "title": "National Early Warning Score 2-Guided Sepsis Hour-1 Bundle Care for Adults With Suspected Sepsis in the Emergency Department: A Hybrid Type 1 Effectiveness-Implementation Stepped-Wedge Randomized Controlled Trial Pilot Study (NEWS-1 TRIPS).",
+     "journal": "Crit Care Med",
+     "pub_date": "Nov 2026",
+     "population": "200 adults admitted with infection and NEWS2 of 5 or more, 4 EDs in Hong Kong",
+     "pmid": "43018426",
+     "summary": "EDs switched in a randomized sequence to automatically starting the Hour-1 bundle (lactate, cultures, antibiotics, fluids, vasopressors as needed) whenever NEWS2 reached 5. Compliance with lactate, blood cultures and antibiotics rose, but full bundle compliance was only 56%. Thirty-day mortality was 3.9% with standard care vs 9.2% with the new model, a difference that wasn't significant (95% CI −1.6 to 12.1 points). The pilot met its feasibility goals, and the authors say a much larger trial is needed.",
+     "why": "An objective score can get antibiotics hung faster, but this pilot can't show it helps patients and the mortality numbers leaned the wrong way. ED pharmacists can still own the antibiotic step: first dose within the hour, with culture draws coordinated so they don't delay it."
+    },
+    {
+     "topic": "Stroke / Thrombolysis",
+     "study_type": "Review (guideline-based)",
+     "takeaway": "JAMA review lays out 2026 AHA/ASA stroke care: tenecteplase or alteplase within 4.5 hours, extended windows with imaging",
+     "title": "Treatment of Acute Ischemic Stroke: A Review.",
+     "journal": "JAMA",
+     "pub_date": "Nov 2026",
+     "population": "Clinical review based on 2026 AHA/ASA acute ischemic stroke guidelines",
+     "pmid": "43018963",
+     "summary": "IV thrombolysis with tenecteplase or alteplase is first-line for disabling stroke within 4.5 hours of onset when there are no contraindications, and adds about 10 percentage points to the chance of a better functional outcome. Perfusion imaging can extend lytics to 9 hours, and up to 24 hours for large-vessel occlusions that can't go to thrombectomy. Thrombectomy is a class 1 recommendation within 6 hours and in selected patients up to 24 hours, and adds about 20 points of functional independence. Lytics should still be given first in thrombectomy candidates unless contraindicated.",
+     "why": "A current one-stop reference for stroke code pharmacists. Know tenecteplase dosing (0.25 mg/kg, max 25 mg, single bolus) vs alteplase (0.9 mg/kg, max 90 mg, 10% bolus), and the newer extended-window criteria that widen who qualifies."
+    },
+    {
+     "topic": "Stroke / Antiplatelets",
+     "study_type": "RCT post hoc analysis",
+     "takeaway": "Early tirofiban after IV lytics helped moderate-to-severe strokes but raised bleeding without benefit in minor strokes",
+     "title": "Association of Stroke Severity With Efficacy of Early Tirofiban Infusion After Intravenous Thrombolysis.",
+     "journal": "J Am Heart Assoc",
+     "pub_date": "Nov 2026",
+     "population": "832 patients with non-cardioembolic ischemic stroke given IV thrombolysis within 4.5 hours, ASSET-IT trial (China)",
+     "pmid": "43018049",
+     "summary": "Patients were split by NIHSS at admission (under 6 vs 6 or more). With NIHSS of 6 or more, tirofiban roughly doubled the odds of an excellent 90-day outcome (mRS 0–1; aOR 2.13) without a clear rise in intracranial hemorrhage (aOR 0.88). With minor stroke, there was no benefit (aOR 1.02) and intracranial hemorrhage rose (aOR 6.51, very wide CI). Interactions were significant, but this was an exploratory subgroup analysis.",
+     "why": "If your stroke team is adopting early tirofiban after lytics, this argues for restricting it to NIHSS 6 or more. Pharmacists building the protocol should include a severity cutoff, renal dose adjustment and a plan for holding it if neuro status worsens."
+    },
+    {
+     "topic": "Toxicology / Opioid overdose",
+     "study_type": "Cross-sectional (NEMSIS)",
+     "takeaway": "EMS naloxone use in suspected opioid overdose was about twice as likely in the South and Midwest as in the Northeast",
+     "title": "A national cross-sectional analysis of regional and rural-urban variation in emergency medical services naloxone administration for suspected opioid overdose.",
+     "journal": "J Subst Use Addict Treat",
+     "pub_date": "Nov 2026",
+     "population": "110,261 EMS activations for suspected opioid involvement in adults, US national 2025 dataset",
+     "pmid": "43020186",
+     "summary": "EMS gave naloxone in 33.9% of encounters. After clinical adjustment, odds were higher in the South (aOR 2.10), Midwest (aOR 1.92) and West (aOR 1.31) than in the Northeast, about 5 to 15 percentage points. The rural-urban gap disappeared after adjustment (aOR 1.01). The authors note the data can't show whether any given non-administration was inappropriate.",
+     "why": "EMS naloxone counts are often used to track overdose trends, and regional practice differences can distort them. In the ED, ask what prehospital naloxone was given and how much, because it shapes the observation period for long-acting opioids."
+    },
+    {
+     "topic": "Sepsis / Antimicrobial stewardship",
+     "study_type": "Meta-analysis of RCTs",
+     "takeaway": "Procalcitonin-guided antibiotics shortened therapy by about 1.5 days in ICU sepsis without changing mortality",
+     "title": "Procalcitonin-guided antibiotic therapy in ICU patients with sepsis: a systematic review and meta-analysis with GRADE and trial sequential analysis.",
+     "journal": "J Crit Care Med (Targu Mures)",
+     "pub_date": "Oct 2026",
+     "population": "16 RCTs, 7,966 adult ICU patients with sepsis or septic shock",
+     "pmid": "43016800",
+     "summary": "Procalcitonin-guided strategies didn't change all-cause mortality (RR 0.99, 95% CI 0.92–1.06), and trial sequential analysis said the evidence was still inconclusive on that question. They cut antibiotic duration by about 1.5 days (MD −1.51), a result trial sequential analysis judged conclusive, and increased antibiotic-free days. New infections, superinfections, clinical failure and length of stay didn't differ.",
+     "why": "Supports procalcitonin as a stop signal, not a start signal: it doesn't decide whether to give the first ED dose, but a falling level helps stewardship pharmacists shorten courses safely once patients are admitted."
+    },
+    {
+     "topic": "Medication safety / Adverse drug reactions",
+     "study_type": "Prospective observational",
+     "takeaway": "Diuretic-related ED admissions rose steeply once 5-day mean temperatures passed about 16 °C",
+     "title": "Diuretic-associated admissions to the emergency department - too hot to handle? Results from the ADRED-study.",
+     "journal": "BMC Med",
+     "pub_date": "Nov 2026",
+     "population": "ED admissions with standardized ADR causality assessment, prospective multicenter German ADRED study",
+     "pmid": "43015788",
+     "summary": "Researchers compared 5-day mean ambient temperature with the share of diuretic users admitted for a suspected diuretic adverse reaction. Higher temperatures were associated with more diuretic ADRs, and segmented regression found a breakpoint near 15.7 °C, above which the slope increased about sixfold. Spline models also showed an accelerating, non-linear rise. The study can't separate the individual mechanisms, such as dehydration, hyponatremia or AKI.",
+     "why": "During heat waves, diuretic users presenting with AKI, hyponatremia, hypokalemia or falls should prompt a look at their dose. ED pharmacists can recommend temporary dose reductions or 'sick day' holds at discharge in hot weather."
+    }
+   ]
+  },
+  {
    "date": "2026-11-12",
    "window": "Nov 11, 2026",
    "note": "Another window with no ED drug RCTs. The EM picks are a large stroke-mimic thrombolysis meta-analysis, a 12-month DOAC-after-ICH registry, two toxicology surveillance studies and two ED pharmacotherapy evidence reviews. A big NEJM VTE prophylaxis trial and a BMJ perioperative ACE inhibitor/ARB trial round out the issue.",
@@ -1149,114 +1257,6 @@
      "pmid": "42968961",
      "summary": "Clinical success at 14 days was 45.7%, and most infections were carbapenem-resistant Acinetobacter. An AUC below 77 mg·h/L independently predicted treatment failure (OR 0.33), while an AUC above 110 mg·h/L tripled AKI risk (OR 3.24). The median AUC was 77.5 mg·h/L, so about half the patients fell below the efficacy threshold. The study is retrospective and single-center.",
      "why": "Supports AUC-guided polymyxin B dosing where TDM exists. It's also a reminder that newer agents (e.g., cefiderocol, sulbactam-durlobactam) are often preferred for CRAB when available."
-    }
-   ]
-  },
-  {
-   "date": "2026-11-01",
-   "window": "Oct 31–Nov 1, 2026",
-   "note": "A thin weekend window with only one small ED RCT, so most picks are cohorts, case series and pooled case reports. Read them as practical pearls and hypothesis-generating, not practice-changing.",
-   "bottom_line": [
-    "Half-dose alteplase (50 mg) for high-risk PE performed about as well as 100 mg in a small cohort, with numerically less major bleeding.",
-    "Methiodone (IC-26), a new methadone-derived designer opioid, causes a classic opioid toxidrome that responds to naloxone and may be missed on routine urine immunoassays.",
-    "In antidepressant overdoses, non-SSRI agents carried much more serotonin toxicity and symptoms than SSRIs; serotonin toxicity predicted ICU admission."
-   ],
-   "articles": [
-    {
-     "topic": "Thrombolysis / PE",
-     "study_type": "Cohort",
-     "takeaway": "Low-dose (50 mg) alteplase for high-risk PE matched 100 mg on hemodynamic stability, with less ventilator time",
-     "title": "Efficacy and Safety of Low-Dose Versus Standard-Dose Alteplase to Treat High-Risk Pulmonary Embolism.",
-     "journal": "Am J Crit Care",
-     "pub_date": "Nov 2026",
-     "population": "65 adults given alteplase for high-risk (massive) PE, 1 US academic center, 2011–2022",
-     "pmid": "42966650",
-     "summary": "Patients were grouped by initial alteplase dose (50 mg vs 100 mg). Sustained hemodynamic stability at 24 hours was similar (32% vs 38%), as was in-hospital mortality (48% vs 45%). The low-dose group had fewer ventilator days (median 1.5 vs 6) and numerically less major bleeding (12% vs 25%, not significant). The cohort is small, retrospective and spans more than a decade.",
-     "why": "Supports keeping a 50 mg option in PE lytic order sets for patients at higher bleeding risk, though it isn't strong enough to replace the 100 mg standard."
-    },
-    {
-     "topic": "Toxicology",
-     "study_type": "Case series",
-     "takeaway": "Methiodone, a new methadone-derived designer opioid, caused severe naloxone-responsive overdoses needing ICU care",
-     "title": "Methiodone (IC-26) a case series: an old, but novel, opioid substance causing severe toxicity.",
-     "journal": "Arch Toxicol",
-     "pub_date": "Oct 2026",
-     "population": "4 patients admitted to the ICU with confirmed methiodone poisoning, 2025",
-     "pmid": "42965604",
-     "summary": "All 4 patients had respiratory depression, miosis and depressed consciousness, and all improved with naloxone. Plasma levels were 0.20–0.64 mg/L, and the estimated half-life in one patient was about 13 hours. Detection on routine immunoassays depended on the assay, and unlike methadone poisoning, no clinically important ECG changes were seen.",
-     "why": "A long half-life means recurrent sedation after naloxone wears off, so plan observation or a naloxone infusion. A negative urine drug screen doesn't exclude it."
-    },
-    {
-     "topic": "Toxicology",
-     "study_type": "Cross-sectional",
-     "takeaway": "Non-SSRI antidepressant overdoses caused far more serotonin toxicity than SSRI overdoses, even after adjusting for dose",
-     "title": "Clinical Severity and Serotonin Toxicity in Antidepressant Self-Poisoning: Implications for Clinical Risk Assessment.",
-     "journal": "Psychiatry Clin Psychopharmacol",
-     "pub_date": "Aug 2026",
-     "population": "168 ED patients with intentional antidepressant ingestion, single center",
-     "pmid": "42964945",
-     "summary": "SSRIs made up 80% of ingestions. After adjusting for dose (in defined daily doses), non-SSRI exposures were more often symptomatic (56% vs 28%; aOR 3.4) and more often met Hunter criteria for serotonin toxicity (24% vs 4%; aOR 8.2). Patients with serotonin toxicity were admitted to the ICU far more often (54% vs 10%). The non-SSRI subgroups were small and mixed.",
-     "why": "When triaging antidepressant overdoses, venlafaxine, TCAs and other non-SSRIs deserve closer monitoring, and early serotonin toxicity should prompt benzodiazepines and a cyproheptadine plan."
-    },
-    {
-     "topic": "Anticoagulant reversal",
-     "study_type": "Cohort",
-     "takeaway": "In DOAC bleeds and urgent procedures, guideline adherence was high, and PCC use led to very few clots",
-     "title": "Management of bleeding and nonelective invasive procedures in patients receiving direct oral anticoagulants (DOACs): a 5-year single-center observational study.",
-     "journal": "Res Pract Thromb Haemost",
-     "pub_date": "Oct 2026",
-     "population": "584 events (152 bleeds, 432 urgent procedures) in 547 adults on dabigatran, rivaroxaban or apixaban, 1 French center",
-     "pmid": "42966952",
-     "summary": "All patients had DOAC levels drawn at the time of the event. Guideline compliance was 79% and wasn't linked to outcomes. Among 95 events treated with PCC, only 1 thrombotic event occurred. Drug levels didn't track with bleeding severity, but in bleeding patients on rivaroxaban, those with adverse outcomes had much higher levels (median 243 vs 88 ng/mL).",
-     "why": "Reassuring safety data for PCC in DOAC bleeds, and a reminder that a DOAC level (where available) adds more than timing of the last dose for urgent-procedure decisions."
-    },
-    {
-     "topic": "Acute pain",
-     "study_type": "RCT",
-     "takeaway": "For acute myofascial low back pain in the ED, trigger point injection beat dry needling and avoided rescue opioids",
-     "title": "Short-Term Pain Outcomes of Trigger Point Injection Versus Dry Needling for Acute Myofascial Low Back Pain in the Emergency Department: A Prospective Randomized Comparative Study.",
-     "journal": "Med Sci Monit",
-     "pub_date": "Nov 2026",
-     "population": "52 ED patients with acute myofascial low back pain (49 analyzed), single center",
-     "pmid": "42966884",
-     "summary": "Pain dropped by 87% at 30 minutes after trigger point injection vs 33% after dry needling (difference 54 percentage points). Injection patients had lower pain at every time point, and none needed rescue IV fentanyl, compared with 65% after dry needling. No procedure complications occurred. The trial was small, unblinded and only followed patients for an hour.",
-     "why": "Supports trigger point injection (usually a local anesthetic) as an opioid-sparing ED option for back pain. Pharmacists can help standardize agent, volume and max local anesthetic dose."
-    },
-    {
-     "topic": "Sepsis / Fluids",
-     "study_type": "Meta-analysis",
-     "takeaway": "In pediatric septic shock, balanced crystalloids cut hyperchloremia and dialysis but not mortality or AKI",
-     "title": "Balanced Crystalloids Versus Normal Saline for Fluid Resuscitation in Pediatric Septic Shock: An Updated Systematic Review and Meta-Analysis.",
-     "journal": "J Clin Med Res",
-     "pub_date": "Oct 2026",
-     "population": "9 studies (5 RCTs including PRoMPT BOLUS), children with sepsis or septic shock",
-     "pmid": "42964407",
-     "summary": "Balanced fluids didn't significantly lower mortality (RR 0.94) or AKI (RR 0.84), and trial sequential analysis showed the evidence is still underpowered. They did reduce renal replacement therapy (RR 0.74) and hyperchloremia (RR 0.65). MAKE30, ventilation and length of stay didn't differ.",
-     "why": "Supports defaulting to LR or Plasma-Lyte for pediatric sepsis boluses, with the honest caveat that mortality benefit isn't proven."
-    },
-    {
-     "topic": "Empiric antimicrobials",
-     "study_type": "Cohort",
-     "takeaway": "A recent negative rectal swab nearly ruled out Pseudomonas and MDR gram-negative bacteremia in febrile neutropenia",
-     "title": "Challenging the Dogma: Can Rectal Colonization Status Guide Narrow-Spectrum Empiric Antibiotic Therapy in Febrile Neutropenia?",
-     "journal": "Int J Antimicrob Agents",
-     "pub_date": "Oct 2026",
-     "population": "577 high-risk febrile neutropenia episodes in 415 patients with hematologic cancers, 1 Spanish center",
-     "pmid": "42966420",
-     "summary": "Bloodstream infections occurred in 14% of episodes. A rectal swab within 7 days had a negative predictive value of 99.3% for Pseudomonas bacteremia and 98.1% for other MDR gram-negative bacteremia. Among 251 episodes with a negative swab, only 1 had Pseudomonas bacteremia. Overall BSI rates were low, which limits generalizability.",
-     "why": "Hypothesis-generating support for colonization-guided de-escalation. For now, keep cefepime or pip-tazo as the ED default for febrile neutropenia."
-    },
-    {
-     "topic": "Drug interactions",
-     "study_type": "Pooled case reports",
-     "takeaway": "Adding rifampin or phenytoin sped recovery from Paxlovid-induced tacrolimus toxicity",
-     "title": "Drug Rescue for Paxlovid-Induced Tacrolimus Toxicity: A Pooled Analysis of Case Reports.",
-     "journal": "Kidney Med",
-     "pub_date": "Sep 2026",
-     "population": "52 patients (51 published plus 1 new case) with tacrolimus toxicity after nirmatrelvir-ritonavir",
-     "pmid": "42965158",
-     "summary": "Patients given a CYP3A4 inducer (rifampin or phenytoin) had tacrolimus levels normalize faster than those managed by stopping the drug alone (median 4 vs 6 days), and creatinine recovered faster (3 vs 7 days). After adjustment, inducer rescue shortened recovery by 2.6 days for tacrolimus and 4 days for creatinine. No serious adverse events were reported, but pooled case reports carry heavy selection bias.",
-     "why": "Transplant patients on Paxlovid can show up in the ED with AKI and toxic tacrolimus levels. Know this rescue option, and coordinate with transplant before adding an inducer."
     }
    ]
   }
