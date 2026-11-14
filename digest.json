@@ -1,6 +1,114 @@
 {
  "issues": [
   {
+   "date": "2026-11-14",
+   "window": "Nov 13, 2026",
+   "note": "Another window with no ED drug RCTs. The EM picks are a pooled andexanet safety analysis from ANNEXA-I and ANNEXA-4, a decade of antidote shortage data, a lipid emulsion review for TCA poisoning, national prehospital buprenorphine data, a sepsis-alert diagnostic study, an albuterol nebulizer comparison and an alcohol withdrawal return-visit cohort. A Danish oral-vs-IV antibiotic trial after appendectomy rounds out the issue.",
+   "bottom_line": [
+    "About 1 in 10 andexanet-treated patients had a thrombotic event, mostly arterial and within the first few days. Prior MI, older age, female sex and high-dose eligibility raised the risk, and restarting anticoagulation was linked to fewer clots.",
+    "Antidote shortages are now the norm: 13% of all US drug shortages over 10 years hit toxicology agents, they lasted a median of about a year, and the backup drug was also short in 94% of cases. Physostigmine and dimercaprol have been discontinued.",
+    "Lipid emulsion for TCA poisoning rests on 42 published cases. It helped blood pressure more often than QRS widening, so sodium bicarbonate stays first-line and ILE is a rescue option for refractory toxicity."
+   ],
+   "articles": [
+    {
+     "topic": "Anticoagulant reversal",
+     "study_type": "Pooled analysis of 2 trials",
+     "takeaway": "About 10% of andexanet-treated patients clotted; prior MI and high-dose eligibility flagged arterial events",
+     "title": "Predictors of Thrombotic Events and Mortality in Patients Treated With Andexanet: A Pooled Analysis.",
+     "journal": "Stroke",
+     "pub_date": "Nov 2026",
+     "population": "741 andexanet-treated adults with acute major bleeding on a factor Xa inhibitor (80% intracranial), ANNEXA-I and ANNEXA-4",
+     "pmid": "43023572",
+     "summary": "Thrombotic events occurred in 10.4% and death in 19.8%. Arterial events came early (median 3.5 days) and venous events later (median 14 days). No baseline factor predicted all thrombotic events, but arterial events were more likely with prior MI (HR 2.64), eligibility for the high-dose regimen (HR 2.44), female sex (HR 1.78) and older age. An arterial event was linked to higher mortality (HR 2.68), and restarting anticoagulation after reversal was associated with fewer thrombotic events.",
+     "why": "When choosing between andexanet and 4F-PCC for a factor Xa inhibitor bleed, a history of MI or a recent large or late apixaban/rivaroxaban dose (the high-dose criteria) adds clot risk to the decision. After reversal, pharmacists can push for a documented plan to restart anticoagulation once bleeding is controlled."
+    },
+    {
+     "topic": "Toxicology / Antidote supply",
+     "study_type": "Retrospective shortage analysis",
+     "takeaway": "Toxicology drug shortages lasted a median of about a year, and the alternative was usually short too",
+     "title": "Shortages of agents used to treat poisoning from 2014 to 2024.",
+     "journal": "Clin Toxicol (Phila)",
+     "pub_date": "Nov 2026",
+     "population": "1,670 US drug shortages in the University of Utah Drug Information Service database, 2014–2024",
+     "pmid": "43023338",
+     "summary": "Antidotes and key supportive agents made up 223 shortages (13.4%), and 41 were still unresolved at the end of 2024. New toxicology shortages peaked at 30 in 2018, but ongoing shortages outnumbered new ones every year, with a median duration of 12.6 months. Almost all were generic (96%) and parenteral (79%), sedative-hypnotics were hit most often, and manufacturing problems were the usual cause. A therapeutic alternative existed in 83% of cases, but that alternative was itself in shortage 94% of the time.",
+     "why": "ED pharmacists should keep a current antidote shortage list with pre-approved substitutes and dosing, and know regional sharing options through the poison center. Physostigmine and dimercaprol are discontinued, so plan now for anticholinergic delirium (e.g., benzodiazepines, dexmedetomidine) and heavy-metal chelation alternatives."
+    },
+    {
+     "topic": "Toxicology / TCA poisoning",
+     "study_type": "Systematic review (case-based)",
+     "takeaway": "Lipid emulsion for TCA poisoning helped hypotension more often than QRS widening, but evidence is case reports only",
+     "title": "The Effect of Intravenous Lipid Emulsion in Tricyclic Antidepressant Poisoning: A Systematic Review.",
+     "journal": "J Res Pharm Pract",
+     "pub_date": "Oct 2026",
+     "population": "24 publications (20 case reports, 4 case series), 42 adults with TCA poisoning given IV lipid emulsion",
+     "pmid": "43022816",
+     "summary": "Survival was reported in 41 of 42 cases, including every documented cardiac arrest, though all patients also got other resuscitative treatments. Hypotension resolved in 14 of 17 cases (82%), but wide QRS resolved in only 6 of 14 (43%) and arrhythmias in 4 of 9 (44%). Reported harms included ARDS, hypertriglyceridemia with lab interference and mild liver abnormalities. With no comparator groups and strong publication bias, the authors say ILE can't be called effective or safe for routine use.",
+     "why": "Sodium bicarbonate (1–2 mEq/kg boluses, targeting QRS narrowing and pH around 7.45–7.55) stays first-line for TCA cardiotoxicity. ILE (20%, 1.5 mL/kg bolus then infusion) is a rescue option for refractory shock or arrest, and labs should be drawn before it when possible because lipemia interferes with them."
+    },
+    {
+     "topic": "Toxicology / Opioid use disorder",
+     "study_type": "Cross-sectional (NEMSIS)",
+     "takeaway": "Prehospital buprenorphine rose from 33 to over 1,500 EMS doses a year, and 80% of patients improved",
+     "title": "Prehospital Buprenorphine: A National Cross-Sectional Analysis.",
+     "journal": "West J Emerg Med",
+     "pub_date": "Oct 2026",
+     "population": "2,180 EMS encounters with buprenorphine given, out of about 167 million US EMS patient contacts, 2020–2023",
+     "pmid": "43023763",
+     "summary": "EMS buprenorphine use climbed from 33 administrations in 2020 to 1,574 in 2023, with a sharp jump starting in spring 2022. Patients were mostly men (62%) with a mean age of 37, about half the doses came during 911 responses, and nearly all were given by paramedics or community paramedics. Initial doses were usually 8 mg (45%) or 16 mg (36%). Most patients improved (80%) and only 4 (0.2%) got worse, and just 16% of 911 patients were transported to a hospital.",
+     "why": "More patients will arrive having already had 8–24 mg of buprenorphine in the field, so ask EMS for the dose and time before giving more or starting a full agonist. It also strengthens the case for ED-initiated buprenorphine with a bridge prescription and naloxone at discharge."
+    },
+    {
+     "topic": "Sepsis / Diagnostic stewardship",
+     "study_type": "Pre/post implementation",
+     "takeaway": "Showing a host-protein bacterial/viral test in the ED sepsis alert led to fewer cefepime doses in unlikely sepsis",
+     "title": "Integrating a Host-Protein Bacterial/Viral Test into the Emergency Department Sepsis Alert Order Set Is Associated with Changes in Sepsis Category Distribution and Patient Management: A Pre/Postimplementation Study.",
+     "journal": "Crit Care Explor",
+     "pub_date": "Nov 2026",
+     "population": "893 adults who triggered the ED sepsis alert, 1 US academic medical center, Sept 2024–Mar 2025",
+     "pmid": "43023823",
+     "summary": "The MeMed BV test was ordered automatically in both periods, but clinicians could only see results after implementation. Afterward, more patients were classified as unlikely sepsis (41.1% vs 32.5%) and fewer as possible sepsis (13.2% vs 18.4%). Among unlikely-sepsis patients, mean cefepime doses fell from 3.3 to 2.2 and hospitalization dropped from 92.1% to 79.9%. It's a short, single-center before-and-after study that also included clinician education.",
+     "why": "A bacterial/viral host-response score could help ED pharmacists question continuing broad-spectrum antibiotics in low-probability sepsis after the first dose. It shouldn't delay that first dose in patients who look septic."
+    },
+    {
+     "topic": "Respiratory emergencies / Asthma",
+     "study_type": "Prospective observational",
+     "takeaway": "Mesh and breath-actuated nebulizers delivered albuterol more than 80% faster than a jet nebulizer",
+     "title": "High-efficiency Nebulizers Reduce Albuterol Administration Time in the Emergency Department.",
+     "journal": "West J Emerg Med",
+     "pub_date": "Oct 2026",
+     "population": "296 ED patients aged 3 and older (26% pediatric) getting nebulized albuterol for asthma, 1 US urban Level I trauma center, 2019–2023",
+     "pmid": "43023745",
+     "summary": "A continuous jet nebulizer (single 15 mg dose) took a mean of 60.6 minutes, compared with 12.3 minutes for a vibrating mesh device and about 8 minutes for breath-actuated or breath-enhanced devices given in 5 mg increments up to 15 mg. Adjusted treatment time was 82–88% shorter with the high-efficiency devices. Admission rates, asthma severity scores and peak flow didn't differ between devices. Device assignment wasn't randomized.",
+     "why": "Faster devices can save about 45 minutes per treatment without changing outcomes, which matters for crowded EDs. Pharmacists and respiratory therapy should coordinate albuterol dosing with the device, since efficient nebulizers deliver more drug per mg and can allow dose-titrated increments."
+    },
+    {
+     "topic": "Toxicology / Alcohol withdrawal",
+     "study_type": "Retrospective cohort",
+     "takeaway": "Social and psychiatric factors, not discharge tapers, predicted early ED returns after alcohol withdrawal",
+     "title": "Factors Associated with Early ED Return Among Patients Discharged After Treatment for Alcohol Withdrawal Syndrome.",
+     "journal": "West J Emerg Med",
+     "pub_date": "Oct 2026",
+     "population": "318 ED encounters for alcohol withdrawal discharged home, 1 US academic center, 2020–2023",
+     "pmid": "43023769",
+     "summary": "Fourteen patients (4.4%) returned within 72 hours and 32 (10.1%) were admitted within 30 days. In adjusted models, schizophrenia (OR 8.59), Medicaid insurance (OR 4.43) and anxiety (OR 3.53) predicted 72-hour return, and homelessness predicted 30-day admission (OR 3.19). Discharge taper prescriptions weren't associated with either outcome. The study was small, single-center and had few events.",
+     "why": "A discharge benzodiazepine or gabapentin taper alone doesn't seem to prevent bounce-backs. Pair it with relapse-prevention medication (naltrexone, acamprosate or gabapentin), thiamine, and social work or addiction follow-up for patients with these risk factors."
+    },
+    {
+     "topic": "Antimicrobial stewardship / IV-to-oral",
+     "study_type": "Cluster-randomized crossover trial",
+     "takeaway": "Three days of oral antibiotics after surgery for complicated appendicitis was noninferior to IV",
+     "title": "Oral versus intravenous postoperative antibiotics after laparoscopic appendectomy following complicated appendicitis: an open-label cluster-randomized cluster-crossover multiperiod non-inferiority study.",
+     "journal": "Br J Surg",
+     "pub_date": "Oct 2026",
+     "population": "1,021 adults after laparoscopic appendectomy for complicated appendicitis, 12 Danish hospitals",
+     "pmid": "43021726",
+     "summary": "Hospitals alternated between a 3-day oral and a 3-day IV postoperative antibiotic regimen. Intra-abdominal abscess at 30 days occurred in 6.8% with oral vs 4.9% with IV therapy (difference 1.9 points, 90% CI −0.4 to 4.2), meeting the 5-point noninferiority margin, with similar per-protocol results. Oral antibiotics cut hospital stay by about 41 hours but raised readmissions by 4.7 points.",
+     "why": "Adds to the evidence for short, early-oral courses after source control in intra-abdominal infection, a key stewardship lever. The higher readmission rate argues for clear return precautions and follow-up when patients go home on oral therapy."
+    }
+   ]
+  },
+  {
    "date": "2026-11-13",
    "window": "Nov 12, 2026",
    "note": "No ED drug RCTs this window. The EM picks are a systematic review of ED analgesia RCTs, a status epilepticus paralytic comparison, a pilot sepsis bundle trial, a JAMA stroke treatment review, a post hoc tirofiban analysis and national EMS naloxone data. A sepsis procalcitonin meta-analysis and an ED adverse drug reaction study fill out the issue.",
@@ -1161,102 +1269,6 @@
      "pmid": "42969980",
      "summary": "Pooling three observational studies, concurrent use of interacting antibiotics (largely CYP3A4-inhibiting macrolides) with statins was associated with a higher risk of myopathy or rhabdomyolysis (pooled OR 2.13, 95% CI 1.82–2.50). The estimate was stable in leave-one-out analysis, but with only three studies the analysis can't separate risk by statin or antibiotic.",
      "why": "A common ED discharge pitfall: clarithromycin or erythromycin with simvastatin, lovastatin or atorvastatin. Choose azithromycin or doxycycline, or hold the statin for the course."
-    }
-   ]
-  },
-  {
-   "date": "2026-11-02",
-   "window": "Nov 1–2, 2026",
-   "note": "A very thin weekend window: no ED drug RCTs and only one ED toxicology study, so this issue runs short (7 picks) and leans on sepsis diagnostics, shock staging and stewardship. Treat the observational items as hypothesis-generating.",
-   "bottom_line": [
-    "About 1 in 6 adults with acute poisoning (mostly organophosphates) needed intubation, usually on arrival. Paraquat patients can deteriorate late, so keep watching them after a calm first look.",
-    "For propofol procedural sedation, adding esketamine 0.3 mg/kg (roughly 0.6 mg/kg racemic ketamine) gave opioid-level analgesia with far less hypoxemia than sufentanil.",
-    "Rapid diagnostics only help when someone acts on them: a direct call to microbiology at sepsis alert, or a BCID2 panel, sped de-escalation but didn't change mortality."
-   ],
-   "articles": [
-    {
-     "topic": "Toxicology",
-     "study_type": "Prospective cohort",
-     "takeaway": "One in six ED poisoning patients needed intubation, mostly for organophosphates; paraquat failed late",
-     "title": "Incidence and Outcomes of Endotracheal Intubation in Patients Presenting With Acute Poisoning to the Emergency Department of a Tertiary Care Center in India: A Prospective Observational Study.",
-     "journal": "Cureus",
-     "pub_date": "Oct 2026",
-     "population": "120 adults with acute poisoning, 1 Indian tertiary ED, followed 28 days",
-     "pmid": "42967189",
-     "summary": "Most ingestions were intentional, with organophosphates the leading agent, followed by household corrosives. Intubation was needed in 15.8% (19 of 120), most often for low GCS and airway protection, then respiratory distress and heavy secretions. Most intubations happened at presentation, but paraquat patients tended to need delayed intubation as respiratory failure progressed. Overall 28-day mortality was 9.2%, higher among intubated patients and driven mainly by organophosphates and paraquat. The study is small, single-center and descriptive.",
-     "why": "For OP poisoning, early high-dose atropine titrated to dry secretions can head off some intubations. If you do intubate, avoid succinylcholine (cholinesterase inhibition prolongs paralysis) and limit supplemental oxygen in paraquat."
-    },
-    {
-     "topic": "Procedural sedation",
-     "study_type": "RCT",
-     "takeaway": "Esketamine 0.3 mg/kg with propofol balanced analgesia and safety, with less hypoxemia than sufentanil",
-     "title": "Comparison of the anaesthetic efficacy and safety of different doses of esketamine combined with propofol in hysteroscopic surgery: a randomised, double-blind controlled trial.",
-     "journal": "BMC Anesthesiol",
-     "pub_date": "Jul 2026",
-     "population": "160 women (157 analyzed) having elective hysteroscopy under propofol TIVA, 1 Chinese center",
-     "pmid": "42968012",
-     "summary": "Patients were randomized to esketamine 0.15, 0.3 or 0.5 mg/kg or sufentanil 0.1 mcg/kg, all with propofol 1.5 mg/kg induction plus infusion. Pain scores after recovery were lower with 0.3 mg/kg, 0.5 mg/kg and sufentanil than with 0.15 mg/kg. SpO2 below 90% occurred in 20.5% of the sufentanil group vs 0–5.3% of the esketamine groups. The lowest dose caused more intraoperative hypertension (22.5%), and the highest dose caused more emergence agitation (10%) and slower recovery. Propofol use didn't differ, and the trial was registered retrospectively.",
-     "why": "Supports a ketamine-propofol mix over opioid-propofol for ED procedural sedation when apnea risk matters. Remember that racemic ketamine needs about twice the esketamine dose."
-    },
-    {
-     "topic": "Shock / Vasopressors",
-     "study_type": "Registry cohort",
-     "takeaway": "An updated cardiogenic shock staging system uses SBP, lactate and number of vasoactive drugs or devices",
-     "title": "Updated Staging System to Define Cardiogenic Shock Severity A Cardiogenic Shock Working Group Report.",
-     "journal": "J Card Fail",
-     "pub_date": "Nov 2026",
-     "population": "11,640 patients with heart failure or MI cardiogenic shock (CSWG registry, 2021–2025), validated in 1.4 million patients in a US health system",
-     "pmid": "42967535",
-     "summary": "Mortality rose step by step with lower SBP (cutoffs 60 and 90 mmHg) and higher lactate (cutoffs 2, 5 and 10 mmol/L). The 2026 system counts vasoactive drugs plus temporary mechanical support devices to set stage (C: 1–2, D: 3–4, E: 5 or more). Compared with the 2022 criteria, 28% of stage D and 56% of stage E patients moved to a less severe stage, and those patients had lower mortality. Out-of-hospital arrest worked best as a modifier, while in-hospital arrest placed patients in stage E.",
-     "why": "Each added pressor or inotrope now moves the stage directly, so the ED pharmacist's drip count and lactate are part of the shock-team severity call."
-    },
-    {
-     "topic": "Sepsis / Diagnostic stewardship",
-     "study_type": "Prospective cohort",
-     "takeaway": "Calling microbiology at sepsis alert doubled the odds of a 24-hour diagnosis and sped de-escalation",
-     "title": "Impact of early microbiology laboratory activation on rapid diagnosis and antimicrobial optimization in a sepsis alert pathway.",
-     "journal": "Diagn Microbiol Infect Dis",
-     "pub_date": "Oct 2026",
-     "population": "327 adults with sepsis alert activation, 1 Spanish tertiary hospital",
-     "pmid": "42967404",
-     "summary": "Early microbiology lab activation meant the clinician phoned the on-call microbiologist when the sepsis alert fired, which happened in 65% of patients. A causative organism was identified within 24 hours in 59.6% of patients with activation vs 35.1% without (adjusted OR 2.99), and rapid diagnostic tests were used more often. De-escalation came a day sooner (median 3 vs 4 days). Days of therapy, ICU admission, length of stay and mortality didn't differ.",
-     "why": "A simple communication step pharmacists can build into ED sepsis pathways so that empiric broad-spectrum therapy gets narrowed sooner."
-    },
-    {
-     "topic": "Sepsis / Bloodstream infection",
-     "study_type": "Prospective cohort",
-     "takeaway": "A BCID2 rapid blood culture panel improved day-1 antibiotic choices in ICU bacteremia but not survival",
-     "title": "Use of a molecular syndromic panel for the etiological diagnosis of bloodstream infections in critically ill patients: impact on clinical outcomes and antimicrobial use from a multicenter, prospective study.",
-     "journal": "Ann Med",
-     "pub_date": "Nov 2026",
-     "population": "126 critically ill adults with bloodstream infection, multicenter Italy (MULTI-SITA)",
-     "pmid": "42968548",
-     "summary": "Adding the BioFire BCID2 panel to standard blood cultures wasn't associated with 30-day mortality (HR 0.97). By day 1, early de-escalation or a switch to appropriate therapy happened more often with the panel (55.6% vs 31.7%). Mortality was driven by SOFA score, concurrent infections and the causative organism. The sample was small and the study wasn't randomized.",
-     "why": "Panel results are only as useful as the stewardship response to them. Pharmacist review of BCID2 hits (e.g., resistance genes like CTX-M, KPC, mecA) is where the gain comes from."
-    },
-    {
-     "topic": "Antimicrobial stewardship",
-     "study_type": "Program description / QI",
-     "takeaway": "Weekly face-to-face handshake stewardship rounds won over 80% acceptance and cut broad-spectrum use",
-     "title": "From policing to partnerships: Implementation of a handshake antimicrobial stewardship program.",
-     "journal": "Am J Health Syst Pharm",
-     "pub_date": "Nov 2026",
-     "population": "Hospital medicine and acute care surgery services, 1 US health system",
-     "pmid": "42968448",
-     "summary": "A pharmacist-physician co-led team rounded in person once a week with each partner service and reviewed every patient on systemic antimicrobials. Service-line champions handled scheduling and buy-in. After 1 year, more than 80% of recommendations were accepted on both services, broad-spectrum use fell, and prescribers contacted stewardship pharmacists more often and reported high satisfaction. The report is descriptive, with no control group.",
-     "why": "A practical template for extending stewardship to the ED or observation units, where relationships with prescribers matter as much as the recommendations."
-    },
-    {
-     "topic": "Critical care / ID",
-     "study_type": "Cohort",
-     "takeaway": "Polymyxin B worked best at an AUC of 77–110 mg·h/L; higher exposure raised AKI risk",
-     "title": "Optimizing Polymyxin B Exposure in Carbapenem-Resistant Organism-Associated Hospital-Acquired Pneumonia: A Retrospective Observational Study.",
-     "journal": "Drug Des Devel Ther",
-     "pub_date": "Oct 2026",
-     "population": "138 patients with carbapenem-resistant HAP on IV polymyxin B with TDM, 1 Chinese center",
-     "pmid": "42968961",
-     "summary": "Clinical success at 14 days was 45.7%, and most infections were carbapenem-resistant Acinetobacter. An AUC below 77 mg·h/L independently predicted treatment failure (OR 0.33), while an AUC above 110 mg·h/L tripled AKI risk (OR 3.24). The median AUC was 77.5 mg·h/L, so about half the patients fell below the efficacy threshold. The study is retrospective and single-center.",
-     "why": "Supports AUC-guided polymyxin B dosing where TDM exists. It's also a reminder that newer agents (e.g., cefiderocol, sulbactam-durlobactam) are often preferred for CRAB when available."
     }
    ]
   }
