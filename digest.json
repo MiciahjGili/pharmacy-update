@@ -1,6 +1,102 @@
 {
  "issues": [
   {
+   "date": "2026-11-16",
+   "window": "Nov 15, 2026",
+   "note": "A very thin Sunday window with no ED drug RCTs, so this issue runs short at 7 picks rather than padding. The EM items are an ED buprenorphine follow-up cohort, updated Scandinavian head injury guidelines that relax CT rules for DOAC patients, a pediatric intra-arrest blood pressure meta-analysis and a whiplash medication-trajectory cohort. Three stewardship and anticoagulation papers round it out; all are observational or reviews.",
+   "bottom_line": [
+    "After ED-initiated buprenorphine, every extra day of waiting for the first clinic visit raised the odds of a no-show by about 31%, and attendance fell below 50% once the wait passed 3 days. Book follow-up within 72 hours and bridge the prescription to that date.",
+    "New Scandinavian head injury guidelines no longer push routine CT for every mild head injury on a DOAC, and add GFAP/UCH-L1 biomarkers and structured observation as options. Warfarin and antiplatelet patients still need a careful risk check.",
+    "Stable patients with uncomplicated Enterobacterales bacteremia did as well switching to oral antibiotics by day 4 as later, with 2 fewer hospital days and 3 fewer antibiotic days."
+   ],
+   "articles": [
+    {
+     "topic": "Toxicology / Opioid use disorder",
+     "study_type": "Retrospective cohort",
+     "takeaway": "Each extra day between ED buprenorphine and the first clinic visit cut follow-up attendance; 3 days was the tipping point",
+     "title": "Longer wait times after ED-initiated buprenorphine associated with lower appointment attendance.",
+     "journal": "Am J Emerg Med",
+     "pub_date": "Nov 2026",
+     "population": "301 adults given observed ED buprenorphine induction or a buprenorphine prescription, 1 US ED, 2019–2025",
+     "pmid": "43033608",
+     "summary": "Only about half of patients (51%) made it to their first outpatient MOUD appointment. Demographics, insurance, primary opioid, polysubstance use and whether induction was observed or unobserved weren't linked to attendance. Each added day of waiting raised the adjusted odds of missing the visit by 31% (aOR 1.31, 95% CI 1.10–1.56), and the probability of attending dropped to 50% at a 3-day wait. It is a single-center retrospective study.",
+     "why": "The biggest lever after ED induction may be scheduling, not dosing. ED pharmacists can push for next-day or 72-hour bridge clinic slots, write the bridge prescription to cover the full gap, and add naloxone to every discharge."
+    },
+    {
+     "topic": "Neuro emergencies / Anticoagulation",
+     "study_type": "Guideline (SR, meta-analysis + Delphi)",
+     "takeaway": "Updated Scandinavian head injury guidelines drop routine CT for many DOAC patients and add blood biomarkers",
+     "title": "The Scandinavian Neurotrauma Committee 2026 guidelines for initial management of minimal, mild and moderate head injuries in adults: a systematic review, meta-analysis and modified Delphi consensus study.",
+     "journal": "Lancet Reg Health Eur",
+     "pub_date": "Nov 2026",
+     "population": "Adults with minimal, mild or moderate head injury in the ED; GRADE-rated review plus 29-stakeholder Delphi panel",
+     "pmid": "43034829",
+     "summary": "The committee's first update since 2013 was driven largely by an aging population and wider antithrombotic use. A GRADE-based systematic review and meta-analysis fed a modified Delphi process that produced seven recommendations and new flowcharts for CT, discharge, observation and repeat imaging. Key changes are less emphasis on routine CT for patients on DOACs, use of GFAP and UCH-L1 biomarkers to rule out intracranial injury, and structured observation instead of CT for some risk groups. The authors note the new pathways still need validation.",
+     "why": "Med history drives the head injury pathway, so pharmacists should confirm the exact anticoagulant or antiplatelet, dose and last dose time at triage. The relaxed DOAC stance doesn't extend to warfarin, and reversal agents (4F-PCC, andexanet, idarucizumab) should still be ready if a bleed is found."
+    },
+    {
+     "topic": "Pediatric resuscitation",
+     "study_type": "Systematic review & meta-analysis",
+     "takeaway": "A diastolic BP of at least 25 (infants) or 30 mm Hg (children) during pediatric CPR tracked with better survival",
+     "title": "Intra-arrest blood pressure monitoring during paediatric in-hospital cardiac arrest: a systematic review and meta-analysis.",
+     "journal": "Resusc Plus",
+     "pub_date": "Oct 2026",
+     "population": "6 observational studies of children with in-hospital cardiac arrest and arterial lines; 2 studies (577 events) pooled",
+     "pmid": "43034655",
+     "summary": "Averaged over the first 10 minutes of CPR, a diastolic pressure of 25 mm Hg or more in infants and 30 mm Hg or more in older children was associated with higher ROSC, survival to discharge and survival with good neurologic outcome. Systolic thresholds showed no significant association. Certainty was very low, and the authors stress the data don't prove that titrating CPR or drugs to these targets improves outcomes.",
+     "why": "When a child arrests with an arterial line in place, diastolic pressure is a real-time readout of CPR and epinephrine effect. It can guide compression quality and epinephrine timing (0.01 mg/kg every 3–5 minutes), but it shouldn't replace standard dosing intervals."
+    },
+    {
+     "topic": "Acute pain / Opioid prescribing",
+     "study_type": "Prospective cohort (registry-linked)",
+     "takeaway": "After whiplash, a quarter of new opioid users and 43% of new sedative users went on to persistent use",
+     "title": "Trajectories of medication use after whiplash injury: high rates of persistent opioid and sedative use.",
+     "journal": "Pain Rep",
+     "pub_date": "Nov 2026",
+     "population": "167 adults with motor vehicle collision whiplash injury, 1 Danish center, linked to national prescription data 12 months before and after",
+     "pmid": "43032870",
+     "summary": "The share of patients filling nonopioid analgesics rose from 19% to 35% and opioids from 34% to 51% after the crash, while sedative-hypnotic use rose only slightly (13% to 17%). Among new users, 26% of opioid users and 43% of sedative-hypnotic users became persistent users. Higher early pain and disability scores predicted more medication use, and women were more likely to start and stay on opioids. The cohort was small and from one center.",
+     "why": "Whiplash is a common ED discharge diagnosis where short courses quietly become long ones. Favor NSAIDs, acetaminophen and early activity, keep any opioid or sedative supply to a few days, and flag high pain or disability scores for early follow-up."
+    },
+    {
+     "topic": "Antimicrobial stewardship / IV-to-oral",
+     "study_type": "Retrospective cohort (multicenter)",
+     "takeaway": "Switching to oral antibiotics by day 4 in uncomplicated Enterobacterales bacteremia worked as well as later switching",
+     "title": "Early versus late transition to oral antibiotics in Enterobacterales bacteremia.",
+     "journal": "Antimicrob Steward Healthc Epidemiol",
+     "pub_date": "Sep 2026",
+     "population": "225 adults with uncomplicated Enterobacterales bacteremia, clinically stable within 72 hours with source control, 5 US hospitals",
+     "pmid": "43032472",
+     "summary": "Patients switched to oral therapy by day 4 (133) were compared with those switched later (92). Treatment failure within 30 days (recurrence, escalation, infection-related readmission or death) was 6.0% vs 6.5%, with no significant difference. Early switching was linked to shorter median hospital stay (5 vs 7 days) and shorter total antibiotic courses (9 vs 12 days). Immunocompromised patients were excluded and the switch wasn't randomized.",
+     "why": "Adds to trial data supporting early oral step-down for gram-negative bacteremia from urinary or other controlled sources. Pharmacists can flag stable patients for a highly bioavailable oral agent (e.g., a fluoroquinolone or TMP-SMX when susceptible) once cultures return."
+    },
+    {
+     "topic": "Anticoagulation / VTE",
+     "study_type": "Bayesian meta-analysis",
+     "takeaway": "In sickle cell disease, DOACs prevented VTE recurrence as well as warfarin with about 75% less major bleeding",
+     "title": "Direct oral anticoagulants versus vitamin K antagonists for the treatment of venous thromboembolism in adults with sickle cell disease: a Bayesian meta-analysis.",
+     "journal": "Res Pract Thromb Haemost",
+     "pub_date": "Oct 2026",
+     "population": "4 retrospective studies, 271 adults with sickle cell disease and VTE (155 DOAC, 116 VKA)",
+     "pmid": "43034677",
+     "summary": "Recurrent VTE didn't differ between DOACs and VKAs (OR 0.82, 95% credible interval 0.38–1.75), consistent with equipoise. Major bleeding was markedly lower with DOACs (OR 0.25, 95% CrI 0.07–0.80), with a 99% posterior probability that DOACs are safer. Heterogeneity was low, but all four studies were small and retrospective.",
+     "why": "Patients with sickle cell disease have frequent ED visits and high VTE rates. This supports a DOAC as a reasonable first choice at discharge, with attention to renal function, adherence and interactions."
+    },
+    {
+     "topic": "Pharmacist-led care / OPAT stewardship",
+     "study_type": "Pre/post implementation",
+     "takeaway": "Pharmacist review of patients going home on IV antibiotics improved regimen appropriateness but didn't shorten stays",
+     "title": "TOC-PAT: a novel approach to discharge stewardship.",
+     "journal": "Antimicrob Steward Healthc Epidemiol",
+     "pub_date": "Sep 2026",
+     "population": "267 adults discharged or planned for discharge on outpatient parenteral antibiotics (167 before, 100 after), 1 US community hospital",
+     "pmid": "43032387",
+     "summary": "Stewardship pharmacists screened every patient headed home on IV antimicrobials and recommended changes. Median length of stay didn't change (9 vs 10 days), but appropriate regimens rose from 51.5% to 58%. Pharmacists made 68 interventions and teams accepted 66% of them, mostly changes in drug choice and IV-to-oral conversions.",
+     "why": "Discharge is a stewardship blind spot, and many OPAT regimens can be narrowed or switched to oral. It's a model for pharmacists at transitions of care, including ED patients sent home on daily IV antibiotics."
+    }
+   ]
+  },
+  {
    "date": "2026-11-15",
    "window": "Nov 14, 2026",
    "note": "A quiet Saturday window with no ED drug RCTs, so this issue runs short at 7 picks. The EM items are a pharmacist-physician ICH blood pressure protocol, a pediatric ED cardiac arrest cohort, an AF cardioversion comparison, a statewide kratom death analysis and an ED opioid prescribing study, plus an ED medication-safety review and a trauma antibiotic prophylaxis cohort. All are observational or reviews, so read them as practice context.",
@@ -1161,114 +1257,6 @@
      "pmid": "42981569",
      "summary": "Patients were randomized 2:1 to subcutaneous plozasiran 25 mg or placebo every 3 months. At 12 months, median triglycerides fell 79–81% with plozasiran, about 45–47 percentage points more than placebo, and over 90% reached a level below 500 mg/dL vs about half on placebo. In pooled data, acute pancreatitis occurred at 1 vs 5 events per 100 patient-years (rate ratio 0.22). Adverse event rates were the same in both groups (73%).",
      "why": "An APOC3-targeting siRNA given 4 times a year could prevent repeat hypertriglyceridemia-induced pancreatitis visits. Expect questions about it during ED med histories and discharge planning."
-    }
-   ]
-  },
-  {
-   "date": "2026-11-04",
-   "window": "Nov 3–4, 2026",
-   "note": "Another light window with one ED drug RCT (topical TXA for epistaxis). The rest are meta-analyses, cohorts and a pharmacist-practice study, so read the observational items as hypothesis-generating.",
-   "bottom_line": [
-    "Topical TXA applied directly to the bleeding site helped stop spontaneous nosebleeds that first aid didn't control. It's a cheap, low-dose ED adjunct, though it didn't clearly reduce 24-hour rebleeding.",
-    "ER guanfacine overdoses in teens cause near-universal bradycardia and hypotension. Supportive care with fluids, atropine as needed and cardiac monitoring was enough, and every patient recovered.",
-    "In ICU patients on carbapenems, doses above the renal-adjusted recommendation were tied to much more AKI. Re-check CrCl daily and adjust; don't leave the ED loading regimen running unchanged."
-   ],
-   "articles": [
-    {
-     "topic": "Hemostasis / ED procedures",
-     "study_type": "RCT",
-     "takeaway": "Topical TXA beat placebo for stopping refractory spontaneous nosebleeds in the ED, but didn't clearly cut rebleeding",
-     "title": "Effect of Topical Tranexamic Acid in Acute Spontaneous Epistaxis: A Randomized Controlled Trial.",
-     "journal": "Laryngoscope",
-     "pub_date": "Nov 2026",
-     "population": "162 ED patients with spontaneous epistaxis not controlled by first aid (76 TXA, 86 placebo)",
-     "pmid": "42978064",
-     "summary": "In this double-blind, placebo-controlled trial, TXA was applied directly to the bleeding site. It achieved initial hemostasis in the ED more often than placebo (p = 0.047). Rebleeding within 24 hours was numerically lower but not significantly different (RR 0.45, 95% CI 0.17–1.24), and significant rebleeding was rare in both groups (RR 1.50, wide CI). The trial was small and the result was borderline.",
-     "why": "Supports stocking a topical TXA option (often the IV 100 mg/mL solution on pledgets) for anterior epistaxis before packing. Pharmacists can standardize the concentration and how it's applied."
-    },
-    {
-     "topic": "Toxicology",
-     "study_type": "Chart review + systematic review",
-     "takeaway": "Pediatric ER guanfacine overdoses caused bradycardia and hypotension that responded to supportive care",
-     "title": "Extended-release guanfacine overdose in a pediatric emergency department: a systematic review and a 10-year retrospective chart review.",
-     "journal": "Paediatr Child Health",
-     "pub_date": "Jul 2026",
-     "population": "15 children at 1 tertiary pediatric ED over 10 years, plus 11 published pediatric cases",
-     "pmid": "42974584",
-     "summary": "In the ED cohort (median age 14), 73% of ingestions were intentional, often in teens with psychiatric conditions. Nearly all patients had bradycardia and hypotension, and some had transient hypertension early on. Most got IV fluids (87%), 20% got atropine for symptomatic bradycardia, and 3 needed PICU care; none got naloxone and all recovered. In the published cases (mostly accidental ingestions in young children), naloxone had inconsistent effects.",
-     "why": "ER guanfacine is increasingly common in ADHD households. Expect delayed, prolonged alpha-2 effects from the extended-release form, and have atropine and fluids ready; naloxone is a low-yield adjunct at best."
-    },
-    {
-     "topic": "Stroke",
-     "study_type": "Meta-analysis",
-     "takeaway": "Early tirofiban within 24 hours of IV thrombolysis improved 90-day outcomes in non-cardioembolic stroke",
-     "title": "Early antiplatelet therapy after intravenous thrombolysis in acute non-cardiogenic ischemic stroke: a systematic review and meta-analysis.",
-     "journal": "Front Neurol",
-     "pub_date": "Oct 2026",
-     "population": "4 studies, 1,394 patients with non-cardioembolic ischemic stroke after IVT (2 RCTs: ASSET-IT, INSTANT)",
-     "pmid": "42978562",
-     "summary": "In the two RCTs (1,191 patients), starting tirofiban within 24 hours of thrombolysis raised the odds of mRS 0–1 at 90 days compared with standard antiplatelet timing (OR 1.78). Symptomatic ICH (OR 1.19) and mortality (OR 0.84) didn't differ significantly, but the confidence interval for sICH was wide and events were few. Aspirin data came from only one small study.",
-     "why": "Current guidelines generally hold antiplatelets for 24 hours after lytics. If your stroke team starts using early tirofiban, pharmacists will need a dosing protocol and bleeding checks."
-    },
-    {
-     "topic": "ED clinical pharmacy",
-     "study_type": "Controlled intervention study",
-     "takeaway": "ED pharmacist medication review for complex chronic patients cut inappropriate prescribing by about 21%",
-     "title": "Transitional care from the emergency department: Impact of a comprehensive pharmacotherapy review in complex chronic patients.",
-     "journal": "Farm Hosp",
-     "pub_date": "Nov 2026",
-     "population": "Complex chronic patients seen in the ED, 151 intervention and 151 control, 1 Spanish hospital",
-     "pmid": "42977659",
-     "summary": "Pharmacists reconciled medications and did a full pharmacotherapy review within 24 hours of the ED visit (48 hours on weekends), sent reports to primary care at discharge, and followed up at 1 and 3 months. Compared with usual care, polypharmacy, anticholinergic burden, potentially inappropriate prescriptions and reconciliation errors all fell, with inappropriate prescribing down 20.6% (mostly drugs without an indication, benzodiazepines and antipsychotics). Physicians accepted 49% of recommendations, but healthcare use didn't change.",
-     "why": "Evidence for the ED pharmacist's role beyond resuscitation: med rec and deprescribing in frail, high-utilizer patients, with handoff to primary care."
-    },
-    {
-     "topic": "Endocrine emergencies",
-     "study_type": "Meta-analysis",
-     "takeaway": "Balanced fluids didn't beat normal saline for pediatric DKA resolution, length of stay or cerebral edema",
-     "title": "Fluid choice in pediatric diabetic ketoacidosis: a Systematic Review and Meta-Analysis.",
-     "journal": "Eur J Pediatr",
-     "pub_date": "Nov 2026",
-     "population": "8 studies (RCTs and observational), 47,840 children with DKA",
-     "pmid": "42977847",
-     "summary": "Among the RCTs, time to DKA resolution (MD 2.27 hours, not significant), hospital length of stay and PICU length of stay didn't differ between balanced electrolyte solutions and 0.9% saline. Cerebral edema and AKI risks also didn't differ, but those estimates came from very few events and had extremely wide confidence intervals. The authors conclude that the evidence can't show either fluid is better or safer.",
-     "why": "Either fluid is reasonable for pediatric DKA; follow your institution's protocol. This differs from the adult and pediatric sepsis data, where balanced fluids have a modest edge."
-    },
-    {
-     "topic": "Neuro emergencies / Anticoagulation",
-     "study_type": "Meta-analysis of RCTs",
-     "takeaway": "DOACs performed similarly to warfarin for recanalization and major bleeding in cerebral venous thrombosis",
-     "title": "Direct oral anticoagulants versus vitamin K antagonist-based standard care in cerebral venous thrombosis: a systematic review and meta-analysis of randomized controlled trials.",
-     "journal": "J Thromb Thrombolysis",
-     "pub_date": "Nov 2026",
-     "population": "6 RCTs, 430 patients with cerebral venous thrombosis",
-     "pmid": "42975811",
-     "summary": "Recanalization or radiological improvement at about 6 months didn't differ between DOACs and VKA-based care (RR 0.94, 95% CI 0.81–1.09), and the result held after excluding a trial with weak randomization. Major bleeding was rare in both groups (2 of 188 with DOACs vs 4 of 190 with comparators; RR 0.60, wide CI). Trials were small and used different imaging outcomes.",
-     "why": "Supports transitioning CVT patients to a DOAC after initial heparin, which simplifies discharge. Avoid DOACs in antiphospholipid syndrome and pregnancy."
-    },
-    {
-     "topic": "Sepsis / Critical care",
-     "study_type": "Cohort (propensity-matched)",
-     "takeaway": "Continuous paralytics in ventilated sepsis patients didn't change mortality but lengthened ICU stay and raised VAP",
-     "title": "Impact of Neuromuscular Blocking Agents on Hospital Outcomes in Mechanically Ventilated Patients With Sepsis: Propensity Score Analyses of A Nationwide Sepsis Cohort.",
-     "journal": "J Korean Med Sci",
-     "pub_date": "Nov 2026",
-     "population": "1,255 ventilated adults with sepsis, 20 Korean hospitals (292 matched pairs)",
-     "pmid": "42978137",
-     "summary": "About a quarter of patients got a continuous NMBA infusion within 3 days of ICU admission. In-hospital mortality didn't differ in either the weighted or the matched analysis (17.1% vs 18.8%). NMBA use was associated with ICU stays about 3 days longer and more ventilator-associated pneumonia (8.6% vs 4.5%), with trends toward longer ventilation. Residual confounding by severity is likely.",
-     "why": "Reinforces saving continuous paralysis for specific indications such as severe ARDS or ventilator dyssynchrony. For boarded ED patients after RSI, focus on adequate analgesia and sedation rather than routine paralytic drips."
-    },
-    {
-     "topic": "Medication safety / Renal dosing",
-     "study_type": "Cohort",
-     "takeaway": "Carbapenem doses above renal-adjusted recommendations were linked to much higher AKI risk in the ICU",
-     "title": "Carbapenem Renal Dose Discordance and Acute Kidney Injury in the Intensive Care Unit: A Retrospective Cohort Study.",
-     "journal": "J Pharm Technol",
-     "pub_date": "Nov 2026",
-     "population": "490 ICU adults on carbapenems for 48 hours or more, 1 Vietnamese hospital",
-     "pmid": "42978718",
-     "summary": "Sixteen percent of patients got at least 1 day of dosing above renal-adjusted recommendations based on Cockcroft-Gault CrCl. AKI occurred in 35.9% of those patients vs 4.4% with appropriate dosing (adjusted RR 8.1; 5.9 in matched pairs). The link with treatment failure didn't meet the corrected significance threshold. Reverse causation is possible, since AKI itself makes a fixed dose discordant.",
-     "why": "Makes the case for daily pharmacist renal dose review. Full doses for the first 24–48 hours of sepsis are still reasonable, but adjust once renal function is clearer."
     }
    ]
   }
