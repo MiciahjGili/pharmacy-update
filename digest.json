@@ -1,6 +1,114 @@
 {
  "issues": [
   {
+   "date": "2026-11-17",
+   "window": "Nov 16, 2026",
+   "note": "A thin Monday window for ED pharmacotherapy, with no ED drug RCTs, so this issue runs 8 picks with several reviews. The EM items are a sickle cell analgesia-timing study, a trauma anticoagulation review, a poison center mushroom series and an ICU sepsis antibiotic dosing review. Two large pediatric obesity RCTs (NEJM, JAMA), a stewardship de-escalation cohort and a QT interaction study fill out the rest.",
+   "bottom_line": [
+    "A colored EHR flag for sickle cell patients didn't speed first opioid doses for vaso-occlusive crisis (about 66–72 minutes either way). Getting under the 60-minute goal likely takes nurse-initiated or pharmacist-built standing protocols, not a passive alert.",
+    "Rapid-onset sweating, drooling and GI symptoms after foraged mushrooms point to muscarine; atropine reverses the dangerous bradycardia and hypotension, and severe cases can die before reaching care.",
+    "In a high-resistance hospital, de-escalation was withheld in nearly half of patients whose cultures allowed it, while patients who were de-escalated had fewer adverse events and less AKI. That gap is a ready-made target for stewardship pharmacists."
+   ],
+   "articles": [
+    {
+     "topic": "Acute pain / Sickle cell",
+     "study_type": "Pre/post implementation",
+     "takeaway": "A passive EHR color flag didn't shorten time to first opioid for sickle cell vaso-occlusive crisis",
+     "title": "Impact of an electronic health record visual cue on time to analgesia in patients with sickle cell in vaso-occlusive crisis.",
+     "journal": "Am J Emerg Med",
+     "pub_date": "Oct 2026",
+     "population": "841 ED encounters from 168 adults with sickle cell VOC, 1 large US urban academic ED, 1 year",
+     "pmid": "43038892",
+     "summary": "The ED added a salmon-colored EHR marker to identify patients with sickle cell disease and prompt faster treatment of pain crises. Mean time from arrival to first opioid was 66.3 minutes before and 71.7 minutes after (adjusted difference +2.5 minutes, 95% CI −4.2 to 9.2). The odds of getting an opioid within 60 minutes didn't change (aOR 0.97), and results held after excluding frequent visitors at several thresholds. It is a single-center retrospective before-and-after study.",
+     "why": "ASH guidelines call for analgesia within 60 minutes of arrival. ED pharmacists can help close the gap with individualized pain plans in the chart, nurse-initiated IN fentanyl or SC/IV hydromorphone protocols, and pre-verified order sets rather than relying on visual cues."
+    },
+    {
+     "topic": "Anticoagulant reversal / Trauma",
+     "study_type": "Narrative review",
+     "takeaway": "Review lays out a stepwise ED approach to injured patients on anticoagulants, with agent-specific reversal",
+     "title": "Management of the Anticoagulated Trauma Patient.",
+     "journal": "Emerg Med Clin North Am",
+     "pub_date": "Sep 2026",
+     "population": "Review of ED evaluation and reversal for trauma patients on preinjury anticoagulation (4–7% of trauma patients)",
+     "pmid": "43039520",
+     "summary": "Preinjury anticoagulant use, now mostly DOACs, is present in about 4–7% of trauma patients and raises the risk of bleeding complications and death. The authors walk through the primary and secondary surveys, stressing fast identification of the agent and a low threshold for CT. They cover agent-specific labs, transfusion principles and tailored reversal for warfarin, factor Xa inhibitors and dabigatran.",
+     "why": "Pharmacists drive this workflow: confirm the agent, dose and last dose time, then match reversal (4F-PCC plus IV vitamin K for warfarin, andexanet or 4F-PCC for factor Xa inhibitors, idarucizumab for dabigatran). Keep a weight-based PCC dosing reference at the trauma bay."
+    },
+    {
+     "topic": "Toxicology / Mushrooms",
+     "study_type": "Retrospective poison center review",
+     "takeaway": "Muscarinic mushroom poisoning was rare but caused rapid cholinergic toxicity, one atropine-responsive shock and one death",
+     "title": "A 25-Year Analysis of Muscarinic Mushroom Poisoning in Wisconsin.",
+     "journal": "Toxicon",
+     "pub_date": "Nov 2026",
+     "population": "9 confirmed cases among mushroom exposures reported to the Wisconsin Poison Center, 2000–2025",
+     "pmid": "43039086",
+     "summary": "Two reviewers applied a strict clinical case definition, and 5 of the 9 cases had expert mushroom identification (Clitocybe in 3, Inocybe in 2). Symptoms started quickly, led by sweating and excess salivation, then GI upset. Two patients had severe cardiovascular effects: one with bradycardia and hypotension that responded to atropine, and one who died after cardiovascular collapse before treatment. All 8 survivors recovered fully.",
+     "why": "Early-onset cholinergic symptoms after foraged mushrooms suggest muscarine rather than amatoxin, which typically has a delay of 6 hours or more. Titrate IV atropine (adults often start at 1 mg, repeated as needed) to dry secretions and restore heart rate, and call poison control for identification help."
+    },
+    {
+     "topic": "Sepsis / Antibiotic dosing",
+     "study_type": "Narrative review",
+     "takeaway": "Loading doses, prolonged infusions and drug-level monitoring should be standard for antibiotics in ICU sepsis",
+     "title": "Refining antibiotic dosing regimens for the treatment of sepsis in critically ill patients in the intensive care unit.",
+     "journal": "Expert Rev Clin Pharmacol",
+     "pub_date": "Nov 2026",
+     "population": "Literature review (Ovid Medline, April 2026) of antibiotic dose optimization in critically ill adults with sepsis",
+     "pmid": "43039354",
+     "summary": "Critical illness changes volume of distribution and clearance in ways that often leave antibiotic exposure too low or too high. The authors review loading doses, prolonged beta-lactam infusions, dosing nomograms, therapeutic drug monitoring and model-informed precision dosing. They recommend these tools as a foundation of sepsis care, especially in patients with large PK changes, suspected toxicity or treatment failure, or high-MIC pathogens, while noting that exposure targets and outcome links still need work.",
+     "why": "The ED sets the first exposure. Give full loading doses regardless of renal function (e.g., vancomycin 20–35 mg/kg, full first beta-lactam dose), and hand off to extended infusions and AUC- or level-guided dosing once the patient is admitted."
+    },
+    {
+     "topic": "Antimicrobial stewardship / De-escalation",
+     "study_type": "Prospective cohort",
+     "takeaway": "Only 28% of inpatients on empiric IV antibiotics were de-escalated, and it was withheld in 46% of eligible cases",
+     "title": "Real-life de-escalation practices in the era of high antimicrobial resistance rates: Insights from a prospective observational cohort study.",
+     "journal": "Int J Infect Dis",
+     "pub_date": "Nov 2026",
+     "population": "468 hospitalized adults on empiric IV antibiotics for suspected infection, 1 Turkish tertiary center, Jan–Jul 2024",
+     "pmid": "43039213",
+     "summary": "Courses were grouped by change in Antibiotic Spectrum Index into de-escalation, no change or escalation. De-escalated patients had the best clinical response (99% vs 93% vs 85%) and the fewest adverse events (6% vs 12% vs 30%) and AKI (5% vs 10% vs 25%), and 90-day mortality was higher in the no-change (HR 4.1) and escalation (HR 6.7) groups. New resistance at 90 days didn't differ. Because sicker patients are less likely to be de-escalated, the authors present these as practice-gap data rather than a treatment effect.",
+     "why": "Clinical instability, poor source control and a second infection site were the main reasons de-escalation was skipped. Pharmacist culture follow-up at 48–72 hours, including for patients admitted from the ED, is the obvious fix."
+    },
+    {
+     "topic": "Obesity pharmacotherapy / Pediatrics",
+     "study_type": "RCT (phase 3)",
+     "takeaway": "Weekly semaglutide cut BMI by about 16 points more than placebo in children aged 6 to 11",
+     "title": "Semaglutide for the Treatment of Obesity in Children 6 to <12 Years of Age.",
+     "journal": "N Engl J Med",
+     "pub_date": "Nov 2026",
+     "population": "167 children aged 6 to under 12 with obesity, randomized 2:1 to semaglutide or placebo for 104 weeks (STEP Young)",
+     "pmid": "43037562",
+     "summary": "At week 68, BMI changed by −13.5% with semaglutide vs +2.7% with placebo (difference −16.2 points, 95% CI −19.4 to −12.9). BMI dropped below the obesity threshold in 38% vs 2%, and the effect held at week 104 (difference −17.8 points). Adverse events were common in both arms (96% vs 93%), GI effects were more frequent with semaglutide, and only 1 child stopped because of them. The trial was funded by Novo Nordisk.",
+     "why": "GLP-1 RA use is about to extend into elementary-age children. In the ED, ask about it in kids with vomiting, dehydration or abdominal pain, and remember delayed gastric emptying when planning procedural sedation."
+    },
+    {
+     "topic": "Obesity pharmacotherapy / Pediatrics",
+     "study_type": "RCT (phase 3)",
+     "takeaway": "Tirzepatide lowered BMI by about 19% vs placebo in adolescents with obesity over 72 weeks",
+     "title": "Tirzepatide in Adolescents With Obesity: The SURMOUNT-ADOLESCENTS Randomized Clinical Trial.",
+     "journal": "JAMA",
+     "pub_date": "Nov 2026",
+     "population": "160 adolescents aged 12–17 with obesity, or overweight with a complication, 31 sites in 6 countries",
+     "pmid": "43035096",
+     "summary": "Participants were randomized 2:1 to weekly tirzepatide titrated to 5, 10 or 15 mg, or placebo, plus lifestyle support. At week 72, BMI fell 18.5% with tirzepatide vs a 0.5% rise with placebo (difference −19.0 points, 95% CI −23.9 to −14.1). About 80% of tirzepatide patients lost at least 5% of BMI vs 29% on placebo, and all 10 key secondary outcomes favored tirzepatide. GI adverse events were the most common and mostly mild to moderate.",
+     "why": "Puts a second incretin agent on track for adolescent use. ED pharmacists should add GLP-1/GIP agents to med history questions for teens and counsel on GI effects, dehydration risk and aspiration precautions before sedation."
+    },
+    {
+     "topic": "Drug interactions / QT prolongation",
+     "study_type": "Retrospective cohort",
+     "takeaway": "About 1 in 6 patients on oral anticancer drugs had a potential QT-prolonging drug interaction",
+     "title": "Prevalence and Characteristics of Potential QT-Interval-Prolonging Drug-Drug Interactions in Patients Receiving Oral Anticancer Drugs.",
+     "journal": "Pharmacotherapy",
+     "pub_date": "Dec 2026",
+     "population": "1,732 patients with advanced cancer on at least 1 oral anticancer drug, EHR data from 1 US cancer program",
+     "pmid": "43035355",
+     "summary": "Overall, 17.1% had at least one potential QT interaction during oral anticancer therapy. Of those, 47.5% were pharmacodynamic only (two QT-prolonging drugs), 21.2% pharmacokinetic only (CYP or transporter effects) and 31.3% both. About half involved the anticancer drug itself, most often pazopanib, palbociclib and vandetanib. The study counted overlapping prescriptions, not actual QT changes or arrhythmias.",
+     "why": "Oncology patients come to the ED with nausea, infection and agitation, where ondansetron, haloperidol, droperidol, azoles and fluoroquinolones pile on QT risk. Check the oral chemo list and a baseline ECG before stacking these drugs."
+    }
+   ]
+  },
+  {
    "date": "2026-11-16",
    "window": "Nov 15, 2026",
    "note": "A very thin Sunday window with no ED drug RCTs, so this issue runs short at 7 picks rather than padding. The EM items are an ED buprenorphine follow-up cohort, updated Scandinavian head injury guidelines that relax CT rules for DOAC patients, a pediatric intra-arrest blood pressure meta-analysis and a whiplash medication-trajectory cohort. Three stewardship and anticoagulation papers round it out; all are observational or reviews.",
@@ -1149,114 +1257,6 @@
      "pmid": "42986716",
      "summary": "Nonreceipt of intramuscular vitamin K rose from 3.1% in 2017 to 6.8% in 2025. Infants who didn't get it had more bleeding by 6 months (288 vs 186 per 10,000; adjusted RR 1.47), more intracranial bleeding (33 vs 13 per 10,000; adjusted RR 2.43) and more deaths with bleeding during the birth stay (adjusted RR 2.69). Bleeding was identified from diagnosis codes, which may misclassify some events.",
      "why": "Infants with late vitamin K deficiency bleeding present to the ED with lethargy, vomiting or seizures. Ask about vitamin K at birth, and know the treatment: IV or subcutaneous vitamin K 1 mg plus 4-factor PCC or FFP for life-threatening bleeds."
-    }
-   ]
-  },
-  {
-   "date": "2026-11-05",
-   "window": "Nov 4–5, 2026",
-   "note": "A thin window with no ED drug RCTs, so this issue leans on large observational ED datasets plus one systematic review and one NEJM trial. Read the cohorts as practice context rather than practice-changers.",
-   "bottom_line": [
-    "Bystander naloxone works: when a layperson gave it before EMS arrived, EMS needed to give more naloxone less often and transported fewer patients. Keep handing out kits at ED discharge.",
-    "Nearly half of intoxicated ED patients had at least one electrolyte abnormality. If potassium is low, check magnesium and phosphate too, and replete magnesium before chasing potassium.",
-    "About 1 in 7 adults admitted from the ED with influenza still left without an antiviral. Start oseltamivir in the ED for every admitted flu patient, regardless of symptom duration."
-   ],
-   "articles": [
-    {
-     "topic": "Toxicology",
-     "study_type": "Cross-sectional (NEMSIS)",
-     "takeaway": "Layperson naloxone before EMS arrival meant less repeat naloxone and fewer transports than first-responder naloxone",
-     "title": "Layperson naloxone administration and subsequent emergency medical services care for opioid overdose.",
-     "journal": "Drug Alcohol Depend",
-     "pub_date": "Oct 2026",
-     "population": "26,087 EMS activations for opioid overdose with naloxone given before EMS arrival, US national 2023 dataset",
-     "pmid": "42981768",
-     "summary": "About 31% of patients got naloxone from a layperson and the rest from trained responders such as police or firefighters. After a layperson dose, EMS gave more naloxone less often (24.4% vs 34.8%; aOR 0.73) and transported fewer patients (79.4% vs 84.4%; aOR 0.78). Advanced airways (about 1.5%) and cardiac arrest (about 6%) were uncommon and similar between groups. The data are cross-sectional, so patient severity and refusals can't be fully separated.",
-     "why": "Supports ED naloxone kit distribution and take-home programs. Also a reminder that more patients may decline transport after bystander reversal, so long-acting opioid exposures can be missed."
-    },
-    {
-     "topic": "Electrolyte emergencies",
-     "study_type": "Cohort",
-     "takeaway": "In severe hyperkalemia (K 7.0 or higher), kidney function, not the potassium value, predicted urgent dialysis",
-     "title": "Severe Hyperkalemia in the Emergency Department: Factors Associated with Dialysis and Mortality.",
-     "journal": "Am J Med Sci",
-     "pub_date": "Nov 2026",
-     "population": "378 non-dialysis adults with plasma K of 7.0 mmol/L or higher in the ED, 1 center, 2010–2024",
-     "pmid": "42982375",
-     "summary": "About half of patients had an ECG abnormality and 28% had severe ECG changes, and higher potassium was tied to more ECG changes. Urgent dialysis was needed in 12.2% and was predicted by stage III AKI, stage V CKD and younger age, not by the admission potassium after adjustment. In-hospital mortality was 23% and tracked with older age, malignancy, female sex and MAP below 70 mmHg.",
-     "why": "Calcium, insulin with dextrose, and beta-agonists still come first, but this supports calling nephrology early for patients with advanced CKD or severe AKI rather than waiting on repeat potassium levels."
-    },
-    {
-     "topic": "Toxicology / Electrolytes",
-     "study_type": "Cohort",
-     "takeaway": "About half of ED ethanol intoxication visits had an electrolyte abnormality; low K flagged low Mg and phosphate",
-     "title": "Incidence of Electrolyte Abnormalities in Emergency Department Patients Presenting With Ethanol Intoxication.",
-     "journal": "WMJ",
-     "pub_date": "2026",
-     "population": "223,456 VA ED visits (83,178 patients) with serum ethanol above 50 mg/dL, 2010–2019",
-     "pmid": "42981514",
-     "summary": "At least one electrolyte abnormality was found in 48.8% of encounters, and 2.9% had a severe one. Hypokalemia roughly doubled to tripled the odds of hypomagnesemia (OR 2.64) and hypophosphatemia (OR 2.51). The population was 94% male veterans, which limits generalizability.",
-     "why": "Argues against skipping labs in clinically intoxicated patients. Pair a basic panel with Mg and phosphate when K is low, and add thiamine before glucose in malnourished patients."
-    },
-    {
-     "topic": "Infectious disease (ED)",
-     "study_type": "Cohort (Epic Cosmos)",
-     "takeaway": "About 86% of adults admitted with influenza got an antiviral in the ED, with gaps by region and demographics",
-     "title": "Changes in Antiviral Treatment for Hospitalized Adults with Influenza in United States Emergency Departments.",
-     "journal": "J Emerg Med",
-     "pub_date": "Sep 2026",
-     "population": "483,459 adults hospitalized from US EDs with influenza, 2016–2025",
-     "pmid": "42981736",
-     "summary": "Overall, 86.3% received oseltamivir, peramivir, baloxavir or zanamivir in the ED, with a low of 72.7% in 2021 and 85.1% in 2025. Treatment was less likely in the West (OR 0.78) and South (OR 0.95) than in the Northeast, and differed by age, race, ethnicity and language. ED treatment rates rose and fell with national flu positivity (r = 0.59).",
-     "why": "Guidelines recommend antivirals for every hospitalized flu patient, even after 48 hours of symptoms. An ED pharmacist prompt or order-set default is an easy fix for the remaining gap."
-    },
-    {
-     "topic": "Antimicrobial stewardship (peds ED)",
-     "study_type": "Cross-sectional",
-     "takeaway": "Low-level pyuria drove a large share of unnecessary antibiotics for suspected pediatric UTI",
-     "title": "Low-Level Pyuria and Antibiotic Prescribing for Suspected Urinary Tract Infection in Children.",
-     "journal": "Pediatrics",
-     "pub_date": "Nov 2026",
-     "population": "1,150 children (2 months to 17 years) with urinalysis at ED and urgent care visits, 4 Northern California sites, 2022–2023",
-     "pmid": "42982088",
-     "summary": "Overall, 16.6% of children got empiric antibiotics. Low-level pyuria (trace leukocyte esterase or a few WBCs) raised the odds of starting antibiotics more than sixfold (aOR 6.62) compared with no pyuria. It accounted for about 17% of overtreatment in children whose cultures ruled out UTI, but only about 2% of appropriate treatment for confirmed UTI.",
-     "why": "Trace pyuria alone shouldn't trigger antibiotics. ED culture-callback programs run by pharmacists can stop unneeded courses once cultures come back negative."
-    },
-    {
-     "topic": "Skin and soft tissue infection",
-     "study_type": "Systematic review",
-     "takeaway": "Probenecid-boosted once-daily cefazolin performed like ceftriaxone for cellulitis needing IV therapy",
-     "title": "Addition of probenecid to beta-lactam antibiotics in the treatment of skin and soft tissue infections: a systematic review.",
-     "journal": "J Antimicrob Chemother",
-     "pub_date": "Nov 2026",
-     "population": "9 studies, more than 1,600 patients with SSTI",
-     "pmid": "42980223",
-     "summary": "Most studies compared once-daily IV cefazolin plus oral probenecid with ceftriaxone or more frequent cefazolin. Treatment success, failure, relapse and admission rates were similar. Evidence for oral beta-lactams plus probenecid was thin but didn't suggest they were worse. Adverse events were reported inconsistently and were mostly GI, possibly more common with probenecid.",
-     "why": "A narrower-spectrum option for ED-to-outpatient IV cellulitis pathways (e.g., cefazolin 2 g plus probenecid 1 g daily). Check for renal impairment and drug interactions, such as methotrexate, before adding probenecid."
-    },
-    {
-     "topic": "Critical care sedation",
-     "study_type": "Cohort",
-     "takeaway": "Dexmedetomidine caused hypotension or more vasopressor need in most ICU patients with RV dysfunction",
-     "title": "Safety of Dexmedetomidine Use in Adult ICU Patients With Right Ventricular Dysfunction.",
-     "journal": "J Pharm Pract",
-     "pub_date": "Nov 2026",
-     "population": "245 ICU adults with echo-confirmed RV dysfunction given dexmedetomidine, 1 US center, 2017–2022",
-     "pmid": "42981236",
-     "summary": "A composite adverse event (bradycardia, hypotension, higher vasopressor or inotrope needs, or asystole) occurred in 62.4% of patients after dexmedetomidine was started. Hypotension was the most common event, and about 20% needed more vasopressor support (mean rise of 0.06 mcg/kg/min norepinephrine equivalents). Event rates were similar across mild, moderate and severe RV dysfunction, and there was no comparison group.",
-     "why": "Relevant to boarded ED patients with PE, pulmonary hypertension or RV failure after intubation. Start low, skip the loading dose, and have a vasopressor ready if you choose dexmedetomidine."
-    },
-    {
-     "topic": "Lipids / Pancreatitis",
-     "study_type": "RCT (2 trials, pooled)",
-     "takeaway": "Plozasiran cut triglycerides by about 80% and acute pancreatitis by nearly 80% in severe hypertriglyceridemia",
-     "title": "Plozasiran for Severe Hypertriglyceridemia and Risk of Pancreatitis.",
-     "journal": "N Engl J Med",
-     "pub_date": "Nov 2026",
-     "population": "757 adults with severe hypertriglyceridemia, SHASTA-3 and SHASTA-4 (multinational)",
-     "pmid": "42981569",
-     "summary": "Patients were randomized 2:1 to subcutaneous plozasiran 25 mg or placebo every 3 months. At 12 months, median triglycerides fell 79–81% with plozasiran, about 45–47 percentage points more than placebo, and over 90% reached a level below 500 mg/dL vs about half on placebo. In pooled data, acute pancreatitis occurred at 1 vs 5 events per 100 patient-years (rate ratio 0.22). Adverse event rates were the same in both groups (73%).",
-     "why": "An APOC3-targeting siRNA given 4 times a year could prevent repeat hypertriglyceridemia-induced pancreatitis visits. Expect questions about it during ED med histories and discharge planning."
     }
    ]
   }
