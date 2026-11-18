@@ -1,6 +1,114 @@
 {
  "issues": [
   {
+   "date": "2026-11-18",
+   "window": "Nov 17, 2026",
+   "note": "A thin Tuesday window with one small ED RCT (a nerve block vs IV fentanyl pilot) and otherwise observational or review evidence, so this issue runs 8 picks. The EM items cover analgesia, sepsis antibiotic timing, ICH blood pressure, ED OUD bridge programs and kratom; a GLP-1 aspiration pharmacovigilance study and a Cochrane G-CSF review round it out.",
+   "bottom_line": [
+    "For scapular fractures, an ultrasound-guided suprascapular block beat IV fentanyl 1 mcg/kg by about 4 pain points at 30–60 minutes and cut rescue analgesia from 79% to 13% in a small pilot RCT. Regional blocks belong in the ED analgesia toolkit for shoulder-girdle injuries.",
+    "In 62,000 ED sepsis encounters, only about 3% got antibiotics within 1 hour, and a clear mortality penalty appeared only past 24 hours. That doesn't loosen the 1-hour goal for septic shock, but it shows how far real-world timing sits from the guideline.",
+    "A six-element standard now defines a true ED bridge program: same-day buprenorphine, a bedside take-home supply, 24/7 coverage, dedicated staff space, a warm handoff and naloxone at every visit."
+   ],
+   "articles": [
+    {
+     "topic": "Acute pain / Regional anesthesia",
+     "study_type": "RCT (pilot, open-label)",
+     "takeaway": "Suprascapular nerve block gave much better pain relief than IV fentanyl for scapular fractures, with far less rescue analgesia",
+     "title": "Ultrasound-Guided Suprascapular Nerve Block Versus Intravenous Fentanyl for Analgesia in Patients Presenting to the Emergency Department With Traumatic Scapular Fractures.",
+     "journal": "Ann Emerg Med",
+     "pub_date": "Nov 2026",
+     "population": "60 adults with traumatic scapular fractures and pain scores of 7 or higher, 1 Level I trauma center ED in North India",
+     "pmid": "43043325",
+     "summary": "Patients were randomized to an ultrasound-guided suprascapular nerve block or IV fentanyl 1 mcg/kg. Median pain at 30 minutes was 3 with the block vs 7 with fentanyl, a 4-point difference that held at 60 minutes and narrowed to 1 point by 6 hours. Rescue analgesia was needed in 13% vs 79%, and drowsiness was more common with fentanyl (12 vs 2 patients). It is a small single-center open-label pilot.",
+     "why": "Supports regional blocks as an opioid-sparing first option for shoulder-girdle fractures. ED pharmacists can support block programs with local anesthetic dosing limits (e.g., ropivacaine or bupivacaine max mg/kg), LAST recognition and lipid emulsion 20% kept at the bedside."
+    },
+    {
+     "topic": "Sepsis / Antibiotic timing",
+     "study_type": "Retrospective cohort (multicenter)",
+     "takeaway": "Only 2.8% of ED sepsis patients got antibiotics within 1 hour; mortality rose clearly only when the first dose came after 24 hours",
+     "title": "Time to Antibiotic Administration in the Treatment of Sepsis: A Retrospective Cohort Study.",
+     "journal": "HCA Healthc J Med",
+     "pub_date": "Oct 2026",
+     "population": "62,153 adult ED encounters with severe sepsis or septic shock, US hospital system, Dec 2023–Dec 2025",
+     "pmid": "43042410",
+     "summary": "Time to first antibiotic was grouped into under 1, 1–3, 4–12, 13–24 and over 24 hours. Compared with under 1 hour, in-hospital mortality didn't differ significantly for any window up to 24 hours, but was higher after 24 hours (OR 1.52, 95% CI 1.18–1.95). Length of stay among survivors grew with delay, about 9% longer at 13–24 hours and 56% longer past 24 hours. Severe sepsis and shock were analyzed together, and sicker patients likely got faster treatment, which can mask harm from moderate delays.",
+     "why": "This shouldn't be read as permission to wait in septic shock, where the 2026 SSC goal is still within 1 hour. It does show how rarely that goal is met; ED pharmacists can close the gap with antibiotics stocked in automated cabinets, first-dose IV push beta-lactams and order sets that don't hold the dose for cultures."
+    },
+    {
+     "topic": "Neuro emergencies / ICH",
+     "study_type": "Prospective single-arm cohort",
+     "takeaway": "Continuous labetalol infusion reached SBP under 140 in a median of 2 hours in ICH; bradycardia was the main adverse effect",
+     "title": "Assessment of safety and effectiveness of continuous intravenous labetalol infusion for blood pressure control in patients with spontaneous intracerebral hemorrhage: a STROBE-compliant observational study.",
+     "journal": "Curr Ther Res Clin Exp",
+     "pub_date": "Nov 2026",
+     "population": "84 adults with spontaneous ICH on continuous labetalol targeting BP under 140/90, 1 Thai center",
+     "pmid": "43041609",
+     "summary": "Median time to target BP was 2 hours, and patients spent a median of 53% of the first 24 hours at target. Hematoma expansion occurred in 8.3%. Nineteen patients had 42 adverse events, most often bradycardia (22.6%), but none needed resuscitation, and rates were similar above and below 300 mg cumulative dose in 24 hours. Lower baseline SBP and heart rate and diabetes predicted adverse events. There was no comparison group.",
+     "why": "A practical option when nicardipine or clevidipine is short or unavailable. Check baseline heart rate before starting, hold or reduce for HR under about 60, and expect to need more frequent titration since time at target was only about half."
+    },
+    {
+     "topic": "Acute pain / Sickle cell",
+     "study_type": "Cross-sectional (Epic Cosmos, 103 EDs)",
+     "takeaway": "Most EDs treated sickle cell pain about as fast as renal colic, but 28% delayed it by a median of 19 minutes",
+     "title": "Assessing Differences in Timeliness of Emergency Department Pain Treatment for Adult Sickle Cell Pain and Renal Colic.",
+     "journal": "Blood Adv",
+     "pub_date": "Nov 2026",
+     "population": "436,692 sickle cell VOE and 5.6 million renal colic encounters at 103 US adult EDs, 2019–2025",
+     "pmid": "43044127",
+     "summary": "The study applied ASH's new site-level quality measure: median time to first pain medication for sickle cell VOE minus that for renal colic. The median gap was +4 minutes, with 56% of sites equivalent (within 10 minutes), 16% faster for sickle cell and 28% slower (median gap +19 minutes, worst +91). The gap wasn't related to sickle cell volume, ED length of stay or admission rates. It sets the first national baseline for this measure.",
+     "why": "A ready-made benchmark for ED pharmacists to track locally. Pairs with yesterday's EHR-flag study: structured protocols such as individualized care plans, nurse-initiated IN fentanyl and pre-verified opioid orders are what move this number."
+    },
+    {
+     "topic": "Toxicology / Opioid use disorder",
+     "study_type": "Narrative review / Proposed standards",
+     "takeaway": "Review defines six essential elements of an ED bridge program, starting with same-day buprenorphine and a take-home supply",
+     "title": "What makes a bridge program a bridge program? Toward evidence-based standards for emergency department-initiated opioid use disorder treatment.",
+     "journal": "Am J Addict",
+     "pub_date": "Nov 2026",
+     "population": "Narrative synthesis of studies, consensus statements and implementation reports through May 2026",
+     "pmid": "43042878",
+     "summary": "The authors argue that 'bridge program' has become a catch-all label and propose six required elements: same-day medication initiation, bedside dispensing of a short medication supply before discharge, 24/7 coverage, dedicated on-site workspace for program staff, a warm handoff to outpatient care, and naloxone at every ED encounter. Programs missing these elements may still help but aren't delivering the evidence-based model, and their outcomes may reflect that. It's a framework, not new outcome data.",
+     "why": "Bedside dispensing and naloxone at every encounter are pharmacy-owned pieces. ED pharmacists can build take-home buprenorphine packs, standing naloxone dispensing and an induction order set that covers high-dose starts for fentanyl-era patients."
+    },
+    {
+     "topic": "Toxicology / Kratom",
+     "study_type": "Retrospective case series (NPDS)",
+     "takeaway": "Maternal kratom use caused neonatal opioid withdrawal, and most affected newborns needed morphine or methadone",
+     "title": "A National Poison Data System description of neonatal opioid withdrawal syndrome related to maternal kratom use.",
+     "journal": "Clin Toxicol (Phila)",
+     "pub_date": "Nov 2026",
+     "population": "14 neonates under 21 days old with in utero kratom exposure reported to US poison centers, 2015–2023",
+     "pmid": "43043664",
+     "summary": "Of 20 reported neonatal kratom exposures, 14 met inclusion. Symptoms included agitation, tremor, increased tone, tachypnea, poor feeding and weight loss, with a median duration of 8 days. Nine of 14 received opioid treatment, usually morphine and/or methadone, typically starting 1–3 days after the poison center consult. The data predate the spread of concentrated 7-hydroxymitragynine products, so current risk may be higher.",
+     "why": "Kratom isn't caught on standard urine drug screens, so ask about it directly in pregnant ED patients and in newborns with unexplained withdrawal signs. It's another reason to include kratom in med histories alongside opioid and buprenorphine questions."
+    },
+    {
+     "topic": "Medication safety / Procedural sedation",
+     "study_type": "Pharmacovigilance (FAERS)",
+     "takeaway": "GLP-1 RA users had a numerically higher but nonsignificant aspiration signal in perioperative FAERS reports; opioids doubled the odds",
+     "title": "Perioperative pulmonary aspiration reports associated with GLP-1 receptor agonists: a pharmacovigilance analysis of FAERS.",
+     "journal": "Naunyn Schmiedebergs Arch Pharmacol",
+     "pub_date": "Nov 2026",
+     "population": "41,308 deduplicated perioperative FAERS reports (158 GLP-1 RA, 174 SGLT2i), 2016–March 2024",
+     "pmid": "43043463",
+     "summary": "Reports listing a general anesthetic or neuromuscular blocker were used as a stand-in for the perioperative setting. Aspiration reporting odds were not significantly higher with GLP-1 RAs (ROR 1.27; adjusted OR 2.08, P = 0.19), with very few events. Concomitant opioid use was independently linked to aspiration (aOR 2.12, P < 0.001). Spontaneous reports can't give incidence, and the authors call the results hypothesis-generating.",
+     "why": "Absence of a significant signal isn't proof of safety, given how few events there were. For ED sedation and RSI in GLP-1 RA users, still ask about the last dose and GI symptoms, consider gastric ultrasound or RSI precautions, and minimize stacked opioids."
+    },
+    {
+     "topic": "Oncology supportive care / G-CSF",
+     "study_type": "Cochrane systematic review & meta-analysis",
+     "takeaway": "Primary G-CSF prophylaxis cut infections by about a third in solid tumors but didn't improve survival and tripled bone pain",
+     "title": "Prophylactic granulopoiesis-stimulating factors for people with solid tumors undergoing cancer treatment.",
+     "journal": "Cochrane Database Syst Rev",
+     "pub_date": "Nov 2026",
+     "population": "26 RCTs, 5,320 adults with solid tumors on identical chemotherapy with vs without primary G-CSF or GM-CSF",
+     "pmid": "43042756",
+     "summary": "Primary prophylaxis likely reduced infection risk (RR 0.64, 95% CI 0.49–0.83; moderate certainty). It made little or no difference to overall survival (HR 0.85, low certainty) or to all-cause mortality during chemotherapy (RR 0.92, moderate certainty). Bone pain was likely much more common (RR 3.55). No trial reported quality of life.",
+     "why": "Explains a common ED complaint: severe bone pain a few days after pegfilgrastim, which often responds to an NSAID or loratadine. In febrile neutropenia, prior G-CSF doesn't change the need for antipseudomonal antibiotics within 1 hour."
+    }
+   ]
+  },
+  {
    "date": "2026-11-17",
    "window": "Nov 16, 2026",
    "note": "A thin Monday window for ED pharmacotherapy, with no ED drug RCTs, so this issue runs 8 picks with several reviews. The EM items are a sickle cell analgesia-timing study, a trauma anticoagulation review, a poison center mushroom series and an ICU sepsis antibiotic dosing review. Two large pediatric obesity RCTs (NEJM, JAMA), a stewardship de-escalation cohort and a QT interaction study fill out the rest.",
@@ -1149,114 +1257,6 @@
      "pmid": "42990049",
      "summary": "The intervention combined suppressing EHR beta-lactam cross-reactivity alerts, clinician education and a new beta-lactam allergy guideline. Penicillin or cephalosporin use rose from 65% to 81% (p = 0.006), and non-beta-lactam use fell from 27% to 14%. Allergic reactions, C. difficile infection, length of stay and stopping antibiotics for intolerance didn't differ. It is a small single-center pre-post study.",
      "why": "Most penicillin-allergic ED patients can safely get cefazolin or a cephalosporin with a dissimilar side chain (e.g., ceftriaxone). Pharmacists can push the guideline and alert changes that make this the default."
-    }
-   ]
-  },
-  {
-   "date": "2026-11-06",
-   "window": "Nov 5–6, 2026",
-   "note": "No ED drug RCTs this window, so the EM picks are a large propensity-matched cohort, a systematic review and registry data. Two pharmacist-relevant AJHP studies and a JAMA newborn vitamin K cohort round it out.",
-   "bottom_line": [
-    "For cannabinoid hyperemesis, reach for haloperidol or droperidol before ondansetron: either butyrophenone roughly halved 72-hour ED returns in a large matched cohort.",
-    "Rapid methadone titration (e.g., 30–40 mg start, +10 mg every 3–4 h to 50–80 mg on day 1) had no reported deaths in fentanyl-era or inpatient studies, which supports faster starts for ED-initiated or boarded OUD patients.",
-    "In children admitted with CAP, waiting past 4 hours for antibiotics didn't worsen outcomes, so stable kids can be observed rather than reflexively treated in the ED."
-   ],
-   "articles": [
-    {
-     "topic": "Toxicology / Antiemetics",
-     "study_type": "Cohort (propensity-matched)",
-     "takeaway": "Haloperidol or droperidol cut 72-hour ED returns for cannabinoid hyperemesis by about half vs ondansetron",
-     "title": "Comparative Effectiveness of Haloperidol, Droperidol, and Ondansetron for Cannabinoid Hyperemesis Syndrome in the Emergency Department.",
-     "journal": "Acad Emerg Med",
-     "pub_date": "Nov 2026",
-     "population": "Adult ED visits with a suspected CHS phenotype, TriNetX multicenter network, 2014–2024",
-     "pmid": "42983225",
-     "summary": "Researchers made three propensity-matched pairwise comparisons of drugs given at the index ED visit. Return to the ED within 72 hours was lower with haloperidol than ondansetron (8.2% vs 15.1%; OR 0.50) and with droperidol than ondansetron (7.4% vs 14.0%; OR 0.49), while haloperidol and droperidol didn't differ (OR 0.75, not significant). In adjusted survival models, both butyrophenones independently predicted fewer returns and ondansetron did not, and coded adverse events were rare. It is retrospective, diagnosis-code based and lacks dose data.",
-     "why": "Supports putting haloperidol (often 2.5–5 mg IV/IM) or droperidol ahead of ondansetron on CHS order sets. Check a QTc and screen for other QT-prolonging drugs, and pair with counseling on cannabis cessation and topical capsaicin."
-    },
-    {
-     "topic": "Toxicology / Addiction",
-     "study_type": "Systematic review",
-     "takeaway": "Rapid methadone titration protocols looked safe, with no deaths in fentanyl-era or inpatient studies",
-     "title": "Safety and effectiveness of rapid methadone titration protocols in opioid use disorder: A systematic review.",
-     "journal": "Addiction",
-     "pub_date": "Nov 2026",
-     "population": "29 studies, 16,154 patients with OUD starting methadone, inpatient and outpatient settings",
-     "pmid": "42988375",
-     "summary": "The most common protocol started at 30–40 mg and added 10 mg every 3–4 hours as needed, up to 50–80 mg on day 1, with day-7 doses of roughly 53–97 mg in the larger studies. Across the 18 fentanyl-era studies and the 18 inpatient studies that reported mortality, no deaths occurred; nearly all reported deaths came from two older case series built from coroner reports. Overdose was under 1% and sedation was usually mild. Heterogeneity prevented pooling, and overall evidence quality was low.",
-     "why": "Fentanyl tolerance makes slow 'start low, go slow' methadone starts leave patients in withdrawal for weeks. Pharmacists can help design monitored rapid-titration protocols for admitted or boarded OUD patients, with sedation checks before each extra dose and QTc review."
-    },
-    {
-     "topic": "Anticoagulation / PE",
-     "study_type": "Prospective cohort",
-     "takeaway": "Major bleeding hit 3% of acute PE patients in 30 days and 13% after thrombolysis",
-     "title": "Major bleeding in patients with acute pulmonary embolism: results from the COPE study.",
-     "journal": "Eur Respir J",
-     "pub_date": "Nov 2026",
-     "population": "5,213 patients with acute PE, prospective multicenter Italian COPE study",
-     "pmid": "42988386",
-     "summary": "ISTH major bleeding occurred in 3.1% within 30 days, split about evenly between early (under 7 days) and late events. Bleeding occurred in 12.9% of patients given thrombolysis vs 2.5% of those who weren't. Active cancer, prior bleeding, dementia, anemia, syncope and thrombolysis predicted early bleeding, while cancer, prior bleeding and anemia predicted late bleeding. Four clinical bleeding phenotypes predicted risk about as well as PE-SARD, BACS and VTE-Bleed.",
-     "why": "Puts a number on the lytic bleeding trade-off for ED PE decisions. Flag cancer, anemia and prior bleeding when choosing between systemic lytics, reduced-dose regimens or catheter-directed therapy, and keep reversal agents ready."
-    },
-    {
-     "topic": "Pediatric ED / Antibiotic stewardship",
-     "study_type": "Cohort (PHIS)",
-     "takeaway": "For children admitted with pneumonia, antibiotics within 4 hours didn't reduce escalation of care",
-     "title": "Time to antibiotics and outcomes for children hospitalized with community acquired pneumonia.",
-     "journal": "J Hosp Med",
-     "pub_date": "Nov 2026",
-     "population": "758 children (3 months to 18 years) admitted from the ED with suspected CAP, 4 US children's hospitals",
-     "pmid": "42989956",
-     "summary": "About 59% got antibiotics within 4 hours of ED arrival. In inverse propensity-weighted models, escalation of care (more respiratory support, ICU transfer, vasopressors or a chest tube) didn't differ between early and later antibiotics (3% vs 2%; OR 1.46, wide CI). Length of stay, oxygen duration and cost also didn't differ. Events were few, so a small effect can't be excluded, and septic children aren't the target of this finding.",
-     "why": "Supports a period of observation for well-appearing children with possible viral pneumonia instead of reflexive ED antibiotics. When treatment is needed, amoxicillin or ampicillin remains the narrow-spectrum default."
-    },
-    {
-     "topic": "Shock / Inotropes",
-     "study_type": "Cohort",
-     "takeaway": "Milrinone in pediatric fluid-refractory septic shock was linked to higher mortality and more cardiac arrests",
-     "title": "Fluid-Refractory Septic Shock in Children and Milrinone: Outcomes in a Two-Center, Retrospective Cohort in France, 2011-2021.",
-     "journal": "Pediatr Crit Care Med",
-     "pub_date": "Nov 2026",
-     "population": "290 children with fluid-refractory septic shock on vasoactive drugs, 2 French PICUs",
-     "pmid": "42987204",
-     "summary": "Milrinone was used in 16% of children, at a median of 0.5 mcg/kg/min. It was associated with higher 30-day mortality (HR 2.57), more fluid boluses, more mechanical ventilation, more PICU cardiac arrests (48% vs 11%) and more adverse events. Milrinone was likely given to sicker children with cardiac dysfunction, so confounding by indication is a major limitation.",
-     "why": "Milrinone's vasodilation and long, renally cleared half-life can worsen hypotension in warm or vasoplegic shock. Reserve it for documented low cardiac output with adequate pressure, and favor epinephrine as the first inotrope."
-    },
-    {
-     "topic": "Vancomycin dosing",
-     "study_type": "Meta-analysis",
-     "takeaway": "AUC-guided vancomycin monitoring cut AKI risk by about a third vs trough-guided monitoring",
-     "title": "Still Chasing the Curve: Updated Evidence on Vancomycin AUC vs Trough Monitoring and Its Impact on AKI. A Systematic Review and Meta-Analysis, 2020-2025.",
-     "journal": "Am J Health Syst Pharm",
-     "pub_date": "Nov 2026",
-     "population": "80 studies, 27,067 patients; 30 direct comparisons (18,146 patients) published 2020–2025",
-     "pmid": "42984265",
-     "summary": "In head-to-head studies, AUC-guided monitoring lowered AKI risk compared with trough-guided monitoring (RR 0.66), and the result held when restricted to KDIGO-defined AKI. Mortality (OR 0.83) and 30-day readmission (OR 0.95) didn't differ, though few studies reported them. Heterogeneity was moderate (I² 64%), and most included studies were observational.",
-     "why": "Reinforces the 2020 consensus guideline: start vancomycin from the ED with a weight-based load, then hand off to an AUC (400–600) Bayesian or two-level protocol rather than trough targets."
-    },
-    {
-     "topic": "Drug interactions / GI bleeding",
-     "study_type": "Cohort (VA)",
-     "takeaway": "Starting an NSAID while on a GLP-1 RA didn't raise GI bleed or ulcer risk vs SGLT2i or DPP-4i",
-     "title": "NSAID initiation and risk for gastrointestinal bleeding in patients receiving GLP-1 receptor agonists: A retrospective cohort study.",
-     "journal": "Am J Health Syst Pharm",
-     "pub_date": "Nov 2026",
-     "population": "68,881 veterans with type 2 diabetes starting an NSAID on a GLP-1 RA (13,433), SGLT2i or DPP-4i",
-     "pmid": "42985835",
-     "summary": "One-year GI bleed or ulcer rates were about 1% in all three groups (0.9% with GLP-1 RAs). After adjustment, GLP-1 RA users had no higher risk than SGLT2i users (HR 0.85) or DPP-4i users (HR 0.82), and results were similar for GI bleeding alone. The population was mostly older men, and over-the-counter NSAID use wasn't captured.",
-     "why": "A common ED discharge question. A GLP-1 RA alone shouldn't stop a short NSAID course, but the usual GI risk factors (age, anticoagulants, prior ulcer, steroids) still call for a PPI or an alternative analgesic."
-    },
-    {
-     "topic": "Pediatric medication safety",
-     "study_type": "Cohort (Epic Cosmos)",
-     "takeaway": "Newborn vitamin K refusal more than doubled to 6.8%, and refusers had over twice the intracranial bleeding risk",
-     "title": "Nonreceipt of Newborn Vitamin K and Risk of Bleeding.",
-     "journal": "JAMA",
-     "pub_date": "Nov 2026",
-     "population": "5,240,780 infants born at 35–43 weeks, US hospitals in all 50 states, 2017–2025",
-     "pmid": "42986716",
-     "summary": "Nonreceipt of intramuscular vitamin K rose from 3.1% in 2017 to 6.8% in 2025. Infants who didn't get it had more bleeding by 6 months (288 vs 186 per 10,000; adjusted RR 1.47), more intracranial bleeding (33 vs 13 per 10,000; adjusted RR 2.43) and more deaths with bleeding during the birth stay (adjusted RR 2.69). Bleeding was identified from diagnosis codes, which may misclassify some events.",
-     "why": "Infants with late vitamin K deficiency bleeding present to the ED with lethargy, vomiting or seizures. Ask about vitamin K at birth, and know the treatment: IV or subcutaneous vitamin K 1 mg plus 4-factor PCC or FFP for life-threatening bleeds."
     }
    ]
   }
