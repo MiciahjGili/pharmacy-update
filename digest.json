@@ -1,6 +1,114 @@
 {
  "issues": [
   {
+   "date": "2026-11-21",
+   "window": "Nov 20, 2026",
+   "note": "No ED drug RCTs this window, so the 8 picks lean on toxicology. Clinical Toxicology published three ED-relevant cohorts (naloxone infusions, massive GHB exposures, and kratom/phenibut/tianeptine), alongside a stroke meta-analysis on IV lytics before thrombectomy, a review of why sepsis steroid meta-analyses disagree, and ED opioid prescribing trends. An AJHP diagnostic stewardship study and an ICU infection-prevention meta-analysis fill out the rest.",
+   "bottom_line": [
+    "About 1 in 5 ED opioid overdoses got a naloxone infusion, and fentanyl or opioid-plus-stimulant exposure tripled the odds. Long runs of dilute infusions added a lot of IV fluid, so concentrate the bag and reassess often.",
+    "In 154 massive GHB exposures, 75% arrived with a GCS of 3 and two-thirds were intubated, yet only 1 died and 27% went home straight from the ED. Supportive care works; an opioid on board raised the odds of hypotension about 4.5-fold.",
+    "Pooled RCTs still can't prove IV lytics add benefit before thrombectomy (functional independence 51% vs 48%, not significant), but the symptomatic ICH increase wasn't significant either. Keep giving lytics to eligible patients while thrombectomy is arranged."
+   ],
+   "articles": [
+    {
+     "topic": "Toxicology / Opioid overdose",
+     "study_type": "Retrospective cohort",
+     "takeaway": "Fentanyl and opioid-stimulant co-exposure tripled the odds of an ED naloxone infusion after overdose",
+     "title": "Factors associated with continuous naloxone infusion use following opioid overdose in the emergency department.",
+     "journal": "Clin Toxicol (Phila)",
+     "pub_date": "Nov 2026",
+     "population": "1,165 ED encounters for nonfatal opioid overdose treated with naloxone, 1 US academic center (Alabama), 2019–2024",
+     "pmid": "43061857",
+     "summary": "A naloxone infusion was started in 227 encounters (19.5%), and infusion use grew over the study period. After adjustment, a fentanyl-positive screen (aOR 2.96, 95% CI 1.92–4.57) and combined opioid-stimulant positivity (aOR 3.00) were linked to infusion use, while a positive opiate screen made it less likely (aOR 0.50). Prolonged infusions sometimes delivered large volumes of IV fluid. The design is observational, so the associations aren't causal.",
+     "why": "Fentanyl-era overdoses are pushing more infusions. A common starting rate is two-thirds of the bolus dose that reversed the patient, given per hour; ED pharmacists can concentrate the bag to limit fluid, titrate to breathing rather than full alertness, and reassess within a few hours instead of running it on autopilot."
+    },
+    {
+     "topic": "Toxicology / GHB",
+     "study_type": "Multicenter cohort (registry)",
+     "takeaway": "Massive GHB exposures caused deep coma and frequent intubation, but nearly everyone survived with supportive care",
+     "title": "Clinical characteristics and outcomes of massive gamma-hydroxybutyrate exposure in a multicentre emergency department cohort.",
+     "journal": "Clin Toxicol (Phila)",
+     "pub_date": "Nov 2026",
+     "population": "154 patients with whole-blood GHB of 300 mg/L or higher, 18 EDs in Victoria, Australia, Nov 2021–Mar 2026",
+     "pmid": "43061852",
+     "summary": "Median GHB concentration was 380 mg/L, and 97% had other substances on board. Three-quarters had a first GCS of 3, 66% were intubated, 67% went to the ICU, a quarter were hypotensive and 20% needed vasopressors. Higher GHB levels predicted hypotension but not coma depth, and opioid co-detection was linked to hypotension (aOR 4.51) and hypoxemia (aOR 3.64). One patient died, and 27% were discharged directly from the ED.",
+     "why": "GHB coma is profound but usually short and reversible, so airway support and time are the treatment; there's no antidote, and flumazenil or physostigmine don't help. Watch for hypotension when opioids are also involved, and plan for withdrawal (which can need high-dose benzodiazepines or phenobarbital) in regular users."
+    },
+    {
+     "topic": "Toxicology / Psychoactive supplements",
+     "study_type": "Registry cohort (ToxIC, 15 years)",
+     "takeaway": "Nearly a quarter of patients with kratom, phenibut or tianeptine exposure seen by toxicologists needed the ICU",
+     "title": "Clinical characteristics of unregulated psychoactive supplement exposures: a 15-year multicenter study of kratom, phenibut, and tianeptine.",
+     "journal": "Clin Toxicol (Phila)",
+     "pub_date": "Nov 2026",
+     "population": "152 encounters (97 kratom, 44 phenibut, 11 tianeptine) in the Toxicology Investigators Consortium registry, 2010–2024",
+     "pmid": "43061855",
+     "summary": "Cases rose over time, and patients were mostly men (84%) with a median age of 35. Most use was intentional, for euphoria, self-treatment or managing withdrawal, and 48% had co-ingestants such as stimulants, opioids or other supplements. Overall, 23% were admitted to the ICU and one patient died. Only 10% got buprenorphine-naloxone and 10.5% got naloxone education or a prescription at discharge.",
+     "why": "These \"gas station\" products act on opioid or GABA receptors and don't show up on routine drug screens. Ask about them directly, treat kratom or tianeptine dependence like opioid use disorder (buprenorphine is an option), and send these patients home with naloxone."
+    },
+    {
+     "topic": "Stroke / Thrombolysis",
+     "study_type": "Meta-analysis of 7 RCTs",
+     "takeaway": "IV lytics before thrombectomy nudged functional independence up 3 points, but the benefit wasn't statistically certain",
+     "title": "Intravenous thrombolysis prior to endovascular treatment for stroke: a systematic review and meta-analysis of randomized controlled trials.",
+     "journal": "BMC Neurol",
+     "pub_date": "Aug 2026",
+     "population": "7 RCTs, 2,884 adults with large-vessel occlusion stroke eligible for IV thrombolysis within 4.5 hours",
+     "pmid": "43058542",
+     "summary": "Functional independence (mRS 0–2) was 51.2% with IV thrombolysis plus thrombectomy vs 48.0% with thrombectomy alone (RR 1.07, 95% CI 0.99–1.15). A Bayesian analysis put the chance of any benefit at about 89%. Mortality was similar (RR 0.98), and symptomatic ICH was numerically higher with lytics but not significantly (RR 1.19, 95% CI 0.87–1.63). Neither superiority nor equivalence was shown.",
+     "why": "Supports current guidance to give tenecteplase or alteplase to eligible LVO patients without delaying transfer for thrombectomy. Stroke pharmacists should keep door-to-needle times fast and confirm the dose and time given before the patient leaves for the angio suite."
+    },
+    {
+     "topic": "Sepsis / Corticosteroids",
+     "study_type": "Meta-research (42 systematic reviews)",
+     "takeaway": "Sepsis steroid meta-analyses disagree mainly because they pool different trials; hydrocortisone plus fludrocortisone consistently helped",
+     "title": "Discordant evidence on corticosteroids in sepsis: a meta-research study.",
+     "journal": "Crit Care",
+     "pub_date": "Nov 2026",
+     "population": "42 systematic reviews (2015–2025) covering 121 unique RCTs of corticosteroids in sepsis",
+     "pmid": "43058869",
+     "summary": "More than half of pairs of reviews shared no trials at all, and only three pairs overlapped heavily. Of 38 reviews with a short-term mortality analysis, 39% found benefit and 61% didn't. The disagreement came entirely from reviews of broad, non-specific steroid strategies: reviews of hydrocortisone plus fludrocortisone consistently found benefit, and those of hydrocortisone, vitamin C and thiamine consistently found none. No single methods factor explained the split.",
+     "why": "When a guideline or attending cites a steroid meta-analysis, check which trials it pooled. For septic shock needing ongoing vasopressors, hydrocortisone 50 mg IV every 6 hours (with or without fludrocortisone 50 mcg daily) has the most consistent support."
+    },
+    {
+     "topic": "Acute pain / Opioid prescribing",
+     "study_type": "Retrospective multicenter cohort",
+     "takeaway": "Median opioid dose per ED discharge prescription rose from 60 to 75 MME during the pandemic years",
+     "title": "Opioid prescription patterns from 2019 to 2024: a multicenter analysis in Maryland, USA.",
+     "journal": "World J Emerg Med",
+     "pub_date": "Nov 2026",
+     "population": "117,912 adults discharged with opioid prescriptions from 13 EDs and 1 urgent care, University of Maryland system, 2019–2024",
+     "pmid": "43061449",
+     "summary": "The study compared weekly morphine-equivalent dose per patient before and during the pandemic. Median dose per patient rose from 60 to 75 (p<0.001). Excluding buprenorphine and methadone, prescribing jumped in 2020 and then leveled off; including them, it kept rising every year, likely reflecting growth in ED-initiated OUD treatment. There were no indication or outcome data.",
+     "why": "Separating MOUD from analgesic opioids matters when tracking ED prescribing: rising buprenorphine is a success, while rising analgesic doses aren't. Pharmacists can audit discharge opioid quantities against a 3-day default and push nonopioid-first regimens."
+    },
+    {
+     "topic": "Antimicrobial stewardship / Diagnostics",
+     "study_type": "Pre/post quality improvement",
+     "takeaway": "Requiring an indication on urine test orders cut ordering 30% and raised appropriate tests from 61% to 85%",
+     "title": "Impact of implementing an indication-based urinary tract infection diagnostic order menu at a veterans affairs facility.",
+     "journal": "Am J Health Syst Pharm",
+     "pub_date": "Nov 2026",
+     "population": "Adults with urinalysis or urine culture orders at 1 VA medical center (Palo Alto), Jun–Nov 2023 vs Jun–Nov 2024",
+     "pmid": "43061836",
+     "summary": "A pharmacy-led stewardship team replaced free-text urine orders with a menu requiring a clinical indication. Urine test orders fell by about 30% per month, and appropriate ordering in an audited sample rose from 61% to 85% (p=0.0004). Treatment appropriateness, C. difficile, repeat testing and 30-day mortality didn't change significantly. Only 8% of post-period orders citing altered mental status met likely-UTI criteria.",
+     "why": "ED urine cultures in confused older adults drive a lot of asymptomatic bacteriuria treatment. An indication-required order is a low-effort stewardship fix ED pharmacists can champion, especially for altered mental status without urinary symptoms."
+    },
+    {
+     "topic": "Critical care / Infection prevention",
+     "study_type": "Systematic review & meta-analysis",
+     "takeaway": "Selective digestive decontamination cut ICU-acquired infections by about a quarter, but neither it nor probiotics lowered mortality",
+     "title": "Gut microbiome-based interventions to prevent ICU-acquired infections: A systematic review and meta-analysis.",
+     "journal": "Gut Microbes",
+     "pub_date": "Dec 2026",
+     "population": "Adult ICU RCTs, 2000–2025: 9 selective digestive decontamination trials (19,907 patients) and 29 prebiotic/probiotic/synbiotic trials (5,483 patients)",
+     "pmid": "43059105",
+     "summary": "Neither approach reduced mortality (SDD RR 0.96; biotics RR 0.93, 95% CI 0.87–1.00). SDD reduced ICU-acquired infections (RR 0.76, 95% CI 0.60–0.98) and halved pneumonia (RR 0.50), while probiotics didn't significantly reduce infections overall (RR 0.82). Prebiotics or synbiotics lowered pneumonia (RR 0.70). The two strategies were compared only indirectly, and the probiotic trials varied widely.",
+     "why": "SDD remains a debated, resistance-sensitive strategy, and routine probiotics for ventilated patients still lack mortality benefit (and carry bacteremia risk in the immunocompromised). Expect stewardship pharmacists to weigh local resistance before adopting SDD for long ED boarders on ventilators."
+    }
+   ]
+  },
+  {
    "date": "2026-11-20",
    "window": "Nov 19, 2026",
    "note": "One sepsis RCT (CEMVIS, megadose vitamin C) leads a window that is otherwise mostly observational for ED pharmacotherapy. The other EM items are a Kcentra vs Balfaxar aPTT comparison, a Dutch multicenter ED intubation cohort, a meta-analysis on early VTE prophylaxis after traumatic brain bleeds and Australian wastewater data on illicit etomidate. Three RCTs outside the ED (apixaban in cirrhosis, DOAC prescribing alerts, rimegepant prevention) round out 8 picks.",
@@ -1161,102 +1269,6 @@
      "pmid": "43000905",
      "summary": "US measles cases in 2026 are the highest in more than 30 years. WHO and the AAP recommend vitamin A for confirmed acute measles, but the US lacks an FDA-approved concentrated liquid, so children who can't swallow capsules need cumbersome extraction methods. The authors advise confirming the diagnosis, screening for drug interactions, and checking for toxicity symptoms in patients who already received vitamin A.",
      "why": "Children with measles will show up in the ED. Pharmacists should know the age-based doses (50,000 IU under 6 months, 100,000 IU at 6–11 months, 200,000 IU at 12 months or older, daily for 2 days) and have a plan for preparing doses from capsules."
-    }
-   ]
-  },
-  {
-   "date": "2026-11-09",
-   "window": "Nov 8, 2026",
-   "note": "A very quiet Sunday window with no ED drug RCTs, so this issue is shorter. The EM picks are two retrospective cohorts and a post hoc STEMI analysis, and the rest is a phase 2 trial, a small open-label RCT and pharmacist-practice data. Read the observational items as hypothesis-generating.",
-   "bottom_line": [
-    "Nebulized TXA for hemoptysis didn't reduce 72-hour rebleeding in a matched ICU cohort, even as its use climbed to 78% of patients. It remains an unproven adjunct until randomized data arrive.",
-    "High bleeding risk alone doesn't identify STEMI patients who should skip aspirin at primary PCI: ischemic events ran numerically higher and bleeding numerically lower with prasugrel monotherapy, in both risk groups.",
-    "Don't start aspirin for sepsis on the strength of a large MIMIC-IV signal. The authors themselves say the lower early mortality can't be read as causal."
-   ],
-   "articles": [
-    {
-     "topic": "Hemostasis / Respiratory emergencies",
-     "study_type": "Cohort (propensity-matched)",
-     "takeaway": "Nebulized TXA didn't reduce 72-hour hemoptysis recurrence in ICU patients who didn't need immediate embolization",
-     "title": "Analysis of tranexamic acid in hemoptysis: effectiveness in a noninterventional evaluation (ATHENE).",
-     "journal": "Respir Med Res",
-     "pub_date": "Oct 2026",
-     "population": "228 ICU adults with hemoptysis not needing embolization within 6 hours, 1 center, 2017–2021",
-     "pmid": "42998371",
-     "summary": "A third of patients (75) got nebulized TXA, and its use grew from 0% to 78% over the study. After 1:2 propensity matching, recurrence of at least 50 mL by 72 hours was 10.7% with TXA vs 12.3% without (OR 0.93, 95% CI 0.37–2.32), and 30-day recurrence, respiratory failure, embolization and length of stay didn't differ. Thirty-day mortality was higher with TXA (9.3% vs 1.9%; OR 5.9), but events were few and mostly tied to underlying malignancy. Patients bleeding more than 200 mL at admission were excluded.",
-     "why": "Nebulized TXA has spread faster than its evidence. It is low cost and reasonable to discuss, but it shouldn't delay airway protection, reversal of anticoagulation or embolization, and this cohort is too small to rule out either benefit or harm."
-    },
-    {
-     "topic": "Sepsis",
-     "study_type": "Cohort (MIMIC-IV)",
-     "takeaway": "Low-dose aspirin in sepsis tracked with lower early mortality, but the authors caution against treating sepsis with it",
-     "title": "Time-dependent associations of documented low-dose aspirin administration with 28-day mortality and early safety outcomes in adults with sepsis: a MIMIC-IV cohort study.",
-     "journal": "Front Med (Lausanne)",
-     "pub_date": "Oct 2026",
-     "population": "31,888 adults with Sepsis-3 in a single-center US ICU database; 4,771 got aspirin 75–100 mg",
-     "pmid": "42996723",
-     "summary": "Time-dependent Cox models linked documented enteral aspirin to lower in-hospital mortality during the first 24 hours (HR 0.48, 95% CI 0.31–0.75) and at 24–72 hours (HR 0.63), with no clear association after that. Restricting to patients whose SOFA qualified by time zero gave similar numbers but a less certain first-day estimate (HR 0.54, 95% CI 0.28–1.03). A hemoglobin drop of 2 g/dL or more was slightly more common with early aspirin (RR 1.10), though many of those drops came before the first dose. The analysis had residual imbalance, and prior aspirin exposure was uncertain.",
-     "why": "Patients well enough to take enteral aspirin differ from those who can't, so survival bias is a real concern. A practical takeaway is narrower: don't reflexively stop home aspirin in septic patients without a bleeding reason."
-    },
-    {
-     "topic": "ACS / Antiplatelets",
-     "study_type": "RCT post hoc analysis",
-     "takeaway": "High bleeding risk didn't identify STEMI patients who benefit from skipping aspirin at primary PCI",
-     "title": "High Bleeding Risk and Aspirin Omission at the Time of Primary PCI in STEMI: A Post Hoc Analysis of the PREMIUM Trial.",
-     "journal": "J Am Coll Cardiol",
-     "pub_date": "Oct 2026",
-     "population": "2,189 Japanese STEMI patients randomized to low-dose prasugrel alone or aspirin plus prasugrel; 786 (36%) met ARC-HBR criteria",
-     "pmid": "42998063",
-     "summary": "High-bleeding-risk patients had more 12-month death, stroke or MI (16.2% vs 6.2%) and more BARC 3 or 5 bleeding (10.9% vs 4.9%) than others. Monotherapy vs DAPT gave ischemic rates of 18.0% vs 14.5% in HBR patients (HR 1.29, 95% CI 0.91–1.82) and 7.4% vs 5.0% in non-HBR patients (HR 1.55, 95% CI 1.01–2.37), with no significant interaction. Bleeding was numerically lower with monotherapy in both groups (HR 0.71 and 0.62). Precision was limited and the low-dose Japanese prasugrel regimen may not translate elsewhere.",
-     "why": "Keeps aspirin in the ED STEMI loading routine for now, even for patients at high bleeding risk. Bleeding risk matters more for later de-escalation decisions than for the first dose."
-    },
-    {
-     "topic": "Anticoagulation",
-     "study_type": "Cohort (TriNetX, propensity-matched)",
-     "takeaway": "DOACs were linked to lower mortality and intracranial bleeding than warfarin for LV thrombus in high-bleeding-risk patients",
-     "title": "One-Year Comparative Outcomes of Direct Oral Anticoagulants Versus Warfarin In Patients With Left Ventricular Thrombus And High Bleeding Risks.",
-     "journal": "Am J Cardiol",
-     "pub_date": "Nov 2026",
-     "population": "4,416 matched US adults with LV thrombus and high bleeding risk (2,208 per group), 2013–2023",
-     "pmid": "42998783",
-     "summary": "At 1 year, DOAC use was associated with lower mortality (24.9% vs 29.3%; HR 0.84), systemic embolism (1.9% vs 3.1%; HR 0.58), intracranial hemorrhage (1.3% vs 2.3%; HR 0.56) and hospitalization (72.0% vs 75.5%; HR 0.89). Stroke or TIA, cerebral infarction and major bleeding didn't differ significantly, even though the abstract's conclusion mentions reduced major bleeding. These health-record data can't capture warfarin INR control or DOAC dose appropriateness.",
-     "why": "Adds support for off-label DOAC use in LV thrombus, which comes up with post-MI patients at ED discharge and on admission. Check renal function and dose carefully in this high-risk group, and note the reported results don't support a major-bleeding advantage."
-    },
-    {
-     "topic": "Anticoagulation / New agents",
-     "study_type": "RCT (phase 2)",
-     "takeaway": "One infusion of either factor XI antibody cut PICC-related clots by more than half, with no major bleeding",
-     "title": "Amrecibart and cenvacibart for the prevention of catheter-related thrombosis (ROXI-CATH): a double-blind, randomised, placebo-controlled, phase 2 trial.",
-     "journal": "Lancet Haematol",
-     "pub_date": "Nov 2026",
-     "population": "195 adults getting a PICC expected to stay at least 14 days, 12 centers in 6 countries",
-     "pmid": "42998669",
-     "summary": "Patients were randomized to a single IV dose of amrecibart 300 mg, cenvacibart 250 mg or placebo, with ultrasounds at days 7 and 14. Venous thromboembolism by day 14 occurred in 20% with each antibody vs 43% with placebo (OR about 0.37 for both). There was no major bleeding in any group, and clinically relevant non-major bleeding was 3% in all three arms. Most clots were found by protocol ultrasound, the trial was industry funded (Regeneron), and it wasn't powered for clinical outcomes.",
-     "why": "Factor XI inhibition is moving closer to the clinic, and a single-dose agent would raise new questions about duration of effect and reversal. Good to have on the radar for patients with a PICC who present with bleeding or an arm clot in coming years."
-    },
-    {
-     "topic": "Pharmacist-led care",
-     "study_type": "Cohort (time-dependent)",
-     "takeaway": "More accepted pharmacist interventions were associated with better survival in a pediatric ICU",
-     "title": "Association of Cumulative Pharmacist Interventions and Interprofessional Adherence With Survival Among Patients Requiring Pharmacotherapeutic Optimization in a Pediatric Intensive Care Unit: A Retrospective Time-Dependent Cohort Study.",
-     "journal": "J Am Coll Clin Pharm",
-     "pub_date": "Nov 2026",
-     "population": "565 children with a PICU stay over 24 hours and at least one pharmacist intervention, 1 tertiary center, 2019–2021",
-     "pmid": "43000161",
-     "summary": "Overall mortality was 11.9%, and the team accepted 72.2% of recommendations. Each additional cumulative intervention was tied to a small drop in the hazard of PICU death (HR 0.989, p = 0.040), and accepted interventions showed a somewhat stronger link (HR 0.983, p = 0.025), including in both surgical and non-surgical patients. Baseline illness severity remained the strongest predictor of death. Only patients who received an intervention were included, so there is no comparison to care without a pharmacist.",
-     "why": "Useful framing for justifying critical care and ED pharmacist positions: acceptance of recommendations, and not just their number, is what tracked with survival. The design can't prove causation."
-    },
-    {
-     "topic": "Supportive care / Analgesia",
-     "study_type": "RCT (open-label)",
-     "takeaway": "A short dexamethasone course reduced nausea when starting oral morphine in opioid-naive cancer patients",
-     "title": "Prophylactic dexamethasone for prevention of opioid-induced nausea and vomiting in cancer patients: a randomised controlled trial (DEX-OINV Trial).",
-     "journal": "Support Care Cancer",
-     "pub_date": "Nov 2026",
-     "population": "150 opioid-naive adults starting oral morphine, 1 tertiary cancer center",
-     "pmid": "42998233",
-     "summary": "Patients got prophylactic oral dexamethasone (74) or no prophylaxis (76), with rescue antiemetics available in both arms. Mean nausea scores were lower with dexamethasone on day 1 (1.36 vs 2.93) and day 5 (0.74 vs 1.53), with a number needed to treat of 5 on day 1 for clinically meaningful nausea (adjusted OR 0.38). Vomiting fell on day 1 and no serious adverse events occurred. The open-label design and subjective outcome leave room for bias.",
-     "why": "A cheap option worth knowing for oncology patients started on opioids at ED discharge, but steroid effects on glucose and infection risk should be weighed. The result doesn't extend to non-cancer patients."
     }
    ]
   }
