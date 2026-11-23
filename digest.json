@@ -1,6 +1,102 @@
 {
  "issues": [
   {
+   "date": "2026-11-23",
+   "window": "Nov 22, 2026",
+   "note": "A very thin Sunday window with no ED drug RCTs, so this issue runs short at 7 picks rather than padding. The EM items are an open-fracture antibiotic timing meta-analysis, sepsis fluid balance trajectories, frailty and mortality after stroke lytics, and adjunctive nicorandil with STEMI fibrinolysis. A drug anaphylaxis risk-factor study, a UK ICU stewardship audit and a CYP2C19/PPI cohort round it out; all are observational.",
+   "bottom_line": [
+    "Pooled data couldn't confirm a safe time window for antibiotics after open fractures, but the four studies with validated infection definitions saw about 4-fold higher deep infection odds with delay. Keep cefazolin going in as early as possible.",
+    "Septic ICU patients who kept accumulating fluid on days 3–7 had about 30% higher adjusted odds of dying by day 28 (observational). Once resuscitation is done, stop reflexive maintenance fluids in boarding sepsis patients and concentrate drips.",
+    "In UK ICUs, a pre-set stop or review date on an antimicrobial order made a 72-hour review about 9 times more likely. It's an easy field to build into ED antibiotic order sets."
+   ],
+   "articles": [
+    {
+     "topic": "Trauma / Open fracture antibiotics",
+     "study_type": "Systematic review & meta-analysis",
+     "takeaway": "Antibiotic delay after open fracture wasn't clearly tied to deep infection overall, but rigorous studies saw about 4x higher odds",
+     "title": "Time From Injury to First Antibiotic Administration and Deep Infection Risk in Open Fractures: A Systematic Review and Meta-Analysis.",
+     "journal": "Cureus",
+     "pub_date": "Oct 2026",
+     "population": "24 observational studies of open fractures; 16 pooled (5,283 patients, 508 deep infections)",
+     "pmid": "43066384",
+     "summary": "The authors kept time-from-injury and time-from-arrival studies in separate analyses because they measure different exposures. Neither stratum showed a significant link between delay and deep infection (injury-anchored OR 1.62, 95% CI 0.87–3.00; arrival-anchored OR 1.34, 95% CI 0.86–2.07), and no time cutoff could be estimated. The split between studies tracked how infection was defined: the 4 studies using a validated definition found OR 4.34 with delay, while 7 using an operative proxy found no effect (OR 0.86). That subgroup finding was post hoc and confounded, and overall certainty was very low.",
+     "why": "Absence of evidence isn't permission to wait. Keep weight-based cefazolin (2 g, 3 g if 120 kg or more) stocked in the trauma bay or automated cabinet so it goes in within the first hour, and document the injury time so delays can be audited."
+    },
+    {
+     "topic": "Sepsis / Fluid stewardship",
+     "study_type": "Retrospective cohort (trajectory analysis)",
+     "takeaway": "Septic ICU patients who kept gaining fluid on days 3–7 had about 30% higher odds of 28-day death",
+     "title": "Association Between Daily Fluid Balance Trajectories and Dynamic Organ Failure Resolution (SOFA-2) in Sepsis: A Latent Class Growth Analysis of 16 262 Patients.",
+     "journal": "J Intensive Care Med",
+     "pub_date": "Nov 2026",
+     "population": "16,262 adults with sepsis who survived at least 72 hours in the ICU, MIMIC-IV database (US)",
+     "pmid": "43066603",
+     "summary": "Daily net fluid balance from ICU day 3 to day 7 sorted patients into three patterns: steady low balance (85%), delayed decline after day 5 (8%) and continuous accumulation (6%). The steady group had the lowest 28-day mortality (20.8%) and the fastest SOFA-2 recovery. After adjusting for illness severity, loop diuretics and dialysis, the delayed group (aOR 1.30) and the accumulating group (aOR 1.27) had higher mortality. The authors treat the trajectories as markers of how sick the patient is, not proof that fluid itself causes harm.",
+     "why": "Fluid is a drug with a cumulative dose. For long ED boarders, pharmacists can flag maintenance fluids that keep running after resuscitation, concentrate antibiotic and vasopressor drips, and prompt a daily fluid balance check."
+    },
+    {
+     "topic": "Stroke / Thrombolysis",
+     "study_type": "Retrospective cohort",
+     "takeaway": "Frailty predicted 1-year death after IV lytics in older stroke patients, but it isn't a reason to withhold treatment",
+     "title": "Hospital frailty risk score and one-year mortality after intravenous thrombolysis in older patients with acute ischemic stroke.",
+     "journal": "BMC Neurol",
+     "pub_date": "Nov 2026",
+     "population": "423 adults aged 65 or older given IV thrombolysis for acute ischemic stroke, 1 center, 2014–2019",
+     "pmid": "43067664",
+     "summary": "About 15% of patients had an elevated Hospital Frailty Risk Score (5 or more). One-year mortality was 34.9% in that group vs 20.6% in the low-risk group, and each additional point raised the hazard of death by about 8.5% after adjusting for age, comorbidity, NIHSS and ASPECTS (HR 1.085). Adding the score improved the prognostic model. The authors stress that the findings don't support withholding reperfusion.",
+     "why": "Frail older patients still benefit from tenecteplase or alteplase, so this belongs in goals-of-care and discharge planning, not the go/no-go decision. Pharmacists should still use an accurate weight for dosing and review antithrombotic plans before discharge."
+    },
+    {
+     "topic": "Cardiology / STEMI fibrinolysis",
+     "study_type": "Retrospective cohort",
+     "takeaway": "Adding nicorandil to pro-urokinase lysis for STEMI was linked to better reperfusion and fewer 30-day MACE",
+     "title": "Adjunctive Nicorandil Ameliorates Cardiac Function and Clinical Outcomes Following Recombinant Human Pro-Urokinase Thrombolysis in Patients With Acute ST-Segment Elevation Myocardial Infarction.",
+     "journal": "Ann Pharmacother",
+     "pub_date": "Nov 2026",
+     "population": "116 adults with STEMI given IV recombinant pro-urokinase (62 with nicorandil, 54 without), China, 2024–2026",
+     "pmid": "43067714",
+     "summary": "Successful reperfusion was 79% with nicorandil vs 61% without, and ST-segment resolution at 2 hours was 74% vs 56%. The nicorandil group also had lower troponin I and CK-MB at 24 hours, better ejection fraction and smaller LV diameter on day 7, and fewer serious arrhythmias and 30-day MACE. Adverse drug reactions were similar. Treatment wasn't randomized and the sample was small.",
+     "why": "Neither nicorandil nor pro-urokinase is available in the US, so this is hypothesis-generating. For US EDs without timely PCI, tenecteplase (weight-based, max 50 mg) plus aspirin, clopidogrel and an anticoagulant remains the regimen to have ready."
+    },
+    {
+     "topic": "Medication safety / Drug anaphylaxis",
+     "study_type": "Retrospective cohort (allergy clinic)",
+     "takeaway": "Asthma, NERD, food allergy and suspected beta-lactam allergy marked adults with a history of drug anaphylaxis",
+     "title": "Clinical patterns of suspected drug hypersensitivity and factors associated with drug-related anaphylaxis: a real-world study of 1,037 adults.",
+     "journal": "Int Arch Allergy Immunol",
+     "pub_date": "Nov 2026",
+     "population": "1,037 adults referred to a tertiary allergy clinic for suspected drug hypersensitivity, 2022–2023",
+     "pmid": "43066607",
+     "summary": "NSAIDs (61%) and antibiotics (51%) were the most commonly suspected culprits, with beta-lactams named by 42% of patients. Urticaria, angioedema and bronchospasm were the most common reactions, and 25% reported drug-related anaphylaxis. Asthma (aOR 1.64), NSAID-exacerbated respiratory disease (aOR 2.79), food allergy (aOR 2.76) and suspected beta-lactam hypersensitivity (aOR 1.81) were independently associated with an anaphylaxis history. It's a referred population, so the associations can't show cause.",
+     "why": "When an ED patient reports an NSAID or beta-lactam allergy, these comorbidities help separate a likely serious reaction from a low-risk label. Take a specific reaction history, keep IM epinephrine (0.5 mg) ready, and refer low-risk penicillin labels for delabeling."
+    },
+    {
+     "topic": "Antimicrobial stewardship / ICU",
+     "study_type": "Prospective national audit",
+     "takeaway": "Three-quarters of empiric ICU antibiotic orders followed local guidance; a set review date made 72-hour review 9x likelier",
+     "title": "Antimicrobial stewardship and resistance in intensive care units in the UK: a prospective national audit.",
+     "journal": "Anaesthesia",
+     "pub_date": "Nov 2026",
+     "population": "2,626 adults in 154 UK ICUs (point-prevalence survey with longitudinal follow-up)",
+     "pmid": "43066529",
+     "summary": "Antimicrobials were prescribed to 61% of ICU patients. Of 2,116 empiric orders, 75% followed unit guidelines; 12% deviated after discussion with infection specialists, and 9.5% deviated with no justification or discussion. Review within 72 hours happened for 93% of eligible orders, and a pre-specified stop or review date was the strongest predictor of that review (adjusted OR 9.3, 95% CI 5.4–16.2).",
+     "why": "Antibiotics started in the ED often run unreviewed through a long boarding stay. A required stop or review date field in ED order sets is a low-effort, pharmacist-owned stewardship fix."
+    },
+    {
+     "topic": "Pharmacogenomics / PPIs",
+     "study_type": "Retrospective cohort (All of Us)",
+     "takeaway": "CYP2C19 metabolizer status wasn't linked to recurrent GERD documentation after starting a PPI",
+     "title": "CYP2C19 metabolizer phenotype and recurrent documented gastroesophageal reflux disease after proton pump inhibitor initiation: A cohort study from the All of Us Research Program.",
+     "journal": "Ann Pharmacother",
+     "pub_date": "Nov 2026",
+     "population": "21,135 adults with GERD, a definitive CYP2C19 phenotype and 1 year of follow-up after PPI start, All of Us Research Program",
+     "pmid": "43067713",
+     "summary": "Recurrent GERD documentation in the following year occurred in 28%. Compared with normal metabolizers, adjusted risk ratios were 1.11 for poor, 1.02 for intermediate, 1.04 for rapid and 0.97 for ultrarapid metabolizers, none significant, and results held when limited to omeprazole. Further reflux testing or procedures were rare (1.2%) and also unrelated to phenotype. PPI dose and ongoing use weren't modeled.",
+     "why": "The authors say this doesn't overturn CPIC's advice to raise PPI doses in rapid and ultrarapid metabolizers. In the ED, CYP2C19 status matters more for clopidogrel choice after ACS than for a discharge PPI."
+    }
+   ]
+  },
+  {
    "date": "2026-11-22",
    "window": "Nov 21, 2026",
    "note": "A thin Saturday window with no ED drug RCTs, so this issue runs 8 picks. The EM items are a point-of-care DOAC level test validated in two EDs, a clinician review of semaglutide overdose, real-world low-dose alteplase decisions in stroke and a large pediatric ED influenza antiviral comparison. An opioid-free anesthesia RCT, a ceftazidime-avibactam combination meta-analysis, ampicillin-sulbactam hypokalemia and an HFpEF drug-class network meta-analysis round it out.",
@@ -1161,114 +1257,6 @@
      "pmid": "43014822",
      "summary": "Patients got their usual ACE inhibitor or ARB or a matching placebo on the morning of surgery. Perioperative hypotension occurred in 31.2% after holding the dose vs 45.5% after taking it (aOR 0.52, absolute difference −14.4 points). Vasopressor use and hypotension duration were also lower, while postoperative hypotension, 30-day complications and mortality didn't differ. The trial wasn't powered for rarer clinical outcomes.",
      "why": "Strong evidence to hold ACE inhibitors and ARBs the morning of surgery in older adults. The same logic applies when ED patients go for emergency procedures or RSI: a recent ACE inhibitor or ARB dose is a reason to expect hypotension and have a vasopressor ready."
-    }
-   ]
-  },
-  {
-   "date": "2026-11-11",
-   "window": "Nov 10, 2026",
-   "note": "No ED drug RCTs this window. The EM picks are a large secondary analysis of two airway trials, a peripheral vasopressor extravasation series, an ACMT naloxone position statement, and inpatient analgesia and stroke anticoagulation cohorts. One ICU analgesia RCT and two pharmacist-relevant studies fill out the issue.",
-   "bottom_line": [
-    "In pooled DEVICE and PREOXI data, ketamine induction was linked to more peri-intubation cardiovascular collapse than etomidate (20% vs 14%), mainly new or higher vasopressor needs. It wasn't randomized, but it argues against assuming ketamine is the hemodynamically safer choice.",
-    "Expired naloxone is better than no naloxone: ACMT now says to give it when an unexpired product isn't on hand.",
-    "When peripheral vasopressors infiltrated and phentolamine was given, serious tissue injury was rare (2 of 92), even though phentolamine came a mean of about 2 hours after the event."
-   ],
-   "articles": [
-    {
-     "topic": "RSI / Induction agents",
-     "study_type": "Secondary analysis of 2 RCTs",
-     "takeaway": "Ketamine was linked to more peri-intubation cardiovascular collapse than etomidate in critically ill adults",
-     "title": "Ketamine Vs. Etomidates and Cardiovascular Collapse During Emergency Tracheal Intubation: A Secondary Analysis of the DEVICE and PREOXI Trials.",
-     "journal": "Crit Care Explor",
-     "pub_date": "Nov 2026",
-     "population": "2,357 adults intubated in US EDs and ICUs (1,822 etomidate, 312 ketamine, 223 other), DEVICE and PREOXI trials",
-     "pmid": "43007299",
-     "summary": "Induction drug choice wasn't randomized, so the authors treated it as an observational exposure and used weighting and covariate adjustment. Cardiovascular collapse (new or increased vasopressor, SBP under 65 mm Hg or arrest within 2 minutes of intubation) occurred in 20.4% with ketamine vs 14.0% with etomidate (aOR 1.80, 95% CI 1.24–2.62), driven mostly by vasopressor starts or increases (aOR 1.51). Ketamine showed less severe hypoxemia and faster intubation, but neither held up after correcting for multiple comparisons, and first-pass success and 28-day mortality didn't clearly differ.",
-     "why": "Echoes the RSI trial signal that ketamine isn't automatically the safer agent in shock. Whichever drug is used, consider a reduced dose in unstable patients and have push-dose or infusion vasopressors drawn up before induction."
-    },
-    {
-     "topic": "Vasopressors / Extravasation",
-     "study_type": "Retrospective review",
-     "takeaway": "Serious tissue injury was rare after peripheral vasopressor extravasation treated with phentolamine",
-     "title": "Local complications of peripheral intravenous vasopressor use with phentolamine as an antidote: a retrospective review.",
-     "journal": "Proc (Bayl Univ Med Cent)",
-     "pub_date": "Nov 2026",
-     "population": "92 patients given phentolamine for infiltrated peripheral vasopressor IVs, 1 large US health system",
-     "pmid": "43006831",
-     "summary": "Infiltration happened a mean of 21 hours into peripheral vasopressor therapy, most often at antecubital or forearm sites, and phentolamine was given a mean of 131 minutes later. Three-quarters of patients had no significant tissue injury and about a quarter had only minor bruising or redness. There were two significant complications (one skin necrosis and one DVT), and 52% went on to get a central line. The study included only patients who received phentolamine, so it can't give an overall extravasation rate.",
-     "why": "Supports peripheral norepinephrine as a bridge from the ED, paired with a protocol for site checks and phentolamine (commonly 5–10 mg diluted in 10 mL saline, injected subcutaneously around the site). The 2-hour delay to phentolamine shows room to stock it closer to the bedside."
-    },
-    {
-     "topic": "Toxicology / Opioid overdose",
-     "study_type": "Position statement",
-     "takeaway": "ACMT says to give expired naloxone for suspected opioid overdose when unexpired naloxone isn't available",
-     "title": "ACMT Position Statement: Administer Expired Naloxone When Unexpired Naloxone Is Unavailable.",
-     "journal": "J Med Toxicol",
-     "pub_date": "Nov 2026",
-     "population": "American College of Medical Toxicology guidance for clinicians, first responders and lay rescuers",
-     "pmid": "43004055",
-     "summary": "The American College of Medical Toxicology states that expired naloxone should be given for a suspected opioid overdose if no unexpired product is available. PubMed lists no abstract, so the detailed rationale isn't summarized here. Naloxone is generally regarded as a stable drug with a very favorable safety profile, so the risk of using an expired product is low compared with giving nothing.",
-     "why": "Useful for naloxone kit counseling at ED discharge: patients shouldn't throw out an expired kit until they have a replacement. It also supports keeping older kits in community distribution rather than discarding them outright."
-    },
-    {
-     "topic": "Acute pain / Renal safety",
-     "study_type": "Cohort (active comparator)",
-     "takeaway": "Inpatient ibuprofen raised AKI risk vs oxycodone only in high-risk patients, not in low-risk ones",
-     "title": "Ibuprofen Use and Acute Kidney Injury Among Adults Admitted to the Hospital.",
-     "journal": "JAMA Netw Open",
-     "pub_date": "Nov 2026",
-     "population": "78,656 hospitalized adults treated at least 24 hours with ibuprofen (6,313) or oxycodone (72,343), 3 Philadelphia hospitals, 2004–2017",
-     "pmid": "43007674",
-     "summary": "After weighting, ibuprofen was associated with more AKI (IRR 1.22), severe AKI (IRR 1.36) and kidney replacement therapy (IRR 3.29, wide CI), and most AKI was stage 1. The excess risk was concentrated in postoperative (IRR 1.70) and critically ill (IRR 1.65) patients. In low-risk patients (under 60, not critically ill or postoperative, normal kidney function), ibuprofen showed no added AKI risk (IRR 0.94), yet most of them got oxycodone.",
-     "why": "Supports NSAID-first analgesia for low-risk admitted and ED patients rather than reflexive opioids. Reserve caution for the groups where risk was real: post-op, critically ill, older or with reduced kidney function."
-    },
-    {
-     "topic": "Stroke / Anticoagulation",
-     "study_type": "Cohort",
-     "takeaway": "Starting anticoagulation within 7 days of moderate-severe ischemic stroke didn't raise 30-day bleeding",
-     "title": "Timing of Anticoagulant Initiation After Moderate-Severe and Severe Acute Ischemic Strokes (TAMSS).",
-     "journal": "J Pharm Pract",
-     "pub_date": "Nov 2026",
-     "population": "143 neuro-ICU adults with moderate-severe or severe ischemic stroke and an anticoagulation indication, 1 US tertiary center, 2019–2024",
-     "pmid": "43008085",
-     "summary": "Early anticoagulation (within 7 days of onset, 91 patients) was compared with late initiation (after 7 days, 52 patients). Major extracranial bleeding or symptomatic ICH within 30 days occurred in 12% vs 10% (p = 0.78), and recurrent stroke, embolism and mortality at 30 and 90 days didn't differ. Concurrent P2Y12 inhibitor use was the main predictor of bleeding (OR 5.2). The sample was small and timing was chosen by clinicians.",
-     "why": "Adds to ELAN and TIMING data that early DOAC starts are reasonable even in larger strokes. The P2Y12 signal is a cue for pharmacists to question dual antithrombotic therapy when anticoagulation begins."
-    },
-    {
-     "topic": "Empiric antimicrobials / Bacteremia",
-     "study_type": "Cohort (multicenter, IPTW)",
-     "takeaway": "Pip-tazo and cefepime had similar mortality for Enterobacter, K. aerogenes and Citrobacter bacteremia",
-     "title": "Real-world outcomes of Citrobacter freundii, Klebsiella aerogenes, and Enterobacter cloacae bacteremia treatment (ROCKET): a contemporary analysis of treatment strategies.",
-     "journal": "J Antimicrob Chemother",
-     "pub_date": "Nov 2026",
-     "population": "728 adults with bacteremia from moderate AmpC-risk Enterobacterales, multicenter US, 2017–2025",
-     "pmid": "43004943",
-     "summary": "Definitive therapy was cefepime in 47%, pip-tazo in 18% and a carbapenem in 16%, and overall 30-day mortality was 12%. After weighting, 30-day mortality didn't differ between pip-tazo and cefepime (HR 1.05, 95% CI 0.57–1.92), and early relapse was similar. Treatment-emergent resistance was uncommon with every agent (1–3%).",
-     "why": "IDSA guidance favors cefepime for these organisms, and this is reassuring data if a patient started on pip-tazo in the ED is already improving. It doesn't argue for switching the default away from cefepime."
-    },
-    {
-     "topic": "Critical care analgesia",
-     "study_type": "RCT (non-inferiority)",
-     "takeaway": "Oliceridine matched remifentanil for ICU analgesia with less respiratory depression",
-     "title": "Efficacy and safety of oliceridine versus remifentanil for analgesia in mechanically ventilated critically ill adults (CO-ROAM): a multicenter, assessor-blinded, non-inferiority randomized controlled trial.",
-     "journal": "Intensive Care Med",
-     "pub_date": "Nov 2026",
-     "population": "304 mechanically ventilated adults, 19 ICUs in China",
-     "pmid": "43007421",
-     "summary": "Both opioids were titrated to a CPOT score under 3. Median time in the target analgesia range was 96.0% with oliceridine vs 92.3% with remifentanil, meeting non-inferiority. Oliceridine had fewer mild-to-moderate adverse drug reactions (IRR 0.72) and no respiratory depression during the study or after extubation (0% vs 4.6% and 0% vs 7.9%). Ventilation time, ICU stay and 28-day mortality didn't differ.",
-     "why": "A G protein-biased opioid could suit ventilated patients nearing extubation, but US availability and cost are limiting, and the trial compared it with remifentanil rather than the more common fentanyl or hydromorphone infusions."
-    },
-    {
-     "topic": "Drug interactions / Medication safety",
-     "study_type": "Cross-sectional",
-     "takeaway": "Potential drug interactions were found in 89% of ED admissions, and real interaction harm caused 6% of admissions",
-     "title": "Drug-drug interactions in patients admitted to the hospital: prevalence and associated adverse drug events.",
-     "journal": "Eur J Clin Pharmacol",
-     "pub_date": "Nov 2026",
-     "population": "968 adults admitted through the ED taking at least 2 medications (median age 75, median 7 drugs), 2018",
-     "pmid": "43007459",
-     "summary": "Screening home medications with Micromedex, UpToDate and Stockley found 7,801 moderate-or-worse potential interactions in 89% of patients. Only 1.5% of those (116) caused a documented adverse event, but those events contributed to admission in 6% of patients. Most were bleeding events, and antithrombotics were the most common culprits.",
-     "why": "Most interaction alerts are noise, but antithrombotic combinations are where real harm shows up. ED med rec should focus on anticoagulant plus antiplatelet, NSAID or SSRI pairings in older patients."
     }
    ]
   }
