@@ -1,6 +1,102 @@
 {
  "issues": [
   {
+   "date": "2026-11-24",
+   "window": "Nov 23, 2026",
+   "note": "A thin Monday window with no ED drug RCTs, so this issue runs short at 7 picks rather than padding. The EM items are a London cohort on DOACs and brain bleeds after head injury, a ceftriaxone vs cefazolin-plus-aminoglycoside comparison for type III open fractures, CRRT clearance in diquat poisoning and a 10-hospital sepsis decision-support study. The 1-year AID-ICU haloperidol follow-up, a primary care stewardship program and a dupilumab cardiovascular signal round it out.",
+   "bottom_line": [
+    "Among 11,400 head-injured adults who got a CT in three London EDs, DOAC users had no more acute intracranial hemorrhage than non-anticoagulated patients (7.1% vs 7.7%; aOR 0.93). It supports a less reflexive approach to DOAC head injuries, but reversal agents should still be ready when a bleed is found.",
+    "Ceftriaxone alone had a similar surgical site infection rate to cefazolin plus an aminoglycoside for type III open fractures (12% vs 17%) in a small cohort, with no AKI difference. That makes a single once-daily drug a reasonable option where local guidance allows.",
+    "A sepsis navigation tool (real-time timer, order set shortcuts) was followed by about 27% lower adjusted odds of death or hospice across 10 hospitals, along with faster cultures and antibiotics. It's quasi-experimental, but it shows workflow design moves sepsis outcomes."
+   ],
+   "articles": [
+    {
+     "topic": "Anticoagulation / Head injury",
+     "study_type": "Retrospective cohort",
+     "takeaway": "DOAC users had no more brain bleeding on CT after head injury than patients on no anticoagulant",
+     "title": "Direct Oral Anticoagulant Use and Acute Intracranial Hemorrhage in Adults Undergoing CT After Head Injury.",
+     "journal": "JAMA Netw Open",
+     "pub_date": "Nov 2026",
+     "population": "11,401 head CT episodes in 10,625 adults with head injury (565 on a DOAC), 3 EDs in one London NHS trust, 2018–2022",
+     "pmid": "43071377",
+     "summary": "Linked ED, hospital and primary care prescribing records compared patients with an active DOAC prescription to those on no anticoagulant. Acute intracranial hemorrhage on the first CT occurred in 7.1% of DOAC episodes vs 7.7% of the others, and the adjusted odds weren't higher (aOR 0.93, 95% CI 0.70–1.21). Neurosurgery was rare in both groups (0.4%), and although crude 28-day mortality was higher with DOACs (3.0% vs 1.7%), it wasn't after adjustment (aOR 0.70, 95% CI 0.46–1.01). Prescription records don't confirm the patient was actually taking the drug, and clinically important differences can't be excluded.",
+     "why": "Fits with the newer Scandinavian guidance (Nov 16 issue) that relaxes routine CT for every DOAC head injury. Pharmacists should still confirm the agent, dose and last dose time, and have 4F-PCC or andexanet ready if CT shows a bleed."
+    },
+    {
+     "topic": "Trauma / Open fracture antibiotics",
+     "study_type": "Retrospective multicenter cohort",
+     "takeaway": "Ceftriaxone alone prevented infections about as well as cefazolin plus an aminoglycoside for type III open fractures",
+     "title": "Ceftriaxone Compared to Aminoglycoside-based Antibiotic Prophylaxis in Type III Open Fractures.",
+     "journal": "J Surg Res",
+     "pub_date": "Nov 2026",
+     "population": "156 adults with type III open fractures (34 ceftriaxone, 122 cefazolin plus an aminoglycoside), Banner Health hospitals in Arizona, 2017–2021",
+     "pmid": "43072256",
+     "summary": "Surgical site infection by CDC criteria occurred in 12% with ceftriaxone vs 17% with cefazolin plus an aminoglycoside, a difference that wasn't significant (P = 0.60). Acute kidney injury rates also didn't differ (P = 0.74). The ceftriaxone group was small and treatment wasn't randomized, so the study can't show equivalence.",
+     "why": "A single 2 g daily ceftriaxone dose avoids gentamicin dosing, levels and nephrotoxicity in trauma patients who often get IV contrast. If your institution adopts it, ED pharmacists should still add anaerobic coverage (e.g., penicillin) for farm or soil-contaminated wounds and get the first dose in within the hour."
+    },
+    {
+     "topic": "Toxicology / Herbicide poisoning",
+     "study_type": "Prospective observational",
+     "takeaway": "CRRT removed a meaningful share of diquat, more so with poor kidney function and early start, but kidneys did most of the work",
+     "title": "Contribution of continuous renal replacement therapy to diquat elimination relative to native renal excretion in acute diquat poisoning.",
+     "journal": "Clin Toxicol (Phila)",
+     "pub_date": "Nov 2026",
+     "population": "28 patients with acute diquat poisoning who kept making urine, 76 CRRT sessions, 1 Chinese ED/toxicology center, 2020–2025",
+     "pmid": "43070652",
+     "summary": "Using mass balance, the authors compared diquat removed by CRRT with diquat excreted in urine during the same period. CRRT accounted for a median 46% of elimination per session, and its share rose as eGFR fell and as time from ingestion to CRRT start shortened. Across 120 hours, CRRT removal equaled about 22% of urinary excretion at the patient level. The study didn't measure clinical outcomes, so it can't say whether this removal saves lives.",
+     "why": "Diquat (and its cousin paraquat) have no antidote, so care is decontamination, fluids and extracorporeal removal. This supports starting CRRT or hemoperfusion early, especially if AKI develops; call poison control right away and avoid supplemental oxygen unless the patient is hypoxic if paraquat is possible."
+    },
+    {
+     "topic": "Sepsis / Clinical decision support",
+     "study_type": "Quasi-experimental (multihospital)",
+     "takeaway": "A sepsis navigation tool was followed by lower death-or-hospice rates and faster antibiotics across 10 hospitals",
+     "title": "Impact of a sepsis clinical decision support system and workflow on sepsis-associated mortality or hospice discharge: A multihospital quasi-experimental study from 2018 to 2024.",
+     "journal": "J Hosp Med",
+     "pub_date": "Nov 2026",
+     "population": "631,620 adult hospitalizations (50,911 with sepsis), 10 Prisma Health hospitals in South Carolina, 2018–2024",
+     "pmid": "43070045",
+     "summary": "The tool showed sepsis metrics, a real-time sepsis timer and shortcuts to documentation and order sets. After rollout, death or hospice discharge fell from 18.8% to 16.3% in sepsis and from 40.0% to 36.4% in septic shock, with adjusted odds about 27% lower in both (aOR 0.73). Monthly trends improved for sepsis but not for non-sepsis hospitalizations, which argues against a general secular improvement. Order set use, blood culture timing and antibiotic timing also improved; it isn't randomized, so other concurrent changes can't be ruled out.",
+     "why": "Antibiotic timing improved most when the order set was one click away. ED pharmacists can make sure sepsis order sets default to full loading doses, IV push beta-lactams where compatible and culture draws that don't hold up the first dose."
+    },
+    {
+     "topic": "Critical care / Delirium",
+     "study_type": "RCT 1-year follow-up",
+     "takeaway": "Haloperidol for ICU delirium didn't change cognitive function at 1 year, though missing data limit the answer",
+     "title": "Long-Term Cognitive Function Following Haloperidol Vs. Placebo Treatment in ICU Patients With Delirium.",
+     "journal": "Crit Care Med",
+     "pub_date": "Nov 2026",
+     "population": "624 adults with ICU delirium from the AID-ICU trial; cognitive testing in 134 of 343 survivors, 3 Danish ICUs",
+     "pmid": "43070803",
+     "summary": "This prespecified follow-up compared global cognition (RBANS) 1 year after randomization to IV haloperidol or saline placebo. Median scores were 40 in both groups (mean difference 2 points, 95% CI −3 to 7), and executive function and domain scores didn't differ. Because only 39% of survivors were tested, best-case and worst-case sensitivity analyses pointed in opposite directions, so the authors call the result imprecise rather than proof of no effect.",
+     "why": "Haloperidol neither clearly helps nor harms long-term cognition, which fits the short-term AID-ICU results. For agitated delirium in ED boarders, use it for safety and symptom control at the lowest effective dose, check the QTc, and focus on nondrug measures and removing deliriogenic drugs."
+    },
+    {
+     "topic": "Antimicrobial stewardship / Primary care",
+     "study_type": "Quasi-experimental (difference-in-differences)",
+     "takeaway": "A multifaceted stewardship program with monthly feedback halved antibiotics for respiratory diagnoses that never need them",
+     "title": "Effect of Ambulatory Antimicrobial Stewardship Intervention on Respiratory Antibiotic Prescribing in Primary Care Clinics.",
+     "journal": "Ann Fam Med",
+     "pub_date": "Nov 2026",
+     "population": "20 intervention and 54 control primary care clinics, Prisma Health (South Carolina), Jan 2023–Mar 2025",
+     "pmid": "43073062",
+     "summary": "Respiratory diagnoses were sorted into tiers where antibiotics are always, sometimes or never indicated. In intervention clinics, which got a multifaceted bundle that included monthly clinician feedback reports, prescribing for never-indicated diagnoses fell from 28.2% to 14.2%, while control clinics rose from 31.7% to 33.8% (adjusted OR for the interaction 0.32). Prescribing for sometimes-indicated diagnoses also fell, while prescribing for always-indicated diagnoses didn't change.",
+     "why": "The same tiered approach and peer-comparison feedback work in EDs and urgent care, where viral bronchitis and URIs drive a lot of unnecessary azithromycin. ED pharmacists can build tiered diagnosis lists into discharge order sets and share clinician-level reports."
+    },
+    {
+     "topic": "Drug safety / Biologics",
+     "study_type": "Retrospective cohort (TriNetX, matched)",
+     "takeaway": "COPD patients starting dupilumab had more new heart failure and AF than those on triple inhaler therapy alone",
+     "title": "Association Between Dupilumab and Risk of Cardiovascular Diseases Among US Patients With COPD: A Retrospective Cohort Study.",
+     "journal": "Ann Pharmacother",
+     "pub_date": "Nov 2026",
+     "population": "1,352 propensity-matched pairs of adults 40 and older with COPD on triple inhaler therapy, TriNetX US EHR network, 2024–2025",
+     "pmid": "43069533",
+     "summary": "Patients who started dupilumab within 30 days of a COPD exacerbation were compared with those continuing triple inhaler therapy. Dupilumab was associated with more heart failure (HR 1.73, 95% CI 1.44–2.08) and atrial fibrillation or flutter (HR 1.57, 95% CI 1.24–1.99), consistent across sensitivity analyses and eosinophil subgroups. MI and ischemic stroke weren't significantly different. The authors stress residual confounding (sicker patients likely got the biologic) and don't claim a causal effect.",
+     "why": "A hypothesis-generating safety signal, not a reason to stop dupilumab. When a COPD patient on dupilumab comes to the ED with new dyspnea, keep heart failure and AF on the differential rather than assuming another exacerbation."
+    }
+   ]
+  },
+  {
    "date": "2026-11-23",
    "window": "Nov 22, 2026",
    "note": "A very thin Sunday window with no ED drug RCTs, so this issue runs short at 7 picks rather than padding. The EM items are an open-fracture antibiotic timing meta-analysis, sepsis fluid balance trajectories, frailty and mortality after stroke lytics, and adjunctive nicorandil with STEMI fibrinolysis. A drug anaphylaxis risk-factor study, a UK ICU stewardship audit and a CYP2C19/PPI cohort round it out; all are observational.",
@@ -1149,114 +1245,6 @@
      "pmid": "43015788",
      "summary": "Researchers compared 5-day mean ambient temperature with the share of diuretic users admitted for a suspected diuretic adverse reaction. Higher temperatures were associated with more diuretic ADRs, and segmented regression found a breakpoint near 15.7 °C, above which the slope increased about sixfold. Spline models also showed an accelerating, non-linear rise. The study can't separate the individual mechanisms, such as dehydration, hyponatremia or AKI.",
      "why": "During heat waves, diuretic users presenting with AKI, hyponatremia, hypokalemia or falls should prompt a look at their dose. ED pharmacists can recommend temporary dose reductions or 'sick day' holds at discharge in hot weather."
-    }
-   ]
-  },
-  {
-   "date": "2026-11-12",
-   "window": "Nov 11, 2026",
-   "note": "Another window with no ED drug RCTs. The EM picks are a large stroke-mimic thrombolysis meta-analysis, a 12-month DOAC-after-ICH registry, two toxicology surveillance studies and two ED pharmacotherapy evidence reviews. A big NEJM VTE prophylaxis trial and a BMJ perioperative ACE inhibitor/ARB trial round out the issue.",
-   "bottom_line": [
-    "Don't let fear of treating a stroke mimic slow down tenecteplase or alteplase: across about 285,000 patients, mimics who got lytics had far less ICH and death than true strokes.",
-    "Tianeptine was the top substance in a decade of poison center withdrawal calls and drove more than a quarter of the ICU admissions. Ask about gas-station supplements when withdrawal doesn't fit a known drug.",
-    "Muscle relaxants don't improve recovery from acute low back pain in ED patients, so leave them off routine discharge prescriptions."
-   ],
-   "articles": [
-    {
-     "topic": "Stroke / Thrombolysis",
-     "study_type": "Systematic review & meta-analysis",
-     "takeaway": "Stroke mimics given IV thrombolysis had far less intracranial bleeding and death than true ischemic strokes",
-     "title": "Safety and clinical outcomes of intravenous thrombolysis in stroke mimics compared with acute ischemic stroke: A systematic review and meta-analysis.",
-     "journal": "J Thromb Thrombolysis",
-     "pub_date": "Nov 2026",
-     "population": "27 cohort studies and 1 RCT, about 285,000 adults given IV thrombolysis for suspected stroke",
-     "pmid": "43009728",
-     "summary": "Compared with confirmed ischemic stroke, mimics who got lytics had much lower odds of symptomatic ICH (OR 0.18), any ICH (OR 0.12) and 3-month death (OR 0.24). They were also more likely to be functionally independent at 3 months (OR 3.50) and to go home, and stays were about 2 days shorter. The ICH gap was widest in patients with milder deficits (NIHSS 7 or less). The better outcomes reflect how benign mimics are, not a benefit of the drug, and the data are almost entirely observational.",
-     "why": "Supports keeping door-to-needle times fast instead of holding lytics while waiting for diagnostic certainty. Pharmacists can reinforce that a mimic diagnosis afterward isn't a medication error, while still running the usual pre-lytic checks (BP, glucose, anticoagulant history)."
-    },
-    {
-     "topic": "Neuro emergencies / Anticoagulation",
-     "study_type": "Prospective registry",
-     "takeaway": "Restarting a DOAC within 14 days of ICH in AF carried more later hemorrhagic than ischemic stroke at 1 year",
-     "title": "Early Direct Oral Anticoagulant Initiation After Intracranial Hemorrhage Among Japanese Patients With Nonvalvular Atrial Fibrillation: SAFE-ICH Registry 12-Month Outcomes.",
-     "journal": "Circ Rep",
-     "pub_date": "Oct 2026",
-     "population": "240 adults with nonvalvular AF who started or restarted a DOAC 14 days or less after ICH, 32 Japanese hospitals",
-     "pmid": "43011233",
-     "summary": "Over 12 months, symptomatic ICH, any stroke or death occurred in 22.5% (29.1 per 100 person-years). Symptomatic ICH occurred in 6.3%, hemorrhagic stroke in 3.8% and ischemic stroke in 2.9%, with major bleeding in 6.7% and death in 14.2%, mostly from aspiration pneumonia. Hemorrhagic strokes began appearing about 3 months after the DOAC started and caught up with ischemic strokes by month 10. There was no comparison group of delayed or no anticoagulation.",
-     "why": "Early DOAC restart after ICH is still a case-by-case call, and this suggests the bleeding risk persists well beyond the first month. When these patients return to the ED, check DOAC dose appropriateness and have andexanet or 4F-PCC protocols ready."
-    },
-    {
-     "topic": "Toxicology / Overdose",
-     "study_type": "Interrupted time series",
-     "takeaway": "Pregabalin overdoses in Australia fell by almost half after media coverage, prescribing limits and boxed warnings",
-     "title": "Changes in pregabalin use and overdose after government interventions and media coverage: retrospective observational study.",
-     "journal": "BMJ",
-     "pub_date": "Nov 2026",
-     "population": "227,864 people dispensed pregabalin (10% national dispensing sample) and 4,871 pregabalin overdose calls to Australia's largest poisons centre, 2016–2024",
-     "pmid": "43014818",
-     "summary": "Dispensing peaked in 2018 and then dropped at three breakpoints that lined up with media coverage (Dec 2018), prescribing and dispensing restrictions (2020) and, after a delay, boxed warnings (2021), for a combined dispensing rate ratio of 0.75. Overdose calls fell further, with a combined rate ratio of 0.53 and an ongoing decline of about 1.6% a month. A high-risk group of about 14% of users were younger, mostly male, filled prescriptions more often, and commonly also took opioids (66%) or benzodiazepines (32%).",
-     "why": "Gabapentinoids add to respiratory depression with opioids and benzodiazepines, a pattern that also shows up in US overdoses. In the ED, flag pregabalin plus opioid or benzodiazepine combinations at med rec and avoid starting pregabalin at discharge for acute pain."
-    },
-    {
-     "topic": "Toxicology / Withdrawal",
-     "study_type": "Retrospective poison center review",
-     "takeaway": "Tianeptine led a decade of poison center withdrawal calls and caused more than a quarter of ICU admissions",
-     "title": "Withdrawal-related calls to a statewide poison control center: a ten-year review.",
-     "journal": "Clin Toxicol (Phila)",
-     "pub_date": "Nov 2026",
-     "population": "198 withdrawal-related calls to one US statewide poison control center, 2015–2024",
-     "pmid": "43013761",
-     "summary": "Tianeptine (24%), opioids (21%) and benzodiazepines (14%) were the most common substances, and tianeptine calls first appeared in 2019 and drove a rise starting in 2020. Most calls came from hospitals, and 37% of cases had at least a moderate outcome. About a third of patients were admitted and 18% went to the ICU, with tianeptine linked to 28% of ICU admissions. GHB and phenibut withdrawal also had notable moderate or major outcomes, and no deaths were recorded.",
-     "why": "Tianeptine is sold as a supplement and acts on mu-opioid receptors, so withdrawal looks like opioid withdrawal and may respond to buprenorphine or methadone. GHB and phenibut withdrawal can look like severe alcohol withdrawal and may need high-dose benzodiazepines or phenobarbital. Call poison control early."
-    },
-    {
-     "topic": "ED pharmacotherapy / Magnesium",
-     "study_type": "Narrative review",
-     "takeaway": "IV magnesium is first-line for eclampsia and torsades but only an adjunct for migraine, AF and asthma",
-     "title": "Applications of intravenous magnesium Sulfate in the emergency department: A narrative review.",
-     "journal": "Am J Emerg Med",
-     "pub_date": "Nov 2026",
-     "population": "Review of the evidence for IV magnesium sulfate in adult ED indications",
-     "pmid": "43014134",
-     "summary": "The authors rank the evidence by indication. Magnesium remains first-line for preeclampsia and eclampsia and the drug of choice for torsades de pointes. It plays a supporting role in migraine and as an add-on for rate control in AF with RVR, and should be saved for severe asthma or COPD exacerbations that don't respond to initial therapy. Routine empiric use for hypokalemia isn't recommended, evidence for analgesia is limited, and it may help shivering during targeted temperature management. No serious adverse events were reported in the studies reviewed.",
-     "why": "A handy reference for common ED orders. Typical doses are 2 g IV for torsades or asthma and a 4–6 g load then 1–2 g/h for eclampsia. Watch reflexes, respiratory rate and renal function, and keep calcium gluconate available for magnesium toxicity."
-    },
-    {
-     "topic": "Acute pain / Low back pain",
-     "study_type": "Evidence-based review",
-     "takeaway": "Muscle relaxants don't improve symptoms or function in ED patients with acute low back pain",
-     "title": "Are Muscle Relaxants an Effective Treatment for Patients With Acute Low Back Pain?",
-     "journal": "J Emerg Med",
-     "pub_date": "Oct 2026",
-     "population": "4 RCTs and 2 meta-analyses of muscle relaxants for acute low back pain, including ED patients",
-     "pmid": "43013910",
-     "summary": "This structured clinical question review found that muscle relaxants didn't improve symptom resolution or function in ED patients with acute low back pain. The authors weighed that lack of benefit against side effects such as sedation and dizziness. They conclude that muscle relaxants shouldn't be prescribed routinely from the ED for this condition.",
-     "why": "Cyclobenzaprine and similar drugs are common discharge add-ons with sedation, fall and misuse risks, particularly in older adults and in combination with opioids. An NSAID plus activity and heat is the better default, and pharmacists can drop muscle relaxants from back pain order sets."
-    },
-    {
-     "topic": "Anticoagulation / VTE prophylaxis",
-     "study_type": "RCT (noninferiority)",
-     "takeaway": "Aspirin wasn't noninferior to rivaroxaban or warfarin for preventing death or VTE after hip or knee replacement",
-     "title": "Prevention of Venous Thromboembolism after Total Hip or Knee Replacement.",
-     "journal": "N Engl J Med",
-     "pub_date": "Nov 2026",
-     "population": "18,883 patients randomized after elective hip or knee arthroplasty, 15,317 in the per-protocol analysis, US (PEPPER)",
-     "pmid": "43013818",
-     "summary": "Patients got aspirin 81 mg twice daily, warfarin (INR target 2.0) or rivaroxaban 10 mg daily for 30 days. Death or symptomatic VTE at 6 months occurred in 1.26% with aspirin, 1.23% with warfarin and 0.94% with rivaroxaban, and aspirin didn't meet the 0.69-point noninferiority margin against either drug. Bleeding, wound reoperation or MI occurred in 2.91%, 3.36% and 3.48%, and the anticoagulants weren't noninferior to aspirin for safety either. Absolute differences were small in every comparison.",
-     "why": "There's no clear winner: aspirin trades slightly more clots for slightly less bleeding. Patients presenting to the ED after arthroplasty could be on any of these agents, so confirm which one and the dose before working up a DVT or a bleed."
-    },
-    {
-     "topic": "Perioperative medication management",
-     "study_type": "RCT (double-blind)",
-     "takeaway": "Holding the morning ACE inhibitor or ARB before surgery cut perioperative hypotension in older adults",
-     "title": "Effect of discontinuing antihypertensives on perioperative hypotension in older patients before non-cardiac surgery: multicentre, randomised, double blind, controlled trial.",
-     "journal": "BMJ",
-     "pub_date": "Nov 2026",
-     "population": "2,036 adults aged 60–80 on an ACE inhibitor or ARB having non-cardiac surgery under general anesthesia, 5 Chinese hospitals",
-     "pmid": "43014822",
-     "summary": "Patients got their usual ACE inhibitor or ARB or a matching placebo on the morning of surgery. Perioperative hypotension occurred in 31.2% after holding the dose vs 45.5% after taking it (aOR 0.52, absolute difference −14.4 points). Vasopressor use and hypotension duration were also lower, while postoperative hypotension, 30-day complications and mortality didn't differ. The trial wasn't powered for rarer clinical outcomes.",
-     "why": "Strong evidence to hold ACE inhibitors and ARBs the morning of surgery in older adults. The same logic applies when ED patients go for emergency procedures or RSI: a recent ACE inhibitor or ARB dose is a reason to expect hypotension and have a vasopressor ready."
     }
    ]
   }
