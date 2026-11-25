@@ -1,6 +1,114 @@
 {
  "issues": [
   {
+   "date": "2026-11-25",
+   "window": "Nov 24, 2026",
+   "note": "The headliners are the twin PITSTOP trials in JAMA, which randomized Ontario paramedics' sepsis patients to ambulance ceftriaxone and to liberal fluids. Other EM items are an Edinburgh acetaminophen hepatotoxicity score, a meta-analysis on restarting anticoagulation for AF after ICH, a 62-trial sepsis landscape review and a pediatric sedation RCT. A large postoperative opioid cohort and a pharmacist-led SGLT2 inhibitor program round out 8 picks.",
+   "bottom_line": [
+    "Giving IM ceftriaxone in the ambulance, about 3.5 hours before ED antibiotics, didn't lower hospital mortality in hypotensive febrile sepsis (18.0% vs 18.4%). Prehospital antibiotics aren't a priority for EMS protocols, but the first ED dose should still go in fast.",
+    "An extra 900 mL of prehospital saline didn't change sepsis mortality either (18.0% vs 18.3%), and pulmonary edema was rare. Smaller, SBP-guided boluses are a reasonable default before arrival.",
+    "Restarting oral anticoagulation in AF patients who survived an ICH cut major cardiovascular events by about 40% across 5 small RCTs. Pharmacists can push for a documented restart plan rather than indefinite holding."
+   ],
+   "articles": [
+    {
+     "topic": "Sepsis / Prehospital antibiotics",
+     "study_type": "RCT (factorial, placebo-controlled)",
+     "takeaway": "Ceftriaxone given in the ambulance didn't lower sepsis mortality compared with waiting for ED antibiotics",
+     "title": "Prehospital Antibiotics for Patients With Suspected Sepsis: The PITSTOP-Antibiotics Factorial Randomized Clinical Trial.",
+     "journal": "JAMA",
+     "pub_date": "Nov 2026",
+     "population": "2,048 adults with suspected infection, fever of 38 °C or higher and SBP under 100 mm Hg (median age 75), 4 paramedic services in Ontario, Canada, 2020–2025",
+     "pmid": "43076168",
+     "summary": "Paramedics gave 1 g of IM ceftriaxone or placebo a mean of about 38 minutes after reaching the patient, and more than 92% in both groups got open-label antibiotics in hospital roughly 4 hours after paramedic arrival. Hospital mortality to day 90 was 18.0% with ceftriaxone vs 18.4% with placebo (RR 0.97, 95% CI 0.81–1.17). None of the 17 secondary outcomes, including ICU admission, ventilation, dialysis and positive cultures, differed.",
+     "why": "A 3-hour head start on a single dose made no difference, which tempers the 'every minute counts' message for undifferentiated suspected sepsis. It doesn't change the goal of antibiotics within 1 hour for septic shock in the ED, and a prehospital dose shouldn't stop cultures or the full ED regimen."
+    },
+    {
+     "topic": "Sepsis / Prehospital fluids",
+     "study_type": "RCT (factorial)",
+     "takeaway": "Up to 2 L of saline in the ambulance didn't improve sepsis survival over SBP-guided usual care",
+     "title": "Prehospital Fluid Resuscitation for Patients With Suspected Sepsis: The PITSTOP-Fluids Factorial Randomized Clinical Trial.",
+     "journal": "JAMA",
+     "pub_date": "Nov 2026",
+     "population": "1,646 adults with suspected infection, fever and SBP under 100 mm Hg with IV access (median age 76), 4 paramedic services in Ontario, Canada, 2020–2025",
+     "pmid": "43076208",
+     "summary": "The liberal arm got up to 2 L of normal saline regardless of later blood pressure, while usual care gave fluid only for SBP under 90 and stopped at 100. Median prehospital volume was 1,500 mL vs 500 mL (difference about 910 mL). Hospital mortality was 18.0% vs 18.3% (RR 0.98, 95% CI 0.80–1.20), all 17 secondary outcomes were similar, and pulmonary edema during transport was infrequent in both groups.",
+     "why": "Adds to CLOVERS-era evidence that more early fluid isn't better. In the ED, count prehospital volume toward the 30 mL/kg target, reassess before giving more, and start norepinephrine early (peripherally if needed) when hypotension persists."
+    },
+    {
+     "topic": "Toxicology / Acetaminophen",
+     "study_type": "Retrospective cohort (model derivation)",
+     "takeaway": "A score using routine admission labs flagged acetaminophen overdoses likely to get liver injury despite acetylcysteine",
+     "title": "Prediction of Acetaminophen-Induced Hepatotoxicity in Acetylcysteine-Treated Patients Using Routine Admission Biomarkers.",
+     "journal": "Ann Emerg Med",
+     "pub_date": "Nov 2026",
+     "population": "4,705 acetaminophen overdose admissions aged 12 and older with admission ALT of 1,000 U/L or less, 3 UK hospitals, 2008–2024",
+     "pmid": "43076808",
+     "summary": "Hepatotoxicity (peak ALT over 1,000 U/L) developed in 2.5% despite acetylcysteine. The Edinburgh Risk Score uses four routine labs per stratum: acetaminophen level, sodium, potassium and lymphocytes when ALT is 50 or below, and ALT, bilirubin, alkaline phosphatase and lymphocytes when ALT is 51–1,000. In a held-out test set its AUC was 0.93 vs 0.82 for an acetaminophen-aminotransferase product over 1,500, with specificity of 83% vs 63% and about half as many false-positive escalations. It still needs external validation.",
+     "why": "Identifying high-risk patients early is what decides who gets intensified therapy, such as higher-dose acetylcysteine, fomepizole or extracorporeal removal for massive ingestions. Until this is validated, keep using the nomogram and AT product with poison center input."
+    },
+    {
+     "topic": "Neuro emergencies / Anticoagulation after ICH",
+     "study_type": "Meta-analysis of 5 RCTs",
+     "takeaway": "Restarting oral anticoagulation for AF after a brain bleed cut major cardiovascular events by about 40%",
+     "title": "Efficacy and Safety of Oral Anticoagulation for Atrial Fibrillation after Intracerebral Hemorrhage: A Systematic Review and Frequentist-Bayesian Meta-Analysis.",
+     "journal": "Neurocrit Care",
+     "pub_date": "Nov 2026",
+     "population": "5 RCTs, 733 adults with atrial fibrillation after spontaneous intracerebral hemorrhage, starting oral anticoagulation vs none",
+     "pmid": "43073627",
+     "summary": "Oral anticoagulation was associated with fewer major adverse cardiovascular events than no anticoagulation (RR 0.59, 95% CI 0.37–0.94; I² 24%). Bayesian analyses also favored anticoagulation across most prior and heterogeneity assumptions, with more than a 90% probability of at least a 20% relative reduction in 6 of 10 scenarios. The total sample was small, so the estimate for recurrent ICH is less certain.",
+     "why": "Many ICH survivors with AF are left off anticoagulation indefinitely. When an ICH patient on a DOAC comes in, reversal is the immediate job, but pharmacists can also flag the need for a documented restart plan (typically a DOAC, often weeks after the bleed) before discharge."
+    },
+    {
+     "topic": "Sepsis / Trial evidence",
+     "study_type": "Systematic review & meta-analysis",
+     "takeaway": "Across 62 sepsis RCTs, no treatment domain (fluids, vasopressors, steroids, vitamin C) reliably lowered mortality",
+     "title": "The sepsis trial landscape: a domain-specific systematic review and meta-analysis of adult sepsis randomized controlled trials.",
+     "journal": "Crit Care",
+     "pub_date": "Nov 2026",
+     "population": "62 adult sepsis and septic shock RCTs, 2000–2025, 36,739 patients",
+     "pmid": "43074020",
+     "summary": "Trials were grouped into six domains. Pooled mortality risk ratios were 0.88 for resuscitation strategies, 0.96 for fluid quantity, 0.95 for fluid type, 0.97 for vasopressors, 0.92 for corticosteroids (95% CI 0.84–1.00) and 0.95 for vitamin C regimens, none clearly significant. Small trials scattered widely while large trials clustered near no effect, and the authors point to late intervention timing, patient heterogeneity, contamination and infrastructure limits as recurring design problems.",
+     "why": "Explains why sepsis care still rests on basics: source control, timely appropriate antibiotics and supportive care. Steroids come closest to benefit, consistent with hydrocortisone for patients on ongoing vasopressors."
+    },
+    {
+     "topic": "Procedural sedation / Pediatrics",
+     "study_type": "RCT (single-center)",
+     "takeaway": "Propofol-ketamine sped recovery by about 1 minute and cut emergence delirium vs mask sevoflurane for pediatric MRI",
+     "title": "Two Anesthetic Strategies for Pediatric Magnetic Resonance Imaging: Face-Mask Sevoflurane Versus an Intravenous Propofol-Ketamine Regimen in a Randomized Parallel-Group Trial.",
+     "journal": "Med Princ Pract",
+     "pub_date": "Oct 2026",
+     "population": "211 children aged 3 months to 10 years having MRI under anesthesia, 1 center",
+     "pmid": "43077315",
+     "summary": "Children got IV ketamine-propofol induction with intermittent propofol boluses or face-mask sevoflurane maintenance. Recovery was slightly faster with propofol-ketamine (4.5 vs 5.3 minutes; trimmed difference about 1 minute) and peak emergence delirium scores were lower, but extra anesthetic was needed more often (29% vs 11%). Discharge time, image quality, and respiratory and hemodynamic events didn't differ.",
+     "why": "Supports ketofol-style regimens for pediatric procedural sedation, with less emergence agitation than volatile agents. Expect to need top-up propofol doses, and draw them up ahead of time with weight-based limits."
+    },
+    {
+     "topic": "Acute pain / Opioid prescribing",
+     "study_type": "Retrospective cohort (6.1M procedures)",
+     "takeaway": "Discharge opioids of 50 MME a day or more, especially beyond 14 days, were tied to earlier opioid use disorder",
+     "title": "Early post-discharge opioid prescribing and opioid use disorder after surgery: multicentre electronic health record cohort study.",
+     "journal": "BJS Open",
+     "pub_date": "Nov 2026",
+     "population": "6,113,697 procedures in patients 12 and older across 57 procedures and 13 surgical departments, US health systems (Oracle Health Real-World Data), 2012–2024",
+     "pmid": "43076447",
+     "summary": "Incident OUD within a year occurred in about 5 per 1,000 surgical patients vs about 1.9 per 1,000 in a comparator without these procedures, peaking 1–2 months after discharge and highest in patients with cancer or chronic pain. High-dose prescriptions (50 MME/day or more), particularly lasting more than 14 days, were associated with a shorter time to an OUD diagnosis across departments (time ratios 0.79–0.94). It's observational and relies on recorded diagnoses.",
+     "why": "The same dose-and-duration logic applies to ED discharge prescriptions: keep daily MME low, limit supply to a few days, pair with scheduled acetaminophen and NSAIDs, and offer naloxone when doses climb."
+    },
+    {
+     "topic": "Pharmacist-led care / Cardiorenal",
+     "study_type": "Retrospective cohort",
+     "takeaway": "A centralized pharmacist program got half of eligible patients on SGLT2 inhibitors, with 27% fewer hospitalizations or deaths",
+     "title": "Clinical Pharmacist-Supported Sodium-Glucose Cotransporter 2 Inhibitor Initiation and Patient Outcomes in Primary Care.",
+     "journal": "Diabetes Obes Metab",
+     "pub_date": "Nov 2026",
+     "population": "1,965 SGLT2 inhibitor-eligible patients identified by clinical pharmacists in a nationwide HMO, 2020–2023",
+     "pmid": "43074473",
+     "summary": "Clinical pharmacists screened the EHR and sent initiation recommendations to primary care physicians; 48% of eligible patients started an SGLT2 inhibitor within a year. In time-dependent analyses, starting one was associated with lower risk of all-cause hospitalization or death (aHR 0.73, 95% CI 0.58–0.92), with 18.2 vs 23.5 events per 100 person-years. Initiators may have differed from non-initiators in ways the models didn't capture.",
+     "why": "A practical model for pharmacist-driven guideline therapy. In the ED, remember SGLT2 inhibitors when evaluating euglycemic DKA, volume depletion and genital infections, and advise holding them during acute illness or before procedures."
+    }
+   ]
+  },
+  {
    "date": "2026-11-24",
    "window": "Nov 23, 2026",
    "note": "A thin Monday window with no ED drug RCTs, so this issue runs short at 7 picks rather than padding. The EM items are a London cohort on DOACs and brain bleeds after head injury, a ceftriaxone vs cefazolin-plus-aminoglycoside comparison for type III open fractures, CRRT clearance in diquat poisoning and a 10-hospital sepsis decision-support study. The 1-year AID-ICU haloperidol follow-up, a primary care stewardship program and a dupilumab cardiovascular signal round it out.",
@@ -1137,114 +1245,6 @@
      "pmid": "43021726",
      "summary": "Hospitals alternated between a 3-day oral and a 3-day IV postoperative antibiotic regimen. Intra-abdominal abscess at 30 days occurred in 6.8% with oral vs 4.9% with IV therapy (difference 1.9 points, 90% CI −0.4 to 4.2), meeting the 5-point noninferiority margin, with similar per-protocol results. Oral antibiotics cut hospital stay by about 41 hours but raised readmissions by 4.7 points.",
      "why": "Adds to the evidence for short, early-oral courses after source control in intra-abdominal infection, a key stewardship lever. The higher readmission rate argues for clear return precautions and follow-up when patients go home on oral therapy."
-    }
-   ]
-  },
-  {
-   "date": "2026-11-13",
-   "window": "Nov 12, 2026",
-   "note": "No ED drug RCTs this window. The EM picks are a systematic review of ED analgesia RCTs, a status epilepticus paralytic comparison, a pilot sepsis bundle trial, a JAMA stroke treatment review, a post hoc tirofiban analysis and national EMS naloxone data. A sepsis procalcitonin meta-analysis and an ED adverse drug reaction study fill out the issue.",
-   "bottom_line": [
-    "For ED acute pain, nonopioid combinations held up against opioid-first regimens across 17 RCTs: ibuprofen plus acetaminophen for musculoskeletal pain, prochlorperazine plus diphenhydramine for migraine, and NSAIDs or IV acetaminophen for renal colic.",
-    "When intubating for status epilepticus, a rocuronium-type paralytic was linked to better discharge function than succinylcholine, with no difference in peri-intubation arrhythmias. It's observational, but it removes the main argument for 'sux so you can see the seizure'.",
-    "Early tirofiban after IV lytics looked helpful only in moderate-to-severe stroke (NIHSS 6 or more). In minor stroke it added no benefit and raised intracranial bleeding."
-   ],
-   "articles": [
-    {
-     "topic": "Acute pain",
-     "study_type": "Systematic review of RCTs",
-     "takeaway": "Multimodal nonopioid analgesia matched or beat opioid-first regimens for common ED pain complaints",
-     "title": "Multimodal Nonopioid Analgesia Versus Opioid-First Approaches for Acute Pain in the Emergency Department: A Systematic Review of Randomized Controlled Trials.",
-     "journal": "J Emerg Med",
-     "pub_date": "Oct 2026",
-     "population": "17 RCTs, 7,288 adults treated in EDs for musculoskeletal or trauma pain, renal colic or primary headache",
-     "pmid": "43019972",
-     "summary": "Most of the evidence (13 trials, about 5,250 patients) involved musculoskeletal trauma, where ibuprofen plus acetaminophen relieved pain about as well as an opioid plus acetaminophen. In migraine, prochlorperazine plus diphenhydramine left 86% with mild or no headache at 1 hour vs 52% with hydromorphone. For renal colic, IM diclofenac and IV acetaminophen were as good as or better than morphine, with fewer adverse events. Results were synthesized descriptively rather than pooled, so they should be read condition by condition.",
-     "why": "Gives evidence for nonopioid-first ED order sets by complaint: an NSAID plus acetaminophen for sprains and fractures, a dopamine antagonist plus diphenhydramine for migraine, and ketorolac or diclofenac for renal colic. Check renal function, bleeding risk and anticholinergic burden in older adults."
-    },
-    {
-     "topic": "Status epilepticus / RSI",
-     "study_type": "Target trial emulation",
-     "takeaway": "Non-depolarizing paralytics for status epilepticus RSI were linked to better discharge function than succinylcholine",
-     "title": "Neurologic outcomes following intubation with non-depolarizing vs. depolarizing paralytics in status epilepticus: a target trial emulation.",
-     "journal": "J Crit Care Med (Targu Mures)",
-     "pub_date": "Oct 2026",
-     "population": "480 adults intubated for suspected status epilepticus, 1 US academic health system, 2000–2024",
-     "pmid": "43016820",
-     "summary": "The authors expected that succinylcholine's short duration, which lets clinicians re-examine the patient sooner, would improve outcomes. After propensity weighting, the opposite appeared: succinylcholine was linked to more need for a higher level of care at discharge (30.4% vs 24.4%; OR 1.35) and fewer discharges home (61.7% vs 69.6%; OR 0.71). Life-threatening peri-intubation arrhythmias were rare and similar (0.6% vs 0.8%). The study spans 24 years at one system and used escalation of care as a stand-in for neurologic outcome.",
-     "why": "Supports rocuronium as a reasonable RSI choice in status epilepticus, as long as the team doesn't rely on the motor exam afterward: get continuous EEG early and keep antiseizure drugs and sedation going. Sugammadex can reverse rocuronium if an exam is needed."
-    },
-    {
-     "topic": "Sepsis",
-     "study_type": "Stepped-wedge cluster RCT (pilot)",
-     "takeaway": "Triggering the sepsis Hour-1 bundle by NEWS2 score raised antibiotic and culture compliance, but outcomes stayed uncertain",
-     "title": "National Early Warning Score 2-Guided Sepsis Hour-1 Bundle Care for Adults With Suspected Sepsis in the Emergency Department: A Hybrid Type 1 Effectiveness-Implementation Stepped-Wedge Randomized Controlled Trial Pilot Study (NEWS-1 TRIPS).",
-     "journal": "Crit Care Med",
-     "pub_date": "Nov 2026",
-     "population": "200 adults admitted with infection and NEWS2 of 5 or more, 4 EDs in Hong Kong",
-     "pmid": "43018426",
-     "summary": "EDs switched in a randomized sequence to automatically starting the Hour-1 bundle (lactate, cultures, antibiotics, fluids, vasopressors as needed) whenever NEWS2 reached 5. Compliance with lactate, blood cultures and antibiotics rose, but full bundle compliance was only 56%. Thirty-day mortality was 3.9% with standard care vs 9.2% with the new model, a difference that wasn't significant (95% CI −1.6 to 12.1 points). The pilot met its feasibility goals, and the authors say a much larger trial is needed.",
-     "why": "An objective score can get antibiotics hung faster, but this pilot can't show it helps patients and the mortality numbers leaned the wrong way. ED pharmacists can still own the antibiotic step: first dose within the hour, with culture draws coordinated so they don't delay it."
-    },
-    {
-     "topic": "Stroke / Thrombolysis",
-     "study_type": "Review (guideline-based)",
-     "takeaway": "JAMA review lays out 2026 AHA/ASA stroke care: tenecteplase or alteplase within 4.5 hours, extended windows with imaging",
-     "title": "Treatment of Acute Ischemic Stroke: A Review.",
-     "journal": "JAMA",
-     "pub_date": "Nov 2026",
-     "population": "Clinical review based on 2026 AHA/ASA acute ischemic stroke guidelines",
-     "pmid": "43018963",
-     "summary": "IV thrombolysis with tenecteplase or alteplase is first-line for disabling stroke within 4.5 hours of onset when there are no contraindications, and adds about 10 percentage points to the chance of a better functional outcome. Perfusion imaging can extend lytics to 9 hours, and up to 24 hours for large-vessel occlusions that can't go to thrombectomy. Thrombectomy is a class 1 recommendation within 6 hours and in selected patients up to 24 hours, and adds about 20 points of functional independence. Lytics should still be given first in thrombectomy candidates unless contraindicated.",
-     "why": "A current one-stop reference for stroke code pharmacists. Know tenecteplase dosing (0.25 mg/kg, max 25 mg, single bolus) vs alteplase (0.9 mg/kg, max 90 mg, 10% bolus), and the newer extended-window criteria that widen who qualifies."
-    },
-    {
-     "topic": "Stroke / Antiplatelets",
-     "study_type": "RCT post hoc analysis",
-     "takeaway": "Early tirofiban after IV lytics helped moderate-to-severe strokes but raised bleeding without benefit in minor strokes",
-     "title": "Association of Stroke Severity With Efficacy of Early Tirofiban Infusion After Intravenous Thrombolysis.",
-     "journal": "J Am Heart Assoc",
-     "pub_date": "Nov 2026",
-     "population": "832 patients with non-cardioembolic ischemic stroke given IV thrombolysis within 4.5 hours, ASSET-IT trial (China)",
-     "pmid": "43018049",
-     "summary": "Patients were split by NIHSS at admission (under 6 vs 6 or more). With NIHSS of 6 or more, tirofiban roughly doubled the odds of an excellent 90-day outcome (mRS 0–1; aOR 2.13) without a clear rise in intracranial hemorrhage (aOR 0.88). With minor stroke, there was no benefit (aOR 1.02) and intracranial hemorrhage rose (aOR 6.51, very wide CI). Interactions were significant, but this was an exploratory subgroup analysis.",
-     "why": "If your stroke team is adopting early tirofiban after lytics, this argues for restricting it to NIHSS 6 or more. Pharmacists building the protocol should include a severity cutoff, renal dose adjustment and a plan for holding it if neuro status worsens."
-    },
-    {
-     "topic": "Toxicology / Opioid overdose",
-     "study_type": "Cross-sectional (NEMSIS)",
-     "takeaway": "EMS naloxone use in suspected opioid overdose was about twice as likely in the South and Midwest as in the Northeast",
-     "title": "A national cross-sectional analysis of regional and rural-urban variation in emergency medical services naloxone administration for suspected opioid overdose.",
-     "journal": "J Subst Use Addict Treat",
-     "pub_date": "Nov 2026",
-     "population": "110,261 EMS activations for suspected opioid involvement in adults, US national 2025 dataset",
-     "pmid": "43020186",
-     "summary": "EMS gave naloxone in 33.9% of encounters. After clinical adjustment, odds were higher in the South (aOR 2.10), Midwest (aOR 1.92) and West (aOR 1.31) than in the Northeast, about 5 to 15 percentage points. The rural-urban gap disappeared after adjustment (aOR 1.01). The authors note the data can't show whether any given non-administration was inappropriate.",
-     "why": "EMS naloxone counts are often used to track overdose trends, and regional practice differences can distort them. In the ED, ask what prehospital naloxone was given and how much, because it shapes the observation period for long-acting opioids."
-    },
-    {
-     "topic": "Sepsis / Antimicrobial stewardship",
-     "study_type": "Meta-analysis of RCTs",
-     "takeaway": "Procalcitonin-guided antibiotics shortened therapy by about 1.5 days in ICU sepsis without changing mortality",
-     "title": "Procalcitonin-guided antibiotic therapy in ICU patients with sepsis: a systematic review and meta-analysis with GRADE and trial sequential analysis.",
-     "journal": "J Crit Care Med (Targu Mures)",
-     "pub_date": "Oct 2026",
-     "population": "16 RCTs, 7,966 adult ICU patients with sepsis or septic shock",
-     "pmid": "43016800",
-     "summary": "Procalcitonin-guided strategies didn't change all-cause mortality (RR 0.99, 95% CI 0.92–1.06), and trial sequential analysis said the evidence was still inconclusive on that question. They cut antibiotic duration by about 1.5 days (MD −1.51), a result trial sequential analysis judged conclusive, and increased antibiotic-free days. New infections, superinfections, clinical failure and length of stay didn't differ.",
-     "why": "Supports procalcitonin as a stop signal, not a start signal: it doesn't decide whether to give the first ED dose, but a falling level helps stewardship pharmacists shorten courses safely once patients are admitted."
-    },
-    {
-     "topic": "Medication safety / Adverse drug reactions",
-     "study_type": "Prospective observational",
-     "takeaway": "Diuretic-related ED admissions rose steeply once 5-day mean temperatures passed about 16 °C",
-     "title": "Diuretic-associated admissions to the emergency department - too hot to handle? Results from the ADRED-study.",
-     "journal": "BMC Med",
-     "pub_date": "Nov 2026",
-     "population": "ED admissions with standardized ADR causality assessment, prospective multicenter German ADRED study",
-     "pmid": "43015788",
-     "summary": "Researchers compared 5-day mean ambient temperature with the share of diuretic users admitted for a suspected diuretic adverse reaction. Higher temperatures were associated with more diuretic ADRs, and segmented regression found a breakpoint near 15.7 °C, above which the slope increased about sixfold. Spline models also showed an accelerating, non-linear rise. The study can't separate the individual mechanisms, such as dehydration, hyponatremia or AKI.",
-     "why": "During heat waves, diuretic users presenting with AKI, hyponatremia, hypokalemia or falls should prompt a look at their dose. ED pharmacists can recommend temporary dose reductions or 'sick day' holds at discharge in hot weather."
     }
    ]
   }
