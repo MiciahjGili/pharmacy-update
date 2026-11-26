@@ -1,6 +1,114 @@
 {
  "issues": [
   {
+   "date": "2026-11-26",
+   "window": "Nov 25, 2026",
+   "note": "The headliner is FISSH, a blinded Canadian-Saudi RCT of lactated Ringer's vs saline in septic shock, joined by a vasopressin-vs-norepinephrine meta-analysis and an AJEM review of xylazine, medetomidine and nitazenes. Three stroke pharmacotherapy papers (alteplase in minor stroke, early BP lowering in CATIS-2 and ticagrelor by frailty in CHANCE-2), a pediatric ED ketamine-for-agitation series and an NEJM blood pressure meta-analysis round out 8 picks.",
+   "bottom_line": [
+    "Lactated Ringer's and saline gave identical 30-day mortality in septic shock (33.6% vs 33.0%) across about 5.8 L of study fluid. Either crystalloid is acceptable, so choose based on chloride, potassium and compatibility rather than expected survival benefit.",
+    "Pooled data put alteplase for minor, likely non-disabling stroke (mostly NIHSS 5 or below) at no functional benefit and about 6-fold higher symptomatic ICH. It supports holding lytics for non-disabling deficits and saving them for disabling ones.",
+    "Persistent sedation after naloxone, bradycardia or hypotension, or a severe hypertensive withdrawal points to medetomidine or xylazine in the drug supply. Titrate naloxone to breathing, not wakefulness, and expect routine screens to miss these agents."
+   ],
+   "articles": [
+    {
+     "topic": "Sepsis / Fluid choice",
+     "study_type": "RCT (multicenter, blinded)",
+     "takeaway": "Lactated Ringer's didn't lower 30-day mortality vs saline in septic shock",
+     "title": "Ringer's lactate versus saline in the fluids in septic shock (FISSH) trial: a multicentre, blinded, parallel-group, randomised controlled trial.",
+     "journal": "Lancet Respir Med",
+     "pub_date": "Nov 2026",
+     "population": "1,103 adults with septic shock enrolled within 6 hours of ED presentation or ICU consult, 30 hospitals in Canada and Saudi Arabia, 2018–2026",
+     "pmid": "43078115",
+     "summary": "All bolus and maintenance fluid through the ICU stay (up to day 30) was blinded lactated Ringer's or 0.9% saline; patients were very sick (mean APACHE II about 25, lactate 4.8 mmol/L) and got about 5.8 L of study fluid. 30-day in-hospital mortality was 33.6% with Ringer's vs 33.0% with saline (RR 1.02, 95% CI 0.86–1.21), and no serious adverse events were attributed to either fluid. Enrollment took more than 7 years, and patients with raised ICP or on dialysis were excluded.",
+     "why": "Joins BaSICS and PLUS in finding no mortality difference between balanced fluids and saline. ED pharmacists can let practical issues drive the choice: avoid large saline volumes in hyperchloremic acidosis, avoid Ringer's with ceftriaxone in the same line or in raised ICP, and focus on stopping fluids once perfusion recovers."
+    },
+    {
+     "topic": "Shock / Vasopressors",
+     "study_type": "Meta-analysis of 6 RCTs",
+     "takeaway": "Vasopressin matched norepinephrine on mortality but cut dialysis, mainly when started first-line",
+     "title": "Vasopressin Versus Norepinephrine in Septic Shock: A Systematic Review and Meta-Analysis of Randomized Trials Focusing on Vasopressor Timing.",
+     "journal": "J Intensive Care Med",
+     "pub_date": "Nov 2026",
+     "population": "6 RCTs, 1,580 adults with septic shock randomized to vasopressin or norepinephrine",
+     "pmid": "43080063",
+     "summary": "Short-term mortality didn't differ (RR 0.98, 95% CI 0.86–1.11; I² 0%), and neither did serious adverse events or ICU stay. Renal replacement therapy was less common with vasopressin (RR 0.83, 95% CI 0.72–0.97), and in subgroups the effect appeared when vasopressin was the first randomized agent (RR 0.65) but not when it was added second-line (RR 0.96). The RRT result relied on a fixed-effect model and the timing subgroup is exploratory.",
+     "why": "Norepinephrine stays first-line, but this supports adding vasopressin (fixed 0.03 units/min) early rather than as a last resort, typically once norepinephrine reaches about 0.25–0.5 mcg/kg/min, especially when AKI is developing. ED pharmacists can keep vasopressin available for boarding shock patients."
+    },
+    {
+     "topic": "Toxicology / Adulterants",
+     "study_type": "Narrative review",
+     "takeaway": "Xylazine, medetomidine and nitazenes cause naloxone-resistant sedation, bradycardia and recurrent respiratory depression",
+     "title": "Emerging designer sedatives and adulterants in the emergency department: A narrative review.",
+     "journal": "Am J Emerg Med",
+     "pub_date": "Nov 2026",
+     "population": "Review of epidemiology, presentation and ED management of veterinary sedatives (xylazine, medetomidine) and novel synthetic opioids (nitazenes, orphine analogues) in the US drug supply",
+     "pmid": "43085293",
+     "summary": "The alpha-2 agonists xylazine and medetomidine add deep sedation, bradycardia and hypotension to opioid overdoses and aren't reversed by naloxone. Xylazine causes chronic necrotic wounds, and medetomidine can cause prolonged toxicity and a severe withdrawal with hypertension, tachycardia and agitation. Nitazenes and orphine analogues are very potent mu-opioid agonists that can cause recurrent respiratory depression needing repeat naloxone or an infusion, and none of these agents shows up on routine hospital drug screens.",
+     "why": "Give naloxone for the opioid component, titrated to ventilation, then support airway and breathing rather than escalating naloxone for leftover sedation. Medetomidine withdrawal is a newer ED problem; it is often treated with dexmedetomidine or clonidine plus benzodiazepines, so involve poison control early."
+    },
+    {
+     "topic": "Stroke / Thrombolysis",
+     "study_type": "Systematic review & meta-analysis",
+     "takeaway": "Alteplase for minor stroke didn't improve function and raised symptomatic brain bleeding about 6-fold",
+     "title": "Alteplase in minor ischemic stroke: a systematic review and meta-analysis of randomized and prospective studies.",
+     "journal": "Front Neurol",
+     "pub_date": "Nov 2026",
+     "population": "11 RCTs, RCT subgroups and prospective studies, 9,680 patients with minor ischemic stroke (mostly NIHSS 5 or below; 3,664 alteplase vs 6,016 control)",
+     "pmid": "43080274",
+     "summary": "Excellent outcome (mRS 0–1) didn't differ with alteplase (OR 1.05, 95% CI 0.83–1.33), nor did functional independence or mortality. Symptomatic ICH was much higher (OR 6.01, 95% CI 2.60–13.89), as was any ICH (OR 1.86). A possible benefit was seen only in higher-risk minor-stroke subgroups. The review mixes randomized and observational data, doesn't clearly separate disabling from non-disabling deficits, and excludes tenecteplase.",
+     "why": "Consistent with PRISMS and ARAMIS: for minor, non-disabling strokes, dual antiplatelet therapy (aspirin plus clopidogrel for 21 days) is usually preferred over lytics. Stroke pharmacists can help the team judge whether a low NIHSS deficit is actually disabling before mixing alteplase or tenecteplase."
+    },
+    {
+     "topic": "Stroke / Blood pressure",
+     "study_type": "RCT secondary analysis (CATIS-2)",
+     "takeaway": "Early BP lowering after non-lysed ischemic stroke raised recurrent strokes in moderate-to-severe cases",
+     "title": "Antihypertensive Treatment Timing and Clinical Outcomes in Acute Ischemic Stroke Without Reperfusion Therapy by Stroke Severity: A Subgroup Analysis of the CATIS-2 Trial.",
+     "journal": "CNS Neurosci Ther",
+     "pub_date": "Nov 2026",
+     "population": "4,802 patients with acute ischemic stroke, elevated SBP and no reperfusion therapy, randomized 24–48 hours after onset, China (3,263 minor, 1,539 moderate-to-severe)",
+     "pmid": "43079758",
+     "summary": "Patients got antihypertensives immediately or starting on day 8. Death or disability at 90 days didn't differ by timing in minor (5.6% vs 4.3%) or moderate-to-severe stroke (26.1% vs 23.2%). In moderate-to-severe stroke, early treatment was linked to more recurrent strokes (8.3% vs 5.1%; OR 1.73), major vascular events and serious adverse events (9.9% vs 6.4%), with significant interactions. These are exploratory subgroup findings with multiple comparisons.",
+     "why": "For patients who didn't get lytics or thrombectomy, there's no rush to lower BP unless it exceeds about 220/120; permissive hypertension remains the default. This doesn't apply to post-lytic patients, who still need BP under 180/105."
+    },
+    {
+     "topic": "Pediatric ED / Agitation",
+     "study_type": "Retrospective cohort (single center)",
+     "takeaway": "Ketamine for severe agitation in a pediatric ED worked after one dose in 85% of episodes, with few adverse events",
+     "title": "Ketamine administration for acute severe agitation in a pediatric emergency department: prevalence and clinical profile-a 6-year retrospective study.",
+     "journal": "Eur J Pediatr",
+     "pub_date": "Nov 2026",
+     "population": "26 agitation episodes in 22 children (median age 16) among 139,295 visits, 1 tertiary pediatric ED in Trieste, Italy, 2020–2025",
+     "pmid": "43083908",
+     "summary": "Agitation accounted for 1.3% of visits, and ketamine was used in 26 episodes, about 9% of all ketamine doses given in the ED; that share rose from zero to about 7.5% over the study. Ketamine was given IV in 65% and IM in 23% of episodes, a single dose controlled agitation in 85%, and adverse events were rare. Half of the patients went home from the ED and 27% were admitted to the ICU. The cohort is very small, with no comparison group.",
+     "why": "Ketamine is a reasonable rescue for dangerous agitation in adolescents when antipsychotics or benzodiazepines fail or would be too slow. Typical dosing is 1–2 mg/kg IV or 4–5 mg/kg IM; monitor for laryngospasm, hypersalivation and emergence reactions with airway equipment at the bedside."
+    },
+    {
+     "topic": "Stroke / Antiplatelets",
+     "study_type": "RCT post hoc subgroup (CHANCE-2)",
+     "takeaway": "Ticagrelor-aspirin beat clopidogrel-aspirin in CYP2C19 loss-of-function carriers, except in the most frail patients",
+     "title": "Ticagrelor-aspirin versus clopidogrel-aspirin by pre-onset frailty status: a subgroup analysis of the CHANCE-2 trial.",
+     "journal": "Age Ageing",
+     "pub_date": "Oct 2026",
+     "population": "6,412 patients with minor ischemic stroke or TIA who carried CYP2C19 loss-of-function alleles, CHANCE-2 trial, China",
+     "pmid": "43084504",
+     "summary": "Patients were split into tertiles of a frailty index built from pre-stroke deficits. Ticagrelor-aspirin reduced 90-day stroke in the least frail (HR 0.64, 95% CI 0.45–0.90) and middle (HR 0.68) tertiles but not the most frail (HR 1.05, 95% CI 0.76–1.44), with a significant interaction. Moderate or severe bleeding didn't differ by frailty. It's a post hoc analysis in a Chinese population, and absolute event rates weren't reported in the abstract.",
+     "why": "Where CYP2C19 testing is available, ticagrelor-based DAPT is the pick for poor clopidogrel metabolizers after minor stroke or TIA. In very frail older patients the benefit is uncertain, so clopidogrel-based DAPT or a shorter course is reasonable while weighing bleeding and dyspnea."
+    },
+    {
+     "topic": "Cardiology / Hypertension",
+     "study_type": "Individual-participant meta-analysis (51 RCTs)",
+     "takeaway": "Each 5 mm Hg drop in systolic BP cut major cardiovascular events 10%, even at lowest baseline risk",
+     "title": "Blood-Pressure-Lowering Treatment across the Cardiovascular Risk Spectrum.",
+     "journal": "N Engl J Med",
+     "pub_date": "Nov 2026",
+     "population": "51 RCTs, 357,440 participants grouped into deciles of predicted 5-year cardiovascular risk (lowest under 4%, highest over 27%); BPLTTC",
+     "pmid": "43084787",
+     "summary": "Over a median 4.2 years, each 5 mm Hg reduction in systolic BP lowered major cardiovascular events by about 10% (HR 0.90, 95% CI 0.88–0.92), with the same relative effect in every risk decile. Absolute benefit grew with risk: 5-year NNT was 255 in the lowest decile vs 38 in the highest. Treatment raised hypotension, bradycardia or palpitations (12.0 vs 6.5 per 1,000 person-years), renal events and falls, with a similar relative increase across risk levels.",
+     "why": "Supports treating hypertension on BP alone, not just high calculated risk. For ED patients with asymptomatic elevated BP, the job is to arrange outpatient follow-up rather than rapid lowering, and to watch for falls and hypotension in older adults on several antihypertensives."
+    }
+   ]
+  },
+  {
    "date": "2026-11-25",
    "window": "Nov 24, 2026",
    "note": "The headliners are the twin PITSTOP trials in JAMA, which randomized Ontario paramedics' sepsis patients to ambulance ceftriaxone and to liberal fluids. Other EM items are an Edinburgh acetaminophen hepatotoxicity score, a meta-analysis on restarting anticoagulation for AF after ICH, a 62-trial sepsis landscape review and a pediatric sedation RCT. A large postoperative opioid cohort and a pharmacist-led SGLT2 inhibitor program round out 8 picks.",
@@ -1137,114 +1245,6 @@
      "pmid": "43026563",
      "summary": "Prophylaxis, started within 24 hours and continued up to 72 hours, was given to 56% of patients, with amoxicillin-clavulanate used in over 90%. Early-onset VAP occurred in 32% with prophylaxis vs 34% without, and after weighting there was no association (weighted OR 0.87, 95% CI 0.66–1.22). Late VAP, other infections, ventilation days, length of stay and 30-day mortality also didn't differ.",
      "why": "Unlike the trial data in brain-injured patients, this doesn't support routine prophylactic antibiotics for intubated trauma patients in general. ED pharmacists can save antibiotics for clear indications, such as open fractures or aspiration with infection signs."
-    }
-   ]
-  },
-  {
-   "date": "2026-11-14",
-   "window": "Nov 13, 2026",
-   "note": "Another window with no ED drug RCTs. The EM picks are a pooled andexanet safety analysis from ANNEXA-I and ANNEXA-4, a decade of antidote shortage data, a lipid emulsion review for TCA poisoning, national prehospital buprenorphine data, a sepsis-alert diagnostic study, an albuterol nebulizer comparison and an alcohol withdrawal return-visit cohort. A Danish oral-vs-IV antibiotic trial after appendectomy rounds out the issue.",
-   "bottom_line": [
-    "About 1 in 10 andexanet-treated patients had a thrombotic event, mostly arterial and within the first few days. Prior MI, older age, female sex and high-dose eligibility raised the risk, and restarting anticoagulation was linked to fewer clots.",
-    "Antidote shortages are now the norm: 13% of all US drug shortages over 10 years hit toxicology agents, they lasted a median of about a year, and the backup drug was also short in 94% of cases. Physostigmine and dimercaprol have been discontinued.",
-    "Lipid emulsion for TCA poisoning rests on 42 published cases. It helped blood pressure more often than QRS widening, so sodium bicarbonate stays first-line and ILE is a rescue option for refractory toxicity."
-   ],
-   "articles": [
-    {
-     "topic": "Anticoagulant reversal",
-     "study_type": "Pooled analysis of 2 trials",
-     "takeaway": "About 10% of andexanet-treated patients clotted; prior MI and high-dose eligibility flagged arterial events",
-     "title": "Predictors of Thrombotic Events and Mortality in Patients Treated With Andexanet: A Pooled Analysis.",
-     "journal": "Stroke",
-     "pub_date": "Nov 2026",
-     "population": "741 andexanet-treated adults with acute major bleeding on a factor Xa inhibitor (80% intracranial), ANNEXA-I and ANNEXA-4",
-     "pmid": "43023572",
-     "summary": "Thrombotic events occurred in 10.4% and death in 19.8%. Arterial events came early (median 3.5 days) and venous events later (median 14 days). No baseline factor predicted all thrombotic events, but arterial events were more likely with prior MI (HR 2.64), eligibility for the high-dose regimen (HR 2.44), female sex (HR 1.78) and older age. An arterial event was linked to higher mortality (HR 2.68), and restarting anticoagulation after reversal was associated with fewer thrombotic events.",
-     "why": "When choosing between andexanet and 4F-PCC for a factor Xa inhibitor bleed, a history of MI or a recent large or late apixaban/rivaroxaban dose (the high-dose criteria) adds clot risk to the decision. After reversal, pharmacists can push for a documented plan to restart anticoagulation once bleeding is controlled."
-    },
-    {
-     "topic": "Toxicology / Antidote supply",
-     "study_type": "Retrospective shortage analysis",
-     "takeaway": "Toxicology drug shortages lasted a median of about a year, and the alternative was usually short too",
-     "title": "Shortages of agents used to treat poisoning from 2014 to 2024.",
-     "journal": "Clin Toxicol (Phila)",
-     "pub_date": "Nov 2026",
-     "population": "1,670 US drug shortages in the University of Utah Drug Information Service database, 2014–2024",
-     "pmid": "43023338",
-     "summary": "Antidotes and key supportive agents made up 223 shortages (13.4%), and 41 were still unresolved at the end of 2024. New toxicology shortages peaked at 30 in 2018, but ongoing shortages outnumbered new ones every year, with a median duration of 12.6 months. Almost all were generic (96%) and parenteral (79%), sedative-hypnotics were hit most often, and manufacturing problems were the usual cause. A therapeutic alternative existed in 83% of cases, but that alternative was itself in shortage 94% of the time.",
-     "why": "ED pharmacists should keep a current antidote shortage list with pre-approved substitutes and dosing, and know regional sharing options through the poison center. Physostigmine and dimercaprol are discontinued, so plan now for anticholinergic delirium (e.g., benzodiazepines, dexmedetomidine) and heavy-metal chelation alternatives."
-    },
-    {
-     "topic": "Toxicology / TCA poisoning",
-     "study_type": "Systematic review (case-based)",
-     "takeaway": "Lipid emulsion for TCA poisoning helped hypotension more often than QRS widening, but evidence is case reports only",
-     "title": "The Effect of Intravenous Lipid Emulsion in Tricyclic Antidepressant Poisoning: A Systematic Review.",
-     "journal": "J Res Pharm Pract",
-     "pub_date": "Oct 2026",
-     "population": "24 publications (20 case reports, 4 case series), 42 adults with TCA poisoning given IV lipid emulsion",
-     "pmid": "43022816",
-     "summary": "Survival was reported in 41 of 42 cases, including every documented cardiac arrest, though all patients also got other resuscitative treatments. Hypotension resolved in 14 of 17 cases (82%), but wide QRS resolved in only 6 of 14 (43%) and arrhythmias in 4 of 9 (44%). Reported harms included ARDS, hypertriglyceridemia with lab interference and mild liver abnormalities. With no comparator groups and strong publication bias, the authors say ILE can't be called effective or safe for routine use.",
-     "why": "Sodium bicarbonate (1–2 mEq/kg boluses, targeting QRS narrowing and pH around 7.45–7.55) stays first-line for TCA cardiotoxicity. ILE (20%, 1.5 mL/kg bolus then infusion) is a rescue option for refractory shock or arrest, and labs should be drawn before it when possible because lipemia interferes with them."
-    },
-    {
-     "topic": "Toxicology / Opioid use disorder",
-     "study_type": "Cross-sectional (NEMSIS)",
-     "takeaway": "Prehospital buprenorphine rose from 33 to over 1,500 EMS doses a year, and 80% of patients improved",
-     "title": "Prehospital Buprenorphine: A National Cross-Sectional Analysis.",
-     "journal": "West J Emerg Med",
-     "pub_date": "Oct 2026",
-     "population": "2,180 EMS encounters with buprenorphine given, out of about 167 million US EMS patient contacts, 2020–2023",
-     "pmid": "43023763",
-     "summary": "EMS buprenorphine use climbed from 33 administrations in 2020 to 1,574 in 2023, with a sharp jump starting in spring 2022. Patients were mostly men (62%) with a mean age of 37, about half the doses came during 911 responses, and nearly all were given by paramedics or community paramedics. Initial doses were usually 8 mg (45%) or 16 mg (36%). Most patients improved (80%) and only 4 (0.2%) got worse, and just 16% of 911 patients were transported to a hospital.",
-     "why": "More patients will arrive having already had 8–24 mg of buprenorphine in the field, so ask EMS for the dose and time before giving more or starting a full agonist. It also strengthens the case for ED-initiated buprenorphine with a bridge prescription and naloxone at discharge."
-    },
-    {
-     "topic": "Sepsis / Diagnostic stewardship",
-     "study_type": "Pre/post implementation",
-     "takeaway": "Showing a host-protein bacterial/viral test in the ED sepsis alert led to fewer cefepime doses in unlikely sepsis",
-     "title": "Integrating a Host-Protein Bacterial/Viral Test into the Emergency Department Sepsis Alert Order Set Is Associated with Changes in Sepsis Category Distribution and Patient Management: A Pre/Postimplementation Study.",
-     "journal": "Crit Care Explor",
-     "pub_date": "Nov 2026",
-     "population": "893 adults who triggered the ED sepsis alert, 1 US academic medical center, Sept 2024–Mar 2025",
-     "pmid": "43023823",
-     "summary": "The MeMed BV test was ordered automatically in both periods, but clinicians could only see results after implementation. Afterward, more patients were classified as unlikely sepsis (41.1% vs 32.5%) and fewer as possible sepsis (13.2% vs 18.4%). Among unlikely-sepsis patients, mean cefepime doses fell from 3.3 to 2.2 and hospitalization dropped from 92.1% to 79.9%. It's a short, single-center before-and-after study that also included clinician education.",
-     "why": "A bacterial/viral host-response score could help ED pharmacists question continuing broad-spectrum antibiotics in low-probability sepsis after the first dose. It shouldn't delay that first dose in patients who look septic."
-    },
-    {
-     "topic": "Respiratory emergencies / Asthma",
-     "study_type": "Prospective observational",
-     "takeaway": "Mesh and breath-actuated nebulizers delivered albuterol more than 80% faster than a jet nebulizer",
-     "title": "High-efficiency Nebulizers Reduce Albuterol Administration Time in the Emergency Department.",
-     "journal": "West J Emerg Med",
-     "pub_date": "Oct 2026",
-     "population": "296 ED patients aged 3 and older (26% pediatric) getting nebulized albuterol for asthma, 1 US urban Level I trauma center, 2019–2023",
-     "pmid": "43023745",
-     "summary": "A continuous jet nebulizer (single 15 mg dose) took a mean of 60.6 minutes, compared with 12.3 minutes for a vibrating mesh device and about 8 minutes for breath-actuated or breath-enhanced devices given in 5 mg increments up to 15 mg. Adjusted treatment time was 82–88% shorter with the high-efficiency devices. Admission rates, asthma severity scores and peak flow didn't differ between devices. Device assignment wasn't randomized.",
-     "why": "Faster devices can save about 45 minutes per treatment without changing outcomes, which matters for crowded EDs. Pharmacists and respiratory therapy should coordinate albuterol dosing with the device, since efficient nebulizers deliver more drug per mg and can allow dose-titrated increments."
-    },
-    {
-     "topic": "Toxicology / Alcohol withdrawal",
-     "study_type": "Retrospective cohort",
-     "takeaway": "Social and psychiatric factors, not discharge tapers, predicted early ED returns after alcohol withdrawal",
-     "title": "Factors Associated with Early ED Return Among Patients Discharged After Treatment for Alcohol Withdrawal Syndrome.",
-     "journal": "West J Emerg Med",
-     "pub_date": "Oct 2026",
-     "population": "318 ED encounters for alcohol withdrawal discharged home, 1 US academic center, 2020–2023",
-     "pmid": "43023769",
-     "summary": "Fourteen patients (4.4%) returned within 72 hours and 32 (10.1%) were admitted within 30 days. In adjusted models, schizophrenia (OR 8.59), Medicaid insurance (OR 4.43) and anxiety (OR 3.53) predicted 72-hour return, and homelessness predicted 30-day admission (OR 3.19). Discharge taper prescriptions weren't associated with either outcome. The study was small, single-center and had few events.",
-     "why": "A discharge benzodiazepine or gabapentin taper alone doesn't seem to prevent bounce-backs. Pair it with relapse-prevention medication (naltrexone, acamprosate or gabapentin), thiamine, and social work or addiction follow-up for patients with these risk factors."
-    },
-    {
-     "topic": "Antimicrobial stewardship / IV-to-oral",
-     "study_type": "Cluster-randomized crossover trial",
-     "takeaway": "Three days of oral antibiotics after surgery for complicated appendicitis was noninferior to IV",
-     "title": "Oral versus intravenous postoperative antibiotics after laparoscopic appendectomy following complicated appendicitis: an open-label cluster-randomized cluster-crossover multiperiod non-inferiority study.",
-     "journal": "Br J Surg",
-     "pub_date": "Oct 2026",
-     "population": "1,021 adults after laparoscopic appendectomy for complicated appendicitis, 12 Danish hospitals",
-     "pmid": "43021726",
-     "summary": "Hospitals alternated between a 3-day oral and a 3-day IV postoperative antibiotic regimen. Intra-abdominal abscess at 30 days occurred in 6.8% with oral vs 4.9% with IV therapy (difference 1.9 points, 90% CI −0.4 to 4.2), meeting the 5-point noninferiority margin, with similar per-protocol results. Oral antibiotics cut hospital stay by about 41 hours but raised readmissions by 4.7 points.",
-     "why": "Adds to the evidence for short, early-oral courses after source control in intra-abdominal infection, a key stewardship lever. The higher readmission rate argues for clear return precautions and follow-up when patients go home on oral therapy."
     }
    ]
   }
