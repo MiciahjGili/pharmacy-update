@@ -1,6 +1,90 @@
 {
  "issues": [
   {
+   "date": "2026-11-27",
+   "window": "Nov 26, 2026",
+   "note": "A very thin Thanksgiving window with no ED drug RCTs, so this issue runs short at 6 picks rather than padding. The EM items are a Swedish cohort on opioids given before in-hospital cardiac arrest, a meta-analysis of IV lytics in stroke patients on DOACs and a review of cipepofol, the propofol alternative FDA-approved in May 2026. A CRRT phosphate RCT, an asymptomatic bacteriuria meta-analysis and a metformin–B12 neuropathy meta-analysis round it out.",
+   "bottom_line": [
+    "40% of in-hospital cardiac arrest patients had been given an opioid in the prior 24 hours (16% within 2 hours), yet naloxone was used in only 2% of arrests. Any exposure wasn't linked to outcomes, but higher cumulative doses were tied to lower ROSC, so check the MAR during inpatient and boarder codes.",
+    "Observational data across 9,500 DOAC-exposed stroke patients found no rise in symptomatic ICH with IV lytics, but guidelines still say avoid unless the last dose was over 48 hours ago or drug levels are low. Pharmacists should pin down the agent and last dose time fast so the team can apply local criteria.",
+    "Asymptomatic bacteriuria treatment helped in pregnancy and before urologic procedures but not in kidney transplant recipients, and only modestly reduced UTI in institutionalized older adults. ED urine cultures without symptoms still mostly shouldn't lead to antibiotics."
+   ],
+   "articles": [
+    {
+     "topic": "Resuscitation / Opioids",
+     "study_type": "Retrospective cohort (registry)",
+     "takeaway": "Two in five in-hospital arrest patients got an opioid in the prior 24 hours, but naloxone was rarely given",
+     "title": "Opioid administration prior to in-hospital cardiac arrest.",
+     "journal": "Resuscitation",
+     "pub_date": "Nov 2026",
+     "population": "267 adult in-hospital cardiac arrests, 9 hospitals in southern Sweden, 2024",
+     "pmid": "43098505",
+     "summary": "Medical records were checked for opioids given in the 24 hours before arrest. 40% of patients had received one (16% within the last 2 hours), at a modest median cumulative dose of 17 oral MME, with the last dose a median 2.7 hours before arrest. Naloxone was given in only 6 arrests (2%). Any opioid exposure wasn't associated with ROSC (OR 1.03) or 30-day survival (OR 0.98), but each step up in cumulative dose was linked to slightly lower odds of ROSC (OR 0.91, p = 0.04). Small sample, exploratory analyses.",
+     "why": "Guidelines allow naloxone in suspected opioid-associated arrest, but routine use during IHCA isn't proven. ED pharmacists responding to codes on boarders can quickly review recent opioid, sedative and PCA doses, and naloxone 0.4–2 mg IV is reasonable when respiratory arrest preceded the pulse loss."
+    },
+    {
+     "topic": "Stroke / Thrombolysis on DOACs",
+     "study_type": "Systematic review & meta-analysis (observational)",
+     "takeaway": "IV lytics in stroke patients recently on a DOAC didn't raise symptomatic brain bleeding vs non-anticoagulated patients",
+     "title": "Safety and Efficacy of Intravenous Thrombolysis after DOAC Use in Acute Ischemic Stroke: A Systematic Review and Meta-Analysis in Light of Current Guidelines.",
+     "journal": "J Cent Nerv Syst Dis",
+     "pub_date": "Nov 2026",
+     "population": "11 comparative studies, 262,325 patients with acute ischemic stroke given IV thrombolysis, 9,497 with prior DOAC use",
+     "pmid": "43095188",
+     "summary": "Symptomatic ICH (RR 1.01, 95% CI 0.79–1.29), any ICH (RR 1.47, 95% CI 0.77–2.83) and mortality (RR 0.63, not significant) didn't differ between DOAC-exposed and non-anticoagulated patients. DOAC users had more good 3-month outcomes (mRS 0–2; RR 2.43), likely reflecting selection, and more major extracranial bleeding (RR 1.62, 95% CI 1.18–2.21). All data were observational, with patients on DOACs carefully selected (e.g., by timing, levels or idarucizumab).",
+     "why": "Supports the growing practice of considering lytics in selected DOAC patients (e.g., last dose over 48 hours, low anti-Xa or dabigatran level, or after idarucizumab). The ED pharmacist's job is to confirm the agent, dose, last dose time and renal function within minutes so the stroke team isn't delayed."
+    },
+    {
+     "topic": "Procedural sedation / New drug",
+     "study_type": "Structured narrative review (85 RCTs)",
+     "takeaway": "Newly approved cipepofol works like propofol with less injection pain, but isn't proven safer overall",
+     "title": "Cipepofol Versus Propofol Across Adult Anaesthesia and Sedation: A Comprehensive Clinical Review of Pharmacology, Clinical Efficacy, Recovery, and Safety.",
+     "journal": "Medicina (Kaunas)",
+     "pub_date": "Nov 2026",
+     "population": "85 adult randomized comparisons of cipepofol (ciprofol) vs propofol: 41 general anesthesia, 40 procedural sedation, 4 ICU sedation",
+     "pmid": "43091631",
+     "summary": "Cipepofol was FDA-approved in May 2026 for adult surgical induction only. Across trials it achieved high sedation and induction success, and direct comparisons consistently showed less injection pain than propofol. Hemodynamic and respiratory effects varied with dose, population and how events were defined, and recovery results were mixed. No benefit on cognition, organ protection, mortality or rare harms was shown, and there was no formal meta-analysis or bias assessment.",
+     "why": "Expect formulary questions about cipepofol for ED procedural sedation, which is off-label for now. It's dosed far lower per kg than propofol (roughly 0.3–0.5 mg/kg for induction), so pharmacists should guard against mg-for-mg substitution errors and keep the same monitoring standards."
+    },
+    {
+     "topic": "Critical care / CRRT electrolytes",
+     "study_type": "RCT (multicenter)",
+     "takeaway": "Phosphate-containing CRRT replacement fluid cut hypophosphatemia from 69% to 16% but caused some hypoglycemia",
+     "title": "Phosphate-containing versus phosphate-free replacement solution in critically ill patients requiring continuous renal replacement therapy: a randomized controlled trial.",
+     "journal": "Ren Fail",
+     "pub_date": "Dec 2026",
+     "population": "90 critically ill adults starting CRRT, several ICUs in China",
+     "pmid": "43094053",
+     "summary": "Patients were randomized to phosphate-containing or phosphate-free replacement solution. Hypophosphatemia in the first 48 hours occurred in 15.6% vs 68.9% (adjusted OR 0.05, 95% CI 0.01–0.18), and the phosphate group needed less supplementation. Hypoglycemia was more common with the phosphate solution (8.9% vs 0%), and some patients with high baseline phosphate developed hyperphosphatemia. Creatinine and SOFA scores didn't differ, and clinical outcomes weren't assessed.",
+     "why": "Relevant to toxicology and DKA/hyperkalemia patients who start CRRT while boarding. Pharmacists can push for phosphate-containing solutions or scheduled repletion, with glucose checks and avoidance in patients who are already hyperphosphatemic."
+    },
+    {
+     "topic": "Antimicrobial stewardship / ASB",
+     "study_type": "Systematic review & meta-analysis",
+     "takeaway": "Treating asymptomatic bacteriuria helped in pregnancy and before urologic procedures, not in transplant recipients",
+     "title": "To treat or not to treat? A systematic review and updated meta-analysis on the management of asymptomatic bacteriuria.",
+     "journal": "Minerva Urol Nephrol",
+     "pub_date": "Oct 2026",
+     "population": "48 studies, 6,477 patients: pregnant women, institutionalized older adults, kidney transplant recipients and endourology patients",
+     "pmid": "43096032",
+     "summary": "In pregnancy, antibiotics reduced symptomatic UTI (OR 0.25) and preterm delivery (OR 0.30). Before endourological procedures they lowered postoperative UTI (OR 0.15). In institutionalized older adults, treatment reduced symptomatic UTI (OR 0.47) but didn't clear bacteriuria, and in kidney transplant recipients it had no effect on UTI, pyelonephritis, rejection or graft loss. Study designs and quality varied.",
+     "why": "Matches IDSA guidance: screen and treat only in pregnancy and before invasive urologic procedures. For confused older ED patients with a positive urinalysis and no urinary symptoms or sepsis, pharmacists can push back on reflexive antibiotics."
+    },
+    {
+     "topic": "Drug safety / Metformin",
+     "study_type": "Systematic review & meta-analysis",
+     "takeaway": "Metformin was linked to more peripheral neuropathy, and about a third of users had low B12",
+     "title": "Association of metformin use with vitamin B12 deficiency and peripheral neuropathy in type 2 diabetes mellitus: a systematic review and meta-analysis.",
+     "journal": "BMC Endocr Disord",
+     "pub_date": "Sep 2026",
+     "population": "20 observational studies, about 292,000 adults with type 2 diabetes in 15 countries",
+     "pmid": "43086892",
+     "summary": "Pooled cross-sectional data linked metformin use to higher odds of peripheral neuropathy (OR 1.84, 95% CI 1.18–2.88; I² 69%), with supportive cohort estimates. B12 deficiency predicted neuropathy (OR 2.09) and affected 32% of metformin users at standard thresholds; one cohort found much higher risk when both were present (HR 5.76). The evidence is observational and heterogeneous.",
+     "why": "When a patient on long-term metformin presents with neuropathy, falls or unexplained macrocytic anemia, check a B12 level. ADA already recommends periodic B12 monitoring, and pharmacists can flag it during med reconciliation."
+    }
+   ]
+  },
+  {
    "date": "2026-11-26",
    "window": "Nov 25, 2026",
    "note": "The headliner is FISSH, a blinded Canadian-Saudi RCT of lactated Ringer's vs saline in septic shock, joined by a vasopressin-vs-norepinephrine meta-analysis and an AJEM review of xylazine, medetomidine and nitazenes. Three stroke pharmacotherapy papers (alteplase in minor stroke, early BP lowering in CATIS-2 and ticagrelor by frailty in CHANCE-2), a pediatric ED ketamine-for-agitation series and an NEJM blood pressure meta-analysis round out 8 picks.",
@@ -1149,102 +1233,6 @@
      "pmid": "43032387",
      "summary": "Stewardship pharmacists screened every patient headed home on IV antimicrobials and recommended changes. Median length of stay didn't change (9 vs 10 days), but appropriate regimens rose from 51.5% to 58%. Pharmacists made 68 interventions and teams accepted 66% of them, mostly changes in drug choice and IV-to-oral conversions.",
      "why": "Discharge is a stewardship blind spot, and many OPAT regimens can be narrowed or switched to oral. It's a model for pharmacists at transitions of care, including ED patients sent home on daily IV antibiotics."
-    }
-   ]
-  },
-  {
-   "date": "2026-11-15",
-   "window": "Nov 14, 2026",
-   "note": "A quiet Saturday window with no ED drug RCTs, so this issue runs short at 7 picks. The EM items are a pharmacist-physician ICH blood pressure protocol, a pediatric ED cardiac arrest cohort, an AF cardioversion comparison, a statewide kratom death analysis and an ED opioid prescribing study, plus an ED medication-safety review and a trauma antibiotic prophylaxis cohort. All are observational or reviews, so read them as practice context.",
-   "bottom_line": [
-    "A pharmacist-built ICH blood pressure protocol (strict first-24-hour targets, standard nicardipine titration and a set oral step-down) raised SBP-under-140 achievement from 20% to 54% and cut nicardipine time roughly in half.",
-    "In pediatric ED arrests, giving the first epinephrine dose later than 2 minutes was linked to much higher ED mortality. Have weight-based epinephrine (0.01 mg/kg) drawn up before it's called for.",
-    "Routine antibiotic prophylaxis didn't prevent early VAP in 1,321 ventilated trauma patients, which argues against reflexive amoxicillin-clavulanate after trauma intubation."
-   ],
-   "articles": [
-    {
-     "topic": "Neuro emergencies / ICH",
-     "study_type": "Pre/post implementation",
-     "takeaway": "A pharmacist-physician ICH blood pressure protocol nearly tripled target SBP achievement and halved nicardipine time",
-     "title": "Effects of a Pharmacist-Physician Collaborative Protocol for Acute Blood Pressure Management of Patients with Intracerebral Hemorrhage.",
-     "journal": "J Clin Med",
-     "pub_date": "Nov 2026",
-     "population": "96 patients with spontaneous ICH, 46 before and 50 after protocol implementation, 1 hospital",
-     "pmid": "43030875",
-     "summary": "Pharmacists and physicians built a protocol with strict SBP control in the first 24 hours, standardized IV antihypertensive titration and a predefined oral regimen. Achieving SBP under 140 mm Hg over 7 days rose from 20% to 54% (adjusted OR 5.51, 95% CI 2.09–14.51), and median time to stopping nicardipine fell from 72.5 to 37.5 hours. Delirium incidence didn't change, but its median duration dropped from 2 days to 1. It is a small single-center before-and-after study without clinical outcome data.",
-     "why": "A concrete model for ED and neuro-ICU pharmacists: own the nicardipine titration steps and start oral agents early so patients come off the drip sooner. Avoid dropping SBP more than about 70 mm Hg quickly, and confirm anticoagulant reversal is done in parallel."
-    },
-    {
-     "topic": "Pediatric resuscitation",
-     "study_type": "Retrospective cohort",
-     "takeaway": "First epinephrine later than 2 minutes was linked to much higher ED mortality in pediatric cardiac arrest",
-     "title": "Pediatric cardiopulmonary resuscitation in the emergency department: Factors associated with outcome.",
-     "journal": "Am J Emerg Med",
-     "pub_date": "Nov 2026",
-     "population": "83 children given CPR in 1 Turkish university pediatric ED over 14 years (54% out-of-hospital arrests)",
-     "pmid": "43025004",
-     "summary": "ROSC was achieved in 42% and 30% survived the ED phase, but only about 10% survived to discharge. Among the 27 patients with documented timing, epinephrine given later than 2 minutes was independently associated with ED death (aOR 7.73, very wide CI), and each minute of CPR beyond 20 minutes added risk (aOR 1.32). Re-arrest after ROSC happened in 43%, and only 7% of those children survived vs 39% without re-arrest. The sample was small and timing data were incomplete.",
-     "why": "Supports pre-drawn, length- or weight-based epinephrine (0.01 mg/kg IV/IO, max 1 mg) so the first dose goes in within 2 minutes of a non-shockable arrest. The high re-arrest rate also argues for a post-ROSC plan with an epinephrine or norepinephrine infusion ready."
-    },
-    {
-     "topic": "Procedural sedation / AF",
-     "study_type": "Retrospective cohort",
-     "takeaway": "Propofol-sedated electrical cardioversion got stable AF patients out faster, mostly by avoiding failed drug attempts",
-     "title": "Cardioversion of Stable Atrial Fibrillation in the Emergency Department: Electrical Versus Pharmacological in the Era of Overcrowding.",
-     "journal": "J Emerg Med",
-     "pub_date": "Oct 2026",
-     "population": "575 ED patients with stable recent-onset AF, 1 Italian hospital (228 electrical, 347 pharmacological, mostly flecainide)",
-     "pmid": "43025343",
-     "summary": "Median ED length of stay was 114 minutes with electrical cardioversion vs 130 minutes with pharmacological cardioversion overall. After matching, propofol-sedated cardioversion and flecainide were close (106 vs 118 minutes, not significant). The big delays came from the 121 patients whose drug cardioversion failed and who crossed over, with a median stay of 317 minutes. Adverse events with propofol sedation occurred in 5% and were all minor and self-limited.",
-     "why": "Supports propofol (commonly 0.5–1 mg/kg with small repeat doses) as an efficient, low-complication sedative for ED cardioversion. Flecainide stays reasonable in patients without structural heart disease, but pair it with an AV-nodal blocker and a plan for quick crossover if it fails."
-    },
-    {
-     "topic": "Toxicology / Kratom",
-     "study_type": "Cross-sectional (statewide)",
-     "takeaway": "Mitragynine on postmortem toxicology was tied to 5- to 6-fold higher odds of drug toxicity death, almost always with other drugs",
-     "title": "Association of postmortem mitragynine positivity with fatal drug toxicity in polysubstance exposures-a restrospective analysis.",
-     "journal": "Front Public Health",
-     "pub_date": "Oct 2026",
-     "population": "61,234 decedents with postmortem toxicology, 1 US state",
-     "pmid": "43031717",
-     "summary": "Mitragynine was recorded only as present or absent, not by concentration. After adjustment, its presence was associated with higher odds that the medical examiner ruled a drug toxicity death (aOR about 5–6). Among mitragynine-positive decedents, 85% were drug toxicity deaths and more than 90% involved other substances, led by opioids and then stimulants. Deaths with kratom as the only substance found were uncommon.",
-     "why": "Kratom's main danger is likely its combination with opioids, stimulants and sedatives. Ask about kratom during ED med histories and overdose workups (standard urine screens won't detect it), and counsel kratom users being discharged with opioids or benzodiazepines."
-    },
-    {
-     "topic": "Acute pain / Opioid prescribing",
-     "study_type": "Retrospective cohort",
-     "takeaway": "Patients who disclosed cannabis use got discharge opioids about as often, and at similar doses, as other ED patients",
-     "title": "Cannabis use Disclosure and Opioid Prescribing at Emergency Department Discharge.",
-     "journal": "J Emerg Med",
-     "pub_date": "Oct 2026",
-     "population": "3,159 adult ED patients with fractures, acute low back pain or minor musculoskeletal injuries, 1 Southern California health system, 2021–2023",
-     "pmid": "43025344",
-     "summary": "Overall, 16% of patients disclosed cannabis use. Opioids were prescribed at discharge to 27.6% of those who disclosed vs 31.3% of those who didn't (difference −3.6 points, 95% CI −7.9 to 0.6), and the adjusted odds ratio was 0.86 (95% CI 0.67–1.11). Among patients who got opioids, total and daily morphine milligram equivalents didn't differ by cannabis disclosure.",
-     "why": "Disclosure of cannabis use doesn't seem to change opioid prescribing, so it shouldn't be treated as a reason to withhold or increase analgesia. It is still worth noting for additive sedation and hyperemesis risk when choosing discharge regimens."
-    },
-    {
-     "topic": "Medication safety / Electrolytes",
-     "study_type": "Narrative review",
-     "takeaway": "Review maps the common drugs behind sodium, potassium, magnesium and calcium disorders in older ED patients",
-     "title": "Drug-Induced Electrolyte Disturbances in Older Adults Presenting to the Emergency Department: Mechanisms, Recognition and Prevention.",
-     "journal": "J Clin Med",
-     "pub_date": "Nov 2026",
-     "population": "Structured PubMed review of 2016–2026 evidence on drug-associated electrolyte disorders in older ED patients",
-     "pmid": "43030861",
-     "summary": "Thiazides, antidepressants, antiepileptics, antipsychotics, PPIs and desmopressin are linked to hyponatremia, with thiazide risk highest in the first weeks and in women 80 or older. RAAS inhibitors, MRAs, trimethoprim and NSAIDs drive hyperkalemia, especially with CKD, while diuretics and PPIs cause hypokalemia and hypomagnesemia, lithium can cause lasting nephrogenic diabetes insipidus, and denosumab can cause severe hypocalcemia in advanced CKD. The authors propose a severity-based ED algorithm combining med history, labs, ECG and volume assessment. Most of the underlying evidence is observational.",
-     "why": "A practical checklist for ED med rec in older adults with abnormal electrolytes: a recently started thiazide or SSRI, trimethoprim added to an ACE inhibitor or spironolactone, or a recent denosumab dose. Flag the culprit for holding or dose change at discharge."
-    },
-    {
-     "topic": "Antimicrobial stewardship / Trauma",
-     "study_type": "Cohort (propensity-weighted)",
-     "takeaway": "Routine antibiotic prophylaxis didn't prevent early ventilator-associated pneumonia in severe trauma patients",
-     "title": "Impact of antibiotic prophylaxis on the occurrence of early-onset ventilator-associated pneumonia in trauma patients (antiVAP): a propensity score-weighted, retrospective cohort study.",
-     "journal": "Crit Care",
-     "pub_date": "Nov 2026",
-     "population": "1,321 severely injured adults ventilated within 24 hours of admission for at least 48 hours, 15 French trauma centers",
-     "pmid": "43026563",
-     "summary": "Prophylaxis, started within 24 hours and continued up to 72 hours, was given to 56% of patients, with amoxicillin-clavulanate used in over 90%. Early-onset VAP occurred in 32% with prophylaxis vs 34% without, and after weighting there was no association (weighted OR 0.87, 95% CI 0.66–1.22). Late VAP, other infections, ventilation days, length of stay and 30-day mortality also didn't differ.",
-     "why": "Unlike the trial data in brain-injured patients, this doesn't support routine prophylactic antibiotics for intubated trauma patients in general. ED pharmacists can save antibiotics for clear indications, such as open fractures or aspiration with infection signs."
     }
    ]
   }
