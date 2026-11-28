@@ -1,6 +1,114 @@
 {
  "issues": [
   {
+   "date": "2026-11-28",
+   "window": "Nov 27, 2026",
+   "note": "A thin post-Thanksgiving window with no ED drug RCTs and almost nothing from the core EM or pharmacy journals, so this issue runs 8 picks led by observational work. The EM items are an Ontario survey of hyaluronidase stocking, an OPTPRESS septic shock secondary analysis, a pediatric anaphylaxis epinephrine series, a snakebite coagulopathy cohort and a case against routine benzonatate. A COMBINE-AF patient-level meta-analysis, a factor XIa inhibitor meta-analysis and a psychiatric ADR study round it out.",
+   "bottom_line": [
+    "Only about 20% of Ontario hospitals stocked hyaluronidase on site, even though filler-induced vascular occlusion (skin necrosis, sudden vision loss) needs it within minutes. Check whether your ED can get it fast, or has a defined route to a site that can.",
+    "In 57,600 AF trial patients, DOACs beat warfarin for stroke and major bleeding whether or not aspirin was added, but aspirin on top raised both stroke and bleeding hazards. Ask why any anticoagulated patient is also on aspirin, and deprescribe when there's no clear indication.",
+    "Benzonatate has weak evidence for acute cough and real harms, including fast, fatal overdose in young children. Leave it off reflexive ED cough discharges, and if prescribed, counsel on locked storage."
+   ],
+   "articles": [
+    {
+     "topic": "ED preparedness / Antidote stocking",
+     "study_type": "Cross-sectional survey",
+     "takeaway": "Only 1 in 5 Ontario hospitals stocked hyaluronidase for filler-related vascular occlusion emergencies",
+     "title": "Provincial Assessment of Hyaluronidase Availability in Ontario Emergency Departments for the Treatment of Hyaluronic Acid Filler-Induced Vascular Occlusion.",
+     "journal": "J Otolaryngol Head Neck Surg",
+     "pub_date": "2026",
+     "population": "197 of 205 Ontario public hospitals and affiliated sites (126 with an ED), phone survey of pharmacy or administrative staff, Mar–Jul 2025",
+     "pmid": "43101996",
+     "summary": "Investigators asked each hospital whether hyaluronidase was on formulary and how many vials were on hand. Just 40 of 197 sites (20%) had it on site, most with only 1–5 vials; 8 relied on a partner hospital and 4 couldn't say how much they held. The study measured availability only, not patient outcomes or time to treatment.",
+     "why": "Cosmetic filler complications are rising and patients go to the nearest ED, where hyaluronidase may be the only treatment that can reverse an occlusion. ED pharmacists can review stocking (or a rapid-transfer pathway), keep a dosing reference with the antidote list and flag visual symptoms as an ophthalmology emergency."
+    },
+    {
+     "topic": "Shock / Vasopressor response",
+     "study_type": "RCT post hoc analysis (OPTPRESS)",
+     "takeaway": "Slow time to MAP target in older septic shock patients predicted death mainly when lactate was high",
+     "title": "Effect modification by baseline lactate in the association between time to assigned mean arterial pressure target and outcomes in older patients with septic shock: a post hoc analysis of the OPTPRESS trial.",
+     "journal": "J Anesth Analg Crit Care",
+     "pub_date": "Sep 2026",
+     "population": "472 older adults with septic shock from the OPTPRESS trial of MAP targets, multicenter in Japan",
+     "pmid": "43099683",
+     "summary": "The authors measured how long it took each patient to first reach their randomized MAP target and tested whether baseline lactate changed how that time related to outcomes. The interaction was significant: patients with high lactate and a slow time to target had higher 90-day and 28-day mortality and fewer ventilator-free and dialysis-free days than those with low lactate and a fast response. A slow response with low lactate carried no excess risk. Results held after adjusting for pre-randomization norepinephrine dose, but the analysis is hypothesis-generating.",
+     "why": "A patient who stays below MAP target despite climbing norepinephrine and has a high lactate is the one to escalate early. ED pharmacists can prompt timely vasopressin, hydrocortisone and a reassessment of source and fluids instead of waiting at the same norepinephrine dose."
+    },
+    {
+     "topic": "Anaphylaxis / Pediatrics",
+     "study_type": "Retrospective cross-sectional",
+     "takeaway": "IM epinephrine was given first-line in 79% of pediatric anaphylaxis cases, with no adverse reactions in 171 children",
+     "title": "Clinical characteristics and adrenaline use in anaphylaxis in children: a cross-sectional study.",
+     "journal": "BMC Pediatr",
+     "pub_date": "Sep 2026",
+     "population": "115 children with anaphylaxis plus 70 given IM epinephrine for non-anaphylaxis reasons, 1 children's hospital in Hangzhou, China, 2021–2024",
+     "pmid": "43099485",
+     "summary": "Foods (45%) and drugs (30%) were the main triggers, and nearly all children had skin and respiratory involvement. IM epinephrine was given to 88% of anaphylaxis patients and as first-line treatment in 79%, so about 1 in 5 got something else first. No adverse reactions were recorded after IM epinephrine in either the anaphylaxis group or the 70 children who received it without anaphylaxis. The authors highlight both delayed use in true anaphylaxis and overuse as prophylaxis.",
+     "why": "Supports giving IM epinephrine (0.01 mg/kg of 1 mg/mL, max 0.3 mg in children, into the thigh) without hesitation when anaphylaxis is suspected; antihistamines and steroids shouldn't come first. Pharmacists can keep weight-based dosing visible and prescribe two auto-injectors at discharge."
+    },
+    {
+     "topic": "Toxicology / Envenomation",
+     "study_type": "Multicenter retrospective cohort",
+     "takeaway": "Each hour of delay after a hemotoxic snakebite raised the odds of consumptive coagulopathy by about 5%",
+     "title": "Risk factors for venom-induced consumption coagulopathy after snakebite in Yunnan, China: a multicenter retrospective study.",
+     "journal": "Front Toxicol",
+     "pub_date": "2026",
+     "population": "801 patients bitten by predominantly hemotoxic snakes and seen within 24 hours, 21 hospitals in Yunnan, China (Yunnan Snakebite Injury Database)",
+     "pmid": "43101564",
+     "summary": "VICC on admission (INR over 1.2 plus low fibrinogen or very high D-dimer, before treatment) was present in 14%. Ovophis bites carried much higher odds than Trimeresurus bites (aOR 7.65), and each extra hour from bite to hospital raised the odds by 5% (aOR 1.05). Some first-aid practices also showed associations, but the authors warn these may be confounded.",
+     "why": "The species are Asian, but the lesson carries over to US pit viper bites: coagulopathy develops with time, so get patients in fast, check INR, fibrinogen and platelets on arrival and repeat them, and have antivenom (CroFab or Anavip) dosing worked out early. Avoid tourniquets and other unproven first aid."
+    },
+    {
+     "topic": "Medication safety / Antitussives",
+     "study_type": "Clinical review (Things We Do for No Reason)",
+     "takeaway": "Benzonatate has little evidence for acute cough and real risks, including fatal overdose",
+     "title": "Things We Do for No Reason™: Routine use of benzonatate for acute cough suppression.",
+     "journal": "J Hosp Med",
+     "pub_date": "Nov 2026",
+     "population": "Review of efficacy and safety evidence for benzonatate in hospitalized and acute-care adults",
+     "pmid": "43100119",
+     "summary": "The authors find no modern RCTs showing that benzonatate meaningfully improves patient-centered cough outcomes. In contrast, published reports describe hypersensitivity reactions, neuropsychiatric effects and rare but potentially fatal overdoses. They argue that its low cost and non-opioid image don't justify routine use.",
+     "why": "Benzonatate is a common ED cough discharge, yet overdose can cause seizures, dysrhythmias and cardiac arrest within an hour, and young children are especially at risk from swallowing or chewing capsules. Pharmacists can steer toward honey (over age 1), time and treating the cause, and counsel on child-safe storage when it's prescribed."
+    },
+    {
+     "topic": "Anticoagulation / AF plus antiplatelets",
+     "study_type": "Individual-patient meta-analysis (4 RCTs)",
+     "takeaway": "DOACs beat warfarin with or without aspirin in AF, but adding aspirin raised both stroke and bleeding",
+     "title": "Direct Oral Anticoagulants Versus Warfarin According to Antiplatelet Therapy Use in Atrial Fibrillation: A Patient-Level Meta-Analysis of 4 Randomized Trials From COMBINE-AF.",
+     "journal": "J Am Heart Assoc",
+     "pub_date": "Nov 2026",
+     "population": "57,598 patients with AF from the 4 pivotal DOAC vs warfarin trials; 34% on baseline antiplatelet therapy (over 90% aspirin alone)",
+     "pmid": "43102007",
+     "summary": "Patients on antiplatelet therapy had higher adjusted hazards of stroke or systemic embolism (HR 1.17) and major bleeding (HR 1.38) regardless of treatment arm. DOACs reduced stroke or embolism (HR 0.85 without and 0.77 with antiplatelets) and major bleeding (HR 0.85 and 0.88) to a similar degree in both groups, along with consistent cuts in fatal and intracranial bleeding. GI bleeding was higher with DOACs, especially in older patients also on antiplatelets.",
+     "why": "Supports a DOAC over warfarin for AF whether or not the patient needs an antiplatelet. When an anticoagulated patient comes to the ED with a GI bleed, check for aspirin with no clear indication (such as remote stable CAD) and flag it for deprescribing at discharge."
+    },
+    {
+     "topic": "Stroke prevention / Factor XIa inhibitors",
+     "study_type": "Systematic review & meta-analysis (5 RCTs)",
+     "takeaway": "Factor XIa inhibitors cut strokes by about 23% without a significant rise in major bleeding",
+     "title": "Factor XIa Inhibitors and Stroke Prevention: A Systematic Review and Meta-Analysis of Randomized Controlled Trials Including the Phase 3 OCEANIC-STROKE Trial.",
+     "journal": "Brain Behav",
+     "pub_date": "Dec 2026",
+     "population": "5 RCTs, 18,857 participants, including the phase 3 OCEANIC-STROKE trial of asundexian",
+     "pmid": "43102870",
+     "summary": "Pooled across trials, factor XIa inhibitors reduced any stroke (RR 0.77, 95% CI 0.68–0.87). Major bleeding wasn't significantly higher (RR 1.10, 95% CI 0.89–1.37), and major cardiovascular events and mortality trended lower. The abstract gives few details on the comparators or which agents and indications were pooled.",
+     "why": "Asundexian and milvexian are heading toward use for secondary stroke prevention on top of antiplatelets. Note that asundexian was less effective than apixaban in AF (OCEANIC-AF), so these aren't a DOAC swap, and ED pharmacists should prepare for reversal questions since no specific antidote exists yet."
+    },
+    {
+     "topic": "Medication safety / Psychotropics",
+     "study_type": "Prospective cohort",
+     "takeaway": "Over a third of psychiatric inpatient transfers to a general hospital were drug reactions, and most were preventable",
+     "title": "Adverse Drug Reaction Requiring Transfer of Psychiatric Inpatients to a General Hospital: The IATROPSY Study.",
+     "journal": "Drug Saf",
+     "pub_date": "Nov 2026",
+     "population": "114 transfers from 2,782 psychiatric hospital stays to a general hospital, France, Feb–Jul 2024",
+     "pmid": "43102539",
+     "summary": "A drug safety specialist reviewed every transfer, and 43 (38%) were linked to adverse drug reactions. Neurological effects (confusion, altered consciousness, sedation, seizures) and falls were the most common, and antipsychotics (63%) and anxiolytics or hypnotics (35%) were the main culprits. Two independent reviewers judged 58% preventable or potentially preventable, mostly due to doses above the approved label.",
+     "why": "Psychiatric patients sent to the ED for confusion, oversedation, falls or seizures often have a drug cause. Review recent antipsychotic and benzodiazepine dose escalations, check for anticholinergic burden, QTc and sodium, and consider NMS or serotonin toxicity before attributing symptoms to the psychiatric illness."
+    }
+   ]
+  },
+  {
    "date": "2026-11-27",
    "window": "Nov 26, 2026",
    "note": "A very thin Thanksgiving window with no ED drug RCTs, so this issue runs short at 6 picks rather than padding. The EM items are a Swedish cohort on opioids given before in-hospital cardiac arrest, a meta-analysis of IV lytics in stroke patients on DOACs and a review of cipepofol, the propofol alternative FDA-approved in May 2026. A CRRT phosphate RCT, an asymptomatic bacteriuria meta-analysis and a metformin–B12 neuropathy meta-analysis round it out.",
@@ -1137,102 +1245,6 @@
      "pmid": "43035355",
      "summary": "Overall, 17.1% had at least one potential QT interaction during oral anticancer therapy. Of those, 47.5% were pharmacodynamic only (two QT-prolonging drugs), 21.2% pharmacokinetic only (CYP or transporter effects) and 31.3% both. About half involved the anticancer drug itself, most often pazopanib, palbociclib and vandetanib. The study counted overlapping prescriptions, not actual QT changes or arrhythmias.",
      "why": "Oncology patients come to the ED with nausea, infection and agitation, where ondansetron, haloperidol, droperidol, azoles and fluoroquinolones pile on QT risk. Check the oral chemo list and a baseline ECG before stacking these drugs."
-    }
-   ]
-  },
-  {
-   "date": "2026-11-16",
-   "window": "Nov 15, 2026",
-   "note": "A very thin Sunday window with no ED drug RCTs, so this issue runs short at 7 picks rather than padding. The EM items are an ED buprenorphine follow-up cohort, updated Scandinavian head injury guidelines that relax CT rules for DOAC patients, a pediatric intra-arrest blood pressure meta-analysis and a whiplash medication-trajectory cohort. Three stewardship and anticoagulation papers round it out; all are observational or reviews.",
-   "bottom_line": [
-    "After ED-initiated buprenorphine, every extra day of waiting for the first clinic visit raised the odds of a no-show by about 31%, and attendance fell below 50% once the wait passed 3 days. Book follow-up within 72 hours and bridge the prescription to that date.",
-    "New Scandinavian head injury guidelines no longer push routine CT for every mild head injury on a DOAC, and add GFAP/UCH-L1 biomarkers and structured observation as options. Warfarin and antiplatelet patients still need a careful risk check.",
-    "Stable patients with uncomplicated Enterobacterales bacteremia did as well switching to oral antibiotics by day 4 as later, with 2 fewer hospital days and 3 fewer antibiotic days."
-   ],
-   "articles": [
-    {
-     "topic": "Toxicology / Opioid use disorder",
-     "study_type": "Retrospective cohort",
-     "takeaway": "Each extra day between ED buprenorphine and the first clinic visit cut follow-up attendance; 3 days was the tipping point",
-     "title": "Longer wait times after ED-initiated buprenorphine associated with lower appointment attendance.",
-     "journal": "Am J Emerg Med",
-     "pub_date": "Nov 2026",
-     "population": "301 adults given observed ED buprenorphine induction or a buprenorphine prescription, 1 US ED, 2019–2025",
-     "pmid": "43033608",
-     "summary": "Only about half of patients (51%) made it to their first outpatient MOUD appointment. Demographics, insurance, primary opioid, polysubstance use and whether induction was observed or unobserved weren't linked to attendance. Each added day of waiting raised the adjusted odds of missing the visit by 31% (aOR 1.31, 95% CI 1.10–1.56), and the probability of attending dropped to 50% at a 3-day wait. It is a single-center retrospective study.",
-     "why": "The biggest lever after ED induction may be scheduling, not dosing. ED pharmacists can push for next-day or 72-hour bridge clinic slots, write the bridge prescription to cover the full gap, and add naloxone to every discharge."
-    },
-    {
-     "topic": "Neuro emergencies / Anticoagulation",
-     "study_type": "Guideline (SR, meta-analysis + Delphi)",
-     "takeaway": "Updated Scandinavian head injury guidelines drop routine CT for many DOAC patients and add blood biomarkers",
-     "title": "The Scandinavian Neurotrauma Committee 2026 guidelines for initial management of minimal, mild and moderate head injuries in adults: a systematic review, meta-analysis and modified Delphi consensus study.",
-     "journal": "Lancet Reg Health Eur",
-     "pub_date": "Nov 2026",
-     "population": "Adults with minimal, mild or moderate head injury in the ED; GRADE-rated review plus 29-stakeholder Delphi panel",
-     "pmid": "43034829",
-     "summary": "The committee's first update since 2013 was driven largely by an aging population and wider antithrombotic use. A GRADE-based systematic review and meta-analysis fed a modified Delphi process that produced seven recommendations and new flowcharts for CT, discharge, observation and repeat imaging. Key changes are less emphasis on routine CT for patients on DOACs, use of GFAP and UCH-L1 biomarkers to rule out intracranial injury, and structured observation instead of CT for some risk groups. The authors note the new pathways still need validation.",
-     "why": "Med history drives the head injury pathway, so pharmacists should confirm the exact anticoagulant or antiplatelet, dose and last dose time at triage. The relaxed DOAC stance doesn't extend to warfarin, and reversal agents (4F-PCC, andexanet, idarucizumab) should still be ready if a bleed is found."
-    },
-    {
-     "topic": "Pediatric resuscitation",
-     "study_type": "Systematic review & meta-analysis",
-     "takeaway": "A diastolic BP of at least 25 (infants) or 30 mm Hg (children) during pediatric CPR tracked with better survival",
-     "title": "Intra-arrest blood pressure monitoring during paediatric in-hospital cardiac arrest: a systematic review and meta-analysis.",
-     "journal": "Resusc Plus",
-     "pub_date": "Oct 2026",
-     "population": "6 observational studies of children with in-hospital cardiac arrest and arterial lines; 2 studies (577 events) pooled",
-     "pmid": "43034655",
-     "summary": "Averaged over the first 10 minutes of CPR, a diastolic pressure of 25 mm Hg or more in infants and 30 mm Hg or more in older children was associated with higher ROSC, survival to discharge and survival with good neurologic outcome. Systolic thresholds showed no significant association. Certainty was very low, and the authors stress the data don't prove that titrating CPR or drugs to these targets improves outcomes.",
-     "why": "When a child arrests with an arterial line in place, diastolic pressure is a real-time readout of CPR and epinephrine effect. It can guide compression quality and epinephrine timing (0.01 mg/kg every 3–5 minutes), but it shouldn't replace standard dosing intervals."
-    },
-    {
-     "topic": "Acute pain / Opioid prescribing",
-     "study_type": "Prospective cohort (registry-linked)",
-     "takeaway": "After whiplash, a quarter of new opioid users and 43% of new sedative users went on to persistent use",
-     "title": "Trajectories of medication use after whiplash injury: high rates of persistent opioid and sedative use.",
-     "journal": "Pain Rep",
-     "pub_date": "Nov 2026",
-     "population": "167 adults with motor vehicle collision whiplash injury, 1 Danish center, linked to national prescription data 12 months before and after",
-     "pmid": "43032870",
-     "summary": "The share of patients filling nonopioid analgesics rose from 19% to 35% and opioids from 34% to 51% after the crash, while sedative-hypnotic use rose only slightly (13% to 17%). Among new users, 26% of opioid users and 43% of sedative-hypnotic users became persistent users. Higher early pain and disability scores predicted more medication use, and women were more likely to start and stay on opioids. The cohort was small and from one center.",
-     "why": "Whiplash is a common ED discharge diagnosis where short courses quietly become long ones. Favor NSAIDs, acetaminophen and early activity, keep any opioid or sedative supply to a few days, and flag high pain or disability scores for early follow-up."
-    },
-    {
-     "topic": "Antimicrobial stewardship / IV-to-oral",
-     "study_type": "Retrospective cohort (multicenter)",
-     "takeaway": "Switching to oral antibiotics by day 4 in uncomplicated Enterobacterales bacteremia worked as well as later switching",
-     "title": "Early versus late transition to oral antibiotics in Enterobacterales bacteremia.",
-     "journal": "Antimicrob Steward Healthc Epidemiol",
-     "pub_date": "Sep 2026",
-     "population": "225 adults with uncomplicated Enterobacterales bacteremia, clinically stable within 72 hours with source control, 5 US hospitals",
-     "pmid": "43032472",
-     "summary": "Patients switched to oral therapy by day 4 (133) were compared with those switched later (92). Treatment failure within 30 days (recurrence, escalation, infection-related readmission or death) was 6.0% vs 6.5%, with no significant difference. Early switching was linked to shorter median hospital stay (5 vs 7 days) and shorter total antibiotic courses (9 vs 12 days). Immunocompromised patients were excluded and the switch wasn't randomized.",
-     "why": "Adds to trial data supporting early oral step-down for gram-negative bacteremia from urinary or other controlled sources. Pharmacists can flag stable patients for a highly bioavailable oral agent (e.g., a fluoroquinolone or TMP-SMX when susceptible) once cultures return."
-    },
-    {
-     "topic": "Anticoagulation / VTE",
-     "study_type": "Bayesian meta-analysis",
-     "takeaway": "In sickle cell disease, DOACs prevented VTE recurrence as well as warfarin with about 75% less major bleeding",
-     "title": "Direct oral anticoagulants versus vitamin K antagonists for the treatment of venous thromboembolism in adults with sickle cell disease: a Bayesian meta-analysis.",
-     "journal": "Res Pract Thromb Haemost",
-     "pub_date": "Oct 2026",
-     "population": "4 retrospective studies, 271 adults with sickle cell disease and VTE (155 DOAC, 116 VKA)",
-     "pmid": "43034677",
-     "summary": "Recurrent VTE didn't differ between DOACs and VKAs (OR 0.82, 95% credible interval 0.38–1.75), consistent with equipoise. Major bleeding was markedly lower with DOACs (OR 0.25, 95% CrI 0.07–0.80), with a 99% posterior probability that DOACs are safer. Heterogeneity was low, but all four studies were small and retrospective.",
-     "why": "Patients with sickle cell disease have frequent ED visits and high VTE rates. This supports a DOAC as a reasonable first choice at discharge, with attention to renal function, adherence and interactions."
-    },
-    {
-     "topic": "Pharmacist-led care / OPAT stewardship",
-     "study_type": "Pre/post implementation",
-     "takeaway": "Pharmacist review of patients going home on IV antibiotics improved regimen appropriateness but didn't shorten stays",
-     "title": "TOC-PAT: a novel approach to discharge stewardship.",
-     "journal": "Antimicrob Steward Healthc Epidemiol",
-     "pub_date": "Sep 2026",
-     "population": "267 adults discharged or planned for discharge on outpatient parenteral antibiotics (167 before, 100 after), 1 US community hospital",
-     "pmid": "43032387",
-     "summary": "Stewardship pharmacists screened every patient headed home on IV antimicrobials and recommended changes. Median length of stay didn't change (9 vs 10 days), but appropriate regimens rose from 51.5% to 58%. Pharmacists made 68 interventions and teams accepted 66% of them, mostly changes in drug choice and IV-to-oral conversions.",
-     "why": "Discharge is a stewardship blind spot, and many OPAT regimens can be narrowed or switched to oral. It's a model for pharmacists at transitions of care, including ED patients sent home on daily IV antibiotics."
     }
    ]
   }
